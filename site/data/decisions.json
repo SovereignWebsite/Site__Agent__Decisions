@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:20:00Z",
+ "updated": "2026-11-24T00:25:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -465,9 +465,9 @@
   {
    "n": 19,
    "from": "b.conductor (older)",
-   "ask": "Who keeps sovereignwebsite.ai, .org and .site; accountant.agents.sovereignweb.site; a budget for the librarian's first run; a photo credit on Grace's site; the Algarve Evolution vault check before retiring the old site; the DC Vault manager's key, and whether agents back up private keys with decisions.b.",
+   "ask": "Who keeps sovereignwebsite.ai, .org and .site; accountant.agents.sovereignweb.site; a budget for the librarian's first run; a photo credit on Grace's site; the Algarve Evolution vault check before retiring the old site; the DC Vault manager's key, and whether agents back up private keys with decisions.b. Proposal (sites.b, 23:25 UTC): website.b keeps sovereignwebsite.ai (SovereignWebsite__Website attached from the start, which settles ask 35; conductor.b hands over); principles.b keeps sovereignwebsite.org (SovereignWebsite__Org); sovereignwebsite.site stays with hub.b and factory.b as the hosted service's front; sites.b keeps the register (domain, repository, keeper, state) and checks on all. conductor.b starts each session with Dinis's yes.",
    "recommendation": "none given",
-   "status": "decided: a keeper agent per domain (2026-11-23__briefings-keepers-messages)",
+   "status": "decided; keepers proposed, starting them needs Dinis's yes (ask 48)",
    "kind": "Dinis's answers",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -575,9 +575,9 @@
   {
    "n": 30,
    "from": "design.b, sites.b",
-   "ask": "Should the Car Buyer tool fetch DVLA vehicle and MOT data itself, as an opt-in, using the visitor's own API keys, instead of sending people to other sites to paste the registration? Its design round gives 3 of 5 \"would you use this?\", and the nos say \"It checks nothing itself\". If yes: security.b reviews key handling (keys stay in the visitor's browser, never sent to us); the policy page declares the requests to other hosts; the costs and terms of the DVLA and MOT APIs are cited.",
+   "ask": "Should the Car Buyer tool fetch DVLA vehicle and MOT data itself, as an opt-in, using the visitor's own API keys, instead of sending people to other sites to paste the registration? Its design round gives 3 of 5 \"would you use this?\", and the nos say \"It checks nothing itself\". If yes: security.b reviews key handling (keys stay in the visitor's browser, never sent to us); the policy page declares the requests to other hosts; the costs and terms of the DVLA and MOT APIs are cited. Tried (sites.b, 23:27 UTC): both government APIs refuse a browser's cross-origin request (403, no CORS headers), and both need keys (the MOT one OAuth credentials on a server); bulk storing is not their offered use and the MOT terms restrict onward distribution. A good idea, not possible today as a static site. Proposed home: a small keyed service later (the vault or a Sovereign Website API) looking up one registration for its owner; until then the site keeps its one-click official checks. The site stays live; only the idea is archived.",
    "recommendation": "design.b: yes, as an opt-in, after the five designs are in. sites.b: not for now (registrations are personal data; the MOT API needs server-side credentials, and the sites have no server)",
-   "status": "decided: try API or CORS, else archive with a decision (2026-11-23__briefings-keepers-messages)",
+   "status": "tried: not possible today; idea archived under Dinis's rule; where it goes is his call",
    "kind": "record",
    "source": "design.b, 16:53 UTC 23 Nov; sites.b, 17:04 UTC",
    "account": "B"
@@ -628,7 +628,7 @@
    "from": "conductor.b (fresh session)",
    "ask": "Give the fresh conductor.b session push access to SovereignWebsite__Website (sovereignwebsite.ai), which the hand-over says conductor.b keeps. Adding a repository to a session is a harness setting: Dinis adds it himself, or allows the add-repository tool in conductor.b's session. No commit involved; until then conductor.b makes no changes to the Website. Also noted: feedback.b's two sealed key backups stay unopened in the old conductor container; feedback.b re-seals them to the new conductor's key only on Dinis's yes in feedback.b's session.",
    "recommendation": "yes, so sovereignwebsite.ai has a keeper again",
-   "status": "open",
+   "status": "likely settled by ask 19: the sovereignwebsite.ai keeper starts with the repository attached",
    "kind": "choice",
    "source": "conductor.b (fresh session), 22:49 UTC 23 Nov"
   },
@@ -746,11 +746,31 @@
    "n": 47,
    "account": "A, B, C, D",
    "from": "Dinis",
-   "ask": "Briefings as pages on the presentations website: a regular brief (daily, or every 12 hours) of all sites created, decisions taken and debriefs, which agents contribute to; decisions.b points Dinis to it.",
+   "ask": "Briefings as pages on the presentations website: a regular brief (daily, or every 12 hours) of all sites created, decisions taken and debriefs, which agents contribute to; decisions.b points Dinis to it. Proposal (sites.b, 23:25 UTC): dinis-cruz.presentations.sovereignweb.site/briefings/, one folder per brief, twice a day at 07:00 and 19:00 UTC, with fixed sections: sites created or changed; decisions taken (by decisions.b, linking each record); debriefs (a paragraph per agent); waiting on Dinis. Agents send their lines to the briefer (sites.b), who commits them signed.",
    "recommendation": "sites.b sets up the page structure; decisions.b contributes the decisions part",
-   "status": "decided: 2026-11-23__briefings-keepers-messages",
+   "status": "decided; proposal ready for Dinis to confirm",
    "kind": "choice",
    "source": "Dinis, 23:22 UTC 23 Nov"
+  },
+  {
+   "n": 48,
+   "account": "B",
+   "from": "conductor.b, sites.b",
+   "ask": "Starting agent sessions: fresh sessions for sites.b (first read Site__Agent__Sites docs/handover.md, 24275ef) and hub.b (docs/HANDOVER.md, v0.1.53), both near their limit, and new keeper sessions website.b and principles.b (ask 19). conductor.b starts sessions only with Dinis's word. A standing rule would stop this recurring: 'conductor.b may start fresh sessions for hand-overs and new keepers agreed in a record'.",
+   "recommendation": "yes, as a standing rule",
+   "status": "open",
+   "kind": "your word",
+   "source": "conductor.b, 23:27 UTC 23 Nov"
+  },
+  {
+   "n": 49,
+   "account": "B",
+   "from": "factory.b, conductor.b",
+   "ask": "An exemption in build/check-signatures.mjs for commits b7c8bfd and 5eb7fde (Dinis said on 23 Nov ~01:20 UTC: no re-sign for them, never force-push). The checker is on the always-ask list. Details to come from factory.b.",
+   "recommendation": "wait for factory.b's details",
+   "status": "open: details to come",
+   "kind": "your word",
+   "source": "conductor.b, 23:27 UTC 23 Nov"
   }
  ]
 }
