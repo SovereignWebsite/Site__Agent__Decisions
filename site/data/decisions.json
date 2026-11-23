@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:44:00Z",
+ "updated": "2026-11-23T23:50:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -313,7 +313,7 @@
   {
    "n": 6,
    "from": "feedback.b, design.b, hub.b",
-   "ask": "The hub's public \"I want one\" form at /start/#get-one with the offer line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Who reads the requests (Dinis only, or outreach.b too); security.b and design.b review the form before it goes live.",
+   "ask": "The hub's public \"I want one\" form at /start/#get-one with the offer line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Who reads the requests (Dinis only, or outreach.b too); security.b and design.b review the form before it goes live. Open point (feedback.b): Dinis said all feedback starts from a QR code, but this form is open to anyone. Either the hub shows a QR that opens the form, or the form stays public, capped and signed per browser (South Beacon's recruiter form is the only open form today, approved by Dinis by name).",
    "recommendation": "yes; Dinis reads; reviews yes",
    "status": "decided: 2026-11-23__hub-get-one-form; Dinis asks for more detail",
    "kind": "record",
@@ -323,7 +323,7 @@
   {
    "n": 7,
    "from": "feedback.b",
-   "ask": "Messages pane plan: status per message (received, picked up, answered, each signed), a Reply button, a phone layout, and four agents (one per account) claiming messages on staggered hourly rounds. Dinis to name the four agents.",
+   "ask": "Messages pane plan: status per message (received, picked up, answered, each signed), a Reply button, a phone layout, and four agents (one per account) claiming messages on staggered hourly rounds. Dinis to name the four agents. Current state (feedback.b, 23:20 UTC): live on Grace's site only: QR pairing, messages signed and sealed in the browser, answers sealed back, images. Proposed: the shared <sws-messages> component (ask 33), signed Received, Picked up and Answered steps, a Reply button, a phone layout, 'Forget this device' moved into settings with a confirmation, and four agents (A to D) at :07, :22, :37 and :52, first claim wins. Order: 1 to 4 on Grace's site, then security.b and design.b review, then one extra agent, then all four, then every site.",
    "recommendation": "yes",
    "status": "decided: 2026-11-23__messages-pane-plan; Dinis asks for more detail",
    "kind": "record",
@@ -473,9 +473,9 @@
   {
    "n": 22,
    "from": "sotavento.b",
-   "ask": "Rewrite dev's history on Site__Invest__Sotavento to drop five old vault zips (about 36 MB of ciphertext), re-sign 14 commits and force-push with a lease; tags moved or deleted as Dinis prefers. The tree stays identical. Or leave history as it is. Second: offer its published-vault viewer mode to hub.b and factory.b for the gate template.",
-   "recommendation": "yes (or leave it: nothing is exposed)",
-   "status": "decided: 2026-11-23__asks-22-to-32",
+   "ask": "Rewrite dev's history on Site__Invest__Sotavento to drop five old vault zips (about 36 MB of ciphertext), re-sign 14 commits and force-push with a lease; tags moved or deleted as Dinis prefers. The tree stays identical. Or leave history as it is. Second: offer its published-vault viewer mode to hub.b and factory.b for the gate template. Update 23:30 UTC (sotavento.b): dev has moved on: the factory's bot added three org-apply commits (bc18daa, 4a4dfaa, eae00d9: site/policy/ and the signers workflow) on top. Rewriting would strip the bot's signatures and the Signers check would fail. 22a (recommended): rewrite only sotavento.b's 14 commits and re-sign them; force-push with a lease, which drops the 3 bot commits for now; factory.b re-runs org apply so the same files return signed by the factory; tags v0.1.0 to v0.1.7 move, v0.1.8 to v0.1.10 are deleted and re-tagged by the pipeline; trees checked before and after, and a local backup kept until verified. 22b (not recommended): also replay the 3 bot commits re-signed by sotavento.b. Or no rewrite.",
+   "recommendation": "22a, or leave it (nothing is exposed)",
+   "status": "open again: amended to 22a or 22b (dev changed since the ask)",
    "kind": "Dinis's word (history rewrite is a one-way door)",
    "source": "sotavento.b, 23 Nov ~15:40 UTC",
    "account": "B"
@@ -513,9 +513,9 @@
   {
    "n": 26,
    "from": "factory.b, sites.b",
-   "ask": "Push 27c9b12 \"Request: wordpress-section (demo)\" to SovereignWebsite__IaC dev: Site__Demo__WordPress-Section at wordpress-section.demo.sovereignweb.site, a made-up example with no real client. Pushing makes the Factory create the repository. Record 2026-11-23__next-sites chose this site but has no push scope; suggested scope: paths [requests/2026-11-23__wordpress-section/**], 1 commit, patch-id e02e7666.",
-   "recommendation": "yes",
-   "status": "decided: pick from six sites (2026-11-23__asks-22-to-32); six proposed by sites.b, waiting for Dinis's pick",
+   "ask": "Push 27c9b12 \"Request: wordpress-section (demo)\" to SovereignWebsite__IaC dev: Site__Demo__WordPress-Section at wordpress-section.demo.sovereignweb.site, a made-up example with no real client. Pushing makes the Factory create the repository. Record 2026-11-23__next-sites chose this site but has no push scope; suggested scope: paths [requests/2026-11-23__wordpress-section/**], 1 commit, patch-id e02e7666. Update 23:16 to 23:19 UTC (sites.b with factory.b): six popular WordPress sites with an open public API: WordPress News, Make WordPress Core, NASA, TED Blog, Variety, Rolling Stone. The page would read titles, dates and links live in the visitor's browser and copy nothing. NASA, TED, Variety and Rolling Stone are real organisations, so a page built on them could look like work for them.",
+   "recommendation": "WordPress News as the default, with a switch to Make WordPress Core only; a real brand only with a 'not affiliated' line",
+   "status": "open: Dinis picks",
    "kind": "record",
    "source": "factory.b, 16:01 UTC 23 Nov",
    "account": "B"
@@ -669,6 +669,16 @@
    "status": "open",
    "kind": "your act",
    "source": "conductor.b, 23:15 UTC 23 Nov"
+  },
+  {
+   "n": 42,
+   "account": "B",
+   "from": "security.b, conductor.b",
+   "ask": "factory.b creates security.agents.sovereignweb.site for security.b's 27 review records and guidelines, which today exist only in its session.",
+   "recommendation": "yes",
+   "status": "open",
+   "kind": "record",
+   "source": "conductor.b, 23:20 UTC 23 Nov"
   }
  ]
 }
