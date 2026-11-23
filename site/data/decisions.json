@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:02:00Z",
+ "updated": "2026-11-23T23:05:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -217,7 +217,7 @@
   {
    "n": 3,
    "from": "b.conductor",
-   "ask": "Install the sovereignwebsite-transfer GitHub App on the SovereignWebsite organisation; every transfer now gets 403.",
+   "ask": "Install the sovereignwebsite-transfer GitHub App on the SovereignWebsite organisation; every transfer now gets 403. Done 23:00 UTC by Dinis. First check: the read-only preflight on the next push touching requests/*/site.json (likely ask 26), or Dinis runs Actions, Transfer apply, Run workflow, request 2026-11-21__dinis-cruz.",
    "recommendation": "yes",
    "status": "done",
    "kind": "Dinis acts (GitHub App)",
