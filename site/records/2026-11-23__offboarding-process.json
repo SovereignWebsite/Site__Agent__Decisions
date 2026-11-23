@@ -3,7 +3,7 @@
   "decided_by": "Dinis Cruz",
   "words": "Okay, so on this one, yes, correct. We also need to have a good process for offboarding and archiving sessions and deleting keys. I think I've already answered this, right? Yeah.",
   "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
-  "event_uuid": "40f19d93-2310-46d3-866f-454c6c43fe80",
+  "event_uuid": "5473af0c-fb0e-4ce4-ab02-6a54c5446337",
   "at": "2026-11-23T23:15:17Z",
   "recorded_by": "decisions.b@SovereignWebsite.dinis",
   "recorder_key": "sha256:eefbe996d9c67a7c",
@@ -25,5 +25,6 @@
     ]
   },
   "expires": "2026-11-30T23:30:00Z",
-  "note": "A choice, not a push."
+  "note": "A choice, not a push.",
+  "corrected": "23:30 UTC 23 Nov: event_uuid set to the server's id for Dinis's message (5473af0c-fb0e-4ce4-ab02-6a54c5446337); the earlier value 40f19d93-2310-46d3-866f-454c6c43fe80 was decisions.b's local transcript id, which get_event does not find. Words, decision and scope unchanged."
 }

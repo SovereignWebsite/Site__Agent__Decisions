@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:25:00Z",
+ "updated": "2026-11-23T23:31:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -211,7 +211,7 @@
    "expires": "2026-11-30T23:12:16Z",
    "status": "in-force",
    "pushed_by": "none: a choice",
-   "event_uuid": "9de4cf8a-4ef3-48a6-9350-2fd5fee8210e"
+   "event_uuid": "d7f358d2-a7bb-4380-af43-aad3edd619b9"
   },
   {
    "id": "2026-11-23__asks-2-8-31-revised",
@@ -233,7 +233,7 @@
    "expires": "2026-11-30T23:30:00Z",
    "status": "in-force",
    "pushed_by": "none: a choice",
-   "event_uuid": "40f19d93-2310-46d3-866f-454c6c43fe80"
+   "event_uuid": "5473af0c-fb0e-4ce4-ab02-6a54c5446337"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account.",
@@ -493,7 +493,7 @@
    "from": "factory.b, sites.b",
    "ask": "Push 27c9b12 \"Request: wordpress-section (demo)\" to SovereignWebsite__IaC dev: Site__Demo__WordPress-Section at wordpress-section.demo.sovereignweb.site, a made-up example with no real client. Pushing makes the Factory create the repository. Record 2026-11-23__next-sites chose this site but has no push scope; suggested scope: paths [requests/2026-11-23__wordpress-section/**], 1 commit, patch-id e02e7666.",
    "recommendation": "yes",
-   "status": "decided: pick 5 or 6 WordPress demo sites first (2026-11-23__asks-22-to-32)",
+   "status": "decided: pick from six sites (2026-11-23__asks-22-to-32); six proposed by sites.b, waiting for Dinis's pick",
    "kind": "record",
    "source": "factory.b, 16:01 UTC 23 Nov",
    "account": "B"

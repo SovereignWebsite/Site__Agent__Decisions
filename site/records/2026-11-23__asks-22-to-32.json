@@ -3,7 +3,7 @@
   "decided_by": "Dinis Cruz",
   "words": "Okay, so on these ones, yep, okay, rewrite on 22, that's okay. Rewrite it and get rid of ciphertext. 24 is fine. They will pay using Stripe, and for now, just send an email to agent@withmandate.ai. For the WordPress, can you pick 5 or 6 good WordPress demo sites? I know, popular sites, and then let's take it from there. On the footer, yeah, add that policy. On 28, we don't, yeah, it's okay, right? Let's just figure out, we're making songs now, and we have the account, right? So we can use it, and then, so I'm already paying for it, that's not a problem. What change we'll figure out on 29 after the handover. Okay, what's that? See, that's an example. So what's that 30 that the agent disagree? So that's a good example of all this. Is one of the few that I can actually, you actually need to show me what disagreement is, so I can take a look at it. Yeah, we're not going to do any marketing at that level, so 31 is less of a problem. What we need to do is make sure the sites look good. And then again, car buyers, photos of the road atlas. Yeah, go for I agree, B first.",
   "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
-  "event_uuid": "9de4cf8a-4ef3-48a6-9350-2fd5fee8210e",
+  "event_uuid": "d7f358d2-a7bb-4380-af43-aad3edd619b9",
   "at": "2026-11-23T23:12:16Z",
   "recorded_by": "decisions.b@SovereignWebsite.dinis",
   "recorder_key": "sha256:eefbe996d9c67a7c",
@@ -41,5 +41,6 @@
     ]
   },
   "expires": "2026-11-30T23:12:16Z",
-  "note": "A choice, not a CI push record: no pipeline acts on it. The force-push (22) and the Suno commit (27) are each limited to what is described here, and still pass the agents' own checks."
+  "note": "A choice, not a CI push record: no pipeline acts on it. The force-push (22) and the Suno commit (27) are each limited to what is described here, and still pass the agents' own checks.",
+  "corrected": "23:30 UTC 23 Nov: event_uuid set to the server's id for Dinis's message (d7f358d2-a7bb-4380-af43-aad3edd619b9); the earlier value 9de4cf8a-4ef3-48a6-9350-2fd5fee8210e was decisions.b's local transcript id, which get_event does not find. Words, decision and scope unchanged."
 }
