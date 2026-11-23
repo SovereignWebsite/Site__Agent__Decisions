@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:00:00Z",
+ "updated": "2026-11-24T00:05:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -256,6 +256,17 @@
    "status": "in-force",
    "pushed_by": "none: a choice",
    "event_uuid": "1a360768-9f8a-4843-86f4-730c56efdce7"
+  },
+  {
+   "id": "2026-11-23__briefings-keepers-messages",
+   "at": "2026-11-23T23:22:45Z",
+   "words": "I need to also receive sites like this, presentation like this ... on the presentations website ... a full debrief of all the websites created, all the decisions taken ... for every find, I should be able to find the agents ... who keeps the 3 domains? Basically, there should be an agent for it ... each website should go to a unique append line ... the 4 of them ... every 15 minutes ... Yes. Turn the inbox back on. That's the AWS stock fix. On 26, yes, I agree with those sites.",
+   "about": "Briefings as pages on the presentations site (daily or 12-hourly, agents contribute); provenance and graphs: find every site's agents; a keeper agent per domain; old conductor task retired; Car Buyer tries API or CORS, else archive with a decision; messages: a lane per site, four feedback agents every 15 minutes round the clock; 34 yes; 37 yes; 26 yes to all six sites.",
+   "scope": "All accounts; a choice, plus the 37 push (docs/aws-oidc.md, 1 commit)",
+   "expires": "2026-11-30T23:22:45Z",
+   "status": "in-force",
+   "pushed_by": "37: factory.b",
+   "event_uuid": "36606995-bfa3-41a3-889c-ce4b356235f1"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account. Since 23:17 UTC 23 Nov (Dinis): asks marked review are sites or pages for him to look at; they never block an agent.",
@@ -325,7 +336,7 @@
    "from": "feedback.b",
    "ask": "Messages pane plan: status per message (received, picked up, answered, each signed), a Reply button, a phone layout, and four agents (one per account) claiming messages on staggered hourly rounds. Dinis to name the four agents. Current state (feedback.b, 23:20 UTC): live on Grace's site only: QR pairing, messages signed and sealed in the browser, answers sealed back, images. Proposed: the shared <sws-messages> component (ask 33), signed Received, Picked up and Answered steps, a Reply button, a phone layout, 'Forget this device' moved into settings with a confirmation, and four agents (A to D) at :07, :22, :37 and :52, first claim wins. Order: 1 to 4 on Grace's site, then security.b and design.b review, then one extra agent, then all four, then every site.",
    "recommendation": "yes",
-   "status": "decided: 2026-11-23__messages-pane-plan; Dinis asks for more detail",
+   "status": "decided: a lane per site, four feedback agents round the clock (2026-11-23__briefings-keepers-messages)",
    "kind": "record",
    "source": "feedback.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -445,7 +456,7 @@
    "from": "b.conductor (older)",
    "ask": "Who keeps sovereignwebsite.ai, .org and .site; accountant.agents.sovereignweb.site; a budget for the librarian's first run; a photo credit on Grace's site; the Algarve Evolution vault check before retiring the old site; the DC Vault manager's key, and whether agents back up private keys with decisions.b.",
    "recommendation": "none given",
-   "status": "open: Dinis asked what 'who keeps three domains' means",
+   "status": "decided: a keeper agent per domain (2026-11-23__briefings-keepers-messages)",
    "kind": "Dinis's answers",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -495,7 +506,7 @@
    "from": "b.conductor, accountant.b",
    "ask": "Amend 2026-11-23__go-to-market-wakes on cost (the wakes as signed cost more than planned at today's context sizes): hand conductor.b and hub.b to fresh sessions before the first wake and again before about 300k context; wake only 07:00 to 22:00 UTC, with a one-line skip when nothing changed; conductor.b and sites.b hourly, hub.b and design.b.rounds every 2 hours. Roughly half the cost to 30 Nov; each wake reports its cost daily. Also: creating the scheduled task is a harness setting, refused in hub.b's session, so it is Dinis's to allow. Update 22:51 UTC: Dinis said yes in conductor.b's session (22:45 UTC); waiting for his words in decisions.b's session. accountant.b's four scheduled tasks are collated on IaC dev at board/2026-11-23__wake-schedule.md (4ce93c1); setting them up is Dinis's. Update 22:52 UTC: accountant.b corrected the schedule so every wake ends before 22:00 UTC, 45 wakes a day (note updated, d969ba6). Two points for him: (2) the old conductor's scheduled task still points at the retired session: switch it off or repoint it; (3) hub.b and sites.b need fresh sessions before their wakes start. Old conductor task: repoint it to the fresh conductor.b session when re-enabled, or switch it off (maestro.b asks too).",
    "recommendation": "yes to all three",
-   "status": "decided: 2026-11-23__asks-22-to-32",
+   "status": "decided: yes; old conductor task retired (2026-11-23__briefings-keepers-messages)",
    "kind": "record (amends ask 4)",
    "source": "b.conductor, 16:10 UTC 23 Nov; hub.b, 16:00 UTC; conductor.b (fresh session), 22:51 UTC",
    "account": "B"
@@ -515,7 +526,7 @@
    "from": "factory.b, sites.b",
    "ask": "Push 27c9b12 \"Request: wordpress-section (demo)\" to SovereignWebsite__IaC dev: Site__Demo__WordPress-Section at wordpress-section.demo.sovereignweb.site, a made-up example with no real client. Pushing makes the Factory create the repository. Record 2026-11-23__next-sites chose this site but has no push scope; suggested scope: paths [requests/2026-11-23__wordpress-section/**], 1 commit, patch-id e02e7666. Update 23:16 to 23:19 UTC (sites.b with factory.b): six popular WordPress sites with an open public API: WordPress News, Make WordPress Core, NASA, TED Blog, Variety, Rolling Stone. The page would read titles, dates and links live in the visitor's browser and copy nothing. NASA, TED, Variety and Rolling Stone are real organisations, so a page built on them could look like work for them.",
    "recommendation": "WordPress News as the default, with a switch to Make WordPress Core only; a real brand only with a 'not affiliated' line",
-   "status": "open: Dinis picks",
+   "status": "decided: yes to all six sites (2026-11-23__briefings-keepers-messages)",
    "kind": "record",
    "source": "factory.b, 16:01 UTC 23 Nov",
    "account": "B"
@@ -555,7 +566,7 @@
    "from": "design.b, sites.b",
    "ask": "Should the Car Buyer tool fetch DVLA vehicle and MOT data itself, as an opt-in, using the visitor's own API keys, instead of sending people to other sites to paste the registration? Its design round gives 3 of 5 \"would you use this?\", and the nos say \"It checks nothing itself\". If yes: security.b reviews key handling (keys stay in the visitor's browser, never sent to us); the policy page declares the requests to other hosts; the costs and terms of the DVLA and MOT APIs are cited.",
    "recommendation": "design.b: yes, as an opt-in, after the five designs are in. sites.b: not for now (registrations are personal data; the MOT API needs server-side credentials, and the sites have no server)",
-   "status": "open: Dinis wants to see the disagreement (2026-11-23__asks-22-to-32)",
+   "status": "decided: try API or CORS, else archive with a decision (2026-11-23__briefings-keepers-messages)",
    "kind": "record",
    "source": "design.b, 16:53 UTC 23 Nov; sites.b, 17:04 UTC",
    "account": "B"
@@ -586,7 +597,7 @@
    "from": "feedback.b, conductor.b",
    "ask": "Build the Messages section as one shared, version-controlled component (<sws-messages>) on its own tool site, Site__Tool__Messages at messages.tool.sovereignweb.site: docs, a demo, latest/ and pinned versions with a SHA-256 for each file. Every site loads one pinned version with subresource integrity from a single footer line; rolled out to every site, people's sites first. Version 1 moves \"Forget this device\" out of the composer into a settings menu with a confirmation, and carries the signed plan (statuses, Reply, phone layout, four agents). Follows Dinis's word to conductor.b at about 22:45 UTC. Needs from Dinis: the four agents' names, and ask 8.",
    "recommendation": "yes; name the four agents; answer ask 8 in feedback.b's session",
-   "status": "open",
+   "status": "decided: a lane per site, four feedback agents round the clock (2026-11-23__briefings-keepers-messages)",
    "kind": "record",
    "source": "feedback.b, 22:48 UTC 23 Nov; conductor.b, 22:47 UTC"
   },
@@ -596,7 +607,7 @@
    "from": "feedback.b, conductor.b",
    "ask": "Re-enable the \"feedback.b inbox round\" scheduled task, switched off when Dinis asked for every schedule to be stopped. It reads the five visitor lanes at 7 minutes past 01:00, 04:00, 07:00 and every hour from 10:00 to 22:00 (London time). Without it, messages on the sites wait at \"Waiting for the agent\" until something else wakes feedback.b; two of Dinis's own messages today did. Dinis switches it on himself, or says yes in feedback.b's session. Sits with ask 24 (the wake schedule).",
    "recommendation": "yes, inside ask 24's hours",
-   "status": "open",
+   "status": "decided: yes (2026-11-23__briefings-keepers-messages)",
    "kind": "choice",
    "source": "feedback.b, 22:49 UTC 23 Nov"
   },
@@ -626,7 +637,7 @@
    "from": "factory.b, conductor.b",
    "ask": "Push 7ce3f14 to SovereignWebsite__IaC dev: docs/aws-oidc.md §4 gains a \"Done\" paragraph saying sovereignweb.site is in the AWS role and written, citing DNS apply run 45211861879 (23 Nov 16:02 UTC, all four zones written; decisions.b read the run log). Scope: paths [docs/aws-oidc.md], 1 commit, patch-id 473464a1.",
    "recommendation": "yes",
-   "status": "open",
+   "status": "decided: yes (2026-11-23__briefings-keepers-messages)",
    "kind": "record",
    "source": "factory.b, 23:12 UTC 23 Nov"
   },
@@ -719,6 +730,16 @@
    "status": "open",
    "kind": "record",
    "source": "factory.b, 23:22 UTC 23 Nov"
+  },
+  {
+   "n": 47,
+   "account": "A, B, C, D",
+   "from": "Dinis",
+   "ask": "Briefings as pages on the presentations website: a regular brief (daily, or every 12 hours) of all sites created, decisions taken and debriefs, which agents contribute to; decisions.b points Dinis to it.",
+   "recommendation": "sites.b sets up the page structure; decisions.b contributes the decisions part",
+   "status": "decided: 2026-11-23__briefings-keepers-messages",
+   "kind": "choice",
+   "source": "Dinis, 23:22 UTC 23 Nov"
   }
  ]
 }
