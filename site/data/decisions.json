@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T16:01:36Z",
+ "updated": "2026-11-23T16:02:30Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -133,7 +133,7 @@
    "scope": "SovereignWebsite/Site__Company__Perspace; dev; site/private/330c90d90da5421a.zip, site/index.html; 1 commit",
    "expires": "2026-11-25T15:54:40Z",
    "status": "in force",
-   "pushed_by": "not yet",
+   "pushed_by": "perspace.b pushed 7bc8476 unchanged to Site__Company__Perspace dev after its five checks (16:01 UTC); Pages green, v0.1.6",
    "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
   },
   {
@@ -375,7 +375,7 @@
    "from": "perspace.b",
    "ask": "Publish 7bc8476 to Site__Company__Perspace dev: the sealed vault (ciphertext only); key, link and QR go only to Dinis. Keep the address perspace.company.sovereignweb.site.",
    "recommendation": "yes; keep the address",
-   "status": "decided: 2026-11-23__perspace-vault",
+   "status": "done: 2026-11-23__perspace-vault, pushed",
    "kind": "record",
    "source": "perspace.b, 23 Nov ~15:40 UTC"
   },
@@ -396,6 +396,15 @@
    "status": "open",
    "kind": "Dinis's answer (money: a one-way door)",
    "source": "outreach.b, ~15:58 UTC 23 Nov"
+  },
+  {
+   "n": 26,
+   "from": "factory.b, sites.b",
+   "ask": "Push 27c9b12 \"Request: wordpress-section (demo)\" to SovereignWebsite__IaC dev: Site__Demo__WordPress-Section at wordpress-section.demo.sovereignweb.site, a made-up example with no real client. Pushing makes the Factory create the repository. Record 2026-11-23__next-sites chose this site but has no push scope; suggested scope: paths [requests/2026-11-23__wordpress-section/**], 1 commit, patch-id e02e7666.",
+   "recommendation": "yes",
+   "status": "open",
+   "kind": "record",
+   "source": "factory.b, 16:01 UTC 23 Nov"
   }
  ]
 }
