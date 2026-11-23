@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:05:00Z",
+ "updated": "2026-11-24T00:08:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -324,9 +324,9 @@
   {
    "n": 6,
    "from": "feedback.b, design.b, hub.b",
-   "ask": "The hub's public \"I want one\" form at /start/#get-one with the offer line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Who reads the requests (Dinis only, or outreach.b too); security.b and design.b review the form before it goes live. Open point (feedback.b): Dinis said all feedback starts from a QR code, but this form is open to anyone. Either the hub shows a QR that opens the form, or the form stays public, capped and signed per browser (South Beacon's recruiter form is the only open form today, approved by Dinis by name).",
+   "ask": "The hub's public \"I want one\" form at /start/#get-one with the offer line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Who reads the requests (Dinis only, or outreach.b too); security.b and design.b review the form before it goes live. Open point (feedback.b): Dinis said all feedback starts from a QR code, but this form is open to anyone. Either the hub shows a QR that opens the form, or the form stays public, capped and signed per browser (South Beacon's recruiter form is the only open form today, approved by Dinis by name). Current state (hub.b, 23:45 UTC): live as v0.1.52 and v0.1.53 with no form: every \"I want one\" leads to hub.sovereignweb.site/start/#get-one, which shows the launch offer and \"To take it up, email agent@withmandate.ai\", with no payment link. Following Dinis's QR-codes rule (2026-11-23__asks-2-8-31-revised), there is no public form; a later form would open only from a QR code.",
    "recommendation": "yes; Dinis reads; reviews yes",
-   "status": "decided: 2026-11-23__hub-get-one-form; Dinis asks for more detail",
+   "status": "settled: email for now, no public form (2026-11-23__asks-2-8-31-revised, 2026-11-23__asks-22-to-32)",
    "kind": "record",
    "source": "feedback.b, design.b and hub.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
