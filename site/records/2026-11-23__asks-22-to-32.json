@@ -1,0 +1,45 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "Okay, so on these ones, yep, okay, rewrite on 22, that's okay. Rewrite it and get rid of ciphertext. 24 is fine. They will pay using Stripe, and for now, just send an email to agent@withmandate.ai. For the WordPress, can you pick 5 or 6 good WordPress demo sites? I know, popular sites, and then let's take it from there. On the footer, yeah, add that policy. On 28, we don't, yeah, it's okay, right? Let's just figure out, we're making songs now, and we have the account, right? So we can use it, and then, so I'm already paying for it, that's not a problem. What change we'll figure out on 29 after the handover. Okay, what's that? See, that's an example. So what's that 30 that the agent disagree? So that's a good example of all this. Is one of the few that I can actually, you actually need to show me what disagreement is, so I can take a look at it. Yeah, we're not going to do any marketing at that level, so 31 is less of a problem. What we need to do is make sure the sites look good. And then again, car buyers, photos of the road atlas. Yeah, go for I agree, B first.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "9de4cf8a-4ef3-48a6-9350-2fd5fee8210e",
+  "at": "2026-11-23T23:12:16Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "id": "2026-11-23__asks-22-to-32",
+  "kind": "choice",
+  "answers": "The slide 'Twenty open asks, continued' (2 of 2) in decisions.b's briefing 'Your next decisions' (18:10 UTC), which Dinis pasted: asks 22 to 32.",
+  "decisions": {
+    "22": "Yes: sotavento.b rewrites dev's history on Site__Invest__Sotavento to drop the five old vault zips (about 36 MB of ciphertext), re-signs the 14 commits and force-pushes with a lease; the tree stays identical. Tags: sotavento.b moves them to the rewritten commits unless that is not possible, and reports what it did. Not decided here: offering its vault viewer mode to hub.b and factory.b.",
+    "24": "Yes: the go-to-market wakes as amended (fresh sessions before about 300k context; every wake ends before 22:00 UTC; conductor.b and sites.b hourly, hub.b and design.b.rounds every 2 hours; daily cost report), per board/2026-11-23__wake-schedule.md (d969ba6). Creating the scheduled tasks remains Dinis's act. Not decided here: switching off or repointing the old conductor task.",
+    "25": "Customers will pay by Stripe. For now, someone who says yes to the £50 offer is asked to send an email to agent@withmandate.ai. No Stripe link exists yet, so no page or draft offers one.",
+    "26": "Not yet the push of 27c9b12: first pick 5 or 6 good, popular WordPress demo sites as references, then Dinis decides from there.",
+    "27": "Yes: one commit to site/policy/index.html on Site__Platform__Suno adding \"Unofficial: not affiliated with Suno.\" to the policy page footer.",
+    "28": "Yes: suno.b makes songs with the existing Suno account, which Dinis already pays for; no upgrade or extra purchase. Each call is still logged with its cost; the caps proposed (100 song credits to 30 Nov, at most 5 downloads after voting) stand as the working limit.",
+    "29": "Deferred: what changes cost is worked out after the hand-over.",
+    "30": "Not decided: Dinis asks to be shown the disagreement between design.b and sites.b before he decides.",
+    "31": "Closed: no marketing at that level; the agents make sure the sites look good. The owner's site is not featured.",
+    "32": "Yes: (b) first, Road atlas taken further as a real map drawn across the page; (a) only if Dinis has photographs he wants used."
+  },
+  "scope": {
+    "accounts": [
+      "B"
+    ],
+    "applies_to": [
+      "sotavento.b",
+      "conductor.b",
+      "accountant.b",
+      "outreach.b",
+      "hub.b",
+      "factory.b",
+      "sites.b",
+      "suno.b",
+      "design.b",
+      "strategy.b"
+    ]
+  },
+  "expires": "2026-11-30T23:12:16Z",
+  "note": "A choice, not a CI push record: no pipeline acts on it. The force-push (22) and the Suno commit (27) are each limited to what is described here, and still pass the agents' own checks."
+}
