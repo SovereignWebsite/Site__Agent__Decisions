@@ -1,0 +1,40 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "See, on things like this, it's a bit different. Like, for example, that look at brochure, I think what you then need to distinguish is what are decisions that are blocking agents, like the ones we have here, and what are things that I should look, or sites that I should be providing more feedback, or sites that, in a way, I have not reviewed or have not looked at, which is one of the things I want to talk about next, which is there's a whole bunch of websites that I then want to have comments or feedback or have a round of edits. But that's where it's so critical that we have that whole hyperlinking at the website, and every website almost, I should be able to navigate easily across every website, find the home, go up, go down, find the agent, connect with, etc. And have that browsing experience. That is super critical. So on 15 is correct. The site owner made their own changes, so the maturity model places had roughly achieved it, right? Correct. And again, first presentation is a good example. I'll upload that stuff, right? And what's this? Who keeps 3 domains? I don't understand this question.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "ca972a56-58a2-4007-9719-9b54ac5845fc",
+  "at": "2026-11-23T23:17:01Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "id": "2026-11-23__navigation-and-review",
+  "kind": "choice",
+  "answers": "Page 7 of decisions.b's briefing ('Your eyes, your facts': asks 14, 15, 17, 19, 20), which Dinis pasted.",
+  "decisions": {
+    "lists": "decisions.b keeps two separate lists: decisions that block agents, and sites or pages for Dinis to look at, comment on or give a round of edits (not reviewed yet, or waiting for his feedback). A review item never blocks an agent.",
+    "navigation": "Critical: every website links into one browsing experience. From any site Dinis can easily find the home, go up, go down, find the site's agent and connect with it, and move across every website.",
+    "15": "Correct: the site owner made her own changes, so the maturity model places her as having roughly achieved it.",
+    "17": "Dinis uploads the first presentation himself; dinis-cruz.presentations is left ready for that.",
+    "14": "A review item (look at the brochure), not a blocking decision."
+  },
+  "open": "Ask 19's 'who keeps three domains': Dinis does not understand the question; decisions.b explains and it stays open.",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "applies_to": [
+      "decisions.b",
+      "sites.b",
+      "hub.b",
+      "design.b",
+      "feedback.b",
+      "every site's agent (navigation)"
+    ]
+  },
+  "expires": "2026-11-30T23:17:01Z",
+  "note": "A choice, not a push."
+}
