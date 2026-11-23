@@ -1,0 +1,47 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "So on these decisions, I agree with all of them, and that's so cool. And you see, the thing about this, right? For example, when you say, like the first presentation, where is it? The point of this actually is to leave the websites in a state where I can continue them on the website. So in this case, you shouldn't be a task for me here. Eventually, what you might have is a list of websites that I can do stuff, but you shouldn't be blocking this. And I think that's very important. We still have a bunch of agents being blocked. Also, I feel that there's still critical actions that I need to do. Like I think the AWS is still being blocked, for example. So we need to understand this here. And that's the thing. So I agree with these decisions here. I'll give you the next batch while you process this.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "a9fe820d-69c4-4862-9f7c-0fa68e9b9398",
+  "at": "2026-11-23T23:08:23Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "id": "2026-11-23__asks-2-to-21",
+  "kind": "choice",
+  "answers": "The slide 'Twenty open asks' (1 of 2) in decisions.b's briefing 'Your next decisions' (18:10 UTC), which Dinis pasted: asks 2, 3, 5, 8, 14, 15, 17, 19, 20 and 21, each with its recommendation.",
+  "decisions": {
+    "2": "Yes: push access to SovereignWebsite__IaC for strategy.b, grace.b and strategy.d, so each publishes its own key. Granting it is an organisation change (org/ waits for Dinis's merge, or he grants it himself).",
+    "3": "Already done by Dinis at 23:00 UTC (note 2026-11-23__transfer-app-installed).",
+    "5": "Yes: mistral.conductor writes its signing key to a file only it can read, and signs its waiting roster update.",
+    "8": "Yes: feedback.b may accept decisions.b's signed records as Dinis's yes. feedback.b's own rule asks for his word in its session; this record is his word here.",
+    "14": "Yes: the RiskMandate brochure at risk-mandate.startups.sovereignweb.site (7db7d16) is approved as it stands.",
+    "15": "Not a blocker: design.b places the site owner on the maturity model from what the history shows, and says plainly what it does not know.",
+    "17": "Not a task for Dinis: sites.b leaves dinis-cruz.presentations in a state where Dinis adds the first presentation himself on the site; it goes on a list of things he can do on his sites.",
+    "19": "Agreed; no recommendation was given, so these stay on Dinis's own list and block no agent.",
+    "20": "Wait for the details.",
+    "21": "Yes: the move of the old Algarve Evolution site into the new site's private vault is confirmed; once Dinis has saved the read key and QR and checked they open the site, algarve-evolution.b deletes its own copies; vault keys stay with Dinis only; the old site and repository are retired later by AgentiCCells."
+  },
+  "principle": "Agents leave each website in a state where Dinis can continue it on the website himself. Things he can do there are listed as such (a list per site), not raised as asks that block an agent.",
+  "scope": {
+    "accounts": [
+      "B"
+    ],
+    "applies_to": [
+      "conductor.b",
+      "strategy.b",
+      "grace.b",
+      "strategy.d",
+      "mistral.conductor",
+      "feedback.b",
+      "design.b",
+      "startups.b",
+      "sites.b",
+      "algarve-evolution.b",
+      "every agent (the principle)"
+    ]
+  },
+  "expires": "2026-11-30T23:08:23Z",
+  "note": "A choice, not a push: no pipeline acts on it. Pushes that follow from it still pass the usual checks; organisation settings and policy/ changes still wait for Dinis's merge."
+}

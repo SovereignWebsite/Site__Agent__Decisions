@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:06:00Z",
+ "updated": "2026-11-23T23:12:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -190,6 +190,17 @@
    "status": "note",
    "pushed_by": "none: Dinis's act",
    "event_uuid": "d1f95085-4afb-48e2-92bd-ee5577eb702c"
+  },
+  {
+   "id": "2026-11-23__asks-2-to-21",
+   "at": "2026-11-23T23:08:23Z",
+   "words": "So on these decisions, I agree with all of them ... The point of this actually is to leave the websites in a state where I can continue them on the website. So in this case, you shouldn't be a task for me here. ... So I agree with these decisions here.",
+   "about": "Asks 2, 5, 8, 14, 15, 17, 19, 20 and 21 as recommended (3 was already done). New principle: agents leave each site in a state Dinis can continue himself, and list what he can do there instead of blocking on him. Full words in the record.",
+   "scope": "Account B; a choice, not a push",
+   "expires": "2026-11-30T23:08:23Z",
+   "status": "in-force",
+   "pushed_by": "none: a choice",
+   "event_uuid": "a9fe820d-69c4-4862-9f7c-0fa68e9b9398"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account.",
@@ -209,7 +220,7 @@
    "from": "b.conductor, strategy.b",
    "ask": "Push access to SovereignWebsite__IaC for strategy.b, grace.b and strategy.d, so each can publish its own key (strategy.b's key commit 4e0809a is ready). Then strategy.b pushes its own pages (3c4d399) to Site__Agent__Strategy.",
    "recommendation": "yes",
-   "status": "open: for Dinis on his return",
+   "status": "decided: 2026-11-23__asks-2-to-21",
    "kind": "Dinis acts (access)",
    "source": "b.conductor and strategy.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -219,7 +230,7 @@
    "from": "b.conductor",
    "ask": "Install the sovereignwebsite-transfer GitHub App on the SovereignWebsite organisation; every transfer now gets 403. Done 23:00 UTC by Dinis. First check: the read-only preflight on the next push touching requests/*/site.json (likely ask 26), or Dinis runs Actions, Transfer apply, Run workflow, request 2026-11-21__dinis-cruz.",
    "recommendation": "yes",
-   "status": "done",
+   "status": "done: 2026-11-23__transfer-app-installed",
    "kind": "Dinis acts (GitHub App)",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -239,7 +250,7 @@
    "from": "mistral.conductor",
    "ask": "Write its signing key to a file only it can read, so it can sign its waiting roster update for Site__Provider__Mistral.",
    "recommendation": "yes",
-   "status": "open: for Dinis on his return",
+   "status": "decided: 2026-11-23__asks-2-to-21",
    "kind": "Dinis's word (key handling)",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -269,7 +280,7 @@
    "from": "feedback.b",
    "ask": "Whether feedback.b may accept decisions.b's signed records as Dinis's yes. Its rule takes his word only in its own session, so he would need to say this there once.",
    "recommendation": "yes, said in feedback.b's session",
-   "status": "open: for Dinis on his return",
+   "status": "decided: 2026-11-23__asks-2-to-21",
    "kind": "Dinis's word in feedback.b's session",
    "source": "feedback.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -329,7 +340,7 @@
    "from": "design.b, startups.b",
    "ask": "RiskMandate brochure to M5: Dinis looks at risk-mandate.startups.sovereignweb.site (commit 7db7d16, rated 4) and says yes or names changes.",
    "recommendation": "Dinis looks",
-   "status": "open: for Dinis on his return",
+   "status": "decided: 2026-11-23__asks-2-to-21",
    "kind": "Dinis looks",
    "source": "design.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -339,7 +350,7 @@
    "from": "design.b",
    "ask": "How the owner of one personal site made her own changes, so the maturity model can place her truthfully (all of the last 30 commits are by agents).",
    "recommendation": "record the route",
-   "status": "open: for Dinis on his return",
+   "status": "decided: 2026-11-23__asks-2-to-21",
    "kind": "Dinis's answer",
    "source": "design.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -359,7 +370,7 @@
    "from": "sites.b",
    "ask": "The first presentation for dinis-cruz.presentations: which one, and where the file is.",
    "recommendation": "Dinis chooses",
-   "status": "open: for Dinis on his return",
+   "status": "decided: 2026-11-23__asks-2-to-21",
    "kind": "Dinis's answer",
    "source": "sites.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -379,7 +390,7 @@
    "from": "b.conductor (older)",
    "ask": "Who keeps sovereignwebsite.ai, .org and .site; accountant.agents.sovereignweb.site; a budget for the librarian's first run; a photo credit on Grace's site; the Algarve Evolution vault check before retiring the old site; the DC Vault manager's key, and whether agents back up private keys with decisions.b.",
    "recommendation": "none given",
-   "status": "open: for Dinis on his return",
+   "status": "decided: 2026-11-23__asks-2-to-21",
    "kind": "Dinis's answers",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -389,7 +400,7 @@
    "from": "b.newsroom, b.grace, b.security, b.emily, account D's Decision Desk",
    "ask": "Article go-ahead; whether one browser an agent saw is Dinis's; about 10 security items; about 20 items on D's desk.",
    "recommendation": "details not received",
-   "status": "open",
+   "status": "decided: 2026-11-23__asks-2-to-21 (waiting for details)",
    "kind": "waiting for details",
    "source": "b.maestro, 15:33 UTC 23 Nov",
    "account": "B, D"
@@ -399,7 +410,7 @@
    "from": "algarve-evolution.b",
    "ask": "Confirm the move of the old Algarve Evolution site into the new site's private vault (sealed 20 Nov, ciphertext only); then, once Dinis has saved the read key and QR and checked they open the site, algarve-evolution.b deletes its own copies; vault keys stay with Dinis only (no master-vault agent); the old agenticcells site and repository are retired later by AgentiCCells.",
    "recommendation": "confirm; yes once checked; Dinis only",
-   "status": "open: one-way door, held for Dinis's explicit answer",
+   "status": "decided: 2026-11-23__asks-2-to-21",
    "kind": "record (deleting is a one-way door)",
    "source": "algarve-evolution.b, 23 Nov ~15:40 UTC",
    "account": "B"
