@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:58:00Z",
+ "updated": "2026-11-24T00:00:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -709,6 +709,16 @@
    "status": "open: waiting for the kit's reviews",
    "kind": "your act",
    "source": "maestro.b, 23:21 UTC 23 Nov"
+  },
+  {
+   "n": 46,
+   "account": "B",
+   "from": "factory.b, conductor.b",
+   "ask": "Push c4f3d4a to SovereignWebsite__IaC dev: every site's signer check (nine seed copies of seed/*/.github/ci/signers.mjs, plus test/run.mjs) also accepts a key published in the site's own team/keys.json. The only self-vouching case: a commit that changes only team/keys.json, adds exactly one entry, for the agent named in its own Agent: trailer. Follows record 2026-11-23__asks-2-8-31-revised (keys in agents' own repositories). Scope: those paths, 1 commit, patch-id fbca67d2. A security change: it changes what every new site trusts. Unblocks grace.b's rename (its keeper then copies the file in under grace.b's own approval).",
+   "recommendation": "yes after a security.b review: anyone who can push to a site could then add their own key in one commit, so the review should say what stops that",
+   "status": "open",
+   "kind": "record",
+   "source": "factory.b, 23:22 UTC 23 Nov"
   }
  ]
 }
