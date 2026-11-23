@@ -154,8 +154,14 @@ out('/asks/', page({ path: '/asks/', title: 'Open asks', description: "Everythin
   body: `<h1>Open asks</h1>
 <p>${esc(data.asks_about)}</p>
 <p>Updated ${esc(data.updated)}.</p>
+<h2>Blocking agents</h2>
 <div class="cards">
-${(data.asks || []).map((a) => `<article class="card"><h2>${a.n ? esc(a.n) + '. ' : ''}${a.account ? '[' + esc(a.account) + '] ' : ''}${esc(a.from)} ${tag(a.status)}</h2><p>${esc(a.ask)}</p><p>Recommendation: ${esc(a.recommendation || 'none given')}. Becomes: ${esc(a.kind || 'record')}. Source: ${esc(a.source)}.</p></article>`).join('\n')}
+${(data.asks || []).filter((a) => a.kind !== 'review').map((a) => `<article class="card"><h3>${a.n ? esc(a.n) + '. ' : ''}${a.account ? '[' + esc(a.account) + '] ' : ''}${esc(a.from)} ${tag(a.status)}</h3><p>${esc(a.ask)}</p><p>Recommendation: ${esc(a.recommendation || 'none given')}. Becomes: ${esc(a.kind || 'record')}. Source: ${esc(a.source)}.</p></article>`).join('\n')}
+</div>
+<h2>For Dinis to review</h2>
+<p>Sites and pages to look at, comment on or edit. None of these blocks an agent.</p>
+<div class="cards">
+${(data.asks || []).filter((a) => a.kind === 'review').map((a) => `<article class="card"><h3>${a.n ? esc(a.n) + '. ' : ''}${a.account ? '[' + esc(a.account) + '] ' : ''}${esc(a.from)} ${tag(a.status)}</h3><p>${esc(a.ask)}</p><p>Recommendation: ${esc(a.recommendation || 'none given')}. Becomes: ${esc(a.kind || 'record')}. Source: ${esc(a.source)}.</p></article>`).join('\n')}
 </div>
 <p>To answer one, say yes or no in <a href="${SESSION}">the decisions session</a>.</p>` }));
 
