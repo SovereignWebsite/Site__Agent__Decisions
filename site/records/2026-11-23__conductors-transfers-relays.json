@@ -1,0 +1,41 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "We're going through this. Yes, I agree. Drop 35. And then correct that. Keep this keeper agent. Yep, correct. Yeah, absolutely. No, conductors should never be, it's almost like we need to lock this down. The conductors should never actually do almost anything. They should just be coordinating and receiving some data and sort of managing the agents behind them. So, okay, I don't think I want to be named on the transfers. Do I really need to do that? Or maybe if that's the case, then you need to give me every single PR here for me to approve. It's actually not a bad thing for the transfers. But we have quite a number to transfer, right? So I think we might want to maybe the first couple, but then maybe for this first batch, we probably want to do them all. Why don't we do that? And then only for the next batch of changes of transfers, we actually require approval. Because basically just us here at the moment. On 38. See, but that's a perfect example of that is the good change, but you should be able to relay my message to them, right? We should not need me to go into that agent to say yes, right? That's exactly what we're trying to avoid here. So yes, so this kind of edits should be covered by this, change. And this is a good example of the ones that, maybe we have to have a conversation about it, but a lot of them, they make sense, right? So you should be able to sign them and they should be able to do it. So the thing about this, like when you have cases like that one in 41, like we do this all the time. So if an agent decides to do on a loop, right, then basically just tell it how we do in the other places, right? And if you really get stuck, you just start a new one, right? Archive that and start a new one. Because we do this all the time, right? So again, we need to make sure that problems like 41 don't happen.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "b76812fa-a5e4-4616-ac5e-d570a05963e3",
+  "at": "2026-11-23T23:28:50Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "expires": "2026-11-30T23:28:50Z",
+  "id": "2026-11-23__conductors-transfers-relays",
+  "kind": "choice",
+  "answers": "decisions.b's message of ~00:10 UTC explaining 35, 36, 38, 41 and the scheduled tasks, with its suggested one-line answer.",
+  "decisions": {
+    "35": "Dropped: the sovereignwebsite.ai keeper (website.b) starts with SovereignWebsite__Website attached.",
+    "19": "Keeper agents per domain, as proposed by sites.b (website.b, principles.b), confirmed.",
+    "conductors": "Locked down: conductors do almost nothing themselves. They coordinate, receive data and manage the agents behind them.",
+    "36 transfers": "Dinis does not want to approve each transfer. The first batch of transfers runs without per-transfer approval; from the next batch on, transfers need his approval.",
+    "38 and relays": "Yes to 38 (0048389, policy/abp.json state text only). Changes like this, good edits that agents' rules hold for Dinis's word, are covered by a decisions.b record carrying his words; agents should not need him to say yes in their own session. Which kinds of always-ask change this covers in general is to be discussed; 38 is covered now.",
+    "41 and stuck agents": "Problems like 41 must not reach Dinis. If an agent gets stuck or loops, tell it how it is done elsewhere; if it is still stuck, archive that session and start a new one."
+  },
+  "interpretation": "decisions.b reads 'Yeah, absolutely' as yes to agents creating and managing their own scheduled tasks, and 'managing the agents behind them' as including hand-overs to fresh sessions. Dinis corrects either if wrong.",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "every conductor",
+      "every maestro",
+      "factory.b",
+      "sites.b",
+      "every agent"
+    ]
+  },
+  "note": "A choice, not a push. The 38 push has its own record, 2026-11-23__policy-dns-state."
+}

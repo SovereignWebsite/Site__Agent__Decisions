@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:28:00Z",
+ "updated": "2026-11-24T00:40:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -278,6 +278,50 @@
    "status": "in-force",
    "pushed_by": "none: a choice",
    "event_uuid": "a6e6420a-5b81-449b-b753-722b7ba45a95"
+  },
+  {
+   "id": "2026-11-23__conductors-transfers-relays",
+   "at": "2026-11-23T23:28:50Z",
+   "words": "Drop 35 ... The conductors should never actually do almost anything. They should just be coordinating ... for this first batch, we probably want to do them all ... only for the next batch ... we actually require approval ... On 38 ... you should be able to relay my message to them ... So yes ... if an agent decides to do on a loop ... tell it how we do in the other places ... Archive that and start a new one.",
+   "about": "35 dropped; keepers confirmed; conductors only coordinate and manage agents; first batch of transfers without per-transfer approval, approval from the next batch; 38 yes, relayed by decisions.b; stuck agents are told how it is done elsewhere, else archived and restarted.",
+   "scope": "All accounts; a choice",
+   "expires": "2026-11-30T23:28:50Z",
+   "status": "in-force",
+   "pushed_by": "none: a choice",
+   "event_uuid": "b76812fa-a5e4-4616-ac5e-d570a05963e3"
+  },
+  {
+   "id": "2026-11-23__policy-dns-state",
+   "at": "2026-11-23T23:28:50Z",
+   "words": "Drop 35 ... The conductors should never actually do almost anything. They should just be coordinating ... for this first batch, we probably want to do them all ... only for the next batch ... we actually require approval ... On 38 ... you should be able to relay my message to them ... So yes ... if an agent decides to do on a loop ... tell it how we do in the other places ... Archive that and start a new one.",
+   "about": "Ask 38 push: factory.b's 0048389, policy/abp.json state text only. The IaC checker refuses records over always-ask paths, so this is Dinis's relayed yes, not a CI-checked push record.",
+   "scope": "IaC dev; policy/abp.json; 1 commit",
+   "expires": "2026-11-30T23:28:50Z",
+   "status": "in-force",
+   "pushed_by": "factory.b",
+   "event_uuid": "b76812fa-a5e4-4616-ac5e-d570a05963e3"
+  },
+  {
+   "id": "2026-11-23__aws-doc-fix",
+   "at": "2026-11-23T23:22:45Z",
+   "words": "On 26, yes, I agree with those sites. ... That's the AWS stock fix.",
+   "about": "Ask 37 push record: factory.b's 7ce3f14, docs/aws-oidc.md (committed in IaC decisions/, d0a93ca).",
+   "scope": "IaC dev; docs/aws-oidc.md; 1 commit",
+   "expires": "2026-11-30T23:22:45Z",
+   "status": "in-force",
+   "pushed_by": "factory.b",
+   "event_uuid": "36606995-bfa3-41a3-889c-ce4b356235f1"
+  },
+  {
+   "id": "2026-11-23__wordpress-section-demo",
+   "at": "2026-11-23T23:22:45Z",
+   "words": "On 26, yes, I agree with those sites. ... That's the AWS stock fix.",
+   "about": "Ask 26 push record: factory.b's a10ee6b, the WordPress demo request (committed in IaC decisions/, b1af925).",
+   "scope": "IaC dev; requests/2026-11-23__wordpress-section/**; 1 commit",
+   "expires": "2026-11-30T23:22:45Z",
+   "status": "in-force",
+   "pushed_by": "factory.b",
+   "event_uuid": "36606995-bfa3-41a3-889c-ce4b356235f1"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account. Since 23:17 UTC 23 Nov (Dinis): asks marked review are sites or pages for him to look at; they never block an agent.",
@@ -628,7 +672,7 @@
    "from": "conductor.b (fresh session)",
    "ask": "Give the fresh conductor.b session push access to SovereignWebsite__Website (sovereignwebsite.ai), which the hand-over says conductor.b keeps. Adding a repository to a session is a harness setting: Dinis adds it himself, or allows the add-repository tool in conductor.b's session. No commit involved; until then conductor.b makes no changes to the Website. Also noted: feedback.b's two sealed key backups stay unopened in the old conductor container; feedback.b re-seals them to the new conductor's key only on Dinis's yes in feedback.b's session.",
    "recommendation": "yes, so sovereignwebsite.ai has a keeper again",
-   "status": "likely settled by ask 19: the sovereignwebsite.ai keeper starts with the repository attached",
+   "status": "dropped (website.b starts with the repository)",
    "kind": "choice",
    "source": "conductor.b (fresh session), 22:49 UTC 23 Nov"
   },
@@ -638,7 +682,7 @@
    "from": "conductor.b, factory.b",
    "ask": "Start the weather-demo move between organisations, now that the transfer App is on SovereignWebsite: in SovereignWebsite__IaC, Actions, Transfer apply, Run workflow, request 2026-11-20__weather-demo, then approve the apply job in the transfer environment. conductor.b says Dinis's yes to move weather-demo for real was given earlier (not recorded by decisions.b). factory.b reads the run. The dinis-cruz move stays dry-run until Dinis says go and answers the consent question in its NOTES.md.",
    "recommendation": "run it; it is also the first real check of the App",
-   "status": "open",
+   "status": "first batch runs without per-transfer approval (2026-11-23__conductors-transfers-relays)",
    "kind": "choice",
    "source": "conductor.b (fresh session), 23:03 UTC 23 Nov"
   },
@@ -658,7 +702,7 @@
    "from": "factory.b, conductor.b",
    "ask": "Push 0048389 to SovereignWebsite__IaC: policy/abp.json line 496, state text only (the DNS role is active for all four zones), no permission changes. policy/ is always-ask, so no record covers it: Dinis says yes in factory.b's session, or edits it himself.",
    "recommendation": "yes, in factory.b's session",
-   "status": "open",
+   "status": "decided: yes, relayed (2026-11-23__conductors-transfers-relays)",
    "kind": "your word, in its session",
    "source": "factory.b, 23:12 UTC 23 Nov"
   },
@@ -688,7 +732,7 @@
    "from": "conductor.b, mistral.conductor",
    "ask": "mistral.conductor's own safety check refused writing its signing key file after ask 5 was agreed, so Dinis allows that step in its session.",
    "recommendation": "allow it in mistral.conductor's session",
-   "status": "open",
+   "status": "settled: stuck agents are told how it is done elsewhere, else restarted (2026-11-23__conductors-transfers-relays)",
    "kind": "your act",
    "source": "conductor.b, 23:15 UTC 23 Nov"
   },
@@ -758,7 +802,7 @@
    "from": "conductor.b, sites.b",
    "ask": "Starting agent sessions: fresh sessions for sites.b (first read Site__Agent__Sites docs/handover.md, 24275ef) and hub.b (docs/HANDOVER.md, v0.1.53), both near their limit, and new keeper sessions website.b and principles.b (ask 19). conductor.b starts sessions only with Dinis's word. A standing rule would stop this recurring: 'conductor.b may start fresh sessions for hand-overs and new keepers agreed in a record'.",
    "recommendation": "yes, as a standing rule",
-   "status": "open",
+   "status": "decided: conductors manage agents, including hand-overs (as read by decisions.b; 2026-11-23__conductors-transfers-relays)",
    "kind": "your word",
    "source": "conductor.b, 23:27 UTC 23 Nov"
   },
