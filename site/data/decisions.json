@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T16:54:00Z",
+ "updated": "2026-11-23T17:05:10Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -437,10 +437,19 @@
    "n": 30,
    "from": "design.b, sites.b",
    "ask": "Should the Car Buyer tool fetch DVLA vehicle and MOT data itself, as an opt-in, using the visitor's own API keys, instead of sending people to other sites to paste the registration? Its design round gives 3 of 5 \"would you use this?\", and the nos say \"It checks nothing itself\". If yes: security.b reviews key handling (keys stay in the visitor's browser, never sent to us); the policy page declares the requests to other hosts; the costs and terms of the DVLA and MOT APIs are cited.",
-   "recommendation": "yes, as an opt-in, after the five designs are in",
+   "recommendation": "design.b: yes, as an opt-in, after the five designs are in. sites.b: not for now (registrations are personal data; the MOT API needs server-side credentials, and the sites have no server)",
    "status": "open",
    "kind": "record",
-   "source": "design.b, 16:53 UTC 23 Nov"
+   "source": "design.b, 16:53 UTC 23 Nov; sites.b, 17:04 UTC"
+  },
+  {
+   "n": 31,
+   "from": "sites.b",
+   "ask": "May our own marketing pages feature one site owner's handed-over site as the example (a screenshot, her name and role, \"she changes it herself\", a link)? Her consent to her own public site is recorded; consent to be featured is not. Until then she has been removed from the Sovereign Website brochure and the pipeline demo's /workflow/ page (now showing Car Buyer instead). The design round found her site was \"the first pull to yes\".",
+   "recommendation": "Dinis asks her; if she agrees, record it and both pages can use her again",
+   "status": "open",
+   "kind": "Dinis acts (a person's consent)",
+   "source": "sites.b, 17:04 UTC 23 Nov"
   }
  ]
 }
