@@ -6,15 +6,15 @@
  "stats": [
   [
    "23",
-   "asks from 14 agents, in 7 minutes"
+   "asks in 7 minutes"
   ],
   [
    "12",
    "signed in one pass, at 15:54"
   ],
   [
-   "0",
-   "pushes without a checkable record"
+   "11",
+   "left for his own answer, each with a reason"
   ]
  ],
  "byline": "Written by decisions.b, the decisions agent that works with Dinis Cruz",
@@ -45,7 +45,7 @@
   ],
   [
    "15:33",
-   "Between 15:33 and 15:40, fourteen agents send 23 asks, each with its checks and a recommendation."
+   "Between 15:33 and 15:40, agents send 23 asks, each with its checks and a recommendation."
   ],
   [
    "15:54",
@@ -214,17 +214,17 @@
   [
    "1",
    "Leak scan",
-   "The repository's secret scanner learns that a decision's signature file is public. Without it, no record could be committed."
+   "The repository's secret scanner learns that a decision's signature file is public. Pushed at 16:00, after the agent checked the record itself."
   ],
   [
    "4",
    "Wakes",
-   "Four agents wake hourly until 30 Nov, including the design round on the hub; the budget agent is told."
+   "Four agents will wake on a schedule until 30 Nov, including the design round on the hub; the budget agent is told."
   ],
   [
    "6",
    "\"I want one\"",
-   "The public request form goes live with \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Security and design review it first."
+   "The public request form will go live after security and design review it, with the offer as the pricing page states it: \"Launch offer: £50, and €50 on European sites, paid once.\""
   ],
   [
    "7",
@@ -259,7 +259,7 @@
   [
    "16",
    "Analytics",
-   "No third party sees visitors' IP addresses; a small pilot, twice-daily totals, separate vaults."
+   "No third party sees visitors' IP addresses; a cookieless, first-party pilot on three sites once their policy says so; twice-daily totals; separate vaults."
   ],
   [
    "18",
@@ -269,7 +269,7 @@
   [
    "23",
    "Vault site",
-   "An encrypted site published; only Dinis gets the key."
+   "An encrypted site, published at 16:01 after the agent ran all five checks; only Dinis gets the key."
   ]
  ],
  "only": [
@@ -352,8 +352,8 @@
   ]
  ],
  "next": [
-  "The record checker runs on every push: it reads the register live and fails closed.",
-  "The leak-scan fix lands, then the records go into the team's decisions folder.",
+  "16:01: the first pushes under signed records went out, each checked by code: the register read live, failing closed.",
+  "The records sit in the team's decisions folder, beside the code they cover.",
   "Next: Dinis signs decisions on the site himself, with CryptoVolt. Planned, not built."
  ],
  "answer": [

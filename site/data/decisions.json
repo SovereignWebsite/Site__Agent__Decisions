@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T16:02:30Z",
+ "updated": "2026-11-23T16:04:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -11,8 +11,8 @@
    "about": "Ask 1: factory.b may push 54769ef \"Leak scan: decision signatures are public\" to SovereignWebsite__IaC dev.",
    "scope": "SovereignWebsite/SovereignWebsite__IaC; dev; build/leak-scan.mjs, test/decisions.test.mjs; 1 commit",
    "expires": "2026-11-25T15:54:40Z",
-   "status": "in force",
-   "pushed_by": "record committed in SovereignWebsite__IaC decisions/ (a38e1a7); 54769ef pushed by factory.b as 55524cc",
+   "status": "used",
+   "pushed_by": "factory.b pushed 54769ef as 55524cc (16:00 UTC); record committed in IaC decisions/ (a38e1a7)",
    "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
   },
   {
@@ -132,7 +132,7 @@
    "about": "Ask 23: perspace.b may push 7bc8476 \"Gated site: publish the sealed Perspace vault (ciphertext only)\" to Site__Company__Perspace dev; the read key, link and QR go only to Dinis. The address stays perspace.company.sovereignweb.site.",
    "scope": "SovereignWebsite/Site__Company__Perspace; dev; site/private/330c90d90da5421a.zip, site/index.html; 1 commit",
    "expires": "2026-11-25T15:54:40Z",
-   "status": "in force",
+   "status": "used",
    "pushed_by": "perspace.b pushed 7bc8476 unchanged to Site__Company__Perspace dev after its five checks (16:01 UTC); Pages green, v0.1.6",
    "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
   },
@@ -143,8 +143,8 @@
    "about": "factory.b's request for Site__Tool__Car-Buyer at car-buyer.tool.sovereignweb.site (group tool, demo, public). Pushing it makes the Factory create the repository.",
    "scope": "SovereignWebsite__IaC, dev; requests/2026-11-23__car-buyer/**; 1 commit (patch-id 43a8c3dc)",
    "expires": "2026-11-24T15:09:30Z",
-   "status": "in force",
-   "pushed_by": "record committed in SovereignWebsite__IaC decisions/ (a38e1a7); factory.b pushes next",
+   "status": "used",
+   "pushed_by": "factory.b, 16:01:58 UTC, SovereignWebsite__IaC dev: a0783ad (decisions.mjs ci: DECISION OK)",
    "event_uuid": "4fcb7ad4-fecb-40ed-828e-7ec712d03146"
   },
   {
@@ -154,8 +154,8 @@
    "about": "factory.b's six commits: gated sites publish no run link; the presentations group and Site__Presentations; labels across groups and Site__Presentations__Dinis-Cruz; footer text at least 15px on phones; the Suno request; Org status coverage report. \"This\" was Dinis's operates link to decisions.b's key on pki.sgit.ai, verified at 14:15 UTC.",
    "scope": "SovereignWebsite__IaC, dev; requests/**, seed/**, build/requests.mjs, build/coverage.mjs, build/org-status.mjs, test/**; 6 commits (patch-ids listed in the record)",
    "expires": "2026-11-24T14:02:37Z",
-   "status": "in force",
-   "pushed_by": "record committed in SovereignWebsite__IaC decisions/ (a38e1a7); factory.b pushes next",
+   "status": "used",
+   "pushed_by": "factory.b, 16:01:58 UTC, SovereignWebsite__IaC dev: 00affa8, 95718d9, 7e6628a, 634d110, ba3f9db, 399ea40 (decisions.mjs ci: DECISION OK)",
    "event_uuid": "17473ce6-7416-42f1-bad8-aed1e97fc3fb"
   },
   {
@@ -177,7 +177,7 @@
    "from": "factory.b",
    "ask": "Push 54769ef to SovereignWebsite__IaC dev: the leak scan accepts decision signature files (decisions/<id>.json.sig holding only an SSH signature). Paths build/leak-scan.mjs and test/decisions.test.mjs, 1 commit, patch-id 90e8532b. Without it no record can be committed.",
    "recommendation": "yes",
-   "status": "decided: 2026-11-23__leak-scan-signatures",
+   "status": "done: 2026-11-23__leak-scan-signatures, pushed",
    "kind": "record",
    "source": "factory.b, 23 Nov ~15:36-15:40 UTC"
   },
