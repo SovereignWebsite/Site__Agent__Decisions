@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T16:22:40Z",
+ "updated": "2026-11-23T16:23:20Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -427,11 +427,11 @@
   {
    "n": 29,
    "from": "design.b, strategy.b",
-   "ask": "What it costs to change a site after handover, and who makes the changes until a partner signs. Options: (a) changes through the owner's own Claude plan only, stated plainly; (b) an allowance in the £50 offer (for example one round of changes), then partners; (c) a fixed price per change from us until a partner signs. The pipeline-demo /workflow/ page has stayed at 2 of 5 for four rounds because it says \"A price for changes is not set yet\". Applies to sites.b, hub.b and strategy.b.",
-   "recommendation": "strategy.b proposes wording and numbers for (b) or (c); Dinis picks one; until then the pages keep \"not set yet\"",
+   "ask": "What it costs to change a site after handover, and who makes the changes until a partner signs. Options: (a) changes through the owner's own Claude plan only, stated plainly; (b) an allowance in the £50 offer (for example one round of changes), then partners; (c) a fixed price per change from us until a partner signs. The pipeline-demo /workflow/ page has stayed at 2 of 5 for four rounds because it says \"A price for changes is not set yet\". Applies to sites.b, hub.b and strategy.b. strategy.b's draft wording: (a) \"After the hand-over you change the site by asking your own AI: a Claude plan, paid to Anthropic, not to us. Or ask a web person to do it at their own price. We do not charge for changes.\" (b) \"The £50 launch offer includes [N] changes in the first [D] days after the hand-over, made by our agents on request. After that, use your own AI or a web person.\" (c) \"After the hand-over, our agents make a change for [£X] a change, paid once, or you use your own AI.\" Today's pricing page already says (a); (c) would contradict \"we take no part\" in care. For scale, public UK care plans run £25 to £100 a month.",
+   "recommendation": "(a) plus (b) with a small N, for example one round of edits after the hand-over; Dinis sets N and D; leave (c) until a partner signs",
    "status": "open",
    "kind": "Dinis's answer (money: a one-way door)",
-   "source": "design.b, ~16:22 UTC 23 Nov"
+   "source": "design.b, ~16:22 UTC 23 Nov; strategy.b, 16:25 UTC"
   }
  ]
 }
