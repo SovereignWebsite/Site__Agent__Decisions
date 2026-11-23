@@ -1,0 +1,32 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "In terms of vaults, right? The way this should work is agents can create vaults. They need to make sure that the conductor or the maestro, so they make sure that the maestro of whatever the account has a copy of the vault key. So that means that we have 2 agents at least that have the vault key, and then we'll work out a way to synchronize it. But it's critical that every single agent that creates a vault, which is fine, but the vault key needs to also be given to the maestro. And then we'll maybe ask every maestro list currently all the vault keys that they have, and then you can report it to me. Because also, remember that because of decisions, you now become a central point here. So you could also be a great place for you to collect information like this from me, right?",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "a6e6420a-5b81-449b-b753-722b7ba45a95",
+  "at": "2026-11-23T23:25:23Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "id": "2026-11-23__vault-keys-to-maestro",
+  "kind": "choice",
+  "decision": "Any agent may create a vault. Every agent that creates a vault gives a copy of the vault key to the maestro of its account, so at least two agents hold each vault key; a way to keep the copies in sync is worked out later. Each maestro lists the vault keys it holds and reports to decisions.b, which collects the list for Dinis.",
+  "how": "A key copy goes to the maestro sealed to the maestro's published key, never in plain text, never in a repository, a message body or a log. The list names vaults, not keys: for each vault, its name or id, the agent that made it, the site or purpose, and who holds the key. No key material in any list. decisions.b keeps the list out of public pages and gives it to Dinis directly.",
+  "open": "Existing vaults whose key was to stay with Dinis only (the Algarve Evolution vault, ask 21; the Perspace vault): decisions.b asks Dinis whether this rule applies to them too.",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "every agent that creates a vault",
+      "every maestro",
+      "decisions.b"
+    ]
+  },
+  "expires": "2026-11-30T23:25:23Z",
+  "note": "A choice, not a push."
+}
