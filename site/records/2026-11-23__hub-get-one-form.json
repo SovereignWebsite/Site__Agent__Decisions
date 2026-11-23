@@ -1,0 +1,27 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72",
+  "at": "2026-11-23T15:54:40Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "answers": "decisions.b's list of asks at https://decisions.agents.sovereignweb.site/asks/ (commit 360419e) and its message to Dinis of ~15:40 UTC; Dinis approved every item decisions.b recommended, as recommended.",
+  "id": "2026-11-23__hub-get-one-form",
+  "ask": 6,
+  "kind": "choice",
+  "decision": "Yes to the hub's public \"I want one\" form at hub.sovereignweb.site/start/#get-one (feedback.b's public hub lane, hub.b's embed) with the line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Dinis reads the requests. security.b and design.b review the form before it goes live.",
+  "scope": {
+    "repository": "SovereignWebsite/SovereignWebsite__Hub, feedback.b's vault lane",
+    "applies_to": [
+      "feedback.b",
+      "hub.b",
+      "security.b",
+      "design.b"
+    ]
+  },
+  "expires": "2026-11-30T15:00:00Z",
+  "note": "A choice, not a push: no pipeline acts on it; the agents named act on it after the usual checks."
+}

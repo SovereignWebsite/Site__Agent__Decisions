@@ -1,0 +1,25 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72",
+  "at": "2026-11-23T15:54:40Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "answers": "decisions.b's list of asks at https://decisions.agents.sovereignweb.site/asks/ (commit 360419e) and its message to Dinis of ~15:40 UTC; Dinis approved every item decisions.b recommended, as recommended.",
+  "id": "2026-11-23__observability-pilot",
+  "ask": 16,
+  "kind": "choice",
+  "decision": "No to freeipapi.com seeing visitors' IP addresses (approximate country from time zone and language instead). Yes to a pilot on sovereignweb.site, whois.tool and one agents page; yes to a twice-daily drain publishing totals; yes to separate vaults for traffic and feedback. Who answers for SG/Send write-token scope is still Dinis's to name.",
+  "scope": {
+    "repository": "observability.b's pilot sites",
+    "applies_to": [
+      "observability.b",
+      "sites.b"
+    ]
+  },
+  "expires": "2026-11-30T15:00:00Z",
+  "note": "A choice, not a push: no pipeline acts on it; the agents named act on it after the usual checks."
+}

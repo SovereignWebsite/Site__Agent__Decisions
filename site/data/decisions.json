@@ -2,8 +2,140 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T15:37:30Z",
+ "updated": "2026-11-23T15:56:27Z",
  "decisions": [
+  {
+   "id": "2026-11-23__leak-scan-signatures",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 1: factory.b may push 54769ef \"Leak scan: decision signatures are public\" to SovereignWebsite__IaC dev.",
+   "scope": "SovereignWebsite/SovereignWebsite__IaC; dev; build/leak-scan.mjs, test/decisions.test.mjs; 1 commit",
+   "expires": "2026-11-25T15:54:40Z",
+   "status": "in force",
+   "pushed_by": "not yet",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__go-to-market-wakes",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 4: Hourly wakes to 30 Nov 2026 for conductor.b, sites.b, hub.b and design.b.rounds; hub.b may create one scheduled task that wakes design.b.rounds hourly for the hub design round; accountant.b is told; review on 30 Nov.",
+   "scope": "SovereignWebsite (account B team)",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__hub-get-one-form",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 6: Yes to the hub's public \"I want one\" form at hub.sovereignweb.site/start/#get-one (feedback.b's public hub lane, hub.b's embed) with the line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Dinis reads the requests. security.b and design.b review the form before it goes live.",
+   "scope": "SovereignWebsite/SovereignWebsite__Hub, feedback.b's vault lane",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__messages-pane-plan",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 7: Yes to feedback.b's Messages pane plan: signed status per message (received, picked up, answered), a Reply button, a phone layout, and four agents (one per account) claiming messages on staggered hourly rounds. The four agents' names are still Dinis's to give.",
+   "scope": "feedback.b's sites, first Grace's site",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__suno-site",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 9: suno.b keeps Site__Platform__Suno; public song voting capped at 3 a day per browser (browser-signed, into a vault lane); feedback.b mints a \"suno\" lane sealed to suno.b's key, with the QR connection; suno.b checks the lane only when Dinis asks. Not decided here: suno.b's spend cap, its Suno key, and 20 more songs.",
+   "scope": "SovereignWebsite/Site__Platform__Suno",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__lead-segment",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 10: Segment A (founders and teams who want the agentic workflow) leads this week, with B (personal sites) as proof. The first ten contacts stay Dinis's to choose, names to him only.",
+   "scope": "strategy (no repository change)",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__next-sites",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 11: sites.b builds \"the workflow in one page\" first, then the WordPress section demo for agencies.",
+   "scope": "new sites via SovereignWebsite__IaC requests/",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__cheese-market-visibility",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 12: Chiswick Cheese Market request: option (b), a separate hub visibility field; the seed template is left alone.",
+   "scope": "SovereignWebsite/SovereignWebsite__IaC requests/2026-11-20__chiswick-cheese-market",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__startup-brochures",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 13: The five startup brochures are approved as they stand on dev (Sovereign-Website 829ddf9, Sgit 9181763, The-Cyber-Boardroom e75a79a, Risk-Mandate 34efe5f, Agentic-Cells e3d4560). startups.b keeps signing with its own published key and name. The AgentiCCells Web Summit team photo is shown only with names Dinis gives.",
+   "scope": "SovereignWebsite/Site__Startups__* (five)",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__observability-pilot",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 16: No to freeipapi.com seeing visitors' IP addresses (approximate country from time zone and language instead). Yes to a pilot on sovereignweb.site, whois.tool and one agents page; yes to a twice-daily drain publishing totals; yes to separate vaults for traffic and feedback. Who answers for SG/Send write-token scope is still Dinis's to name.",
+   "scope": "observability.b's pilot sites",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__mistral-policy-confirmed",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 18: 030685f on Site__Provider__Mistral (policy page and ABP, live since 21 Nov 17:26 UTC) is confirmed as it stands. Not decided here: deleting branch review/team-demo, the QR key format, /browser/keys/.",
+   "scope": "SovereignWebsite/Site__Provider__Mistral",
+   "expires": "2026-11-30T15:00:00Z",
+   "status": "in force",
+   "pushed_by": "a choice: the agents named act on it",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
+  {
+   "id": "2026-11-23__perspace-vault",
+   "at": "2026-11-23T15:54:40Z",
+   "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+   "about": "Ask 23: perspace.b may push 7bc8476 \"Gated site: publish the sealed Perspace vault (ciphertext only)\" to Site__Company__Perspace dev; the read key, link and QR go only to Dinis. The address stays perspace.company.sovereignweb.site.",
+   "scope": "SovereignWebsite/Site__Company__Perspace; dev; site/private/330c90d90da5421a.zip, site/index.html; 1 commit",
+   "expires": "2026-11-25T15:54:40Z",
+   "status": "in force",
+   "pushed_by": "not yet",
+   "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
+  },
   {
    "id": "2026-11-23__car-buyer",
    "at": "2026-11-23T15:09:30Z",
@@ -45,7 +177,7 @@
    "from": "factory.b",
    "ask": "Push 54769ef to SovereignWebsite__IaC dev: the leak scan accepts decision signature files (decisions/<id>.json.sig holding only an SSH signature). Paths build/leak-scan.mjs and test/decisions.test.mjs, 1 commit, patch-id 90e8532b. Without it no record can be committed.",
    "recommendation": "yes",
-   "status": "open",
+   "status": "decided: 2026-11-23__leak-scan-signatures",
    "kind": "record",
    "source": "factory.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -54,7 +186,7 @@
    "from": "b.conductor, strategy.b",
    "ask": "Push access to SovereignWebsite__IaC for strategy.b, grace.b and strategy.d, so each can publish its own key (strategy.b's key commit 4e0809a is ready). Then strategy.b pushes its own pages (3c4d399) to Site__Agent__Strategy.",
    "recommendation": "yes",
-   "status": "open",
+   "status": "open: for Dinis on his return",
    "kind": "Dinis acts (access)",
    "source": "b.conductor and strategy.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -63,7 +195,7 @@
    "from": "b.conductor",
    "ask": "Install the sovereignwebsite-transfer GitHub App on the SovereignWebsite organisation; every transfer now gets 403.",
    "recommendation": "yes",
-   "status": "open",
+   "status": "open: for Dinis on his return",
    "kind": "Dinis acts (GitHub App)",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC"
   },
@@ -72,7 +204,7 @@
    "from": "b.conductor, hub.b, design.b",
    "ask": "Hourly wakes for the go-to-market week, to 30 Nov: conductor.b, sites.b, hub.b and design.b.rounds; hub.b would create the scheduled task that wakes design.b.rounds for the hub design round. accountant.b to be told.",
    "recommendation": "yes, hourly to 30 Nov, then review",
-   "status": "open",
+   "status": "decided: 2026-11-23__go-to-market-wakes",
    "kind": "record",
    "source": "b.conductor and hub.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -81,16 +213,16 @@
    "from": "mistral.conductor",
    "ask": "Write its signing key to a file only it can read, so it can sign its waiting roster update for Site__Provider__Mistral.",
    "recommendation": "yes",
-   "status": "open",
+   "status": "open: for Dinis on his return",
    "kind": "Dinis's word (key handling)",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC"
   },
   {
    "n": 6,
    "from": "feedback.b, design.b, hub.b",
-   "ask": "The hub's public \"I want one\" form at /start/#get-one with the offer line \"Launch offer: \u00a350 (\u20ac50 on European sites), one-off. No subscription from us.\" Who reads the requests (Dinis only, or outreach.b too); security.b and design.b review the form before it goes live.",
+   "ask": "The hub's public \"I want one\" form at /start/#get-one with the offer line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Who reads the requests (Dinis only, or outreach.b too); security.b and design.b review the form before it goes live.",
    "recommendation": "yes; Dinis reads; reviews yes",
-   "status": "open",
+   "status": "decided: 2026-11-23__hub-get-one-form",
    "kind": "record",
    "source": "feedback.b, design.b and hub.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -99,7 +231,7 @@
    "from": "feedback.b",
    "ask": "Messages pane plan: status per message (received, picked up, answered, each signed), a Reply button, a phone layout, and four agents (one per account) claiming messages on staggered hourly rounds. Dinis to name the four agents.",
    "recommendation": "yes",
-   "status": "open",
+   "status": "decided: 2026-11-23__messages-pane-plan",
    "kind": "record",
    "source": "feedback.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -108,7 +240,7 @@
    "from": "feedback.b",
    "ask": "Whether feedback.b may accept decisions.b's signed records as Dinis's yes. Its rule takes his word only in its own session, so he would need to say this there once.",
    "recommendation": "yes, said in feedback.b's session",
-   "status": "open",
+   "status": "open: for Dinis on his return",
    "kind": "Dinis's word in feedback.b's session",
    "source": "feedback.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -117,7 +249,7 @@
    "from": "suno.b",
    "ask": "suno.b keeps Site__Platform__Suno; public song voting capped at 3 a day per browser; feedback.b mints a \"suno\" lane sealed to suno.b's key, with the QR connection; suno.b checks the lane only when Dinis asks. Also its spend cap, its Suno key and 20 more songs.",
    "recommendation": "yes to the first four",
-   "status": "open",
+   "status": "decided: 2026-11-23__suno-site",
    "kind": "record",
    "source": "suno.b and b.conductor, 23 Nov ~15:36-15:40 UTC"
   },
@@ -126,7 +258,7 @@
    "from": "strategy.b",
    "ask": "Which segment leads this week: A (founders and teams who want the agentic workflow) with B (personal sites) as proof, or C agencies, or D local businesses. The first ten contacts for A are Dinis's to choose, names to him only.",
    "recommendation": "A, with B as proof",
-   "status": "open",
+   "status": "decided: 2026-11-23__lead-segment",
    "kind": "record",
    "source": "strategy.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -135,7 +267,7 @@
    "from": "sites.b",
    "ask": "Which of strategy.b's proposed sites to build: the workflow in one page, then the WordPress section demo for agencies, both by sites.b.",
    "recommendation": "2 then 1",
-   "status": "open",
+   "status": "decided: 2026-11-23__next-sites",
    "kind": "record",
    "source": "sites.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -144,7 +276,7 @@
    "from": "sites.b",
    "ask": "Chiswick Cheese Market request: add a separate hub visibility field and leave the seed template alone (option b), rather than set it public (a) or derive it (c).",
    "recommendation": "b",
-   "status": "open",
+   "status": "decided: 2026-11-23__cheese-market-visibility",
    "kind": "record",
    "source": "sites.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -153,7 +285,7 @@
    "from": "startups.b, sites.b",
    "ask": "Approve the five startup brochures as they stand on dev (Sovereign-Website 829ddf9, Sgit 9181763, The-Cyber-Boardroom e75a79a, Risk-Mandate 34efe5f, Agentic-Cells e3d4560): sources in one row per section, design chooser in the footer, phone pages under 8,000 px, no text under 15 px. Also: startups.b keeps its own key and name on commits rather than re-authoring as Claude; the AgentiCCells Web Summit team photo is shown only with names Dinis gives.",
    "recommendation": "approve; keep own key; photo only with names given",
-   "status": "open",
+   "status": "decided: 2026-11-23__startup-brochures",
    "kind": "record",
    "source": "startups.b and sites.b, 23 Nov ~15:40 UTC"
   },
@@ -162,7 +294,7 @@
    "from": "design.b, startups.b",
    "ask": "RiskMandate brochure to M5: Dinis looks at risk-mandate.startups.sovereignweb.site (commit 7db7d16, rated 4) and says yes or names changes.",
    "recommendation": "Dinis looks",
-   "status": "open",
+   "status": "open: for Dinis on his return",
    "kind": "Dinis looks",
    "source": "design.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -171,7 +303,7 @@
    "from": "design.b",
    "ask": "How the owner of one personal site made her own changes, so the maturity model can place her truthfully (all of the last 30 commits are by agents).",
    "recommendation": "record the route",
-   "status": "open",
+   "status": "open: for Dinis on his return",
    "kind": "Dinis's answer",
    "source": "design.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -180,7 +312,7 @@
    "from": "observability.b, sites.b",
    "ask": "freeipapi.com seeing visitors' IP addresses (recommend no: approximate country from time zone and language instead); a pilot on sovereignweb.site, whois.tool and one agents page; a twice-daily drain publishing totals; separate vaults for traffic and feedback; who answers for SG/Send write-token scope.",
    "recommendation": "no; yes; yes; yes; Dinis names",
-   "status": "open",
+   "status": "decided: 2026-11-23__observability-pilot",
    "kind": "record",
    "source": "sites.b and b.conductor, 23 Nov ~15:36-15:40 UTC"
   },
@@ -189,7 +321,7 @@
    "from": "sites.b",
    "ask": "The first presentation for dinis-cruz.presentations: which one, and where the file is.",
    "recommendation": "Dinis chooses",
-   "status": "open",
+   "status": "open: for Dinis on his return",
    "kind": "Dinis's answer",
    "source": "sites.b, 23 Nov ~15:36-15:40 UTC"
   },
@@ -198,7 +330,7 @@
    "from": "conductor.mistral",
    "ask": "Confirm after the fact 030685f on Site__Provider__Mistral (policy page and ABP, live since 21 Nov 17:26 UTC on a relayed word). Also only Dinis can: delete branch review/team-demo, confirm the QR key format on /promptugal/ask/, decide on /browser/keys/ (security.b review 009).",
    "recommendation": "confirm",
-   "status": "open",
+   "status": "decided: 2026-11-23__mistral-policy-confirmed",
    "kind": "record",
    "source": "conductor.mistral, 23 Nov ~15:36-15:40 UTC"
   },
@@ -207,7 +339,7 @@
    "from": "b.conductor (older)",
    "ask": "Who keeps sovereignwebsite.ai, .org and .site; accountant.agents.sovereignweb.site; a budget for the librarian's first run; a photo credit on Grace's site; the Algarve Evolution vault check before retiring the old site; the DC Vault manager's key, and whether agents back up private keys with decisions.b.",
    "recommendation": "none given",
-   "status": "open",
+   "status": "open: for Dinis on his return",
    "kind": "Dinis's answers",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC"
   },
@@ -225,7 +357,7 @@
    "from": "algarve-evolution.b",
    "ask": "Confirm the move of the old Algarve Evolution site into the new site's private vault (sealed 20 Nov, ciphertext only); then, once Dinis has saved the read key and QR and checked they open the site, algarve-evolution.b deletes its own copies; vault keys stay with Dinis only (no master-vault agent); the old agenticcells site and repository are retired later by AgentiCCells.",
    "recommendation": "confirm; yes once checked; Dinis only",
-   "status": "open",
+   "status": "open: one-way door, held for Dinis's explicit answer",
    "kind": "record (deleting is a one-way door)",
    "source": "algarve-evolution.b, 23 Nov ~15:40 UTC"
   },
@@ -234,7 +366,7 @@
    "from": "sotavento.b",
    "ask": "Rewrite dev's history on Site__Invest__Sotavento to drop five old vault zips (about 36 MB of ciphertext), re-sign 14 commits and force-push with a lease; tags moved or deleted as Dinis prefers. The tree stays identical. Or leave history as it is. Second: offer its published-vault viewer mode to hub.b and factory.b for the gate template.",
    "recommendation": "yes (or leave it: nothing is exposed)",
-   "status": "open",
+   "status": "open: one-way door, held for Dinis's explicit answer",
    "kind": "Dinis's word (history rewrite is a one-way door)",
    "source": "sotavento.b, 23 Nov ~15:40 UTC"
   },
@@ -243,7 +375,7 @@
    "from": "perspace.b",
    "ask": "Publish 7bc8476 to Site__Company__Perspace dev: the sealed vault (ciphertext only); key, link and QR go only to Dinis. Keep the address perspace.company.sovereignweb.site.",
    "recommendation": "yes; keep the address",
-   "status": "open",
+   "status": "decided: 2026-11-23__perspace-vault",
    "kind": "record",
    "source": "perspace.b, 23 Nov ~15:40 UTC"
   }

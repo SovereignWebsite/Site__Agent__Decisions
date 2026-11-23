@@ -1,0 +1,26 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "ok, can you sign all those that you recommend (I just reviewed them and they are ok)",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72",
+  "at": "2026-11-23T15:54:40Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "answers": "decisions.b's list of asks at https://decisions.agents.sovereignweb.site/asks/ (commit 360419e) and its message to Dinis of ~15:40 UTC; Dinis approved every item decisions.b recommended, as recommended.",
+  "id": "2026-11-23__perspace-vault",
+  "ask": 23,
+  "kind": "push",
+  "decision": "perspace.b may push 7bc8476 \"Gated site: publish the sealed Perspace vault (ciphertext only)\" to Site__Company__Perspace dev; the read key, link and QR go only to Dinis. The address stays perspace.company.sovereignweb.site.",
+  "scope": {
+    "repository": "SovereignWebsite/Site__Company__Perspace",
+    "branch": "dev",
+    "paths": [
+      "site/private/330c90d90da5421a.zip",
+      "site/index.html"
+    ],
+    "commits": 1
+  },
+  "expires": "2026-11-25T15:54:40Z"
+}
