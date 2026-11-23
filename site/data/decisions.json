@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:55:00Z",
+ "updated": "2026-11-23T23:58:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -699,6 +699,16 @@
    "status": "open",
    "kind": "review",
    "source": "conductor.b, 23:22 UTC 23 Nov"
+  },
+  {
+   "n": 45,
+   "account": "E",
+   "from": "maestro.b, a.maestro",
+   "ask": "Start account E (Angelo's account, lent to the team) for the OWASP work. a.maestro's kit (start prompt, QR payload, README) is in PrompTugal__News__Website board/team/maestros/account-e/; security and ABP reviewers check it before the QR code is used. Then Dinis (or Angelo) types one prompt with the QR code on account E; maestro.e sets itself up and takes only signed missions from a.maestro. Mission 2 is already the OWASP London and Lisbon chapters (SovereignWebsite/Site__Platform__Owasp); Dinis's old-wiki design and London history team join it, under the guard in record 2026-11-23__owasp-idea.",
+   "recommendation": "start it once the two reviews pass",
+   "status": "open: waiting for the kit's reviews",
+   "kind": "your act",
+   "source": "maestro.b, 23:21 UTC 23 Nov"
   }
  ]
 }
