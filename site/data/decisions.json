@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:16:00Z",
+ "updated": "2026-11-23T23:20:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -575,6 +575,26 @@
    "status": "open",
    "kind": "choice",
    "source": "conductor.b (fresh session), 23:03 UTC 23 Nov"
+  },
+  {
+   "n": 37,
+   "account": "B",
+   "from": "factory.b, conductor.b",
+   "ask": "Push 7ce3f14 to SovereignWebsite__IaC dev: docs/aws-oidc.md §4 gains a \"Done\" paragraph saying sovereignweb.site is in the AWS role and written, citing DNS apply run 45211861879 (23 Nov 16:02 UTC, all four zones written; decisions.b read the run log). Scope: paths [docs/aws-oidc.md], 1 commit, patch-id 473464a1.",
+   "recommendation": "yes",
+   "status": "open",
+   "kind": "record",
+   "source": "factory.b, 23:12 UTC 23 Nov"
+  },
+  {
+   "n": 38,
+   "account": "B",
+   "from": "factory.b, conductor.b",
+   "ask": "Push 0048389 to SovereignWebsite__IaC: policy/abp.json line 496, state text only (the DNS role is active for all four zones), no permission changes. policy/ is always-ask, so no record covers it: Dinis says yes in factory.b's session, or edits it himself.",
+   "recommendation": "yes, in factory.b's session",
+   "status": "open",
+   "kind": "your word, in its session",
+   "source": "factory.b, 23:12 UTC 23 Nov"
   }
  ]
 }
