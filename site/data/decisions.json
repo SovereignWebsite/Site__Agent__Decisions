@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:05:00Z",
+ "updated": "2026-11-23T23:06:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -543,6 +543,16 @@
    "status": "open",
    "kind": "choice",
    "source": "conductor.b (fresh session), 22:49 UTC 23 Nov"
+  },
+  {
+   "n": 36,
+   "account": "B",
+   "from": "conductor.b, factory.b",
+   "ask": "Start the weather-demo move between organisations, now that the transfer App is on SovereignWebsite: in SovereignWebsite__IaC, Actions, Transfer apply, Run workflow, request 2026-11-20__weather-demo, then approve the apply job in the transfer environment. conductor.b says Dinis's yes to move weather-demo for real was given earlier (not recorded by decisions.b). factory.b reads the run. The dinis-cruz move stays dry-run until Dinis says go and answers the consent question in its NOTES.md.",
+   "recommendation": "run it; it is also the first real check of the App",
+   "status": "open",
+   "kind": "choice",
+   "source": "conductor.b (fresh session), 23:03 UTC 23 Nov"
   }
  ]
 }
