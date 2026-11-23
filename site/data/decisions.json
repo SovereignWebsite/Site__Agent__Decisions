@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T22:52:00Z",
+ "updated": "2026-11-23T22:55:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -522,6 +522,16 @@
    "status": "open",
    "kind": "choice",
    "source": "feedback.b, 22:49 UTC 23 Nov"
+  },
+  {
+   "n": 35,
+   "account": "B",
+   "from": "conductor.b (fresh session)",
+   "ask": "Give the fresh conductor.b session push access to SovereignWebsite__Website (sovereignwebsite.ai), which the hand-over says conductor.b keeps. Adding a repository to a session is a harness setting: Dinis adds it himself, or allows the add-repository tool in conductor.b's session. No commit involved; until then conductor.b makes no changes to the Website. Also noted: feedback.b's two sealed key backups stay unopened in the old conductor container; feedback.b re-seals them to the new conductor's key only on Dinis's yes in feedback.b's session.",
+   "recommendation": "yes, so sovereignwebsite.ai has a keeper again",
+   "status": "open",
+   "kind": "choice",
+   "source": "conductor.b (fresh session), 22:49 UTC 23 Nov"
   }
  ]
 }
