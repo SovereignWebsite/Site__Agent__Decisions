@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T16:23:20Z",
+ "updated": "2026-11-23T16:54:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -432,6 +432,15 @@
    "status": "open",
    "kind": "Dinis's answer (money: a one-way door)",
    "source": "design.b, ~16:22 UTC 23 Nov; strategy.b, 16:25 UTC"
+  },
+  {
+   "n": 30,
+   "from": "design.b, sites.b",
+   "ask": "Should the Car Buyer tool fetch DVLA vehicle and MOT data itself, as an opt-in, using the visitor's own API keys, instead of sending people to other sites to paste the registration? Its design round gives 3 of 5 \"would you use this?\", and the nos say \"It checks nothing itself\". If yes: security.b reviews key handling (keys stay in the visitor's browser, never sent to us); the policy page declares the requests to other hosts; the costs and terms of the DVLA and MOT APIs are cited.",
+   "recommendation": "yes, as an opt-in, after the five designs are in",
+   "status": "open",
+   "kind": "record",
+   "source": "design.b, 16:53 UTC 23 Nov"
   }
  ]
 }
