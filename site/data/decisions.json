@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T22:58:00Z",
+ "updated": "2026-11-23T23:00:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -416,7 +416,7 @@
   {
    "n": 24,
    "from": "b.conductor, accountant.b",
-   "ask": "Amend 2026-11-23__go-to-market-wakes on cost (the wakes as signed cost more than planned at today's context sizes): hand conductor.b and hub.b to fresh sessions before the first wake and again before about 300k context; wake only 07:00 to 22:00 UTC, with a one-line skip when nothing changed; conductor.b and sites.b hourly, hub.b and design.b.rounds every 2 hours. Roughly half the cost to 30 Nov; each wake reports its cost daily. Also: creating the scheduled task is a harness setting, refused in hub.b's session, so it is Dinis's to allow. Update 22:51 UTC: Dinis said yes in conductor.b's session (22:45 UTC); waiting for his words in decisions.b's session. accountant.b's four scheduled tasks are collated on IaC dev at board/2026-11-23__wake-schedule.md (4ce93c1); setting them up is Dinis's. Three points for him: (1) the hourly runs end between 22:31 and 22:43 UTC, after the 22:00 end: keep, or end at 21:00; (2) the old conductor's scheduled task still points at the retired session: switch it off or repoint it; (3) hub.b and sites.b need fresh sessions before their wakes start.",
+   "ask": "Amend 2026-11-23__go-to-market-wakes on cost (the wakes as signed cost more than planned at today's context sizes): hand conductor.b and hub.b to fresh sessions before the first wake and again before about 300k context; wake only 07:00 to 22:00 UTC, with a one-line skip when nothing changed; conductor.b and sites.b hourly, hub.b and design.b.rounds every 2 hours. Roughly half the cost to 30 Nov; each wake reports its cost daily. Also: creating the scheduled task is a harness setting, refused in hub.b's session, so it is Dinis's to allow. Update 22:51 UTC: Dinis said yes in conductor.b's session (22:45 UTC); waiting for his words in decisions.b's session. accountant.b's four scheduled tasks are collated on IaC dev at board/2026-11-23__wake-schedule.md (4ce93c1); setting them up is Dinis's. Update 22:52 UTC: accountant.b corrected the schedule so every wake ends before 22:00 UTC, 45 wakes a day (note updated, d969ba6). Two points for him: (2) the old conductor's scheduled task still points at the retired session: switch it off or repoint it; (3) hub.b and sites.b need fresh sessions before their wakes start.",
    "recommendation": "yes to all three",
    "status": "open",
    "kind": "record (amends ask 4)",
