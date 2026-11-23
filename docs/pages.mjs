@@ -94,7 +94,7 @@ out('/', page({ path: '/', title: 'Decisions', description: "Dinis Cruz's decisi
 <li>The same key in the team's published keys (<a href="https://github.com/SovereignWebsite/SovereignWebsite__IaC/blob/dev/team/keys.json">team/keys.json</a>).</li>
 <li>Its signature on each record, and the record's scope against the commits an agent pushes.</li>
 </ol>
-<p><a href="/verify/">How to check a record yourself</a>. <a href="/modes/">Which decisions need what</a>.</p>
+<p><a href="/verify/">How to check a record yourself</a>. <a href="/modes/">Which decisions need what</a>. Debriefs: <a href="/debriefs/2026-11-23.pdf">23 November 2026 (PDF)</a>.</p>
 <h2>Next</h2>
 <p>Today Dinis gives his yes in the decisions agent's session, and signs the hardest ones on pki.sgit.ai. The plan is for him to sign every decision on this site himself, with CryptoVolt. That is planned, not built.</p>` }));
 
