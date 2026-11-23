@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:12:00Z",
+ "updated": "2026-11-23T23:15:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -280,7 +280,7 @@
    "from": "feedback.b",
    "ask": "Whether feedback.b may accept decisions.b's signed records as Dinis's yes. Its rule takes his word only in its own session, so he would need to say this there once.",
    "recommendation": "yes, said in feedback.b's session",
-   "status": "decided: 2026-11-23__asks-2-to-21",
+   "status": "decided: 2026-11-23__asks-2-to-21; still needs one line from Dinis in feedback.b's session",
    "kind": "Dinis's word in feedback.b's session",
    "source": "feedback.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
