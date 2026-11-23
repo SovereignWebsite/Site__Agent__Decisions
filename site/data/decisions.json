@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T16:03:10Z",
+ "updated": "2026-11-23T16:17:04Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -405,6 +405,24 @@
    "status": "open",
    "kind": "record",
    "source": "factory.b, 16:01 UTC 23 Nov"
+  },
+  {
+   "n": 27,
+   "from": "suno.b",
+   "ask": "One commit to site/policy/index.html on Site__Platform__Suno: add \"Unofficial: not affiliated with Suno.\" to the policy page footer, as on every other page (the site's policy needs the owner's yes for site/policy/).",
+   "recommendation": "yes",
+   "status": "open",
+   "kind": "record",
+   "source": "suno.b, 16:20 UTC 23 Nov"
+  },
+  {
+   "n": 28,
+   "from": "suno.b",
+   "ask": "Spend cap for new Suno songs (2,350 song credits left this month, renews 13 Dec; each call makes 2 songs): 100 song credits until 30 Nov, each call logged with its cost, none made without a reason Dinis gave. Pre-release downloads (15 left): none until voting runs or Dinis names songs, then at most 5 this month.",
+   "recommendation": "yes to both caps",
+   "status": "open",
+   "kind": "Dinis's answer (money: a one-way door)",
+   "source": "suno.b, 16:20 UTC 23 Nov"
   }
  ]
 }
