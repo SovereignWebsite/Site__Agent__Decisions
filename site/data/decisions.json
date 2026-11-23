@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T15:13:17Z",
+ "updated": "2026-11-23T15:34:09Z",
  "decisions": [
   {
    "id": "2026-11-23__car-buyer",
@@ -36,6 +36,69 @@
    "status": "note",
    "pushed_by": "not yet: factory.b, on Dinis's yes in its session",
    "event_uuid": "17473ce6-7416-42f1-bad8-aed1e97fc3fb"
+  }
+ ],
+ "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\".",
+ "asks": [
+  {
+   "from": "b.conductor",
+   "ask": "four strategy decisions, and IaC access for b.strategy and d.strategy",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "b.hub",
+   "ask": "where \"I want one\" leads",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "b.strategy",
+   "ask": "push access to the factory repository",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "b.suno",
+   "ask": "publish 20 more songs",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "b.newsroom",
+   "ask": "go ahead to write the article",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "b.grace",
+   "ask": "whether browser 69ce5295369f7ead is Dinis's",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "b.security",
+   "ask": "about 10 items",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "b.observability",
+   "ask": "5 questions",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "b.emily, b.perspace, b.algarve-evolution",
+   "ask": "handover and publish asks",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+  },
+  {
+   "from": "account D's Decision Desk",
+   "ask": "about 20 items",
+   "status": "open, details not yet received",
+   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
   }
  ]
 }

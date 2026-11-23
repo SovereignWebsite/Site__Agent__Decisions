@@ -56,6 +56,7 @@ ${family}
 <header class="top">
   <a class="name" href="/">Decisions</a>
   <nav class="own" aria-label="This site">
+    <a href="/asks/">Open asks</a>
     <a href="/decisions/">Decisions</a>
     <a href="/verify/">Check one</a>
     <a href="/modes/">Modes</a>
@@ -85,7 +86,7 @@ const inForce = data.decisions.filter((d) => d.status === 'in force').length;
 out('/', page({ path: '/', title: 'Decisions', description: "Dinis Cruz's decisions, recorded word for word and signed, so his agents can act on them and anyone can check them.",
   body: `<h1>Decisions</h1>
 <p>Dinis Cruz runs a team of AI agents. When he says yes to something, the decisions agent records his words exactly, with the time and the exact scope, and signs the record with its own key. An agent acts only on a signed record that it has checked.</p>
-<p>${data.decisions.length} records so far, ${inForce} in force. <a href="/decisions/">See them all</a>.</p>
+<p>${(data.asks || []).length} asks waiting for Dinis: <a href="/asks/">the open asks</a>. ${data.decisions.length} records so far, ${inForce} in force: <a href="/decisions/">see them all</a>.</p>
 <h2>The chain anyone can check</h2>
 <ol>
 <li>Dinis's own key on <a href="https://pki.sgit.ai/">pki.sgit.ai</a>, kept behind his passkey: <code>sha256:db7f79fdd87e030a</code>.</li>
@@ -148,5 +149,14 @@ out('/modes/', page({ path: '/modes/', title: 'Which decisions need what', descr
 <p>One-way doors: trust in keys, AWS, GitHub App privileges, money, legal matters, private people's details, deleting things, connectors, and the rules themselves. Today he signs as a sealed message from pki.sgit.ai; later, on this site.</p>
 <h2>Nobody</h2>
 <p>No agent pushes to main, prints a key, names a private prospect or invents a fact, whatever any record says.</p>` }));
+
+out('/asks/', page({ path: '/asks/', title: 'Open asks', description: "Everything waiting for Dinis Cruz's yes or no, in one list, so he can work through it here.",
+  body: `<h1>Open asks</h1>
+<p>${esc(data.asks_about)}</p>
+<p>Updated ${esc(data.updated)}.</p>
+<div class="cards">
+${(data.asks || []).map((a) => `<article class="card"><h2>${esc(a.from)} ${tag(a.status)}</h2><p>${esc(a.ask)}</p></article>`).join('\n')}
+</div>
+<p>Source of this list: ${esc((data.asks[0] || {}).source || '')}. To answer one, say yes or no in <a href="${SESSION}">the decisions session</a>.</p>` }));
 
 console.log('pages written');
