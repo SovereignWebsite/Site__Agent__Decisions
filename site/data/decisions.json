@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T01:12:00Z",
+ "updated": "2026-11-24T01:14:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -905,6 +905,16 @@
    "status": "open",
    "kind": "record",
    "source": "factory.b, 23:36 UTC 23 Nov"
+  },
+  {
+   "n": 52,
+   "account": "B",
+   "from": "factory.b, security.b",
+   "ask": "Push 7f2a68f (stacked on b53aef0): an 'Owner override:' line counts only on a commit GitHub verified as a person's (a web edit or the person's own signed commit); an agent's override line is ignored and the commit refused. Today any agent with push can write the line itself. Cost: to override, Dinis or the site's owner makes that commit themselves; an agent can no longer do it on their say-so. Patch-id e5acb170.",
+   "recommendation": "factory.b and security.b: yes. decisions.b: Dinis's call; it closes a real gap but adds a step only a person can take",
+   "status": "open",
+   "kind": "record",
+   "source": "factory.b, 23:37 UTC 23 Nov"
   }
  ]
 }
