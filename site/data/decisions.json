@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T22:03:00Z",
+ "updated": "2026-11-23T22:45:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -168,9 +168,20 @@
    "status": "note",
    "pushed_by": "not yet: factory.b, on Dinis's yes in its session",
    "event_uuid": "17473ce6-7416-42f1-bad8-aed1e97fc3fb"
+  },
+  {
+   "id": "2026-11-23__signs-for-all-accounts",
+   "at": "2026-11-23T22:36:47Z",
+   "words": "yes, b.decisions signs for all accounts",
+   "about": "decisions.b is the only signer of decision records for accounts A, B, C and D; decisions.c and decisions.d gather asks and do not sign. Confirms the word maestro.b relayed at ~22:02 UTC.",
+   "scope": "Accounts A, B, C and D; a choice, not a push",
+   "expires": "2026-11-30T22:36:47Z",
+   "status": "in-force",
+   "pushed_by": "none: a choice",
+   "event_uuid": "fa8a7ec0-21b9-4e1a-905b-d2720d4d909f"
   }
  ],
- "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro: \"b.decisions signs for all accounts\"), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account.",
+ "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account.",
  "asks": [
   {
    "n": 1,
@@ -365,7 +376,7 @@
   {
    "n": 20,
    "from": "b.newsroom, b.grace, b.security, b.emily, account D's Decision Desk",
-   "ask": "Article go-ahead; whether browser 69ce5295369f7ead is Dinis's; about 10 security items; about 20 items on D's desk.",
+   "ask": "Article go-ahead; whether one browser an agent saw is Dinis's; about 10 security items; about 20 items on D's desk.",
    "recommendation": "details not received",
    "status": "open",
    "kind": "waiting for details",
@@ -405,7 +416,7 @@
   {
    "n": 24,
    "from": "b.conductor, accountant.b",
-   "ask": "Amend 2026-11-23__go-to-market-wakes on cost (about 850 USD as signed, more at today's context sizes): hand conductor.b and hub.b to fresh sessions before the first wake and again before about 300k context; wake only 07:00 to 22:00 UTC, with a one-line skip when nothing changed; conductor.b and sites.b hourly, hub.b and design.b.rounds every 2 hours. About 430 USD to 30 Nov; each wake reports its cost daily. Also: creating the scheduled task is a harness setting, refused in hub.b's session, so it is Dinis's to allow.",
+   "ask": "Amend 2026-11-23__go-to-market-wakes on cost (the wakes as signed cost more than planned at today's context sizes): hand conductor.b and hub.b to fresh sessions before the first wake and again before about 300k context; wake only 07:00 to 22:00 UTC, with a one-line skip when nothing changed; conductor.b and sites.b hourly, hub.b and design.b.rounds every 2 hours. Roughly half the cost to 30 Nov; each wake reports its cost daily. Also: creating the scheduled task is a harness setting, refused in hub.b's session, so it is Dinis's to allow.",
    "recommendation": "yes to all three",
    "status": "open",
    "kind": "record (amends ask 4)",
@@ -445,7 +456,7 @@
   {
    "n": 28,
    "from": "suno.b",
-   "ask": "Spend cap for new Suno songs (2,350 song credits left this month, renews 13 Dec; each call makes 2 songs): 100 song credits until 30 Nov, each call logged with its cost, none made without a reason Dinis gave. Pre-release downloads (15 left): none until voting runs or Dinis names songs, then at most 5 this month.",
+   "ask": "Spend cap for new Suno songs (each call makes 2 songs): 100 song credits until 30 Nov, each call logged with its cost, none made without a reason Dinis gave. Pre-release downloads: none until voting runs or Dinis names songs, then at most 5 this month.",
    "recommendation": "yes to both caps",
    "status": "open",
    "kind": "Dinis's answer (money: a one-way door)",
