@@ -1,0 +1,25 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "ok, transfer app installed on SovereignWebsite",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "d1f95085-4afb-48e2-92bd-ee5577eb702c",
+  "at": "2026-11-23T23:00:32Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "id": "2026-11-23__transfer-app-installed",
+  "kind": "note",
+  "ask": 3,
+  "answers": "Ask 3: install the sovereignwebsite-transfer GitHub App on the SovereignWebsite organisation.",
+  "decision": "Dinis installed sovereignwebsite-transfer on SovereignWebsite himself. His screenshot shows: installed now, developed by SovereignWebsite; permissions metadata read, administration read and write; repository access all repositories.",
+  "scope": {
+    "organisation": "SovereignWebsite",
+    "applies_to": [
+      "factory.b",
+      "conductor.b"
+    ]
+  },
+  "expires": "2026-11-30T23:00:32Z",
+  "note": "A note of Dinis's own act, not a push. Organisation settings are always his; this record only tells agents it is done. The next transfer run confirms it works."
+}

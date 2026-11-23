@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:00:00Z",
+ "updated": "2026-11-23T23:02:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -179,6 +179,17 @@
    "status": "in-force",
    "pushed_by": "none: a choice",
    "event_uuid": "fa8a7ec0-21b9-4e1a-905b-d2720d4d909f"
+  },
+  {
+   "id": "2026-11-23__transfer-app-installed",
+   "at": "2026-11-23T23:00:32Z",
+   "words": "ok, transfer app installed on SovereignWebsite",
+   "about": "Ask 3 done by Dinis: sovereignwebsite-transfer installed on the SovereignWebsite organisation (metadata read, administration read and write, all repositories).",
+   "scope": "SovereignWebsite organisation; a note of Dinis's own act",
+   "expires": "2026-11-30T23:00:32Z",
+   "status": "note",
+   "pushed_by": "none: Dinis's act",
+   "event_uuid": "d1f95085-4afb-48e2-92bd-ee5577eb702c"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account.",
@@ -208,7 +219,7 @@
    "from": "b.conductor",
    "ask": "Install the sovereignwebsite-transfer GitHub App on the SovereignWebsite organisation; every transfer now gets 403.",
    "recommendation": "yes",
-   "status": "open: for Dinis on his return",
+   "status": "done",
    "kind": "Dinis acts (GitHub App)",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
