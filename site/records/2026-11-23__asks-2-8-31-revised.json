@@ -1,0 +1,49 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "So on this one, Okay. So why would strategy, Grace, need push access to this IAC website? They don't, right? They should be pushing their keys to their own repos, and the IAC is the only one that can connect to it. Yeah, fair enough. Mistral key only can read. I agree, right? That's fine. That's how it should work. And I don't. Okay, I need more detail on 6 and 7 to reach, but the feedback basically is the one that we're having Grace, right? We need also basically on this one, on 31, let's not name her for now. We can feature on the website, that's fine. Sorry, we can feature on the website because we can list it. I just don't see how we don't need to be marketing. And one word to feedback be no, all the feedback should always be driven by QR codes. Does that make sense?",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "742dacbe-cbdd-4104-a834-d97cc36d7a7b",
+  "at": "2026-11-23T23:14:43Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "id": "2026-11-23__asks-2-8-31-revised",
+  "kind": "choice",
+  "answers": "Page 4 of decisions.b's briefing 'Your next decisions' (Only you can do: asks 2, 3, 5, 8 and 31), which Dinis pasted.",
+  "supersedes": {
+    "2026-11-23__asks-2-to-21": [
+      "2",
+      "8"
+    ],
+    "2026-11-23__asks-22-to-32": [
+      "31"
+    ]
+  },
+  "decisions": {
+    "2": "No push access to SovereignWebsite__IaC for strategy.b, grace.b or strategy.d. Agents publish their keys in their own repositories; only the IaC pipelines connect to the IaC repository.",
+    "5": "Yes, confirmed: mistral.conductor keeps its signing key in a file only it can read.",
+    "8": "No: feedback.b is not told to act on decisions.b's signed records. All feedback is driven by QR codes (the sealed, QR-connected lanes).",
+    "31": "The first handed-over site may be listed on our website, without naming its owner for now. No marketing beyond the listing."
+  },
+  "open": "Dinis asks for more detail on asks 6 (the hub's 'I want one' form) and 7 (the Messages pane plan) before they go further.",
+  "scope": {
+    "accounts": [
+      "B",
+      "D"
+    ],
+    "applies_to": [
+      "strategy.b",
+      "grace.b",
+      "strategy.d",
+      "conductor.b",
+      "mistral.conductor",
+      "conductor.mistral",
+      "feedback.b",
+      "sites.b",
+      "hub.b"
+    ]
+  },
+  "expires": "2026-11-30T23:14:43Z",
+  "note": "A choice, not a push. Where it differs from the earlier records named in supersedes, this record holds."
+}

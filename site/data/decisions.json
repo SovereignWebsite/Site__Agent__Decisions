@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T23:20:00Z",
+ "updated": "2026-11-23T23:22:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -212,6 +212,17 @@
    "status": "in-force",
    "pushed_by": "none: a choice",
    "event_uuid": "9de4cf8a-4ef3-48a6-9350-2fd5fee8210e"
+  },
+  {
+   "id": "2026-11-23__asks-2-8-31-revised",
+   "at": "2026-11-23T23:14:43Z",
+   "words": "So why would strategy, Grace, need push access to this IAC website? They don't, right? They should be pushing their keys to their own repos, and the IAC is the only one that can connect to it. ... on 31, let's not name her for now. We can feature on the website ... And one word to feedback be no, all the feedback should always be driven by QR codes.",
+   "about": "Revises 2 (no IaC push access: agents publish keys in their own repositories), 8 (no: feedback is driven by QR codes) and 31 (list the site on our website, owner not named). Confirms 5. Asks for more detail on 6 and 7.",
+   "scope": "Accounts B and D; a choice; supersedes parts of 2026-11-23__asks-2-to-21 and 2026-11-23__asks-22-to-32",
+   "expires": "2026-11-30T23:14:43Z",
+   "status": "in-force",
+   "pushed_by": "none: a choice",
+   "event_uuid": "742dacbe-cbdd-4104-a834-d97cc36d7a7b"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account.",
@@ -231,7 +242,7 @@
    "from": "b.conductor, strategy.b",
    "ask": "Push access to SovereignWebsite__IaC for strategy.b, grace.b and strategy.d, so each can publish its own key (strategy.b's key commit 4e0809a is ready). Then strategy.b pushes its own pages (3c4d399) to Site__Agent__Strategy.",
    "recommendation": "yes",
-   "status": "decided: 2026-11-23__asks-2-to-21",
+   "status": "decided: no (2026-11-23__asks-2-8-31-revised)",
    "kind": "Dinis acts (access)",
    "source": "b.conductor and strategy.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -261,7 +272,7 @@
    "from": "mistral.conductor",
    "ask": "Write its signing key to a file only it can read, so it can sign its waiting roster update for Site__Provider__Mistral.",
    "recommendation": "yes",
-   "status": "decided: 2026-11-23__asks-2-to-21",
+   "status": "decided: 2026-11-23__asks-2-to-21, confirmed in 2026-11-23__asks-2-8-31-revised",
    "kind": "Dinis's word (key handling)",
    "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -271,7 +282,7 @@
    "from": "feedback.b, design.b, hub.b",
    "ask": "The hub's public \"I want one\" form at /start/#get-one with the offer line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\" Who reads the requests (Dinis only, or outreach.b too); security.b and design.b review the form before it goes live.",
    "recommendation": "yes; Dinis reads; reviews yes",
-   "status": "decided: 2026-11-23__hub-get-one-form",
+   "status": "decided: 2026-11-23__hub-get-one-form; Dinis asks for more detail",
    "kind": "record",
    "source": "feedback.b, design.b and hub.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -281,7 +292,7 @@
    "from": "feedback.b",
    "ask": "Messages pane plan: status per message (received, picked up, answered, each signed), a Reply button, a phone layout, and four agents (one per account) claiming messages on staggered hourly rounds. Dinis to name the four agents.",
    "recommendation": "yes",
-   "status": "decided: 2026-11-23__messages-pane-plan",
+   "status": "decided: 2026-11-23__messages-pane-plan; Dinis asks for more detail",
    "kind": "record",
    "source": "feedback.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -291,7 +302,7 @@
    "from": "feedback.b",
    "ask": "Whether feedback.b may accept decisions.b's signed records as Dinis's yes. Its rule takes his word only in its own session, so he would need to say this there once.",
    "recommendation": "yes, said in feedback.b's session",
-   "status": "decided: 2026-11-23__asks-2-to-21; still needs one line from Dinis in feedback.b's session",
+   "status": "decided: no, feedback is driven by QR codes (2026-11-23__asks-2-8-31-revised)",
    "kind": "Dinis's word in feedback.b's session",
    "source": "feedback.b, 23 Nov ~15:36-15:40 UTC",
    "account": "B"
@@ -521,7 +532,7 @@
    "from": "sites.b",
    "ask": "May our own marketing pages feature one site owner's handed-over site as the example (a screenshot, her name and role, \"she changes it herself\", a link)? Her consent to her own public site is recorded; consent to be featured is not. Until then she has been removed from the Sovereign Website brochure and the pipeline demo's /workflow/ page (now showing Car Buyer instead). The design round found her site was \"the first pull to yes\".",
    "recommendation": "Dinis asks her; if she agrees, record it and both pages can use her again",
-   "status": "closed: 2026-11-23__asks-22-to-32",
+   "status": "decided: list the site, owner not named (2026-11-23__asks-2-8-31-revised)",
    "kind": "Dinis acts (a person's consent)",
    "source": "sites.b, 17:04 UTC 23 Nov",
    "account": "B"
