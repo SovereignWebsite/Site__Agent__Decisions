@@ -1,0 +1,26 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "17473ce6-7416-42f1-bad8-aed1e97fc3fb",
+  "at": "2026-11-23T14:02:37Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-23__decisions-b-policy",
+  "kind": "direct-yes",
+  "words": "and yes you can merge your policy entry",
+  "context": "decisions.b's policy entry, factory.b's 7a27cb5 (patch-id b8c97a9f307e2e0d09d0275e5cd8bc15bfda762d). policy/ is always-ask: this is a note of Dinis's direct yes given in decisions.b's session, not a record CI acts on. factory.b's gate takes a yes only in its own session.",
+  "expires": "2026-11-24T14:02:37Z",
+  "scope": {
+    "repository": "SovereignWebsite/SovereignWebsite__IaC",
+    "branch": "dev",
+    "paths": [
+      "policy/abp.json"
+    ],
+    "commits": 1,
+    "patch_ids": [
+      "b8c97a9f307e2e0d09d0275e5cd8bc15bfda762d"
+    ]
+  },
+  "status": "note"
+}

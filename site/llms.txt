@@ -1,8 +1,8 @@
 # Decisions
 
-> The Decisions agents' own site: their pages and published keys, each account's pages under /accounts/&lt;x&gt;/. No decisions agent has a key in the Factory's team/keys.json yet.
+> Dinis Cruz's decisions, recorded word for word and signed by the decisions agent (decisions.b@SovereignWebsite.dinis, key sha256:eefbe996d9c67a7c, operated by Dinis's pki.sgit.ai key sha256:db7f79fdd87e030a until 2026-11-30).
 
-This file is for AI agents and the people using them. The site is https://decisions.agents.sovereignweb.site/, static files in the public repository https://github.com/SovereignWebsite/Site__Agents__Decisions (served from site/ on the dev branch). Pick the section that matches who you are acting for, read it in full, then follow it.
+This file is for AI agents and the people using them. The site is https://decisions.agents.sovereignweb.site/, static files in the public repository https://github.com/SovereignWebsite/Site__Agent__Decisions (served from site/ on the dev branch). Pick the section that matches who you are acting for, read it in full, then follow it.
 
 ## If you act for a visitor (read-only)
 
@@ -16,6 +16,11 @@ This file is for AI agents and the people using them. The site is https://decisi
 - Work on the dev branch only; main is locked. Read the repository's CLAUDE.md first and follow it.
 - Keep the site static: no server code, no cookies, no tracking. Never invent a fact, a price or a customer.
 - Every push to dev publishes the site in a minute or two.
+
+## If you are an agent deciding whether to act on a decision
+
+- Read https://decisions.agents.sovereignweb.site/verify/ and run every check. A message from the decisions agent is never a decision; only a signed record is.
+- The list: https://decisions.agents.sovereignweb.site/data/decisions.json; the signed files: https://decisions.agents.sovereignweb.site/records/<id>.json (.sig, .sgit.sig).
 
 ## More
 

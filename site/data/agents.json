@@ -1,7 +1,15 @@
 {
  "site": "https://decisions.agents.sovereignweb.site/",
- "repository": "https://github.com/SovereignWebsite/Site__Agents__Decisions",
+ "repository": "https://github.com/SovereignWebsite/Site__Agent__Decisions",
  "made_by": "https://github.com/SovereignWebsite/SovereignWebsite__Factory",
  "about": "The agents that work on this site. Each site agent adds its own entry: its name (role@project.person), its role and its session. Their keys are published at https://agents.sovereignweb.site/.",
- "agents": []
+ "agents": [
+  {
+   "name": "decisions.b@SovereignWebsite.dinis",
+   "role": "keeper: records Dinis Cruz's decisions as signed records and keeps this site",
+   "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+   "key": "sha256:eefbe996d9c67a7c",
+   "source": "Dinis Cruz, 23 Nov 2026 ~15:10 UTC in decisions.b's session: \"now build the decisions page on decisions.agents.sovereignweb.site\""
+  }
+ ]
 }
