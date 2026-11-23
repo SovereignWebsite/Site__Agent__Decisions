@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:40:00Z",
+ "updated": "2026-11-24T00:55:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -815,6 +815,76 @@
    "status": "open",
    "kind": "your word",
    "source": "conductor.b, 23:27 UTC 23 Nov"
+  },
+  {
+   "n": "C1",
+   "account": "C",
+   "from": "studio.c",
+   "ask": "Site__Agent__Studio: a render-reel GitHub Actions workflow (packs/** only, read-only contents, no secrets, actions pinned, 60 minute cap), an experiment Dinis asked for in studio.c's session, signed off after security.b's check.",
+   "recommendation": "yes after security.b's check",
+   "status": "open",
+   "kind": "record",
+   "source": "conductor.c's list (IaC branch work/conductor.c, board/conductor.c/asks-for-b-decisions.md, 23:13 UTC)"
+  },
+  {
+   "n": "C2",
+   "account": "C",
+   "from": "conductor.c",
+   "ask": "Merge work/conductor.c into the IaC (its own policy entry eb940f9 and board); without it every conductor.c commit fails the paths check. policy/ is Dinis's merge.",
+   "recommendation": "yes",
+   "status": "open",
+   "kind": "your word",
+   "source": "conductor.c's list (IaC branch work/conductor.c, board/conductor.c/asks-for-b-decisions.md, 23:13 UTC)"
+  },
+  {
+   "n": "C3",
+   "account": "C",
+   "from": "owasp.c, sherpa.aws.c",
+   "ask": "Key commits 23f6c39 and 294eb9e to the IaC team/keys.json; the OWASP site cannot deploy until owasp.c's key lands. Note: since 23:14 UTC Dinis wants agents to publish keys in their own repositories, so these may move there instead.",
+   "recommendation": "publish in their own repositories (Dinis, 23:14 and 23:30 UTC)",
+   "status": "open",
+   "kind": "your word",
+   "source": "conductor.c's list (IaC branch work/conductor.c, board/conductor.c/asks-for-b-decisions.md, 23:13 UTC)"
+  },
+  {
+   "n": "C4",
+   "account": "C",
+   "from": "factory.c",
+   "ask": "A site request for a person who agreed (a public site, manager group), work/factory.c-ben-fung 6bc2235. Request only; Dinis's merge.",
+   "recommendation": "yes",
+   "status": "open",
+   "kind": "your word",
+   "source": "conductor.c's list (IaC branch work/conductor.c, board/conductor.c/asks-for-b-decisions.md, 23:13 UTC)"
+  },
+  {
+   "n": "C5",
+   "account": "C",
+   "from": "studio.d, studio.c",
+   "ask": "Studio's deploy fails on account D's pages (9 internal links, missing share tags), so account C's work is not live. studio.d fixes, or account C makes the minimal fix; escalate at 01:00 UTC.",
+   "recommendation": "fix by whoever is awake first",
+   "status": "open",
+   "kind": "choice",
+   "source": "conductor.c's list (IaC branch work/conductor.c, board/conductor.c/asks-for-b-decisions.md, 23:13 UTC)"
+  },
+  {
+   "n": "C6",
+   "account": "C",
+   "from": "factory.c",
+   "ask": "Site__Tool__CRM request, work/factory.c-crm 912653c, after Dinis's 'what about Site__Tool__CRM?' at 21:42 UTC.",
+   "recommendation": "yes",
+   "status": "open",
+   "kind": "your word",
+   "source": "conductor.c's list (IaC branch work/conductor.c, board/conductor.c/asks-for-b-decisions.md, 23:13 UTC)"
+  },
+  {
+   "n": "C7",
+   "account": "C",
+   "from": "factory.c",
+   "ask": "Seven .aws.a agents' keys appended to the IaC team/keys.json in one landing (95642de). Same note as C3: own repositories since 23:14 UTC.",
+   "recommendation": "publish in their own repositories",
+   "status": "open",
+   "kind": "your word",
+   "source": "conductor.c's list (IaC branch work/conductor.c, board/conductor.c/asks-for-b-decisions.md, 23:13 UTC)"
   }
  ]
 }
