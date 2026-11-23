@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T15:36:45Z",
+ "updated": "2026-11-23T15:37:30Z",
  "decisions": [
   {
    "id": "2026-11-23__car-buyer",
@@ -150,12 +150,12 @@
   },
   {
    "n": 13,
-   "from": "sites.b",
-   "ask": "Keep the startup brochure rounds already shipped (v0.1.15 to v0.1.27: sources at section ends, design chooser in the footer).",
-   "recommendation": "keep",
+   "from": "startups.b, sites.b",
+   "ask": "Approve the five startup brochures as they stand on dev (Sovereign-Website 829ddf9, Sgit 9181763, The-Cyber-Boardroom e75a79a, Risk-Mandate 34efe5f, Agentic-Cells e3d4560): sources in one row per section, design chooser in the footer, phone pages under 8,000 px, no text under 15 px. Also: startups.b keeps its own key and name on commits rather than re-authoring as Claude; the AgentiCCells Web Summit team photo is shown only with names Dinis gives.",
+   "recommendation": "approve; keep own key; photo only with names given",
    "status": "open",
    "kind": "record",
-   "source": "sites.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "startups.b and sites.b, 23 Nov ~15:40 UTC"
   },
   {
    "n": 14,
@@ -213,12 +213,39 @@
   },
   {
    "n": 20,
-   "from": "b.newsroom, b.grace, b.security, b.emily, b.perspace, b.algarve-evolution, account D's Decision Desk",
-   "ask": "Article go-ahead; whether browser 69ce5295369f7ead is Dinis's; about 10 security items; handover and publish asks; about 20 items on D's desk.",
+   "from": "b.newsroom, b.grace, b.security, b.emily, account D's Decision Desk",
+   "ask": "Article go-ahead; whether browser 69ce5295369f7ead is Dinis's; about 10 security items; about 20 items on D's desk.",
    "recommendation": "details not received",
    "status": "open",
    "kind": "waiting for details",
    "source": "b.maestro, 15:33 UTC 23 Nov"
+  },
+  {
+   "n": 21,
+   "from": "algarve-evolution.b",
+   "ask": "Confirm the move of the old Algarve Evolution site into the new site's private vault (sealed 20 Nov, ciphertext only); then, once Dinis has saved the read key and QR and checked they open the site, algarve-evolution.b deletes its own copies; vault keys stay with Dinis only (no master-vault agent); the old agenticcells site and repository are retired later by AgentiCCells.",
+   "recommendation": "confirm; yes once checked; Dinis only",
+   "status": "open",
+   "kind": "record (deleting is a one-way door)",
+   "source": "algarve-evolution.b, 23 Nov ~15:40 UTC"
+  },
+  {
+   "n": 22,
+   "from": "sotavento.b",
+   "ask": "Rewrite dev's history on Site__Invest__Sotavento to drop five old vault zips (about 36 MB of ciphertext), re-sign 14 commits and force-push with a lease; tags moved or deleted as Dinis prefers. The tree stays identical. Or leave history as it is. Second: offer its published-vault viewer mode to hub.b and factory.b for the gate template.",
+   "recommendation": "yes (or leave it: nothing is exposed)",
+   "status": "open",
+   "kind": "Dinis's word (history rewrite is a one-way door)",
+   "source": "sotavento.b, 23 Nov ~15:40 UTC"
+  },
+  {
+   "n": 23,
+   "from": "perspace.b",
+   "ask": "Publish 7bc8476 to Site__Company__Perspace dev: the sealed vault (ciphertext only); key, link and QR go only to Dinis. Keep the address perspace.company.sovereignweb.site.",
+   "recommendation": "yes; keep the address",
+   "status": "open",
+   "kind": "record",
+   "source": "perspace.b, 23 Nov ~15:40 UTC"
   }
  ]
 }
