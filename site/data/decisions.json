@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T17:05:10Z",
+ "updated": "2026-11-23T18:06:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -450,6 +450,15 @@
    "status": "open",
    "kind": "Dinis acts (a person's consent)",
    "source": "sites.b, 17:04 UTC 23 Nov"
+  },
+  {
+   "n": 32,
+   "from": "sites.b, design.b.rounds",
+   "ask": "Car Buyer's look has stayed at 3.4 for four design rounds (5 of 5 testers would use it and show a friend). Either (a) one credited real photograph per design, of something Dinis owns or has rights to (a forecourt, a logbook with details hidden, a windscreen card), or (b) take one design, Road atlas, much further as a real map drawn across the page (no third-party script). Also still open: lifting the draft notice once Dinis has looked at the site.",
+   "recommendation": "(b) first, since it needs nothing from Dinis; (a) only if he has photos he wants used",
+   "status": "open",
+   "kind": "record",
+   "source": "sites.b, 18:05 UTC 23 Nov"
   }
  ]
 }
