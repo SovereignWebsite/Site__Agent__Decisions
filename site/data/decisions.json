@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:25:00Z",
+ "updated": "2026-11-24T00:28:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -736,8 +736,8 @@
    "n": 46,
    "account": "B",
    "from": "factory.b, conductor.b",
-   "ask": "Push c4f3d4a to SovereignWebsite__IaC dev: every site's signer check (nine seed copies of seed/*/.github/ci/signers.mjs, plus test/run.mjs) also accepts a key published in the site's own team/keys.json. The only self-vouching case: a commit that changes only team/keys.json, adds exactly one entry, for the agent named in its own Agent: trailer. Follows record 2026-11-23__asks-2-8-31-revised (keys in agents' own repositories). Scope: those paths, 1 commit, patch-id fbca67d2. A security change: it changes what every new site trusts. Unblocks grace.b's rename (its keeper then copies the file in under grace.b's own approval).",
-   "recommendation": "yes after a security.b review: anyone who can push to a site could then add their own key in one commit, so the review should say what stops that",
+   "ask": "Push f421bad (replaces c4f3d4a) to SovereignWebsite__IaC dev: every site's signer check (seed/**/.github/ci/signers.mjs, plus test/run.mjs) also trusts keys a site publishes itself, one file per agent at site/keys/<name>.json (the convention strategy.b already uses), as they were before each commit. The only self-vouching case: a commit that only adds one new site/keys/<name>.json for its own Agent: trailer. Patch-id f261091f, 1 commit. A security change: every new site trusts what these files say. Unblocks grace.b's rename.",
+   "recommendation": "yes after a security.b review of the first-key case (anyone who can push could add their own key in one commit)",
    "status": "open",
    "kind": "record",
    "source": "factory.b, 23:22 UTC 23 Nov"
@@ -766,9 +766,9 @@
    "n": 49,
    "account": "B",
    "from": "factory.b, conductor.b",
-   "ask": "An exemption in build/check-signatures.mjs for commits b7c8bfd and 5eb7fde (Dinis said on 23 Nov ~01:20 UTC: no re-sign for them, never force-push). The checker is on the always-ask list. Details to come from factory.b.",
-   "recommendation": "wait for factory.b's details",
-   "status": "open: details to come",
+   "ask": "Push 6c668e8 to SovereignWebsite__IaC dev: build/check-signatures.mjs names and skips exactly two known commits, b7c8bfd and 5eb7fde (21 Nov, maestro.d, signed by a key never in team/keys.json; on main via PR #2; Dinis said no re-sign, never force-push). A test pins the list; any other failure still fails. Patch-id f83d312e. The checker is always-ask: Dinis's yes in factory.b's session. Alternative: leave the check failing and accept those two by eye each time.",
+   "recommendation": "yes, in factory.b's session",
+   "status": "open",
    "kind": "your word",
    "source": "conductor.b, 23:27 UTC 23 Nov"
   }
