@@ -155,7 +155,7 @@ out('/asks/', page({ path: '/asks/', title: 'Open asks', description: "Everythin
 <p>${esc(data.asks_about)}</p>
 <p>Updated ${esc(data.updated)}.</p>
 <div class="cards">
-${(data.asks || []).map((a) => `<article class="card"><h2>${esc(a.from)} ${tag(a.status)}</h2><p>${esc(a.ask)}</p><p>Recommendation: ${esc(a.recommendation || 'none given')}. Source: ${esc(a.source)}.</p></article>`).join('\n')}
+${(data.asks || []).map((a) => `<article class="card"><h2>${a.n ? esc(a.n) + '. ' : ''}${esc(a.from)} ${tag(a.status)}</h2><p>${esc(a.ask)}</p><p>Recommendation: ${esc(a.recommendation || 'none given')}. Becomes: ${esc(a.kind || 'record')}. Source: ${esc(a.source)}.</p></article>`).join('\n')}
 </div>
 <p>To answer one, say yes or no in <a href="${SESSION}">the decisions session</a>.</p>` }));
 
