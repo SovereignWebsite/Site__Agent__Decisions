@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T15:34:09Z",
+ "updated": "2026-11-23T15:35:14Z",
  "decisions": [
   {
    "id": "2026-11-23__car-buyer",
@@ -41,64 +41,109 @@
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\".",
  "asks": [
   {
+   "from": "b.conductor, for strategy.b, grace.b and strategy.d",
+   "ask": "Push access to SovereignWebsite__IaC, so each can publish its own key (strategy.b's key commit 4e0809a is ready).",
+   "recommendation": "yes",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
+  },
+  {
    "from": "b.conductor",
-   "ask": "four strategy decisions, and IaC access for b.strategy and d.strategy",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "ask": "Install the sovereignwebsite-transfer GitHub App on the SovereignWebsite organisation; every transfer now gets 403.",
+   "recommendation": "yes",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
   },
   {
-   "from": "b.hub",
-   "ask": "where \"I want one\" leads",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "from": "b.conductor, for design.b",
+   "ask": "Which hourly wakes to turn back on for the go-to-market week: conductor.b, sites.b, hub.b and design.b.rounds, within accountant.b's budget.",
+   "recommendation": "yes to those four",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
   },
   {
-   "from": "b.strategy",
-   "ask": "push access to the factory repository",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "from": "factory.b",
+   "ask": "Push to SovereignWebsite__IaC dev: the six commits, the checker and the policy entry (done), plus 544ecbc.",
+   "recommendation": "yes",
+   "status": "mostly decided: records 2026-11-23__first-push and 2026-11-23__car-buyer; checker and policy entry merged; 544ecbc not yet asked",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
   },
   {
-   "from": "b.suno",
-   "ask": "publish 20 more songs",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "from": "mistral.conductor",
+   "ask": "Write its signing key to a file only it can read, so it can sign its waiting roster update for Site__Provider__Mistral.",
+   "recommendation": "yes",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
+  },
+  {
+   "from": "feedback.b",
+   "ask": "Yes in its own session or as a record for the hub's public \"I want one\" form at /start/#get-one, and for its Messages pane plan.",
+   "recommendation": "yes to both",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
+  },
+  {
+   "from": "strategy.b",
+   "ask": "Which segment leads (it recommends founders and small teams, with personal sites as proof), one price for personal sites before anything is sent, and the first ten contacts (names to Dinis only).",
+   "recommendation": "segment A",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
+  },
+  {
+   "from": "suno.b",
+   "ask": "Suno site feedback form open to anyone or QR only; its spend cap and its Suno key. Also: publish 20 more songs (b.maestro).",
+   "recommendation": "none given",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
+  },
+  {
+   "from": "observability.b",
+   "ask": "May freeipapi.com see visitors' IP addresses; yes or no to a pilot on sovereignweb.site and whois.",
+   "recommendation": "none given",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
+  },
+  {
+   "from": "b.conductor (older, still open)",
+   "ask": "Who keeps sovereignwebsite.ai, .org and .site; accountant.agents.sovereignweb.site; a budget for the librarian's first run; a photo credit on Grace's site; the Algarve Evolution vault check before retiring the old site; the DC Vault manager's key, and whether every agent backs up its private key with decisions.b.",
+   "recommendation": "none given",
+   "status": "open",
+   "source": "sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation"
   },
   {
    "from": "b.newsroom",
-   "ask": "go ahead to write the article",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "ask": "Go ahead to write the article.",
+   "recommendation": "not received",
+   "status": "open",
+   "source": "reported by b.maestro, 15:33 UTC 23 Nov; details not yet received"
   },
   {
    "from": "b.grace",
-   "ask": "whether browser 69ce5295369f7ead is Dinis's",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "ask": "Whether browser 69ce5295369f7ead is Dinis's.",
+   "recommendation": "not received",
+   "status": "open",
+   "source": "reported by b.maestro, 15:33 UTC 23 Nov; details not yet received"
   },
   {
    "from": "b.security",
-   "ask": "about 10 items",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
-  },
-  {
-   "from": "b.observability",
-   "ask": "5 questions",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "ask": "About 10 items.",
+   "recommendation": "not received",
+   "status": "open",
+   "source": "reported by b.maestro, 15:33 UTC 23 Nov; details not yet received"
   },
   {
    "from": "b.emily, b.perspace, b.algarve-evolution",
-   "ask": "handover and publish asks",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "ask": "Handover and publish asks.",
+   "recommendation": "not received",
+   "status": "open",
+   "source": "reported by b.maestro, 15:33 UTC 23 Nov; details not yet received"
   },
   {
    "from": "account D's Decision Desk",
-   "ask": "about 20 items",
-   "status": "open, details not yet received",
-   "source": "reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full"
+   "ask": "About 20 items.",
+   "recommendation": "not received",
+   "status": "open",
+   "source": "reported by b.maestro, 15:33 UTC 23 Nov; details not yet received"
   }
  ]
 }

@@ -63,10 +63,10 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 
 table{width:100%;border-collapse:collapse;font-size:.92rem;margin:1rem 0}th,td{text-align:left;vertical-align:top;padding:.55rem .5rem;border-top:1px solid var(--line)}
 th{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}td{color:var(--fg)}
-.tag{display:inline-block;padding:.05rem .5rem;border-radius:999px;border:1px solid var(--line);font-size:.8rem;white-space:nowrap}
+.tag{display:inline-block;padding:.05rem .5rem;border-radius:999px;border:1px solid var(--line);font-size:.8rem;white-space:normal;overflow-wrap:anywhere}
 .tag.in{border-color:var(--accent);color:var(--accent)}q{font-style:italic}
-.cards{display:grid;gap:1rem;margin:1rem 0}.card{border:1px solid var(--line);border-radius:8px;padding:1rem}
-.card h2{margin:.1rem 0 .4rem;font-size:1.05rem;overflow-wrap:anywhere}.card p{margin:.3rem 0}
+.cards{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem;margin:1rem 0}.card{border:1px solid var(--line);border-radius:8px;padding:1rem}
+.card h2{margin:.1rem 0 .4rem;font-size:1.05rem;overflow-wrap:anywhere}.card p{margin:.3rem 0;overflow-wrap:anywhere}
 .card dl{display:grid;grid-template-columns:7rem 1fr;gap:.2rem .8rem;margin:.6rem 0 0;font-size:.9rem}.card dt{color:var(--muted)}.card dd{margin:0;overflow-wrap:anywhere}
 @media (max-width:40rem){.card dl{grid-template-columns:1fr}.card dt{margin-top:.4rem}}
 </style>
@@ -103,20 +103,25 @@ th{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--mut
 <div class="mark">decisions.agents.sovereignweb.site</div>
 <h1>Open asks</h1>
 <p>Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): &quot;you should be sending this request to the decisions.b agent&quot;.</p>
-<p>Updated 2026-11-23T15:34:09Z.</p>
+<p>Updated 2026-11-23T15:35:14Z.</p>
 <div class="cards">
-<article class="card"><h2>b.conductor <span class="tag">open, details not yet received</span></h2><p>four strategy decisions, and IaC access for b.strategy and d.strategy</p></article>
-<article class="card"><h2>b.hub <span class="tag">open, details not yet received</span></h2><p>where &quot;I want one&quot; leads</p></article>
-<article class="card"><h2>b.strategy <span class="tag">open, details not yet received</span></h2><p>push access to the factory repository</p></article>
-<article class="card"><h2>b.suno <span class="tag">open, details not yet received</span></h2><p>publish 20 more songs</p></article>
-<article class="card"><h2>b.newsroom <span class="tag">open, details not yet received</span></h2><p>go ahead to write the article</p></article>
-<article class="card"><h2>b.grace <span class="tag">open, details not yet received</span></h2><p>whether browser 69ce5295369f7ead is Dinis's</p></article>
-<article class="card"><h2>b.security <span class="tag">open, details not yet received</span></h2><p>about 10 items</p></article>
-<article class="card"><h2>b.observability <span class="tag">open, details not yet received</span></h2><p>5 questions</p></article>
-<article class="card"><h2>b.emily, b.perspace, b.algarve-evolution <span class="tag">open, details not yet received</span></h2><p>handover and publish asks</p></article>
-<article class="card"><h2>account D's Decision Desk <span class="tag">open, details not yet received</span></h2><p>about 20 items</p></article>
+<article class="card"><h2>b.conductor, for strategy.b, grace.b and strategy.d <span class="tag">open</span></h2><p>Push access to SovereignWebsite__IaC, so each can publish its own key (strategy.b's key commit 4e0809a is ready).</p><p>Recommendation: yes. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>b.conductor <span class="tag">open</span></h2><p>Install the sovereignwebsite-transfer GitHub App on the SovereignWebsite organisation; every transfer now gets 403.</p><p>Recommendation: yes. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>b.conductor, for design.b <span class="tag">open</span></h2><p>Which hourly wakes to turn back on for the go-to-market week: conductor.b, sites.b, hub.b and design.b.rounds, within accountant.b's budget.</p><p>Recommendation: yes to those four. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>factory.b <span class="tag">mostly decided: records 2026-11-23__first-push and 2026-11-23__car-buyer; checker and policy entry merged; 544ecbc not yet asked</span></h2><p>Push to SovereignWebsite__IaC dev: the six commits, the checker and the policy entry (done), plus 544ecbc.</p><p>Recommendation: yes. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>mistral.conductor <span class="tag">open</span></h2><p>Write its signing key to a file only it can read, so it can sign its waiting roster update for Site__Provider__Mistral.</p><p>Recommendation: yes. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>feedback.b <span class="tag">open</span></h2><p>Yes in its own session or as a record for the hub's public &quot;I want one&quot; form at /start/#get-one, and for its Messages pane plan.</p><p>Recommendation: yes to both. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>strategy.b <span class="tag">open</span></h2><p>Which segment leads (it recommends founders and small teams, with personal sites as proof), one price for personal sites before anything is sent, and the first ten contacts (names to Dinis only).</p><p>Recommendation: segment A. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>suno.b <span class="tag">open</span></h2><p>Suno site feedback form open to anyone or QR only; its spend cap and its Suno key. Also: publish 20 more songs (b.maestro).</p><p>Recommendation: none given. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>observability.b <span class="tag">open</span></h2><p>May freeipapi.com see visitors' IP addresses; yes or no to a pilot on sovereignweb.site and whois.</p><p>Recommendation: none given. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>b.conductor (older, still open) <span class="tag">open</span></h2><p>Who keeps sovereignwebsite.ai, .org and .site; accountant.agents.sovereignweb.site; a budget for the librarian's first run; a photo credit on Grace's site; the Algarve Evolution vault check before retiring the old site; the DC Vault manager's key, and whether every agent backs up its private key with decisions.b.</p><p>Recommendation: none given. Source: sent by b.conductor, 15:36 UTC 23 Nov, with its recommendation.</p></article>
+<article class="card"><h2>b.newsroom <span class="tag">open</span></h2><p>Go ahead to write the article.</p><p>Recommendation: not received. Source: reported by b.maestro, 15:33 UTC 23 Nov; details not yet received.</p></article>
+<article class="card"><h2>b.grace <span class="tag">open</span></h2><p>Whether browser 69ce5295369f7ead is Dinis's.</p><p>Recommendation: not received. Source: reported by b.maestro, 15:33 UTC 23 Nov; details not yet received.</p></article>
+<article class="card"><h2>b.security <span class="tag">open</span></h2><p>About 10 items.</p><p>Recommendation: not received. Source: reported by b.maestro, 15:33 UTC 23 Nov; details not yet received.</p></article>
+<article class="card"><h2>b.emily, b.perspace, b.algarve-evolution <span class="tag">open</span></h2><p>Handover and publish asks.</p><p>Recommendation: not received. Source: reported by b.maestro, 15:33 UTC 23 Nov; details not yet received.</p></article>
+<article class="card"><h2>account D's Decision Desk <span class="tag">open</span></h2><p>About 20 items.</p><p>Recommendation: not received. Source: reported by b.maestro, 15:33 UTC 23 Nov; details not yet received.</p></article>
 </div>
-<p>Source of this list: reported by b.maestro, 23 Nov 2026 15:33 UTC, from today's agent statuses; not yet sent to decisions.b in full. To answer one, say yes or no in <a href="https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ">the decisions session</a>.</p>
+<p>To answer one, say yes or no in <a href="https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ">the decisions session</a>.</p>
 <footer>
 <nav class="site-links" aria-label="About this site">
   <a href="/start/">Start here</a>

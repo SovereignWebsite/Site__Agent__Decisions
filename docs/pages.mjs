@@ -13,10 +13,10 @@ const family = seed.match(/<details class="family-credit">[\s\S]*?<\/details>/)[
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const extra = `table{width:100%;border-collapse:collapse;font-size:.92rem;margin:1rem 0}th,td{text-align:left;vertical-align:top;padding:.55rem .5rem;border-top:1px solid var(--line)}
 th{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}td{color:var(--fg)}
-.tag{display:inline-block;padding:.05rem .5rem;border-radius:999px;border:1px solid var(--line);font-size:.8rem;white-space:nowrap}
+.tag{display:inline-block;padding:.05rem .5rem;border-radius:999px;border:1px solid var(--line);font-size:.8rem;white-space:normal;overflow-wrap:anywhere}
 .tag.in{border-color:var(--accent);color:var(--accent)}q{font-style:italic}
-.cards{display:grid;gap:1rem;margin:1rem 0}.card{border:1px solid var(--line);border-radius:8px;padding:1rem}
-.card h2{margin:.1rem 0 .4rem;font-size:1.05rem;overflow-wrap:anywhere}.card p{margin:.3rem 0}
+.cards{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem;margin:1rem 0}.card{border:1px solid var(--line);border-radius:8px;padding:1rem}
+.card h2{margin:.1rem 0 .4rem;font-size:1.05rem;overflow-wrap:anywhere}.card p{margin:.3rem 0;overflow-wrap:anywhere}
 .card dl{display:grid;grid-template-columns:7rem 1fr;gap:.2rem .8rem;margin:.6rem 0 0;font-size:.9rem}.card dt{color:var(--muted)}.card dd{margin:0;overflow-wrap:anywhere}
 @media (max-width:40rem){.card dl{grid-template-columns:1fr}.card dt{margin-top:.4rem}}`;
 
@@ -155,8 +155,8 @@ out('/asks/', page({ path: '/asks/', title: 'Open asks', description: "Everythin
 <p>${esc(data.asks_about)}</p>
 <p>Updated ${esc(data.updated)}.</p>
 <div class="cards">
-${(data.asks || []).map((a) => `<article class="card"><h2>${esc(a.from)} ${tag(a.status)}</h2><p>${esc(a.ask)}</p></article>`).join('\n')}
+${(data.asks || []).map((a) => `<article class="card"><h2>${esc(a.from)} ${tag(a.status)}</h2><p>${esc(a.ask)}</p><p>Recommendation: ${esc(a.recommendation || 'none given')}. Source: ${esc(a.source)}.</p></article>`).join('\n')}
 </div>
-<p>Source of this list: ${esc((data.asks[0] || {}).source || '')}. To answer one, say yes or no in <a href="${SESSION}">the decisions session</a>.</p>` }));
+<p>To answer one, say yes or no in <a href="${SESSION}">the decisions session</a>.</p>` }));
 
 console.log('pages written');
