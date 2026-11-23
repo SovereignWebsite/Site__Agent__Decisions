@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T15:56:27Z",
+ "updated": "2026-11-23T16:01:36Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -12,7 +12,7 @@
    "scope": "SovereignWebsite/SovereignWebsite__IaC; dev; build/leak-scan.mjs, test/decisions.test.mjs; 1 commit",
    "expires": "2026-11-25T15:54:40Z",
    "status": "in force",
-   "pushed_by": "not yet",
+   "pushed_by": "record committed in SovereignWebsite__IaC decisions/ (a38e1a7); 54769ef pushed by factory.b as 55524cc",
    "event_uuid": "a0291248-cbc9-4130-b96f-2072d9f3df72"
   },
   {
@@ -144,7 +144,7 @@
    "scope": "SovereignWebsite__IaC, dev; requests/2026-11-23__car-buyer/**; 1 commit (patch-id 43a8c3dc)",
    "expires": "2026-11-24T15:09:30Z",
    "status": "in force",
-   "pushed_by": "not yet: waits for the record to be committed in SovereignWebsite__IaC decisions/",
+   "pushed_by": "record committed in SovereignWebsite__IaC decisions/ (a38e1a7); factory.b pushes next",
    "event_uuid": "4fcb7ad4-fecb-40ed-828e-7ec712d03146"
   },
   {
@@ -155,7 +155,7 @@
    "scope": "SovereignWebsite__IaC, dev; requests/**, seed/**, build/requests.mjs, build/coverage.mjs, build/org-status.mjs, test/**; 6 commits (patch-ids listed in the record)",
    "expires": "2026-11-24T14:02:37Z",
    "status": "in force",
-   "pushed_by": "not yet: waits for the record to be committed in SovereignWebsite__IaC decisions/",
+   "pushed_by": "record committed in SovereignWebsite__IaC decisions/ (a38e1a7); factory.b pushes next",
    "event_uuid": "17473ce6-7416-42f1-bad8-aed1e97fc3fb"
   },
   {
@@ -378,6 +378,24 @@
    "status": "decided: 2026-11-23__perspace-vault",
    "kind": "record",
    "source": "perspace.b, 23 Nov ~15:40 UTC"
+  },
+  {
+   "n": 24,
+   "from": "b.conductor, accountant.b",
+   "ask": "Amend 2026-11-23__go-to-market-wakes on cost (about 850 USD as signed, more at today's context sizes): hand conductor.b and hub.b to fresh sessions before the first wake and again before about 300k context; wake only 07:00 to 22:00 UTC, with a one-line skip when nothing changed; conductor.b and sites.b hourly, hub.b and design.b.rounds every 2 hours. About 430 USD to 30 Nov; each wake reports its cost daily. Also: creating the scheduled task is a harness setting, refused in hub.b's session, so it is Dinis's to allow.",
+   "recommendation": "yes to all three",
+   "status": "open",
+   "kind": "record (amends ask 4)",
+   "source": "b.conductor, 16:10 UTC 23 Nov; hub.b, 16:00 UTC"
+  },
+  {
+   "n": 25,
+   "from": "outreach.b",
+   "ask": "How someone who says yes to the £50 offer pays, and from when. The pricing page says nothing can be bought today; the hub form is not live yet. Until then outreach drafts ask no one to buy.",
+   "recommendation": "no payment wording until a method is named",
+   "status": "open",
+   "kind": "Dinis's answer (money: a one-way door)",
+   "source": "outreach.b, ~15:58 UTC 23 Nov"
   }
  ]
 }
