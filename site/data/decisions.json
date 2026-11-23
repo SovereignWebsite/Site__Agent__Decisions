@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T22:45:00Z",
+ "updated": "2026-11-23T22:50:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -502,6 +502,16 @@
    "kind": "record",
    "source": "sites.b, 18:05 UTC 23 Nov",
    "account": "B"
+  },
+  {
+   "n": 33,
+   "account": "B",
+   "from": "feedback.b, conductor.b",
+   "ask": "Build the Messages section as one shared, version-controlled component (<sws-messages>) on its own tool site, Site__Tool__Messages at messages.tool.sovereignweb.site: docs, a demo, latest/ and pinned versions with a SHA-256 for each file. Every site loads one pinned version with subresource integrity from a single footer line; rolled out to every site, people's sites first. Version 1 moves \"Forget this device\" out of the composer into a settings menu with a confirmation, and carries the signed plan (statuses, Reply, phone layout, four agents). Follows Dinis's word to conductor.b at about 22:45 UTC. Needs from Dinis: the four agents' names, and ask 8.",
+   "recommendation": "yes; name the four agents; answer ask 8 in feedback.b's session",
+   "status": "open",
+   "kind": "record",
+   "source": "feedback.b, 22:48 UTC 23 Nov; conductor.b, 22:47 UTC"
   }
  ]
 }
