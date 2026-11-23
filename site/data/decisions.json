@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-23T18:06:00Z",
+ "updated": "2026-11-23T22:03:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -170,7 +170,7 @@
    "event_uuid": "17473ce6-7416-42f1-bad8-aed1e97fc3fb"
   }
  ],
- "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\".",
+ "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro: \"b.decisions signs for all accounts\"), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account.",
  "asks": [
   {
    "n": 1,
@@ -179,7 +179,8 @@
    "recommendation": "yes",
    "status": "done: 2026-11-23__leak-scan-signatures, pushed",
    "kind": "record",
-   "source": "factory.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "factory.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 2,
@@ -188,7 +189,8 @@
    "recommendation": "yes",
    "status": "open: for Dinis on his return",
    "kind": "Dinis acts (access)",
-   "source": "b.conductor and strategy.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "b.conductor and strategy.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 3,
@@ -197,7 +199,8 @@
    "recommendation": "yes",
    "status": "open: for Dinis on his return",
    "kind": "Dinis acts (GitHub App)",
-   "source": "b.conductor, 23 Nov ~15:36-15:40 UTC"
+   "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 4,
@@ -206,7 +209,8 @@
    "recommendation": "yes, hourly to 30 Nov, then review",
    "status": "decided: 2026-11-23__go-to-market-wakes",
    "kind": "record",
-   "source": "b.conductor and hub.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "b.conductor and hub.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 5,
@@ -215,7 +219,8 @@
    "recommendation": "yes",
    "status": "open: for Dinis on his return",
    "kind": "Dinis's word (key handling)",
-   "source": "b.conductor, 23 Nov ~15:36-15:40 UTC"
+   "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 6,
@@ -224,7 +229,8 @@
    "recommendation": "yes; Dinis reads; reviews yes",
    "status": "decided: 2026-11-23__hub-get-one-form",
    "kind": "record",
-   "source": "feedback.b, design.b and hub.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "feedback.b, design.b and hub.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 7,
@@ -233,7 +239,8 @@
    "recommendation": "yes",
    "status": "decided: 2026-11-23__messages-pane-plan",
    "kind": "record",
-   "source": "feedback.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "feedback.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 8,
@@ -242,7 +249,8 @@
    "recommendation": "yes, said in feedback.b's session",
    "status": "open: for Dinis on his return",
    "kind": "Dinis's word in feedback.b's session",
-   "source": "feedback.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "feedback.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 9,
@@ -251,7 +259,8 @@
    "recommendation": "yes to the first four",
    "status": "decided: 2026-11-23__suno-site",
    "kind": "record",
-   "source": "suno.b and b.conductor, 23 Nov ~15:36-15:40 UTC"
+   "source": "suno.b and b.conductor, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 10,
@@ -260,7 +269,8 @@
    "recommendation": "A, with B as proof",
    "status": "decided: 2026-11-23__lead-segment",
    "kind": "record",
-   "source": "strategy.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "strategy.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 11,
@@ -269,7 +279,8 @@
    "recommendation": "2 then 1",
    "status": "decided: 2026-11-23__next-sites",
    "kind": "record",
-   "source": "sites.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "sites.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 12,
@@ -278,7 +289,8 @@
    "recommendation": "b",
    "status": "decided: 2026-11-23__cheese-market-visibility",
    "kind": "record",
-   "source": "sites.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "sites.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 13,
@@ -287,7 +299,8 @@
    "recommendation": "approve; keep own key; photo only with names given",
    "status": "decided: 2026-11-23__startup-brochures",
    "kind": "record",
-   "source": "startups.b and sites.b, 23 Nov ~15:40 UTC"
+   "source": "startups.b and sites.b, 23 Nov ~15:40 UTC",
+   "account": "B"
   },
   {
    "n": 14,
@@ -296,7 +309,8 @@
    "recommendation": "Dinis looks",
    "status": "open: for Dinis on his return",
    "kind": "Dinis looks",
-   "source": "design.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "design.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 15,
@@ -305,7 +319,8 @@
    "recommendation": "record the route",
    "status": "open: for Dinis on his return",
    "kind": "Dinis's answer",
-   "source": "design.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "design.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 16,
@@ -314,7 +329,8 @@
    "recommendation": "no; yes; yes; yes; Dinis names",
    "status": "decided: 2026-11-23__observability-pilot",
    "kind": "record",
-   "source": "sites.b and b.conductor, 23 Nov ~15:36-15:40 UTC"
+   "source": "sites.b and b.conductor, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 17,
@@ -323,7 +339,8 @@
    "recommendation": "Dinis chooses",
    "status": "open: for Dinis on his return",
    "kind": "Dinis's answer",
-   "source": "sites.b, 23 Nov ~15:36-15:40 UTC"
+   "source": "sites.b, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 18,
@@ -332,7 +349,8 @@
    "recommendation": "confirm",
    "status": "decided: 2026-11-23__mistral-policy-confirmed",
    "kind": "record",
-   "source": "conductor.mistral, 23 Nov ~15:36-15:40 UTC"
+   "source": "conductor.mistral, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 19,
@@ -341,7 +359,8 @@
    "recommendation": "none given",
    "status": "open: for Dinis on his return",
    "kind": "Dinis's answers",
-   "source": "b.conductor, 23 Nov ~15:36-15:40 UTC"
+   "source": "b.conductor, 23 Nov ~15:36-15:40 UTC",
+   "account": "B"
   },
   {
    "n": 20,
@@ -350,7 +369,8 @@
    "recommendation": "details not received",
    "status": "open",
    "kind": "waiting for details",
-   "source": "b.maestro, 15:33 UTC 23 Nov"
+   "source": "b.maestro, 15:33 UTC 23 Nov",
+   "account": "B, D"
   },
   {
    "n": 21,
@@ -359,7 +379,8 @@
    "recommendation": "confirm; yes once checked; Dinis only",
    "status": "open: one-way door, held for Dinis's explicit answer",
    "kind": "record (deleting is a one-way door)",
-   "source": "algarve-evolution.b, 23 Nov ~15:40 UTC"
+   "source": "algarve-evolution.b, 23 Nov ~15:40 UTC",
+   "account": "B"
   },
   {
    "n": 22,
@@ -368,7 +389,8 @@
    "recommendation": "yes (or leave it: nothing is exposed)",
    "status": "open: one-way door, held for Dinis's explicit answer",
    "kind": "Dinis's word (history rewrite is a one-way door)",
-   "source": "sotavento.b, 23 Nov ~15:40 UTC"
+   "source": "sotavento.b, 23 Nov ~15:40 UTC",
+   "account": "B"
   },
   {
    "n": 23,
@@ -377,7 +399,8 @@
    "recommendation": "yes; keep the address",
    "status": "done: 2026-11-23__perspace-vault, pushed",
    "kind": "record",
-   "source": "perspace.b, 23 Nov ~15:40 UTC"
+   "source": "perspace.b, 23 Nov ~15:40 UTC",
+   "account": "B"
   },
   {
    "n": 24,
@@ -386,7 +409,8 @@
    "recommendation": "yes to all three",
    "status": "open",
    "kind": "record (amends ask 4)",
-   "source": "b.conductor, 16:10 UTC 23 Nov; hub.b, 16:00 UTC"
+   "source": "b.conductor, 16:10 UTC 23 Nov; hub.b, 16:00 UTC",
+   "account": "B"
   },
   {
    "n": 25,
@@ -395,7 +419,8 @@
    "recommendation": "no payment wording until a method is named",
    "status": "open",
    "kind": "Dinis's answer (money: a one-way door)",
-   "source": "outreach.b, ~15:58 UTC 23 Nov"
+   "source": "outreach.b, ~15:58 UTC 23 Nov",
+   "account": "B"
   },
   {
    "n": 26,
@@ -404,7 +429,8 @@
    "recommendation": "yes",
    "status": "open",
    "kind": "record",
-   "source": "factory.b, 16:01 UTC 23 Nov"
+   "source": "factory.b, 16:01 UTC 23 Nov",
+   "account": "B"
   },
   {
    "n": 27,
@@ -413,7 +439,8 @@
    "recommendation": "yes",
    "status": "open",
    "kind": "record",
-   "source": "suno.b, 16:20 UTC 23 Nov"
+   "source": "suno.b, 16:20 UTC 23 Nov",
+   "account": "B"
   },
   {
    "n": 28,
@@ -422,7 +449,8 @@
    "recommendation": "yes to both caps",
    "status": "open",
    "kind": "Dinis's answer (money: a one-way door)",
-   "source": "suno.b, 16:20 UTC 23 Nov"
+   "source": "suno.b, 16:20 UTC 23 Nov",
+   "account": "B"
   },
   {
    "n": 29,
@@ -431,7 +459,8 @@
    "recommendation": "(a) plus (b) with a small N, for example one round of edits after the hand-over; Dinis sets N and D; leave (c) until a partner signs",
    "status": "open",
    "kind": "Dinis's answer (money: a one-way door)",
-   "source": "design.b, ~16:22 UTC 23 Nov; strategy.b, 16:25 UTC"
+   "source": "design.b, ~16:22 UTC 23 Nov; strategy.b, 16:25 UTC",
+   "account": "B"
   },
   {
    "n": 30,
@@ -440,7 +469,8 @@
    "recommendation": "design.b: yes, as an opt-in, after the five designs are in. sites.b: not for now (registrations are personal data; the MOT API needs server-side credentials, and the sites have no server)",
    "status": "open",
    "kind": "record",
-   "source": "design.b, 16:53 UTC 23 Nov; sites.b, 17:04 UTC"
+   "source": "design.b, 16:53 UTC 23 Nov; sites.b, 17:04 UTC",
+   "account": "B"
   },
   {
    "n": 31,
@@ -449,7 +479,8 @@
    "recommendation": "Dinis asks her; if she agrees, record it and both pages can use her again",
    "status": "open",
    "kind": "Dinis acts (a person's consent)",
-   "source": "sites.b, 17:04 UTC 23 Nov"
+   "source": "sites.b, 17:04 UTC 23 Nov",
+   "account": "B"
   },
   {
    "n": 32,
@@ -458,7 +489,8 @@
    "recommendation": "(b) first, since it needs nothing from Dinis; (a) only if he has photos he wants used",
    "status": "open",
    "kind": "record",
-   "source": "sites.b, 18:05 UTC 23 Nov"
+   "source": "sites.b, 18:05 UTC 23 Nov",
+   "account": "B"
   }
  ]
 }
