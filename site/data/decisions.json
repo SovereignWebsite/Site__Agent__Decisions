@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:55:00Z",
+ "updated": "2026-11-24T01:00:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -885,6 +885,16 @@
    "status": "open",
    "kind": "your word",
    "source": "conductor.c's list (IaC branch work/conductor.c, board/conductor.c/asks-for-b-decisions.md, 23:13 UTC)"
+  },
+  {
+   "n": 50,
+   "account": "B",
+   "from": "factory.b, security.b",
+   "ask": "Push 88c6dd7 to SovereignWebsite__IaC: build/decisions.mjs adds the seeds' signer check, quality floor and site policy (seed/**/.github/ci/signers.mjs, quality.mjs, site/policy/abp.json) to the always-ask list, so no decisions.b record can change what every new site trusts at once. Patch-id e99bf54a. The checker is itself always-ask: Dinis's yes in factory.b's session. Trade-off: changes like today's aef6bcc would then go through Dinis directly, which runs against his wish (23:28 UTC) to be asked less in other agents' sessions.",
+   "recommendation": "factory.b and security.b: yes. decisions.b: Dinis's call; it adds to what only he can approve",
+   "status": "open",
+   "kind": "your word, in its session",
+   "source": "factory.b, 23:40 UTC 23 Nov"
   }
  ]
 }
