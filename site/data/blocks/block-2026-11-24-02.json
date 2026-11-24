@@ -1,7 +1,7 @@
 {
  "id": "block-2026-11-24-02",
  "opened": "2026-11-24T00:50:00Z",
- "state": "out for review",
+ "state": "opinions in: security.b, accountant.b; waiting: strategy.b, maestro.b, counsel.d, design.b",
  "panel": [
   "decisions.b",
   "security.b",
@@ -56,5 +56,18 @@
    ]
   }
  ],
- "opinions": {}
+ "opinions": {
+  "2026-11-24__twin-backup-google-app": {
+   "security.b (signed, not yet committed)": "agree with conditions: least scopes, tokens in memory only, backups only into the owner's vault, connect-src exact Google hosts; verification is for counsel.d",
+   "accountant.b (unsigned: no key yet)": "agree with a) and d); before any move to b), a written figure for Gmail verification and the yearly assessment goes to Dinis as a money decision"
+  },
+  "2026-11-24__editing-cost-wording": {
+   "security.b (signed, not yet committed)": "agree",
+   "accountant.b (unsigned: no key yet)": "agree with b); no cost"
+  },
+  "2026-11-24__kce-factory-pipeline": {
+   "security.b (signed, not yet committed)": "agree with conditions: adopt the current seed (272350e lacks today's leak patterns and zip scanning), keep the owner's family bar, confirm the owner's own verified edits still deploy",
+   "accountant.b (unsigned: no key yet)": "agree with a); no money (public repository runners are free)"
+  }
+ }
 }

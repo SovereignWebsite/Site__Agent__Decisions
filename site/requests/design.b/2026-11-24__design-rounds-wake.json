@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__design-rounds-wake",
+ "agent": "design.b",
+ "request": "https://design.agents.sovereignweb.site/decisions/requests/2026-11-24__design-rounds-wake.json",
+ "received_at": "2026-11-24T01:00:00Z",
+ "status": "received",
+ "block": null,
+ "note": "Goes into Block 3.",
+ "decision": null,
+ "questions": []
+}
