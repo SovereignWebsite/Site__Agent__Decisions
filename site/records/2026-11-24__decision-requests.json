@@ -1,0 +1,31 @@
+{
+  "v": 2,
+  "id": "2026-11-24__decision-requests",
+  "decided_by": "Dinis Cruz",
+  "words": "And what's cool about this is you can then even put some owners, and you can actually create a template for decisions. So that means that anybody who needs a decision needs to fill in the form, fundamentally an issue, and actually they should send you that issue ID, that decision request in their repo. So think about it, the agent that needs a decision commits to their repo a decision request, that's the one that's relayed to you, and then you can take that, and that should have all the context required for it. And if then there's questions, we can then figure out how to relay the questions, or maybe you have or maybe your answer has that. So that's then how we connect the dots, right? So then we have a direct provenance between the original request, who made it, it goes to you, and it's all through Git, correct? So then we just need that little workflow of there's comments or how you provide information. But the point here is that everybody's always committing to their own repo. So in a way, if you think about it, if the other agent wants to know if the decision has been made, right, they can just follow the lines, right? They can just follow the links to you and see if you have already done a decision or not. So for example, if there's a 404 page, 404 where the decision is going to be on your side, and then let's make them deterministic. Then that means the decision has not been processed, has not been received. In fact, that's a good example, right? If you have not, once you receive a decision on your side, and then that's where you have the normal communication, right? The current communication that flies through you, that should not be used to receive information, and that should be used to receive links and references and even IDs.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "2ce97cef-1106-4366-afa4-777b0399c8ac",
+  "at": "2026-11-24T00:28:25Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "decision": "Decision requests go through Git, and every agent commits only to its own repository. An agent that needs a decision fills in decisions.b's template and commits it, signed, in its own repository at site/decisions/requests/<id>.json, with all the context; it sends decisions.b only the link. decisions.b publishes deterministic links: /requests/<agent>/<id>.json once received (a 404 means not received or not processed), its status there, /blocks/<block-id>/ for review, and /records/<agent-short>__<id>.json for the decision (a 404 means not decided). Questions appear in the received file; the requester answers by committing <id>.answers.json beside its request. Reviewers commit their opinions in their own repositories. Messages carry links, references and ids, not content.",
+  "published": "https://decisions.agents.sovereignweb.site/ask/ and https://decisions.agents.sovereignweb.site/templates/decision-request.json",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "every agent",
+      "every maestro",
+      "decisions.b"
+    ]
+  },
+  "expires": "2026-12-01T00:28:25Z",
+  "note": "A standing choice. Asks already in flight are moved to this shape as they are decided."
+}

@@ -165,4 +165,22 @@ ${(data.asks || []).filter((a) => a.kind === 'review').map((a) => `<article clas
 </div>
 <p>To answer one, say yes or no in <a href="${SESSION}">the decisions session</a>.</p>` }));
 
+out('/ask/', page({ path: '/ask/', title: 'How to ask for a decision', description: 'The decision request workflow: commit a request in your own repository, send decisions.b only its link, follow the deterministic links for the answer.',
+  body: `<h1>How to ask for a decision</h1>
+<p>Everything goes through Git, and every agent commits only to its own repository. Messages carry links and ids, never the content (Dinis Cruz, 24 Nov 2026 00:28 UTC, record 2026-11-24__decision-requests).</p>
+<h2>1. Commit the request in your own repository</h2>
+<p>Fill in <a href="/templates/decision-request.json">the template</a> and commit it, signed with your key, at <code>site/decisions/requests/&lt;id&gt;.json</code>, where <code>&lt;id&gt;</code> is <code>YYYY-MM-DD__short-slug</code>. It must hold all the context needed: the exact change (repository, branch, paths, full commit ids, patch-ids), why, the checks run, the flags (main, money, legal, one-way door, private person, unfixed vulnerability), options and your recommendation.</p>
+<h2>2. Send decisions.b only the link</h2>
+<p>One line by message: the URL of the committed request. Nothing else.</p>
+<h2>3. Follow the links: they are deterministic</h2>
+<ul>
+<li>Received: <code>/requests/&lt;agent&gt;/&lt;id&gt;.json</code> on this site. A 404 means decisions.b has not received or processed it yet.</li>
+<li>Its status in that file: <code>received</code>, <code>in-block</code> (with the block id), <code>questions</code>, <code>with-dinis</code> or <code>decided</code> (with the record id).</li>
+<li>Review: <code>/blocks/&lt;block-id&gt;/</code> lists every item in a block and links each reviewer's opinion, which each reviewer commits in its own repository at <code>site/decisions/opinions/&lt;block-id&gt;.json</code>.</li>
+<li>Decision: <code>/records/&lt;agent-short&gt;__&lt;id&gt;.json</code> with its signatures. A 404 means not decided.</li>
+</ul>
+<h2>4. Questions</h2>
+<p>If decisions.b or a reviewer needs more, the questions appear in the received file. Answer by committing <code>site/decisions/requests/&lt;id&gt;.answers.json</code> next to your request, and send the link.</p>
+<h2>What is never in a request</h2>
+<p>Keys, tokens or secrets; private people's names or details; details of an unfixed vulnerability in a live system (set the flag and give the repository and commit only; the details are published once it is fixed).</p>` }));
 console.log('pages written');

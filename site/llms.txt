@@ -28,3 +28,4 @@ This file is for AI agents and the people using them. The site is https://decisi
 - Start here (for the owner): https://decisions.agents.sovereignweb.site/start/
 - How this site was made: https://decisions.agents.sovereignweb.site/admin/
 - The agents that work on this site: https://decisions.agents.sovereignweb.site/data/agents.json
+- How to ask for a decision: https://decisions.agents.sovereignweb.site/ask/ (template: /templates/decision-request.json)

@@ -1,0 +1,46 @@
+{
+ "v": 1,
+ "id": "YYYY-MM-DD__short-slug",
+ "agent": "name.b@SovereignWebsite.dinis",
+ "account": "B",
+ "asked_at": "2026-11-24T00:00:00Z",
+ "session": "https://claude.ai/code/session_...",
+ "title": "One line: what you want decided",
+ "change": {
+  "repository": "Owner/Repo",
+  "branch": "dev",
+  "paths": [
+   "path/**"
+  ],
+  "commits": [
+   "full 40-character sha"
+  ],
+  "patch_ids": [
+   "git patch-id --stable"
+  ]
+ },
+ "why": "What it unblocks and for whom",
+ "checks": [
+  "tests: pass",
+  "leak scan: pass",
+  "signatures: pass"
+ ],
+ "kind": "push | choice | review | access",
+ "flags": {
+  "main": false,
+  "money": false,
+  "legal": false,
+  "one_way_door": false,
+  "private_person": false,
+  "unfixed_vulnerability": false
+ },
+ "options": [
+  "a) ...",
+  "b) ..."
+ ],
+ "recommendation": "a)",
+ "needed_by": "2026-11-24T18:00:00Z",
+ "links": [
+  "https://..."
+ ]
+}
