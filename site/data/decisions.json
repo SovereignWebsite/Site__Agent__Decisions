@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T01:35:00Z",
+ "updated": "2026-11-24T01:40:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -487,6 +487,17 @@
    "status": "in-force",
    "pushed_by": "Dinis (the files)",
    "event_uuid": "22a26ee8-1526-48ec-ae25-66ca1ee82804"
+  },
+  {
+   "id": "2026-11-24__own-keys-principle",
+   "at": "2026-11-24T00:52:48Z",
+   "words": "When an agent comes alive ... if the agent has access to GitHub repo, that agent can update their keys ... that's the moment of authorization ... prevent edit the keys, but their own keys ... if Emily connects to GitHub ... create the key and then push it.",
+   "about": "Core principle: repository access is the moment of authorisation; every agent or owner may always create and update its own keys there, and no one else's. Emily signs, her assistant creating her key at first connection.",
+   "scope": "All accounts; a standing principle",
+   "expires": "2026-12-01T00:52:48Z",
+   "status": "in-force",
+   "pushed_by": "none: a principle",
+   "event_uuid": "fa43f633-a1ef-461b-9fc1-56d8442e669a"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account. Since 23:17 UTC 23 Nov (Dinis): asks marked review are sites or pages for him to look at; they never block an agent.",

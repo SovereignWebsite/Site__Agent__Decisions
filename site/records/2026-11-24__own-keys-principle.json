@@ -1,0 +1,35 @@
+{
+  "v": 2,
+  "id": "2026-11-24__own-keys-principle",
+  "decided_by": "Dinis Cruz",
+  "words": "So I think there are things. So for example, Emily's signing. Emily's not. You mean Emily's own GitHub? Yeah, but that's how it should be, right? Like one super principle here would be the agents. When an agent comes alive, right? So when an agent is on board, and if the agent has access to GitHub repo, that agent can update their keys, right? And that's the moment of authorization. So that's what we want, right? You know, that's how it scales, right? Each agent should always be able to do their keys, right? Because that's how, you know, we could try to, so we shouldn't be able to edit the keys, or we should have a rule in that prevent edit the keys, but their own keys, because that's the core principle of this. So if Emily connects to GitHub, when she does it, then we just have to have instructions in that for that GitHub action, or for that Claude action, or ChatGPT to create the key and then push it.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "fa43f633-a1ef-461b-9fc1-56d8442e669a",
+  "at": "2026-11-24T00:52:48Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "decision": "A core principle: when an agent (or a person, with her own Claude or ChatGPT) is onboarded with access to a GitHub repository, that access is the moment of authorisation, and it may always create and update its own keys there. No one edits another's keys: a rule prevents editing any key but one's own. This is how it scales.",
+  "applies": {
+    "emily-signing-after-handover": "Decided by Dinis, superseding the block item: Emily signs, like every agent. Her hand-over instructions (docs/prompt-for-your-claude.md, for Claude, ChatGPT or a GitHub action) tell her assistant to create her own key and push its public half when she first connects; her site's signer check then accepts it under the self-published key rule.",
+    "block-2026-11-24-04 R3": "Widened in intent: every agent may run sgit pki keygen and export for its own key; the settings rule for each agent's repository allows it.",
+    "checks": "The self-publish rule already in the seeded signer check (aef6bcc, b3ae4cd: a commit that only adds one key file for its own name; no claim on a team agent's name) is the 'only your own keys' rule."
+  },
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "every agent",
+      "every site owner at hand-over",
+      "factory.b (seed instructions)"
+    ]
+  },
+  "expires": "2026-12-01T00:52:48Z",
+  "note": "A standing principle."
+}

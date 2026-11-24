@@ -1,7 +1,7 @@
 {
  "id": "block-2026-11-24-03",
  "opened": "2026-11-24T01:25:00Z",
- "state": "opinions in: security.b, accountant.b; waiting: strategy.b, maestro.b",
+ "state": "opinions in: security.b, accountant.b, maestro.b, sites.b, factory.b; waiting: strategy.b. Emily signing decided by Dinis.",
  "panel": [
   "decisions.b",
   "security.b",
@@ -75,23 +75,32 @@
  "opinions": {
   "2026-11-24__agent-lifecycle": {
    "security.b (signed, to be committed)": "agree with conditions: archive and restart follow the offboarding process; never archive an agent still holding others' sealed secrets or keys",
-   "accountant.b (unsigned: no key yet)": "agree with conditions: the model changes at hand-over; cost per finished task measured for two days after each switch; the saving is mostly from small-context hand-overs and Sonnet for building roles"
+   "accountant.b (unsigned: no key yet)": "agree with conditions: the model changes at hand-over; cost per finished task measured for two days after each switch; the saving is mostly from small-context hand-overs and Sonnet for building roles",
+   "maestro.b (signed)": "not reviewed: b.maestro is the requester."
   },
   "2026-11-24__brief-before-go-live": {
    "security.b (signed, to be committed)": "agree; put the security review in the same checklist",
-   "accountant.b (unsigned: no key yet)": "agree with a); record each brief's cost per site"
+   "accountant.b (unsigned: no key yet)": "agree with a); record each brief's cost per site",
+   "maestro.b (signed)": "agree: A brief first is cheaper than reskinning after launch, and it fits Dinis's 'creating websites every hour' only if each new site starts right. Condition: keep the brief short, a page, so it does not sl",
+   "sites.b (signed, also asked)": "agree with a)",
+   "factory.b (by message; no site yet)": "agree with a), precision: repository creation is not blocked; the request gains a design_brief field; the keeper's first real build waits for it; coverage lists requests with no brief; README gains 'register with design.b at M0'"
   },
   "2026-11-24__design-review-service-site": {
    "security.b (signed, to be committed)": "agree with conditions: static, no server or cookies, no submitter's personal details in the public repository",
-   "accountant.b (unsigned: no key yet)": "agree with conditions: runs on design.b's existing wakes, no new task without a budget"
+   "accountant.b (unsigned: no key yet)": "agree with conditions: runs on design.b's existing wakes, no new task without a budget",
+   "maestro.b (signed)": "agree: A service people can see and ask for is what Dinis described as the product ('people can go, ooh, I want one of those'). One small repository with one purpose fits his components rule. It should be di",
+   "sites.b (signed, also asked)": "agree with a)"
   },
   "2026-11-24__design-rounds-wake": {
    "security.b (signed, to be committed)": "agree",
-   "accountant.b (unsigned: no key yet)": "agree with conditions: keep ask 24's wake for design.b.rounds (every 2 hours, 07:13 to 21:13 UTC) rather than a second hourly one; skip in one line when no site changed; run on Sonnet (about 5.6 USD a day)"
+   "accountant.b (unsigned: no key yet)": "agree with conditions: keep ask 24's wake for design.b.rounds (every 2 hours, 07:13 to 21:13 UTC) rather than a second hourly one; skip in one line when no site changed; run on Sonnet (about 5.6 USD a day)",
+   "maestro.b (signed)": "agree with conditions: Finding weak sites without being asked is right. Conditions: (1) creating the wake is a harness setting, and Dinis said on 23 Nov 01:20 UTC that he re-enables wakes himself, bit by bit, so it goes to "
   },
   "2026-11-24__emily-signing-after-handover": {
    "security.b (signed, to be committed)": "agree with conditions: confirm the owner's commits, including her own Claude's through her account, show as GitHub-verified; no plain-text Owner override",
-   "accountant.b (unsigned: no key yet)": "agree with a); no cost"
+   "accountant.b (unsigned: no key yet)": "agree with a); no cost",
+   "maestro.b (signed)": "agree with conditions: An owner editing her own site should not need our keys. Conditions: the signer check accepts commits with no Agent: trailer when GitHub verifies them (the seeded signers.mjs already does this for a pe",
+   "Dinis (00:52:48 UTC, record 2026-11-24__own-keys-principle)": "decided: Emily signs; her assistant creates her own key and pushes its public half when she first connects"
   }
  }
 }
