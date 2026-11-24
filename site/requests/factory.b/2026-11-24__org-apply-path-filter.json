@@ -3,9 +3,9 @@
  "agent": "factory.b",
  "request": "sent by message (factory.b has no requests folder yet)",
  "received_at": "2026-11-24T01:21:32Z",
- "status": "queued",
+ "status": "withdrawn",
  "block": null,
- "note": "Next block. .github/workflows only (always-ask): after the panel, Dinis sees the exact diff and says yes. Cause: tonight Org apply ran on every push and hit the factory App hourly API limit.",
+ "note": "Withdrawn by factory.b: org-apply.yml already filters push to org/**, policy/** and requests/**.",
  "decision": null,
  "questions": []
 }
