@@ -1,0 +1,50 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-24__offboarding-approved",
+  "words": "Okay, now for those decisions, aren't you already able to decide that? Like, for example, the security fix, right? That should not require me to come here. Like, in fact, safe patch, vault keys. Well, okay, that wasn't say my call. No, but always. So then we can decide. Okay, so on vault keys, every key should always be given to the maestro. Always. So for example, for that one, I think your answer is spot on, right? So, I think on the 50, no, I should be approving less, right? And I think a lot of this stuff, like, look, even if you make a little mistake, we'll catch it, right? And that's why, again, if anything, you should have the security agent underwrite your decisions, right? So I guess maybe that's the workflow. Actually, here's a question. Are you asking the security agent to review this? Because I think the security agent, the counsel agent should always review this stuff. And you can fire them up here, right? You can fire them as sub-agents, correct?",
+  "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769",
+  "at": "2026-11-24T01:00:00Z",
+  "status": "in-force",
+  "kind": "choice",
+  "ask": 39,
+  "decided_under": "2026-11-24__decisions-b-decides and 2026-11-24__panel-of-five",
+  "document": "SovereignWebsite__IaC origin/dev board/workflow/2026-11-23__offboarding-draft.md (as of 7b66d85)",
+  "panel": {
+    "decisions.b": "agree",
+    "security": "agree with conditions",
+    "counsel": "agree with conditions",
+    "strategy": "agree with conditions",
+    "maestro": "agree with conditions"
+  },
+  "decision": "The offboarding process is approved once conductor.b folds in the panel's conditions. Open question answered: yes, the conductor may archive a session after its own hand-over without asking each time, for routine hand-overs (case 1) only; retiring a site agent (case 2) or a role (case 3), and fast stops, still go to Dinis.",
+  "conditions": [
+    "Archive without asking only when: the hand-over note is committed and linked; the successor has confirmed in writing that it works; nothing still fires into the old session (step 4 actually done, not open); steps 3 to 7 are shown done by cited commits or quoted UTC times, not by the leaving agent's word; the archive line is recorded (step 9).",
+    "Vault keys: before archiving, every vault key the leaving agent held or could open has a live holder other than the leaving key, always including the account's maestro, sealed to the current maestro key. When a maestro is offboarded, every copy sealed to its session key is re-sealed to the successor first: re-seal, check, then archive, from a named list.",
+    "Keys: step 3 retires the key in the agent's own repository too (keys now live there), and says whether it counts as done on dev or on merge. Backup copies of a retired key are destroyed, not re-sealed.",
+    "Step 1 also lists the agent's inbox lanes, its area page, its scheduled wakes (by id) and any personal or third-party data the transcript holds; step 9 repoints or closes lanes and the area page. Secrets are named in the transcript, never printed; the record says the transcript survives an archive.",
+    "Repointing an agent's own wakes to a successor of the same role is a standing yes; only creating new tasks needs Dinis.",
+    "Step 8 says who archives a maestro and who archives a conductor; 'after Dinis has seen the hand-over' becomes a cited UTC time and quote, or falls away for case 1. Step 7's 'his word, never a record' is rewritten plainly.",
+    "Site owners are told when their site's agent changes or retires: who the new agent is, where its key is, and that nothing they own has moved.",
+    "Each archived session is counted in status.json so the saving shows. For routine hand-overs it is a one-screen checklist in the hand-over note. Step 1's duplicate 'sessions it created' is removed."
+  ],
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "conductor.b",
+      "every maestro",
+      "every conductor"
+    ]
+  },
+  "expires": "2026-12-01T01:00:00Z",
+  "note": "A choice, not a push. The revised draft's push is factory.b's or conductor.b's under the usual checks."
+}
