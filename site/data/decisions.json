@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T01:14:00Z",
+ "updated": "2026-11-24T00:15:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -915,6 +915,16 @@
    "status": "open",
    "kind": "record",
    "source": "factory.b, 23:37 UTC 23 Nov"
+  },
+  {
+   "n": 53,
+   "account": "B",
+   "from": "factory.b, conductor.b, design.b, security.b",
+   "ask": "The components proposal (eb370ba, policy/proposals/2026-11-24__components.md only), from Dinis's memo of about 00:10 UTC: a component is one small public repository SovereignWebsite/Component__<Name> with one browser-only piece, released by fixed tags with SHA-384 hashes in a signed release file; a site pins name, version and hash, and its build copies and checks the files, so nothing loads from elsewhere or updates on its own. Two kinds: web components with a no-JavaScript fallback, and build-time pieces such as the wayfinder (ask 40). A fixed design-token contract and an accessibility check across ten themes. First example: local models, hash-checked weights, a consent card, nothing leaves the browser. security.b review 031: pass with changes, all folded in. Messages (ask 33) and navigation (ask 40) would be components. policy/ is always-ask: Dinis's yes in factory.b's session.",
+   "recommendation": "yes",
+   "status": "open",
+   "kind": "your word, in its session",
+   "source": "factory.b, 00:12 UTC 24 Nov"
   }
  ]
 }
