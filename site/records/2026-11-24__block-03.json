@@ -1,0 +1,50 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "Okay, now for those decisions, aren't you already able to decide that? Like, for example, the security fix, right? That should not require me to come here. Like, in fact, safe patch, vault keys. Well, okay, that wasn't say my call. No, but always. So then we can decide. Okay, so on vault keys, every key should always be given to the maestro. Always. So for example, for that one, I think your answer is spot on, right? So, I think on the 50, no, I should be approving less, right? And I think a lot of this stuff, like, look, even if you make a little mistake, we'll catch it, right? And that's why, again, if anything, you should have the security agent underwrite your decisions, right? So I guess maybe that's the workflow. Actually, here's a question. Are you asking the security agent to review this? Because I think the security agent, the counsel agent should always review this stuff. And you can fire them up here, right? You can fire them as sub-agents, correct?",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-24__block-03",
+  "at": "2026-11-24T02:00:00Z",
+  "status": "in-force",
+  "kind": "choice",
+  "block": "block-2026-11-24-03",
+  "decided_under": "2026-11-24__decisions-b-decides, 2026-11-24__panel-real-agents",
+  "panel": {
+    "decisions.b": "agree",
+    "security.b": "agree (https://security.agents.sovereignweb.site/decisions/opinions/block-2026-11-24-03.json)",
+    "strategy.b": "agree (https://strategy.agents.sovereignweb.site/decisions/opinions/block-2026-11-24-03.json)",
+    "maestro.b": "agree (Site__Agent__Maestro), not on its own lifecycle request",
+    "accountant.b": "agree (unsigned until its key exists)",
+    "also asked": "sites.b agree (Site__Agent__Sites); factory.b agree (by message)"
+  },
+  "decisions": {
+    "2026-11-24__agent-lifecycle": "Yes to maestro.b's proposal (active_until at most 7 days, renewed on work; archive after 48 h idle with nothing waiting; the restart test once per agent type this week; a model per role, switched only after its restart test passes), with conditions: archive and restart follow the offboarding process; never archive an agent still holding others' sealed secrets or keys; the model changes at hand-over and cost per finished task is measured for two days after each switch; an archived agent's area stays published, with state 'archived' in agent.json and its open work listed. The model table is accountant.b's (Opus for maestros, conductors, decisions.b, security.b, factory.b, strategy.b; Sonnet for the rest), reconciled with maestro.b's by maestro.b.",
+    "2026-11-24__brief-before-go-live": "Yes to a): every new site is briefed before its first real build. Repository creation is not blocked: the request gains a design_brief field, the keeper's first real build waits for it, coverage lists requests with no brief, and requests/README.md gains 'register with design.b at M0'. The brief is one page, names who the site is for and the one action a visitor should take, and includes the security review in the same checklist; its cost is recorded per site.",
+    "2026-11-24__design-review-service-site": "Yes to a), review.sovereignweb.site, with conditions: static, no server or cookies, no submitter's personal details in the public repository; the page says what is offered today against what is proposed, and shows no price until Dinis sets one; discoverable from the hub; it runs on design.b's existing wakes.",
+    "2026-11-24__design-rounds-wake": "Yes, as ask 24's wake for design.b.rounds (every 2 hours, 07:13 to 21:13 UTC), not a second hourly one: on Sonnet, skipping in one line when no site changed (about 5.6 USD a day). Creating the task is maestro.b's under settings rule R1 once it is in place, logged with its budget; until then it is Dinis's act.",
+    "2026-11-24__emily-signing-after-handover": "Decided by Dinis (record 2026-11-24__own-keys-principle) and applied by emily.b in 154e833."
+  },
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "maestro.b",
+      "every maestro",
+      "design.b",
+      "design.b.rounds",
+      "factory.b",
+      "sites.b",
+      "accountant.b"
+    ]
+  },
+  "expires": "2026-12-01T02:00:00Z",
+  "note": "A choice."
+}

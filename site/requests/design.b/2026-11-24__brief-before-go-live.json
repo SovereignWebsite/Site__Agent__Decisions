@@ -3,9 +3,9 @@
  "agent": "design.b",
  "request": "https://design.agents.sovereignweb.site/decisions/requests/2026-11-24__brief-before-go-live.json",
  "received_at": "2026-11-24T01:25:00Z",
- "status": "in-block",
+ "status": "decided",
  "block": "block-2026-11-24-03",
  "note": "",
- "decision": null,
+ "decision": "2026-11-24__block-03",
  "questions": []
 }
