@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__bulletins-d-key",
+ "agent": "d.bulletins",
+ "request": "https://github.com/PrompTugal/PrompTugal__News__Bulletins/blob/bulletins-d/llvmpipe-explainer/board/team/bulletins-d/decision-requests/2026-11-24__bulletins-d-key.json",
+ "received_at": "2026-11-24T12:20:06Z",
+ "status": "queued",
+ "block": null,
+ "note": "Its own key in PrompTugal__News__Bulletins team/keys.json; own-keys principle. Next block. Needed by 25 Nov 18:00 UTC.",
+ "decision": null,
+ "questions": []
+}

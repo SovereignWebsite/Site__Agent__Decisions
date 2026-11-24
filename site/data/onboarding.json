@@ -180,6 +180,146 @@
    "account": "B",
    "confirmed": "2026-11-24T02:07:00Z",
    "area": "https://decisions.agents.sovereignweb.site/factory/dinis-cruz/account-b/"
+  },
+  {
+   "agent": "d.conductor (SovereignWebsite)",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/SovereignWebsite/SovereignWebsite__IaC/tree/dev/board/conductor.d",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.conductor (AgentiCCells)",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/AgentiCCells/AgentiCCells__Site__Factory/tree/dev/team/conductor.d",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.decisions",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/decisions.d/README.md",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.studio",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/studio.d/",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.newsroom",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom/tree/dev/admin/notes/2026-11-22__newsroom.d-twin",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.strategy",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://strategy.agents.sovereignweb.site/factory/dinis-cruz/account-d/",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.slides",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/SovereignWebsite/Site__Agent__Slides/tree/dev/docs/factory/dinis-cruz/account-d",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.cartographer",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/SovereignWebsite/Site__Agent__Cartographer/tree/dev/site/factory/dinis-cruz/account-d",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.library",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/SovereignWebsite/Site__Agent__Library/tree/dev/site/factory/dinis-cruz/account-d",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.conductor (PrompTugal)",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/conductor.d/README.md",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.bulletins",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/PrompTugal/PrompTugal__News__Bulletins/tree/bulletins-d/llvmpipe-explainer/board/team/bulletins-d",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.data",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/PrompTugal/PrompTugal__News__Data/tree/data-d/pending/board/team/data-d",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.streaming",
+   "account": "D",
+   "confirmed": "2026-11-24T12:20:06Z",
+   "area": "https://github.com/SovereignWebsite/Site__Tool__Streaming/blob/dev/README.md",
+   "note": "relayed by d.maestro via maestro.b"
+  },
+  {
+   "agent": "d.landscape",
+   "account": "D",
+   "confirmed": null,
+   "area": null,
+   "note": "area in PrompTugal board/team/ until it can push to its own home"
+  },
+  {
+   "agent": "d.accountant",
+   "account": "D",
+   "confirmed": null,
+   "area": null,
+   "note": "area in PrompTugal board/team/ until it can push to its own home"
+  },
+  {
+   "agent": "d.counsel",
+   "account": "D",
+   "confirmed": null,
+   "area": null,
+   "note": "area in PrompTugal board/team/ until it can push to its own home"
+  },
+  {
+   "agent": "d.holacracy",
+   "account": "D",
+   "confirmed": null,
+   "area": null,
+   "note": "area in PrompTugal board/team/ until it can push to its own home"
+  },
+  {
+   "agent": "d.sherpa",
+   "account": "D",
+   "confirmed": null,
+   "area": null,
+   "note": "area in PrompTugal board/team/ until it can push to its own home"
+  },
+  {
+   "agent": "d.helm",
+   "account": "D",
+   "confirmed": null,
+   "area": null,
+   "note": "cannot attach its home repository: needs Dinis's yes in its session"
+  },
+  {
+   "agent": "d.sites",
+   "account": "D",
+   "confirmed": null,
+   "area": null,
+   "note": "cannot attach its home repository: needs Dinis's yes in its session"
   }
  ],
  "relayed_to": [
