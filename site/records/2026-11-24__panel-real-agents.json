@@ -1,0 +1,39 @@
+{
+  "v": 2,
+  "id": "2026-11-24__panel-real-agents",
+  "decided_by": "Dinis Cruz",
+  "words": "Yeah, so they, just to confirm, so they have to be real agents, right? Absolutely. This doesn't work on subsection. In fact, on this case, yeah, you should never start a subsection because they need to sign it with their key. Because remember that here you only have the key, so each key is always held by the parent, the session itself, and I think that's an important thing. Like when you start a subsection, you don't have the that doesn't give you a key for that subsection, so you cannot become that agent. You can just have that agent double check things, which is important for a catch up. And actually, that's a very big difference. The other thing I think I just realized is I think we should replace counsel with accountant, because you're right. The counsel only should work on several times because actually there's an escalation process here, right? Because we start with these 5, but there could be changes that require more agents or more agents. So we could have cases where the council gets involved. So you could have 7, 8, 10, 20 agents being involved in the decision if we feel that we need the opinion of that agent, or if it's relevant for that agent, or if that domain expertise. So this also covers for specific areas. Let's say that's a domain specific question, or it's something to do with a particular guidance, like council is a good example, or I don't know, DevOps, or other areas, or AppSec, right, or something like that. We have an agent for it, or observability, etc. So you could always bring other agents, especially when you start to have side effects, which is quite interesting, right? Imagine you have a decision that affects others. But I think the accountant is something that we should track on every single one of them.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "a6453d1e-7703-4842-b237-b0cf6a84abb3",
+  "at": "2026-11-24T00:34:52Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "supersedes": {
+    "2026-11-24__panel-of-five": [
+      "who the reviewers are",
+      "reviewers run inside the decisions session"
+    ]
+  },
+  "decision": "Reviewers are real agents, each in its own session, signing its opinion with its own key and committing it to its own repository. A key is held only by its own session, so an agent decisions.b starts inside its session cannot become that agent: such helpers only double-check, and never count as a reviewer. The core panel for every decision block is five: decisions.b, security.b, strategy.b, the account's maestro and accountant.b (cost is tracked on every decision). Counsel is no longer in the core; it, and any other agent (DevOps, AppSec, observability, a domain owner, or any agent a decision affects), is brought in when its expertise or a side effect calls for it, so a decision can have 7, 8, 10 or 20 reviewers. All agree: decisions.b signs. Any disagreement: Dinis.",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "decisions.b",
+      "security.b",
+      "strategy.b",
+      "every maestro",
+      "accountant.b",
+      "every agent brought into a review"
+    ]
+  },
+  "expires": "2026-12-01T00:34:52Z",
+  "note": "A standing choice."
+}

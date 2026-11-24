@@ -1,7 +1,7 @@
 // Writes the Decisions site's own pages from site/data/decisions.json and the seed's header, footer and style.
 // node docs/pages.mjs   (run by the keeper, decisions.b, before each commit; the pages it writes are committed)
 // Static HTML only: no script, no cookies, no tracking (CLAUDE.md).
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
 
 const SITE = 'https://decisions.agents.sovereignweb.site';
 const REPO = 'https://github.com/SovereignWebsite/Site__Agent__Decisions';
@@ -194,4 +194,12 @@ out('/factory/dinis-cruz/account-b/', page({ path: '/factory/dinis-cruz/account-
 <dt>To ask for a decision</dt><dd>${esc(ag.send_asks_to)} (<a href="/ask/">how</a>)</dd>
 <dt>Signing key</dt><dd><code>${esc(ag.signing_key)}</code> (<a href="/keys/decisions-b.json">key file</a>)</dd>
 <dt>Session</dt><dd><a href="${esc(ag.session)}">${esc(ag.session)}</a></dd></dl>` })); }
+for (const f of readdirSync('site/data/blocks').filter((x) => x.endsWith('.json'))) {
+  const b = JSON.parse(readFileSync('site/data/blocks/' + f, 'utf8'));
+  out('/blocks/' + b.id + '/', page({ path: '/blocks/' + b.id + '/', title: 'Decision block ' + b.id, description: 'A block of decisions out for review by the panel.',
+    body: `<h1>Decision block ${esc(b.id)}</h1>
+<p>Opened ${esc(b.opened)}. State: ${esc(b.state)}. Panel: ${esc(b.panel.join(', '))}. Machine-readable: <a href="/data/blocks/${esc(b.id)}.json">${esc(b.id)}.json</a>.</p>
+<p>${esc(b.how)}</p><p>${esc(b.note)}</p>
+<div class="cards">${b.items.map((i) => `<article class="card"><h2>${esc(i.item)}: ${esc(i.commit)} ${tag(i.always_ask ? 'always-ask' : 'record')}</h2><p>${esc(i.what)}</p><p>Repository ${esc(i.repository)}; paths ${esc(i.paths.join(', '))}; patch-id <code>${esc(i.patch_id)}</code>.</p><p>decisions.b's draft: ${esc(i.draft)}.${i.also_ask ? ' Also asked: ' + esc(i.also_ask.join('; ')) + '.' : ''}</p><p>Opinions: ${esc(Object.entries((b.opinions || {})[i.item] || {}).map(([k, v]) => k + ': ' + v).join('; ') || 'none yet')}.</p></article>`).join('\n')}</div>` }));
+}
 console.log('pages written');
