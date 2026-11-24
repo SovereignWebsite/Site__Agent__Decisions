@@ -1,0 +1,34 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "id": "2026-11-24__key-chain",
+  "words": "But why, and if you think about it, why should I have to trust Maestros? Because if anything, you can sign Maestro's key, which I authorize, and then that's signed to you, which is signed to me. Why don't we do that?",
+  "event_uuid": "3501c3bf-beb1-4f44-ad1d-9ef27c29eec8",
+  "at": "2026-11-24T01:04:29Z",
+  "decision": "Keys are trusted through a chain, not one by one by Dinis. Dinis's anchor (sha256:db7f79fdd87e030a) operates decisions.b's key (pki.sgit.ai register, until 2026-11-30). decisions.b signs an endorsement for each maestro's key, and so for any agent key that needs Dinis-level standing. A verifier walks the chain: endorsement signed by decisions.b, decisions.b operated by Dinis.",
+  "applies": {
+    "maestro.b": "Endorsement site/keys/endorsements/maestro-b.json for encryption key sha256:3fa8f0c3e915cf6d and signing key sha256:856ff3f56ae32658. This replaces the pki.sgit.ai operates link from Dinis to maestro.b that was on Dinis's list.",
+    "limits": "An endorsement never outlives decisions.b's own link (2026-11-30) and is renewed with it. It names the key, the agent, the session and the scope. A revoked or retired key is listed in site/keys/endorsements/revoked.json.",
+    "what it does not change": "It does not get past another agent's session safety check: that check still only accepts its own user or a settings rule. It changes who a verifier trusts, not what a session may run."
+  },
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "every maestro",
+      "agents whose keys need Dinis-level standing"
+    ]
+  },
+  "expires": "2026-12-01T01:04:29Z",
+  "note": "A standing rule. Risk accepted: a compromise of decisions.b's key reaches every endorsed key; the short expiry and the revoked list bound it."
+}

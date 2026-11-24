@@ -1,0 +1,29 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "id": "2026-11-24__twin-backup-meaning",
+  "words": "I think the Google backups are getting it wrong. What I'm saying is the fact that we create a copy from the Google Calendar, which is the data that we copy from OAuth, from, for example, Google Calendar into a digital twin, i.e. the JSON files, or the file that we grab from a Gmail into the JSON files. That's the backup that I'm talking about.",
+  "event_uuid": "2b36b93b-c54f-4dd1-9cbb-f38ddd6aef83",
+  "at": "2026-11-24T01:05:09Z",
+  "decision": "The backup is the digital twin itself: the data copied over OAuth from Google Calendar (and later Gmail) into the twin's JSON files. It is not Google's own backup products, and not a backup service.",
+  "applies": {
+    "2026-11-24__twin-backup-google-app": "Block 2 item withdrawn as framed. strategy.b rewrites the use case and the request around the twin's JSON files; the only choice left is whose OAuth client does the copy, and that comes back as a new request.",
+    "Google verification": "Not needed to build and show the copy for Dinis's own accounts first; strategy.b confirms with a cited Google source before anything is said publicly."
+  },
+  "scope": {
+    "accounts": [
+      "B"
+    ],
+    "applies_to": [
+      "strategy.b",
+      "a.mail",
+      "the twin-backups use case"
+    ]
+  },
+  "expires": "2026-12-01T01:05:09Z"
+}
