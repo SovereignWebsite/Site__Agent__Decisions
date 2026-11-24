@@ -66,7 +66,8 @@
       "security.b (signed: https://security.agents.sovereignweb.site/decisions/opinions/block-2026-11-24-05.json)": "agree with conditions: the verified-commit fallback never applies to an agent that has a published key, and counts only commits GitHub verifies for a person, never a bot or app",
       "maestro.b (signed, Site__Agent__Maestro)": "see its file",
       "strategy.b (signed: https://strategy.agents.sovereignweb.site/decisions/opinions/block-2026-11-24-05.json)": "agree with conditions: security.b accepts the widening; the Signers summary lists such commits as a person's GitHub-verified commit, separately from agents'",
-      "emily.b (affected; signed: https://emily-cruz.artist.sovereignweb.site/decisions/opinions/block-2026-11-24-05.json)": "revised after reading the diff: yes, with one change: refuse when the trailer names an agent with a live published key unless that key signed it"
+      "emily.b (affected; signed: https://emily-cruz.artist.sovereignweb.site/decisions/opinions/block-2026-11-24-05.json)": "revised after reading the diff: yes, with one change: refuse when the trailer names an agent with a live published key unless that key signed it",
+      "kate-curtis-evans.b (affected; signed: https://kate-curtis-evans.founder.sovereignweb.site/decisions/opinions/block-2026-11-24-05.json)": "agree with one condition: a verified commit counts as a person's only when the verified login is a named person allowed on the site, never the shared 'claude' login or a bot"
     },
     "2026-11-24__sgsend-token-for-traffic-vault": {
       "accountant.b (unsigned: no key yet)": "agree with B; no new scheduled task",
