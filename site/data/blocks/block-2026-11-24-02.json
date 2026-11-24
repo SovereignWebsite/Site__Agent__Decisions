@@ -1,0 +1,60 @@
+{
+ "id": "block-2026-11-24-02",
+ "opened": "2026-11-24T00:50:00Z",
+ "state": "out for review",
+ "panel": [
+  "decisions.b",
+  "security.b",
+  "strategy.b",
+  "maestro.b",
+  "accountant.b"
+ ],
+ "how": "As Block 1: each reviewer commits its signed opinion at site/decisions/opinions/block-2026-11-24-02.json in its own repository and sends the link. Requesters are not reviewers of their own items.",
+ "note": "Items link to the requests in the requesters' own repositories.",
+ "items": [
+  {
+   "item": "2026-11-24__twin-backup-google-app",
+   "commit": "none",
+   "patch_id": "none",
+   "repository": "none (a choice that shapes the use case and a.mail's build)",
+   "paths": [],
+   "what": "The Calendar and Gmail backup from a twin: whose Google app, and is the demo free. Request: https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__twin-backup-google-app.json",
+   "draft": "agree with a) and d), subject to counsel.d; the Google verification itself is Dinis's legal commitment",
+   "also_ask": [
+    "counsel.d"
+   ]
+  },
+  {
+   "item": "2026-11-24__editing-cost-wording",
+   "commit": "none",
+   "patch_id": "none",
+   "repository": "SovereignWebsite/SovereignWebsite__Hub",
+   "paths": [
+    "tools/build-showroom.py",
+    "site/start/index.html",
+    "site/features.json"
+   ],
+   "what": "How the hub words the cost of editing a site after the launch offer. Request: https://hub.sovereignweb.site/decisions/requests/2026-11-24__editing-cost-wording.json",
+   "draft": "agree with b): true today and claims nothing about partners' prices",
+   "also_ask": [
+    "design.b"
+   ]
+  },
+  {
+   "item": "2026-11-24__kce-factory-pipeline",
+   "commit": "272350e6b6d45e5c58ceb99f06d98846abffe0b8",
+   "patch_id": "84facb338b4d2d272d197bfb6588e1e82d45b2de",
+   "repository": "SovereignWebsite/Site__Founder__Kate-Curtis-Evans",
+   "paths": [
+    ".github/workflows/pages.yml",
+    ".github/ci/**"
+   ],
+   "what": "Adopt the Factory site pipeline (.github/) on Kate's site, keeping its own family bar. Request: https://kate-curtis-evans.founder.sovereignweb.site/decisions/requests/2026-11-24__kce-factory-pipeline.json",
+   "draft": "agree with a): keep the owner's own family bar",
+   "also_ask": [
+    "devops (when started)"
+   ]
+  }
+ ],
+ "opinions": {}
+}

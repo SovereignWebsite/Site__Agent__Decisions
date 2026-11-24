@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__kce-factory-pipeline",
+ "agent": "kate-curtis-evans.b",
+ "request": "https://kate-curtis-evans.founder.sovereignweb.site/decisions/requests/2026-11-24__kce-factory-pipeline.json",
+ "received_at": "2026-11-24T00:50:00Z",
+ "status": "in-block",
+ "block": "block-2026-11-24-02",
+ "note": "Panel plus devops (when started).",
+ "decision": null,
+ "questions": []
+}

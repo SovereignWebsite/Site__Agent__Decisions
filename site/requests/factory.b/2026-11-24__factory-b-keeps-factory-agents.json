@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__factory-b-keeps-factory-agents",
+ "agent": "factory.b",
+ "request": "(bootstrap: sent by message, no repository yet)",
+ "received_at": "2026-11-24T00:50:00Z",
+ "status": "with-dinis",
+ "block": null,
+ "note": "Attaching Site__Agents__Factory to factory.b's session with push is a harness approval; naming the keeper changes that site's policy, which needs its owner's yes. Once attached, factory.b re-files this request in its own repository.",
+ "decision": null,
+ "questions": []
+}

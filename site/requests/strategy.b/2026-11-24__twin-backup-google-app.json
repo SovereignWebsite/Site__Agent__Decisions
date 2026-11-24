@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__twin-backup-google-app",
+ "agent": "strategy.b",
+ "request": "https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__twin-backup-google-app.json",
+ "received_at": "2026-11-24T00:50:00Z",
+ "status": "in-block",
+ "block": "block-2026-11-24-02",
+ "note": "Panel plus counsel.d (Google verification terms). Legal commitment: if the panel picks our own Google app, the verification is Dinis's to sign up to.",
+ "decision": null,
+ "questions": []
+}
