@@ -3,8 +3,8 @@
  "agent": "observability.b",
  "request": "https://github.com/SovereignWebsite/Site__Agent__Observability/blob/dev/site/decisions/requests/2026-11-24__sgsend-token-for-traffic-vault.json",
  "received_at": "2026-11-24T01:45:00Z",
- "status": "received",
- "block": null,
+ "status": "in-block",
+ "block": "block-2026-11-24-05",
  "note": "Replaces ask 43; goes into the next block.",
  "decision": null,
  "questions": []

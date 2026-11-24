@@ -3,9 +3,9 @@
  "agent": "kate-curtis-evans.b",
  "request": "https://kate-curtis-evans.founder.sovereignweb.site/decisions/requests/2026-11-24__kce-factory-pipeline.json",
  "received_at": "2026-11-24T00:50:00Z",
- "status": "decided",
+ "status": "decided; waiting on a fix",
  "block": "block-2026-11-24-02",
- "note": "Panel plus devops (when started).",
+ "note": "The decision's condition (the owner's verified edits still deploy) failed in kate-curtis-evans.b's test; the fix, factory.b's e0421d2, is in block-2026-11-24-05.",
  "decision": "2026-11-24__block-02-a",
  "questions": []
 }

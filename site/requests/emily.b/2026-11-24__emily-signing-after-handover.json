@@ -5,7 +5,7 @@
  "received_at": "2026-11-24T01:25:00Z",
  "status": "decided",
  "block": "block-2026-11-24-03",
- "note": "",
+ "note": "Applied by emily.b in 154e833: Emily's assistant creates her SSH signing key on first connect and adds it to her GitHub account, so her commits are GitHub-verified, which her site's check accepts as a person's commit.",
  "decision": "2026-11-24__own-keys-principle",
  "questions": []
 }
