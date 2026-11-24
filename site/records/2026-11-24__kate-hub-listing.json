@@ -1,0 +1,26 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "id": "2026-11-24__kate-hub-listing",
+  "words": "Yes, Kate is happy for the site to appear on that. By startup brochure, you basically mean on the Hub website, correct? She's fine with that. And yeah, and her agent, fundamentally, remember that we already, so we update the site for her, right? That's cool.",
+  "event_uuid": "2530d01d-ae77-458c-89de-8af32c9a9d59",
+  "at": "2026-11-24T01:06:06Z",
+  "expires": "2026-12-01T01:06:06Z",
+  "decision": "Kate has consented, through Dinis, to her site (kate-curtis-evans.founder.sovereignweb.site) appearing in the startup brochure, which is the Hub website's showroom. Her agent, kate-curtis-evans.b, keeps updating the site for her, as it does today.",
+  "scope": {
+    "accounts": [
+      "B"
+    ],
+    "applies_to": [
+      "the Hub keeper",
+      "kate-curtis-evans.b",
+      "factory.b"
+    ]
+  },
+  "note": "Consent covers the listing of her site only. The protected policy/abp.json and CLAUDE.md change on her site still waits for Dinis."
+}
