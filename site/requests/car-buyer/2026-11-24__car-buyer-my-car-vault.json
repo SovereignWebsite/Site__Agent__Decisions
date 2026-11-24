@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__car-buyer-my-car-vault",
+ "agent": "car-buyer keeper (session_01Kw9UwD7q1eT6t9h8uLFKjE)",
+ "request": "https://github.com/SovereignWebsite/Site__Tool__Car-Buyer/blob/dev/site/decisions/requests/2026-11-24__car-buyer-my-car-vault.json",
+ "received_at": "2026-11-24T22:20:26Z",
+ "status": "queued",
+ "block": null,
+ "note": "New /mycar/ page with a browser vault panel (CRM pattern), vendored vault and pki code, a new network call to dev.send.sgraph.ai. Flags: new network call, new vendored code. Next block, with security.b. The request has no agent or title field; please use the template.",
+ "decision": null,
+ "questions": []
+}
