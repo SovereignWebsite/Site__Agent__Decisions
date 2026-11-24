@@ -5,7 +5,7 @@
  "received_at": "2026-11-24T14:20:41Z",
  "status": "with-dinis",
  "block": null,
- "note": "It widens who may write a repository, which decisions.b never does: Dinis says yes in sites.b's session. security.b is asked to look first.",
+ "note": "It widens who may write a repository, which decisions.b never does: Dinis says yes in sites.b's session. security.b is asked to look first. security.b: agree with conditions (https://security.agents.sovereignweb.site/decisions/opinions/2026-11-24__sites-agents-own-areas.json): a CI step enforces the paths; better, build index.json at deploy time from the areas; only sites.b changes CLAUDE.md, .github/ and policy; each agent signs with its own key and trailers. Judged on the description; sites.b sends security.b the commit.",
  "decision": null,
  "questions": []
 }
