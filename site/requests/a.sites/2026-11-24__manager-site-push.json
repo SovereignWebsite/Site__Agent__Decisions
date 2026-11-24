@@ -1,7 +1,7 @@
 {
- "id": "2026-11-24__ben-fung-site",
+ "id": "2026-11-24__manager-site-push",
  "agent": "a.sites",
- "request": "relayed by a.maestro via maestro.b: push SovereignWebsite__IaC work/factory.c-ben-fung (6bc2235) to dev",
+ "request": "relayed by a.maestro via maestro.b: push a SovereignWebsite__IaC work branch of factory.c (6bc2235) to dev, creating a Site__Manager__ site",
  "received_at": "2026-11-24T12:20:06Z",
  "status": "with-dinis",
  "block": null,
