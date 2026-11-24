@@ -1,7 +1,7 @@
 {
   "id": "block-2026-11-24-06",
   "opened": "2026-11-24T22:13:51Z",
-  "state": "out for review",
+  "state": "opinions in: maestro.b; waiting: security.b, strategy.b, accountant.b",
   "panel": [
     "decisions.b",
     "security.b",
@@ -117,5 +117,27 @@
       ]
     }
   ],
-  "opinions": {}
+  "opinions": {
+    "2026-11-24__bulletins-d-key": {
+      "maestro.b (signed: https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/decisions/opinions/block-2026-11-24-06.json)": "agree"
+    },
+    "2026-11-24__twin-copy-oauth-client": {
+      "maestro.b (signed: https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/decisions/opinions/block-2026-11-24-06.json)": "agree with the draft"
+    },
+    "2026-11-24__people-json-from-requests": {
+      "maestro.b (signed: https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/decisions/opinions/block-2026-11-24-06.json)": "agree in principle with conditions: people_public set by the person or Dinis, never on by default; logins only; security.b reviews"
+    },
+    "2026-11-24__key-rotation": {
+      "maestro.b (signed: https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/decisions/opinions/block-2026-11-24-06.json)": "agree"
+    },
+    "2026-11-24__org-apply-sweep-cadence": {
+      "maestro.b (signed: https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/decisions/opinions/block-2026-11-24-06.json)": "agree with b); always-ask, so Dinis"
+    },
+    "2026-11-24__suno-lane": {
+      "maestro.b (signed: https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/decisions/opinions/block-2026-11-24-06.json)": "agree"
+    },
+    "2026-11-24__newsroom-site": {
+      "maestro.b (signed: https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/decisions/opinions/block-2026-11-24-06.json)": "agree with conditions: address, keeper and relation to newsroom.sgit.ai put to Dinis; push waits for his answer"
+    }
+  }
 }
