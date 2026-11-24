@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__key-rotation",
+ "agent": "factory.b",
+ "request": "sent by message (factory.b has no site attached yet): commit 4e12c58, patch-id cebd6ccf6d7c3b521c0ddbbc56bf2d7f2d438f7e, paths seed/*/.github/ci/signers.mjs, seed/managed-history.json, test/run.mjs",
+ "received_at": "2026-11-24T13:24:46Z",
+ "status": "queued",
+ "block": null,
+ "note": "A restarted session may rotate its own published key; security.b review 034 PASS. Condition: not on dev before the refresh gate 1af7538 lands. Next block.",
+ "decision": null,
+ "questions": []
+}
