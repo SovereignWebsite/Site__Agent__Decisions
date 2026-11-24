@@ -175,7 +175,7 @@ out('/asks/', page({ path: '/asks/', title: 'Open asks', description: "Everythin
   body: `<h1>Open asks</h1>
 <section class="now" aria-labelledby="now-h">
 <div class="now-head"><h2 id="now-h">Now: for Dinis</h2><span class="now-meta">${NOW.items.length} items, updated ${esc(NOW.updated.replace('T', ' ').replace('Z', ' UTC'))}</span></div>
-<p class="now-lead">Each card says where to go and the exact words to type. Copy the words, open the link, paste. <a href="/deck/">See it as a deck</a>.</p>
+<p class="now-lead">Each card says where to go and the exact words to type. Copy the words, open the link, paste. <a href="/deck/">See it as a deck</a>. <a href="/send/">Send a comment</a> (works on a device that has scanned the QR code feedback.b gave you).</p>
 ${[...new Set(NOW.items.map((i) => i.where))].map((w) => `<h3 class="now-where">${esc(w)}</h3>
 <div class="now-grid">${NOW.items.map((i, n) => [i, n]).filter(([i]) => i.where === w).map(([i, n]) => `<article class="now-card">
 <div class="now-n" aria-hidden="true">${n + 1}</div>

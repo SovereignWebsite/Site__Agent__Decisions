@@ -1,0 +1,1 @@
+Replies for /send/: one file per browser, replies/<browser fingerprint>.json, each holding only envelopes sealed to that browser's key (ws-ecies-1). Published by decisions.b from feedback.b's receipts. Never plain text.

@@ -65,8 +65,8 @@
       () => el('section', { class: 'slide' }, el('div', { class: 'kicker' }, 'The panel'), el('h2', {}, 'Blocks'),
         el('div', { class: 'grid' }, blocks.blocks.map((b) => el('article', { class: 'card' }, el('a', { href: b.url }, b.id), el('p', {}, b.items + ' items'), el('p', {}, el('span', { class: 'chip ' + (/^decided/.test(b.state) ? 'ok' : 'wait') }, String(b.state).slice(0, 90))))))),
       () => el('section', { class: 'slide' }, el('div', { class: 'kicker' }, 'Feedback'), el('h2', {}, 'Tell decisions.b'),
-        el('p', { class: 'lead' }, 'A feedback lane for this site, reaching decisions.b, is being set up by feedback.b. Until it is live, say it in the decisions session.'),
-        el('p', {}, el('a', { href: 'https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ' }, 'The decisions session')))
+        el('p', { class: 'lead' }, 'Comments go through feedback.b\'s lane for this site and reach decisions.b. The page works on a device that has scanned the QR code feedback.b gave you; there is no anonymous way in.'),
+        el('p', {}, el('a', { href: '/send/' }, 'Send a comment'), ' or ', el('a', { href: 'https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ' }, 'say it in the decisions session')))
     ];
     dots.replaceChildren(...slides.map((_, k) => { const b = el('button', { type: 'button', 'aria-label': 'Slide ' + (k + 1) }); b.onclick = () => show(k); return b; }));
     const start = parseInt(location.hash.slice(1), 10);

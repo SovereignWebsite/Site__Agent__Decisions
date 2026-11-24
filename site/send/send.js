@@ -6,6 +6,8 @@
 // IndexedDB), and the list of messages sent from here with their replies. "Forget this device" removes all of it.
 (() => {
   'use strict'
+  // Refuse to run inside another page (security.b, 24 Nov 2026).
+  if (window.top !== window.self) { document.documentElement.hidden = true; return }
   const $ = s => document.querySelector(s)
   const S = crypto.subtle, te = new TextEncoder(), td = new TextDecoder()
   const b64 = bytes => { let s = ''; for (const b of new Uint8Array(bytes)) s += String.fromCharCode(b); return btoa(s) }
