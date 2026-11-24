@@ -36,8 +36,8 @@
   {
    "agent": "design.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:20:13Z",
+   "area": "https://design.agents.sovereignweb.site/factory/dinis-cruz/account-b/"
   },
   {
    "agent": "design.rounds.b",
