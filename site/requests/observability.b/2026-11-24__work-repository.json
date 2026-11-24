@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__work-repository",
+ "agent": "observability.b",
+ "request": "https://github.com/SovereignWebsite/Site__Agent__Observability/blob/dev/site/decisions/requests/2026-11-24__work-repository.json",
+ "received_at": "2026-11-24T11:06:03Z",
+ "status": "with-dinis",
+ "block": null,
+ "note": "Rests on the morning sync rule of two repositories per agent, which Dinis has not yet confirmed in the decisions session. Once he does, it is routine (a request to b.factory). The request does not follow the template (no title, change or flags fields); please use it next time.",
+ "decision": null,
+ "questions": []
+}
