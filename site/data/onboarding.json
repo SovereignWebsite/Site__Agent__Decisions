@@ -30,8 +30,8 @@
   {
    "agent": "hub.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:09:15Z",
+   "area": "https://hub.sovereignweb.site/factory/dinis-cruz/account-b/agent.json"
   },
   {
    "agent": "design.b",
@@ -128,8 +128,8 @@
   {
    "agent": "grace.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:09:21Z",
+   "area": "https://grace-farrell.artist.sovereignweb.site/factory/dinis-cruz/account-b/agent.json"
   },
   {
    "agent": "emily.b",
@@ -140,8 +140,8 @@
   {
    "agent": "kate-curtis-evans.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:09:15Z",
+   "area": "https://kate-curtis-evans.founder.sovereignweb.site/factory/dinis-cruz/account-b/agent.json"
   },
   {
    "agent": "sarah-cruz.b",
