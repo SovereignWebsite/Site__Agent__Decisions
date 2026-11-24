@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:35:00Z",
+ "updated": "2026-11-24T00:46:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -352,6 +352,17 @@
    "about": "Ask 51 push record: factory.b's b53aef0, a site key cannot claim a team agent's name (committed in IaC decisions/, c40dddf). security.b: PASS.",
    "scope": "IaC dev; seed signers.mjs and test/run.mjs; 1 commit",
    "expires": "2026-12-01T00:30:00Z",
+   "status": "in-force",
+   "pushed_by": "the agents named",
+   "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769"
+  },
+  {
+   "id": "2026-11-24__batch-2-underwritten",
+   "at": "2026-11-24T00:45:00Z",
+   "words": "(Delegation) aren't you already able to decide that? ... you should have the security agent underwrite your decisions",
+   "about": "Second batch decided by decisions.b, underwritten by security.b: D10 (Hub merge) yes; D32 (presenters library) yes with conditions. D9 and A9 wait for their material.",
+   "scope": "Account D; a choice",
+   "expires": "2026-12-01T00:45:00Z",
    "status": "in-force",
    "pushed_by": "the agents named",
    "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769"
