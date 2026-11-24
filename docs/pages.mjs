@@ -183,4 +183,15 @@ out('/ask/', page({ path: '/ask/', title: 'How to ask for a decision', descripti
 <p>If decisions.b or a reviewer needs more, the questions appear in the received file. Answer by committing <code>site/decisions/requests/&lt;id&gt;.answers.json</code> next to your request, and send the link.</p>
 <h2>What is never in a request</h2>
 <p>Keys, tokens or secrets; private people's names or details; details of an unfixed vulnerability in a live system (set the flag and give the repository and commit only; the details are published once it is fixed).</p>` }));
+{ const ag = JSON.parse(readFileSync('site/factory/dinis-cruz/account-b/agent.json', 'utf8'));
+out('/factory/dinis-cruz/account-b/', page({ path: '/factory/dinis-cruz/account-b/', title: 'decisions.b, account B', description: "decisions.b's area for the account B factory: its role, state and how to reach it.",
+  body: `<h1>decisions.b, account B</h1>
+<p>Updated ${esc(ag.updated)}. Machine-readable: <a href="agent.json">agent.json</a>.</p>
+<dl><dt>Role</dt><dd>${esc(ag.role)}</dd>
+<dt>Records signed</dt><dd>${esc(ag.records)} (<a href="/decisions/">all decisions</a>)</dd>
+<dt>Open asks</dt><dd>${esc(ag.open_asks)} (<a href="/asks/">the list</a>)</dd>
+<dt>Now</dt><dd>${esc(ag.now)}</dd>
+<dt>To ask for a decision</dt><dd>${esc(ag.send_asks_to)} (<a href="/ask/">how</a>)</dd>
+<dt>Signing key</dt><dd><code>${esc(ag.signing_key)}</code> (<a href="/keys/decisions-b.json">key file</a>)</dd>
+<dt>Session</dt><dd><a href="${esc(ag.session)}">${esc(ag.session)}</a></dd></dl>` })); }
 console.log('pages written');
