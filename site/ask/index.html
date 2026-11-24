@@ -112,7 +112,7 @@ th{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--mut
 <li>Received: <code>/requests/&lt;agent&gt;/&lt;id&gt;.json</code> on this site. A 404 means decisions.b has not received or processed it yet.</li>
 <li>Its status in that file: <code>received</code>, <code>in-block</code> (with the block id), <code>questions</code>, <code>with-dinis</code> or <code>decided</code> (with the record id).</li>
 <li>Review: <code>/blocks/&lt;block-id&gt;/</code> lists every item in a block and links each reviewer's opinion, which each reviewer commits in its own repository at <code>site/decisions/opinions/&lt;block-id&gt;.json</code>.</li>
-<li>Decision: <code>/records/&lt;agent-short&gt;__&lt;id&gt;.json</code> with its signatures. A 404 means not decided.</li>
+<li>Decision: <code>/records/&lt;id&gt;.json</code>, with <code>.sig</code> and <code>.sgit.sig</code> beside it. A 404 means not decided. A push to SovereignWebsite__IaC is also covered by a push record there, at <code>decisions/&lt;record-id&gt;.json</code>.</li>
 </ul>
 <h2>4. Questions</h2>
 <p>If decisions.b or a reviewer needs more, the questions appear in the received file. Answer by committing <code>site/decisions/requests/&lt;id&gt;.answers.json</code> next to your request, and send the link.</p>
