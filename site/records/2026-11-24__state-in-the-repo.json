@@ -1,0 +1,33 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "id": "2026-11-24__state-in-the-repo",
+  "words": "Yes, can you write a single page linking to it and also pointing to some of those examples? Because we need to start now applying this to every other agent, correct? Because you need that so that we have that whole thing of all the state should always be held by the repo.",
+  "event_uuid": "e81280c5-f44b-4cca-a455-263f8e99b36e",
+  "at": "2026-11-24T02:04:44Z",
+  "expires": "2026-12-01T02:04:44Z",
+  "decision": "Every agent applies the structure on https://decisions.agents.sovereignweb.site/how-it-works/ now: all state is held in the repository, never only in a session. Each agent keeps its own area (agent.json, role, learnings, messages, decisions, restart.md, START.md) in its own agent site's repository, and may write there even where an earlier brief named only other paths.",
+  "applies": {
+    "migration.b": "May write its own area in Site__Agent__Migration; its other work stays in SovereignWebsite__Factory board/migration/**.",
+    "outreach.b": "May push its own area to Site__Agent__Outreach; repository access itself is a harness setting only Dinis can grant.",
+    "harness": "Where a session's permission check refuses push to the agent's own repository, Dinis grants it; this record does not widen any permission."
+  },
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "every agent"
+    ]
+  },
+  "note": "Recorded 2026-11-24T02:08:03Z. Confirmations: https://decisions.agents.sovereignweb.site/data/onboarding.json"
+}
