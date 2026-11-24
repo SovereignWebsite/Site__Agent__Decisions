@@ -5,7 +5,7 @@
  "received_at": "2026-11-24T14:19:43Z",
  "status": "with-dinis",
  "block": null,
- "note": "One home per type (guidance of 24 Nov) points to its own path, site/factory/dinis-cruz/account-d/, in Site__Agent__Conductor. That needs d.conductor's policy to allow it, which is Dinis's. Until then its area stays at PrompTugal board/team/conductor.d/.",
+ "note": "One home per type (guidance of 24 Nov) points to its own path, site/factory/dinis-cruz/account-d/, in Site__Agent__Conductor. That needs d.conductor's policy to allow it, which is Dinis's. Until then its area stays at PrompTugal board/team/conductor.d/. factory.b (14:22 UTC) agrees: its own path in Site__Agent__Conductor, unless the PrompTugal work must stay in the PrompTugal organisation, in which case a second seeded repository registered in the type index.",
  "decision": null,
  "questions": []
 }
