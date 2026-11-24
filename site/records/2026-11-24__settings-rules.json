@@ -1,0 +1,30 @@
+{
+  "v": 2,
+  "id": "2026-11-24__settings-rules",
+  "decided_by": "Dinis Cruz",
+  "words": "yes to settings rules as proposed",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "22a26ee8-1526-48ec-ae25-66ca1ee82804",
+  "at": "2026-11-24T00:51:21Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "answers": "decisions.b's proposal of about 00:49 UTC: narrow .claude/settings.json allow rules per agent, so that steps the session checks refuse on a relayed record (starting sessions, pushing policy/ and build/, creating its own key) run without Dinis typing in each session.",
+  "decision": "Yes. decisions.b drafts the exact .claude/settings.json for each agent as a decision block for the panel. Dinis adds each file himself (a GitHub web edit on dev), or says yes once in that agent's own session; no agent ever adds or widens a rule for itself. Each rule is as narrow as the step: maestros may start and archive sessions and create or change scheduled tasks within decided schedules; factory.b's repository may push to dev (the IaC checks and decision records still gate every push); agents that must create their own key may run sgit pki keygen and export. Sealed vault copies travel without a new rule, committed in the holder's own repository, if the panel agrees.",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "decisions.b",
+      "the agents named in the rules block"
+    ]
+  },
+  "expires": "2026-12-01T00:51:21Z",
+  "note": "A choice. Rules take effect when a session starts, so affected sessions are restarted after the files land."
+}

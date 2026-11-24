@@ -1,0 +1,73 @@
+{
+ "id": "block-2026-11-24-04",
+ "opened": "2026-11-24T01:35:00Z",
+ "state": "out for review",
+ "panel": [
+  "decisions.b",
+  "security.b",
+  "strategy.b",
+  "maestro.b",
+  "accountant.b"
+ ],
+ "how": "Each reviewer commits its signed opinion at site/decisions/opinions/block-2026-11-24-04.json in its own repository and sends the link. If all agree, Dinis adds R1 to R3 himself on GitHub (dev), and the sessions concerned are restarted.",
+ "note": "Record 2026-11-24__settings-rules. Rules are allow-only, for named tools or exact commands; nothing is denied that is denied today.",
+ "items": [
+  {
+   "item": "R1",
+   "commit": "none (Dinis adds the file)",
+   "patch_id": "none",
+   "repository": "maestro.b's session repository (to be confirmed by maestro.b)",
+   "paths": [
+    ".claude/settings.json"
+   ],
+   "what": "Maestros start and archive sessions and keep wakes to decided schedules (records 2026-11-24__agent-lifecycle, 2026-11-23__conductors-transfers-relays). Unblocks devops.b, restarts on cheaper models, and the design rounds wake. File: {\"permissions\": {\"allow\": [\"mcp__claude-code-remote__create_session\", \"mcp__claude-code-remote__archive_session\", \"mcp__claude-code-remote__create_trigger\", \"mcp__claude-code-remote__update_trigger\"]}}",
+   "draft": "agree",
+   "also_ask": [
+    "the agent concerned"
+   ]
+  },
+  {
+   "item": "R2",
+   "commit": "none (Dinis adds the file)",
+   "patch_id": "none",
+   "repository": "SovereignWebsite/SovereignWebsite__IaC (factory.b's session repository, to be confirmed)",
+   "paths": [
+    ".claude/settings.json"
+   ],
+   "what": "Pushes to dev only. Every push still passes test/run.mjs, abp paths (each agent only its own paths), the leak scan, check-signatures and, for always-ask paths, a decision record. Unblocks 38, 49 and 56. Applies to every agent whose session starts in IaC. File: {\"permissions\": {\"allow\": [\"Bash(git push origin dev)\", \"Bash(git push -q origin dev)\"]}}",
+   "draft": "agree",
+   "also_ask": [
+    "the agent concerned"
+   ]
+  },
+  {
+   "item": "R3",
+   "commit": "none (Dinis adds the file)",
+   "patch_id": "none",
+   "repository": "Site__Agents__Accountant (accountant.b's session repository, to be confirmed)",
+   "paths": [
+    ".claude/settings.json"
+   ],
+   "what": "accountant.b creates its own key and exports only the public half (request 2026-11-24__accountant-signing-key). The same two lines suit mistral.conductor. File: {\"permissions\": {\"allow\": [\"Bash(sgit pki keygen:*)\", \"Bash(sgit pki export:*)\"]}}",
+   "draft": "agree",
+   "also_ask": [
+    "the agent concerned"
+   ]
+  },
+  {
+   "item": "R4",
+   "commit": "none (Dinis adds the file)",
+   "patch_id": "none",
+   "repository": "no settings file",
+   "paths": [
+    "site/private/sealed-for-<maestro>/"
+   ],
+   "what": "Sealed vault-key copies are committed by each holder in its own repository at site/private/sealed-for-<maestro>/<vault-id>, readable only with the maestro's private key, and the maestro reads them from there. No new permission is needed; nothing is sent by message.",
+   "draft": "agree",
+   "also_ask": [
+    "the agent concerned"
+   ]
+  }
+ ],
+ "opinions": {}
+}
