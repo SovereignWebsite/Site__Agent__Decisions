@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:30Z",
+ "updated": "2026-11-24T23:25Z",
  "items": [
   {
    "what": "Run Org apply once as a full sweep, so the signer-check security fix reaches every site (so far only the agent sites have it; the 18:17 scheduled sweep did not run). It also refreshes agent sites' CLAUDE.md where still an earlier seeded version, as you asked in a.factory's session; customer sites' CLAUDE.md is never touched. Do not rely on the 00:17 slot: GitHub has been dropping most of this workflow's scheduled runs (about 3 or 4 a day under the hourly cron, none since 11:57). A lasting fix (an hourly cron again, or a second trigger) comes back as a request for devops.b",
@@ -30,6 +30,12 @@
    "where": "the decisions session",
    "link": "https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/factory/dinis-cruz/account-b/briefs/2026-11-24-morning-sync.md",
    "say": "yes to 1 to 6 (or name the changes)"
+  },
+  {
+   "what": "Confirm d.decisions (account D) may decide account D's routine asks: its key is endorsed, but its brief said it never decides, so it waits for your word",
+   "where": "d.decisions's session",
+   "link": "",
+   "say": "yes, decide account D's routine asks under the account decision agents record"
   },
   {
    "what": "The new manager site on account A (6bc2235): factory.c pushes only on your merge or your word in its own session",
