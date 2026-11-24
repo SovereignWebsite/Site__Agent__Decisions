@@ -3,8 +3,8 @@
  "agent": "factory.b",
  "request": "sent by message: commit 819f7ee, patch-id 2962c2b454ddd03bc508e5993b53f145f7659afd, path requests/2026-11-24__newsroom/site.json (Site__Platform__Newsroom, newsroom.platform.sovereignweb.site)",
  "received_at": "2026-11-24T22:12:56Z",
- "status": "queued",
- "block": null,
+ "status": "in-block",
+ "block": "block-2026-11-24-06",
  "note": "Dinis asked for it in sites.b's session at 22:10 UTC. Routine site request: next block. Open points for the panel: the address and group, the keeper (a dedicated journalist agent), and how it sits beside newsroom.sgit.ai in the family menu (maestro.b asked).",
  "decision": null,
  "questions": []

@@ -3,8 +3,8 @@
  "agent": "strategy.b",
  "request": "https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__twin-copy-oauth-client.json",
  "received_at": "2026-11-24T01:10:41Z",
- "status": "queued",
- "block": null,
+ "status": "in-block",
+ "block": "block-2026-11-24-06",
  "note": "Next block. Option a needs Dinis to create the OAuth client in his own Google Cloud.",
  "decision": null,
  "questions": []

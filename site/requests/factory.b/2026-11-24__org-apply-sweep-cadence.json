@@ -3,8 +3,8 @@
  "agent": "factory.b",
  "request": "sent by message: .github/workflows/org-apply.yml full-sweep schedule from 17 */6 * * * back to hourly 17 * * * * (option b); push-scoped runs and dispatch unchanged",
  "received_at": "2026-11-24T19:23:03Z",
- "status": "queued",
- "block": null,
+ "status": "in-block",
+ "block": "block-2026-11-24-06",
  "note": "Next block, then Dinis (always-ask: .github/). devops.b's view wanted; devops.b is not yet started (it waits for Dinis to start it by hand, or for maestro.b's restart with R1). Meanwhile the full sweep is on Dinis's Now list to run by hand.",
  "decision": null,
  "questions": []

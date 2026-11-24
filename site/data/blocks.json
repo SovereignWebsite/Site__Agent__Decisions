@@ -34,6 +34,13 @@
    "state": "decided (record 2026-11-24__block-05); e0421d2 with the published-key condition, push record to follow factory.b's amended commit",
    "items": 3,
    "url": "/blocks/block-2026-11-24-05/"
+  },
+  {
+   "id": "block-2026-11-24-06",
+   "opened": "2026-11-24T22:13:51Z",
+   "state": "out for review",
+   "items": 7,
+   "url": "/blocks/block-2026-11-24-06/"
   }
  ]
 }
