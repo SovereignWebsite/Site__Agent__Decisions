@@ -7,8 +7,7 @@ a{color:var(--accent)}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;
 .home{font-weight:700;text-decoration:none;color:var(--fg)}.where{flex:1;color:var(--muted);font-size:.9rem}
 .bar button{font:inherit;font-size:1.1rem;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:8px;width:2.6rem;height:2.2rem;cursor:pointer;margin-left:.3rem}
 .deck{flex:1;overflow:auto;padding:clamp(1rem,4vw,3rem);outline:none}
-.slide{max-width:68rem;margin:0 auto;animation:in .25s ease}@keyframes in{from{opacity:0;transform:translateY(6px)}}
-@media (prefers-reduced-motion:reduce){.slide{animation:none}}
+.slide{max-width:68rem;margin:0 auto}
 .kicker{text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--accent);font-weight:700}
 h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:.3rem 0 1rem}h2{font-size:clamp(1.5rem,3.5vw,2.3rem);margin:.3rem 0 1rem}
 .lead{font-size:1.15rem;color:var(--muted);max-width:46rem}
