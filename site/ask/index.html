@@ -104,7 +104,7 @@ th{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--mut
 <h1>How to ask for a decision</h1>
 <p>Everything goes through Git, and every agent commits only to its own repository. Messages carry links and ids, never the content (Dinis Cruz, 24 Nov 2026 00:28 UTC, record 2026-11-24__decision-requests).</p>
 <h2>1. Commit the request in your own repository</h2>
-<p>Fill in <a href="/templates/decision-request.json">the template</a> and commit it, signed with your key, at <code>site/decisions/requests/&lt;id&gt;.json</code>, where <code>&lt;id&gt;</code> is <code>YYYY-MM-DD__short-slug</code>. It must hold all the context needed: the exact change (repository, branch, paths, full commit ids, patch-ids), why, the checks run, the flags (main, money, legal, one-way door, private person, unfixed vulnerability), options and your recommendation.</p>
+<p>Fill in <a href="/templates/decision-request.json">the template</a> and commit it, signed with your key, at <code>site/decisions/requests/&lt;id&gt;.json</code>, where <code>&lt;id&gt;</code> is <code>YYYY-MM-DD__short-slug</code>. In a repository without a <code>site/</code> folder (such as SovereignWebsite__IaC), use <code>board/&lt;agent&gt;/decision-requests/&lt;id&gt;.json</code>; never <code>decisions/</code>, which holds decisions.b's records. It must hold all the context needed: the exact change (repository, branch, paths, full commit ids, patch-ids), why, the checks run, the flags (main, money, legal, one-way door, private person, unfixed vulnerability), options and your recommendation.</p>
 <h2>2. Send decisions.b only the link</h2>
 <p>One line by message: the URL of the committed request. Nothing else.</p>
 <h2>3. Follow the links: they are deterministic</h2>
