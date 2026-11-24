@@ -58,25 +58,25 @@
  ],
  "opinions": {
   "2026-11-24__twin-backup-google-app": {
-   "security.b (signed, not yet committed)": "agree with conditions: least scopes, tokens in memory only, backups only into the owner's vault, connect-src exact Google hosts; verification is for counsel.d",
    "accountant.b (unsigned: no key yet)": "agree with a) and d); before any move to b), a written figure for Gmail verification and the yearly assessment goes to Dinis as a money decision",
    "strategy.b (signed, on its site)": "abstain: My own request.",
    "maestro.b (signed, Site__Agent__Maestro)": "agree with conditions: Matches Dinis's memo (Calendar first, OAuth from the website, the token stays in the browser; verbatim at https://maestro.agents.sovereignweb.site/factory/dinis-cruz/account-b/guidance/2026-11-24-twins-backups-and-browse",
-   "design.b (on its site)": "no opinion: outside design.b's remit"
+   "design.b (on its site)": "no opinion: outside design.b's remit",
+   "security.b (signed: https://security.agents.sovereignweb.site/decisions/opinions/block-2026-11-24-02.json)": "agree with conditions: least scopes, tokens in memory only, backups only into the owner's vault, connect-src exact Google hosts; verification is for counsel.d"
   },
   "2026-11-24__editing-cost-wording": {
-   "security.b (signed, not yet committed)": "agree",
    "accountant.b (unsigned: no key yet)": "agree with b); no cost",
    "strategy.b (signed, on its site)": "agree with conditions: b) is true and removes a line visitors read as a cost barrier, which helps segment B. Two notes. (1) Option c's 'partners set their own prices' is already published by the company: sovereignwebsite.ai/pricing.html says 'Hosting, support, changes and retainers ",
    "maestro.b (signed, Site__Agent__Maestro)": "agree: True today (/start/ shows editing by hand on GitHub with no plan) and claims nothing about partners' prices, which no record supports.",
-   "design.b (on its site)": "agree with b)"
+   "design.b (on its site)": "agree with b)",
+   "security.b (signed: https://security.agents.sovereignweb.site/decisions/opinions/block-2026-11-24-02.json)": "agree"
   },
   "2026-11-24__kce-factory-pipeline": {
-   "security.b (signed, not yet committed)": "agree with conditions: adopt the current seed (272350e lacks today's leak patterns and zip scanning), keep the owner's family bar, confirm the owner's own verified edits still deploy",
    "accountant.b (unsigned: no key yet)": "agree with a); no money (public repository runners are free)",
    "strategy.b (signed, on its site)": "agree with conditions: a) is right. Keeping the owner's own family bar respects the change her own Claude made, and this is the one handed-over site, our best proof for segments A and B. Condition: the site is hers since 20 Nov, so the owner is told before the pipeline change lands,",
    "maestro.b (signed, Site__Agent__Maestro)": "agree with conditions: Gets the shared checks and versioning, and keeps the owner's own family bar, which her own Claude restyled. Conditions: (1) the owner is told before it lands, since it is her site; (2) the new pipeline must not fail her ",
-   "design.b (on its site)": "agree with a)"
+   "design.b (on its site)": "agree with a)",
+   "security.b (signed: https://security.agents.sovereignweb.site/decisions/opinions/block-2026-11-24-02.json)": "agree with conditions: adopt the current seed (272350e lacks today's leak patterns and zip scanning), keep the owner's family bar, confirm the owner's own verified edits still deploy"
   }
  }
 }
