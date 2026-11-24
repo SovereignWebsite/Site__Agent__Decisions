@@ -1,0 +1,38 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "id": "2026-11-24__block-04",
+  "block": "block-2026-11-24-04",
+  "words": "yes to settings rules as proposed",
+  "event_uuid": "22a26ee8-1526-48ec-ae25-66ca1ee82804",
+  "at": "2026-11-24T01:08:45Z",
+  "expires": "2026-12-01T01:08:45Z",
+  "decided_under": "2026-11-24__settings-rules, 2026-11-24__panel-real-agents",
+  "panel": {
+    "decisions.b": "agree",
+    "security.b": "agree with conditions",
+    "strategy.b": "agree with conditions (R1)",
+    "maestro.b": "agree with conditions",
+    "accountant.b": "agree with conditions (unsigned until its key exists)",
+    "also asked": "factory.b agree with conditions (R2)"
+  },
+  "decisions": {
+    "R1": "Yes. Dinis merges the four-tool allow block into PrompTugal/PrompTugal__News__Website/.claude/settings.json, keeping abp@'s hooks.",
+    "R2": "Yes. Dinis adds the two exact push commands to SovereignWebsite/SovereignWebsite__IaC/.claude/settings.json.",
+    "R3": "Yes. Dinis adds sgit pki keygen and export to Site__Agents__Accountant, and the same in each agent's own repository (own-keys principle).",
+    "R4": "Yes, with no settings file: sealed copies go outside site/, at private/sealed-for-<maestro>/<vault-id>."
+  },
+  "conditions": [
+    "security.b: a scheduled task never fires into another agent's session; every use is logged with a budget; Org apply runs only from a dev commit that passed test/run.mjs, check-signatures, the leak scan, abp paths and decisions.mjs ci",
+    "factory.b: an always-ask push cites a block record naming its patch-id; build/decisions.mjs gains an always_ask flag",
+    "accountant.b: every session started and every scheduled task created or changed is sent to it at once, with a budget",
+    "strategy.b: every session started or archived and every wake set is listed with its session link on the maestro's own site area",
+    "maestro.b and security.b (R4): ciphertext only, sealed to the maestro's published encryption key; the leak scan passes; keys rotate if the maestro's key is retired"
+  ],
+  "note": "The panel agrees; the rules take effect only when Dinis adds the files himself."
+}

@@ -1,0 +1,28 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "id": "2026-11-24__block-05",
+  "block": "block-2026-11-24-05",
+  "words": "Okay, now for those decisions, aren't you already able to decide that? Like, for example, the security fix, right? That should not require me to come here. Like, in fact, safe patch, vault keys. Well, okay, that wasn't say my call. No, but always. So then we can decide. Okay, so on vault keys, every key should always be given to the maestro. Always. So for example, for that one, I think your answer is spot on, right? So, I think on the 50, no, I should be approving less, right? And I think a lot of this stuff, like, look, even if you make a little mistake, we'll catch it, right? And that's why, again, if anything, you should have the security agent underwrite your decisions, right? So I guess maybe that's the workflow. Actually, here's a question. Are you asking the security agent to review this? Because I think the security agent, the counsel agent should always review this stuff. And you can fire them up here, right? You can fire them as sub-agents, correct?",
+  "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769",
+  "at": "2026-11-24T01:08:45Z",
+  "expires": "2026-12-01T01:08:45Z",
+  "decided_under": "2026-11-24__decisions-b-decides, 2026-11-24__panel-real-agents, 2026-11-24__own-keys-principle",
+  "panel": {
+    "decisions.b": "agree",
+    "security.b": "agree",
+    "strategy.b": "agree",
+    "maestro.b": "agree",
+    "accountant.b": "agree (unsigned until its key exists)"
+  },
+  "decisions": {
+    "107edc9": "Yes: the own-key step in the seeds. Push record IaC decisions/2026-11-24__seed-own-key.",
+    "2026-11-24__sgsend-token-for-traffic-vault": "Option B: maestro.b keeps the vault key and seals only the enum key and append tokens to observability.b's published key, never in a message body or in plain text in a repository.",
+    "e0421d2": "Not decided: emily.b, an affected agent, disagrees. It goes to Dinis if it still disagrees after reading the commit."
+  }
+}
