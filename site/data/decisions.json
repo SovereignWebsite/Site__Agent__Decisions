@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:46:00Z",
+ "updated": "2026-11-24T00:55:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -366,6 +366,17 @@
    "status": "in-force",
    "pushed_by": "the agents named",
    "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769"
+  },
+  {
+   "id": "2026-11-24__panel-of-five",
+   "at": "2026-11-24T00:23:56Z",
+   "words": "What about you get every decision before you sign it is reviewed by the five of you, and if you all agree ... when there's disagreements is when I need to come in. ... they all need to be here on this session. They cannot be another session.",
+   "about": "Every decision is reviewed before signing by a panel of five run inside the decisions session: decisions.b plus security, counsel, strategy and maestro reviewers. All agree: signed. Any disagreement: to Dinis.",
+   "scope": "All accounts; a standing choice",
+   "expires": "2026-12-01T00:23:56Z",
+   "status": "in-force",
+   "pushed_by": "none: a choice",
+   "event_uuid": "957b3d19-0328-4c2d-8f7b-624073e53920"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account. Since 23:17 UTC 23 Nov (Dinis): asks marked review are sites or pages for him to look at; they never block an agent.",

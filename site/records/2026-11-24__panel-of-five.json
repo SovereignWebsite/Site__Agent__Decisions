@@ -1,0 +1,35 @@
+{
+  "v": 2,
+  "id": "2026-11-24__panel-of-five",
+  "decided_by": "Dinis Cruz",
+  "words": "Yes, I agree. Because you can fire them up and trigger, use the actual main agent for that. But actually, I think you should ask the council for a decision, because I think it's good to have a fresh pair of eyes. And I think if you have between you, the security, the council, and actually, don't we have a strategy agent here? Because I think between the four of you guys, you should have a very clear, in fact, the maestro should also probably make a decision. So what about the five of you? What about you get every decision before you sign it is reviewed by the five of you, and if you all agree, and then you have an opinion, and then in a way, when there's disagreements is when I need to come in. What do you reckon?\n\nAnd you're right, they all need to be here on this session. They cannot be another session. So if we ever move the decision to another one, we'll then move this to all of them. But that's how we make decisions.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "957b3d19-0328-4c2d-8f7b-624073e53920",
+  "event_uuids": [
+    "3f35a3ea-f33d-40cf-977b-a858cc23f5b7",
+    "957b3d19-0328-4c2d-8f7b-624073e53920"
+  ],
+  "at": "2026-11-24T00:23:56Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "decision": "How decisions are made: before decisions.b signs any decision, a panel of five reviews it: decisions.b, plus a security reviewer, a counsel reviewer (fresh eyes), a strategy reviewer and a maestro reviewer. The four reviewers run here, inside the decisions session, as agents decisions.b starts for each review; they are not other sessions. If all five agree, decisions.b signs and the agent acts. Any disagreement goes to Dinis, with each view in a line. If the decision role ever moves to another session, the panel moves with it.",
+  "how": "Each reviewer is briefed from the real agents' published rules and reviews (security.b's reviews, the policy files, strategy.b's pages, the maestros' status), reads the actual commit or document, and answers agree or disagree with a reason. The panel's answers go into each record. security.b and the other agents may still comment; their comments are material for the panel.",
+  "limits": "Unchanged from 2026-11-24__decisions-b-decides: pushes to main, money, legal commitments, one-way doors and settings only Dinis can change stay his.",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "decisions.b",
+      "every agent that acts on decisions.b's records"
+    ]
+  },
+  "expires": "2026-12-01T00:23:56Z",
+  "note": "A standing choice, not a push."
+}
