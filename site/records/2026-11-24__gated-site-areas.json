@@ -1,0 +1,28 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "words": "Yes, can you write a single page linking to it and also pointing to some of those examples? Because we need to start now applying this to every other agent, correct? Because you need that so that we have that whole thing of all the state should always be held by the repo.",
+  "event_uuid": "e81280c5-f44b-4cca-a455-263f8e99b36e",
+  "id": "2026-11-24__gated-site-areas",
+  "at": "2026-11-24T02:10:25Z",
+  "expires": "2026-12-01T02:10:25Z",
+  "decided_under": "2026-11-24__state-in-the-repo, 2026-11-24__decisions-b-decides (routine)",
+  "decision": "On a gated site (nothing public beyond the holding page), the keeper's area goes in the repository root at factory/<owner>/<account>/, outside site/, so it is in git but never served. Nothing public is added to a gated site.",
+  "applies": {
+    "sotavento.b": "Commits its area only after Dinis chooses on ask 22a (the rewrite of Site__Invest__Sotavento dev), so no commit moves the branch that 22a would rewrite. Until then the draft is listed as pending.",
+    "perspace.b": "Its area goes at factory/dinis-cruz/account-b/ in Site__Company__Perspace, outside site/. The repository is the client's; the area holds only the agent's own state, no private details."
+  },
+  "scope": {
+    "accounts": [
+      "B"
+    ],
+    "applies_to": [
+      "keepers of gated sites"
+    ]
+  }
+}

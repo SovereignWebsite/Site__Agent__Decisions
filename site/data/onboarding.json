@@ -11,8 +11,8 @@
   {
    "agent": "strategy.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:09:57Z",
+   "area": "https://strategy.agents.sovereignweb.site/factory/dinis-cruz/account-b/"
   },
   {
    "agent": "factory.b",
@@ -85,8 +85,8 @@
   {
    "agent": "startups.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:10:02Z",
+   "area": "https://startups.agents.sovereignweb.site/factory/dinis-cruz/account-b/"
   },
   {
    "agent": "suno.b",
@@ -111,13 +111,15 @@
    "agent": "sotavento.b",
    "account": "B",
    "confirmed": null,
-   "area": null
+   "area": null,
+   "note": "waits for Dinis on ask 22a; area then goes outside site/ (record 2026-11-24__gated-site-areas)"
   },
   {
    "agent": "perspace.b",
    "account": "B",
    "confirmed": null,
-   "area": null
+   "area": null,
+   "note": "area outside site/ (record 2026-11-24__gated-site-areas)"
   },
   {
    "agent": "algarve-evolution.b",
@@ -160,7 +162,7 @@
    "account": "B",
    "confirmed": null,
    "area": null,
-   "note": "superseded by chiswick-cheese-market.c and .d; proposes its own retirement"
+   "note": "superseded; on the archive list"
   },
   {
    "agent": "south-beacon.b",
@@ -185,5 +187,8 @@
   "maestro.a (account A)",
   "c.conductor via c.maestro (account C)",
   "d.maestro (account D)"
+ ],
+ "to_archive": [
+  "chiswick-cheese-market.b (session_01Kw9UwBShWte1Rz5B2Mfznt): superseded by .c and .d"
  ]
 }
