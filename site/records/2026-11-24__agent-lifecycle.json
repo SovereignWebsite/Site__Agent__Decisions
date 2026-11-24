@@ -1,0 +1,31 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "id": "2026-11-24__agent-lifecycle",
+  "words": "By the way, if we need to put specific instructions on the start the original prompt, we can do it, right? But I still think that we need to find a way to do it with the policies. But let's figure out the way. And you could always stop and restart all the sessions. That's not a major problem. Because also, in fact, you probably need to make sure that every agent is now committing to its thing. And also, from a cost point of view, do we need everybody to be running Opus on this? Because I think a lot of these particular fixes cannot be done in Sonnet, isn't it? And that'll be much cheaper. Because, for example, we need to make sure that every single agent here is... Here's the question, right? Like, you know, when we talk about agents that are alive, we probably should even create a timeline for the agents to survive, right? Or not survive, word, but to be active. Because unless I'm working on it, unless there's feedback needed from me, right? A lot of those agents, a lot of those sessions here should basically be archived, so that in a way we have less agents. Because think about it, if now we're using GitHub as the state, right, which is how it should be, every agent here should be able to be restarted because they shouldn't lose context, correct? And I think that's almost the key test, right? If every action, every information, every bit of information is now stored in that GitHub repo, we should be able to move that agent around, and the agent, and in fact, we're going to have multiple collaborating at the same time, which is why it's so important. But also, we should be able to archive those agents that have done a bit of work, and now we don't need it anymore. Because to restart an agent, it should just be a case of starting a new session with the right, with the right repository, isn't it?",
+  "event_uuid": "a13a6138-b1c4-409b-9f13-48ca19bd1b66",
+  "at": "2026-11-24T00:44:16Z",
+  "decision": "GitHub is the state. Every agent commits everything it needs to its own repository, so it can be restarted, moved, or run alongside others without losing context: restarting an agent is a new session with the right repository and its hand-over note. That is the test each agent must pass. Sessions are active only while there is work or feedback from Dinis is needed; otherwise they are handed over and archived (the offboarding process, case 1), so fewer agents run. Agents use the cheapest model that can do their work: Sonnet unless the task needs Opus.",
+  "actions": "maestro.b, with accountant.b, proposes an activity timeline per agent and a model per role, and runs the restart test on a few agents first; each maestro then applies it on its account. Model changes and restarts with new start prompts are made through mandates from decisions.b.",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "every maestro",
+      "accountant.b",
+      "every agent"
+    ]
+  },
+  "expires": "2026-12-01T00:44:16Z",
+  "note": "A standing direction."
+}

@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T01:06:00Z",
+ "updated": "2026-11-24T01:12:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -432,6 +432,39 @@
    "status": "in-force",
    "pushed_by": "factory.b",
    "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769"
+  },
+  {
+   "id": "2026-11-24__mandates",
+   "at": "2026-11-24T00:41:32Z",
+   "words": "Yeah, but I shouldn't have to type startdevops.b. You should be able to make that request from here. In fact, that should be a request, isn't it? So that's an interesting one. You know, what do we call when you ask that? So if you think about it, that should be a request from here signed by you, whi ...",
+   "about": "A signed request from decisions.b on Dinis's word or delegation is acceptable currency for other agents: a mandate. Published at /mandates/.",
+   "scope": "All accounts; a standing choice",
+   "expires": "2026-12-01T00:41:32Z",
+   "status": "in-force",
+   "pushed_by": "none",
+   "event_uuid": "65db9fec-c5ad-4f43-bd1a-9cd926f5b366"
+  },
+  {
+   "id": "2026-11-24__agent-lifecycle",
+   "at": "2026-11-24T00:44:16Z",
+   "words": "By the way, if we need to put specific instructions on the start the original prompt, we can do it, right? But I still think that we need to find a way to do it with the policies. But let's figure out the way. And you could always stop and restart all the sessions. That's not a major problem. Becaus ...",
+   "about": "GitHub is the state; every agent must be restartable from its repository; sessions are archived when idle; agents use the cheapest model that can do the work. maestro.b and accountant.b propose timelines and models.",
+   "scope": "All accounts; a standing direction",
+   "expires": "2026-12-01T00:44:16Z",
+   "status": "in-force",
+   "pushed_by": "none",
+   "event_uuid": "a13a6138-b1c4-409b-9f13-48ca19bd1b66"
+  },
+  {
+   "id": "2026-11-24__mandate-start-devops-b",
+   "at": "2026-11-24T00:41:32Z",
+   "words": "Yeah, but I shouldn't have to type startdevops.b. You should be able to make that request from here. In fact, that should be a request, isn't it? So that's an interesting one. You know, what do we call when you ask that? So if you think about it, that should be a request from here signed by you, whi ...",
+   "about": "Mandate 1: maestro.b starts devops.b now.",
+   "scope": "Account B; a mandate",
+   "expires": "2026-11-25T00:41:32Z",
+   "status": "in-force",
+   "pushed_by": "none",
+   "event_uuid": "65db9fec-c5ad-4f43-bd1a-9cd926f5b366"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account. Since 23:17 UTC 23 Nov (Dinis): asks marked review are sites or pages for him to look at; they never block an agent.",

@@ -1,0 +1,28 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "mandate",
+  "id": "2026-11-24__mandate-start-devops-b",
+  "words": "Yeah, but I shouldn't have to type startdevops.b. You should be able to make that request from here. In fact, that should be a request, isn't it? So that's an interesting one. You know, what do we call when you ask that? So if you think about it, that should be a request from here signed by you, which covers my key, which is basically should be acceptable, almost like acceptable currency, right, by the other agents, correct?",
+  "event_uuid": "65db9fec-c5ad-4f43-bd1a-9cd926f5b366",
+  "at": "2026-11-24T00:41:32Z",
+  "to": "maestro.b (account B)",
+  "mandate": "Start devops.b@SovereignWebsite.dinis now, with the start prompt maestro.b has ready on IaC dev: its own key in its own repository, request Site__Agent__DevOps, its area at /factory/dinis-cruz/account-b/, first task the fast publishing lane for content-only changes; .github changes through decision requests with measurements. Use the cheapest model that can do the work.",
+  "basis": [
+    "2026-11-24__devops-agent (Dinis, 00:29:53 UTC)",
+    "2026-11-24__mandates (Dinis, 00:41:32 UTC)"
+  ],
+  "scope": {
+    "accounts": [
+      "B"
+    ],
+    "applies_to": [
+      "maestro.b"
+    ]
+  },
+  "expires": "2026-11-25T00:41:32Z"
+}
