@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__pki-link-maestro",
+ "agent": "security.b",
+ "request": "https://security.agents.sovereignweb.site/decisions/requests/2026-11-24__pki-link-maestro.json",
+ "received_at": "2026-11-24T02:13:12Z",
+ "status": "decided",
+ "block": null,
+ "note": "Answered by an existing record.",
+ "decision": "Option a): record 2026-11-24__key-chain (Dinis, 01:04 UTC). The endorsement https://decisions.agents.sovereignweb.site/keys/endorsements/maestro-b.json names encryption key sha256:3fa8f0c3e915cf6d and signing key sha256:856ff3f56ae32658, signed by decisions.b, until 2026-11-30. Holders check it, and revoked.json, before sealing.",
+ "questions": []
+}
