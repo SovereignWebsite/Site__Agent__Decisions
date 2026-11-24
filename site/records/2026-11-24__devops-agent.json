@@ -1,0 +1,32 @@
+{
+  "v": 2,
+  "id": "2026-11-24__devops-agent",
+  "decided_by": "Dinis Cruz",
+  "words": "I'm getting 404 on https://decisions.agents.sovereignweb.site/factory/dinis-cruz/account-b/ And this is what gets interesting now, because we probably, if we don't have a a DevOps agent, we should have one, because one of the things that a DevOps agent should have is to now keep an eye on everybody's CI pipelines and make sure they're very highly optimized. In fact, you might even have a special lane on your CI pipeline just for this kind of publishing, because again, you want to make sure they're super quick, so you don't get like this 404 that maybe something else is happening.",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "bee7be3d-d17c-4156-b8e1-1a1ba6869078",
+  "at": "2026-11-24T00:29:53Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "decision": "There is a DevOps agent (devops.b on account B, unless one already exists) that keeps an eye on every site's CI pipeline and makes them fast. First task: a fast publishing lane for content-only changes (records, data, area pages), so a publish is live in well under a minute and a page is never 404 or 503 for minutes while slow checks run.",
+  "evidence": "Site__Agent__Decisions deploys take 3 to 6 minutes, most of it installing Playwright and Chromium for the accessibility check; with concurrency group 'pages', pushes made close together queue, and queued runs are cancelled in favour of the newest, so a page can stay missing until the last run finishes (runs 62 and 63 cancelled, 23 to 24 Nov). The area page itself was 404 because decisions.b published index.md and agent.json without an index.html (fixed in aa31456).",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "maestro.b",
+      "conductor.b",
+      "the DevOps agent",
+      "every site's keeper"
+    ]
+  },
+  "expires": "2026-12-01T00:30:00Z",
+  "note": "A choice. Starting the agent's session is the maestro's; changes to each site's .github follow that site's own policy."
+}

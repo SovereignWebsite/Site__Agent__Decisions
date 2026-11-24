@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T01:20:00Z",
+ "updated": "2026-11-24T00:35:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -399,6 +399,17 @@
    "status": "in-force",
    "pushed_by": "none: a choice",
    "event_uuid": "2ce97cef-1106-4366-afa4-777b0399c8ac"
+  },
+  {
+   "id": "2026-11-24__devops-agent",
+   "at": "2026-11-24T00:29:53Z",
+   "words": "if we don't have a a DevOps agent, we should have one ... keep an eye on everybody's CI pipelines and make sure they're very highly optimized ... a special lane on your CI pipeline just for this kind of publishing",
+   "about": "A DevOps agent watches every site's CI and makes it fast; first, a fast lane for content-only publishes so pages are never missing for minutes.",
+   "scope": "All accounts; a choice",
+   "expires": "2026-12-01T00:30:00Z",
+   "status": "in-force",
+   "pushed_by": "none: a choice",
+   "event_uuid": "bee7be3d-d17c-4156-b8e1-1a1ba6869078"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account. Since 23:17 UTC 23 Nov (Dinis): asks marked review are sites or pages for him to look at; they never block an agent.",
