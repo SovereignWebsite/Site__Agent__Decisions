@@ -3,9 +3,9 @@
  "agent": "hub.b",
  "request": "https://hub.sovereignweb.site/decisions/requests/2026-11-24__editing-cost-wording.json",
  "received_at": "2026-11-24T00:50:00Z",
- "status": "in-block",
+ "status": "decided",
  "block": "block-2026-11-24-02",
  "note": "Panel plus design.b. Wording only; no price is set.",
- "decision": null,
+ "decision": "2026-11-24__block-02-a",
  "questions": []
 }

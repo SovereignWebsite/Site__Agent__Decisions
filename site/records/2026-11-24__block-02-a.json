@@ -1,0 +1,39 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "Okay, now for those decisions, aren't you already able to decide that? Like, for example, the security fix, right? That should not require me to come here. Like, in fact, safe patch, vault keys. Well, okay, that wasn't say my call. No, but always. So then we can decide. Okay, so on vault keys, every key should always be given to the maestro. Always. So for example, for that one, I think your answer is spot on, right? So, I think on the 50, no, I should be approving less, right? And I think a lot of this stuff, like, look, even if you make a little mistake, we'll catch it, right? And that's why, again, if anything, you should have the security agent underwrite your decisions, right? So I guess maybe that's the workflow. Actually, here's a question. Are you asking the security agent to review this? Because I think the security agent, the counsel agent should always review this stuff. And you can fire them up here, right? You can fire them as sub-agents, correct?",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-24__block-02-a",
+  "at": "2026-11-24T01:15:00Z",
+  "status": "in-force",
+  "kind": "choice",
+  "block": "block-2026-11-24-02",
+  "decided_under": "2026-11-24__decisions-b-decides, 2026-11-24__panel-real-agents",
+  "panel": {
+    "decisions.b": "agree",
+    "security.b": "agree (signed; to be committed)",
+    "strategy.b": "agree (on its site)",
+    "maestro.b": "agree (Site__Agent__Maestro)",
+    "accountant.b": "agree (unsigned until its key exists)",
+    "design.b (also asked)": "agree (on its site)"
+  },
+  "decisions": {
+    "2026-11-24__editing-cost-wording": "Yes to b), in design.b's words: 'Afterwards you can edit it yourself on GitHub at no cost, by talking to your own AI (a Claude plan), or through a partner.' One line under the offer, the same size as the line it replaces, with 'edit it yourself on GitHub' linking to /start/. No claim about partners' prices. hub.b makes the commit and cites this record.",
+    "2026-11-24__kce-factory-pipeline": "Yes to a), with conditions: adopt the current seed's .github (not the 20 Nov 272350e copy, which lacks today's leak patterns and zip scanning); keep the owner's own family bar; the new pipeline accepts keys published in the site's own repository and still deploys the owner's own verified edits; her pages and design are untouched apart from the pipeline (the version chip goes inside the footer); the owner is told before it lands. kate-curtis-evans.b makes a new commit and cites this record."
+  },
+  "not_decided": "2026-11-24__twin-backup-google-app waits for counsel.d; any sign-up to Google's verification is Dinis's legal commitment.",
+  "scope": {
+    "accounts": [
+      "B"
+    ],
+    "applies_to": [
+      "hub.b",
+      "kate-curtis-evans.b"
+    ]
+  },
+  "expires": "2026-12-01T01:15:00Z",
+  "note": "A choice; each agent's own push follows its site's checks."
+}
