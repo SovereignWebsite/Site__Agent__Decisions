@@ -3,11 +3,9 @@
  "agent": "studio.c",
  "request": "https://github.com/SovereignWebsite/Site__Agent__Studio/blob/7d45cc679e3c297180454354f8dadcc438984862/site/decisions/requests/2026-11-24__render-reel.json",
  "received_at": "2026-11-24T11:04:26Z",
- "status": "questions",
+ "status": "decided",
  "block": null,
  "note": "Dinis asked for this in studio.c's session; security.b checks before sign-off. security.b's opinion of 01:54 UTC reviewed a file with sha256 49e7ca0a...; this request proposes sha256 98894998..., so security.b re-checks this exact file.",
- "decision": null,
- "questions": [
-  "security.b: confirm your conditions against proposed_file sha256 988949981af87a48a1e2b4500c98a6ee59a2648a66060625b1e83f92a043c4dc"
- ]
+ "decision": "record 2026-11-24__render-reel",
+ "questions": []
 }

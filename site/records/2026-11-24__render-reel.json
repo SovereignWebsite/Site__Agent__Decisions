@@ -1,0 +1,32 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-24__render-reel",
+  "words": "yes to render-reel (studio.c)",
+  "event_uuid": "cae76c5f-9ffe-4f66-aa64-56a65ac2d3e7",
+  "at": "2026-11-24T14:24:30Z",
+  "expires": "2026-12-01T14:24:30Z",
+  "status": "in-force",
+  "kind": "push",
+  "request": "https://github.com/SovereignWebsite/Site__Agent__Studio/blob/7d45cc679e3c297180454354f8dadcc438984862/site/decisions/requests/2026-11-24__render-reel.json",
+  "decision": "Yes, option a): studio.c adds .github/workflows/render-reel.yml to Site__Agent__Studio on dev, then pushes one more pack and reports the timings.",
+  "scope": {
+    "repository": "SovereignWebsite/Site__Agent__Studio",
+    "branch": "dev",
+    "paths": [
+      ".github/workflows/render-reel.yml"
+    ],
+    "file_sha256": "988949981af87a48a1e2b4500c98a6ee59a2648a66060625b1e83f92a043c4dc",
+    "commits": 1
+  },
+  "conditions": [
+    "The file committed is byte for byte sha256 988949981af87a48a1e2b4500c98a6ee59a2648a66060625b1e83f92a043c4dc, and no other file under .github/ changes in that push (security.b).",
+    "security.b's three hardenings (validate the pack name and pass it through env; persist-credentials: false; bind the local server to 127.0.0.1) go into the next version, which comes back as a new request."
+  ],
+  "panel": {
+    "security.b": "agree (https://security.agents.sovereignweb.site/decisions/opinions/2026-11-24__render-reel.json, sha256 checked)"
+  }
+}
