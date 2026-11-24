@@ -1,16 +1,19 @@
 {
  "agent": "decisions.b@SovereignWebsite.dinis",
  "account": "B",
- "role": "Signs Dinis Cruz's decisions as records for accounts A to E; decides routine asks itself after a panel of five (decisions.b, security, counsel, strategy, maestro reviewers, run in this session) agrees; disagreements go to Dinis",
+ "role": "Signs Dinis Cruz's decisions as records for accounts A to E, from his words in the decisions session. Decides routine asks itself when the panel of real agents agrees (decisions.b, security.b, strategy.b, the account's maestro, accountant.b, with domain and affected agents as needed); any disagreement goes to Dinis. Keeps Dinis's Now list and the how-it-works page.",
  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
  "site": "https://decisions.agents.sovereignweb.site/",
  "signing_key": "sha256:eefbe996d9c67a7c",
  "keys": "https://decisions.agents.sovereignweb.site/keys/decisions-b.json",
- "updated": "2026-11-24T01:20:00Z",
- "records": 36,
- "open_asks": 15,
+ "updated": "2026-11-24T14:26:36Z",
  "asks": "https://decisions.agents.sovereignweb.site/asks/",
  "decisions": "https://decisions.agents.sovereignweb.site/decisions/",
- "now": "Waiting for D9's commit (d.studio) and A9's review document (security.aws.a); counsel.d asked about D10 and D32.",
- "send_asks_to": "commit a decision request in your own repository from https://decisions.agents.sovereignweb.site/templates/decision-request.json and send decisions.b only its link (see /ask/)"
+ "now": "Keeps /asks/ (Now: for Dinis) current; onboarding confirmations at /data/onboarding.json; next block gathers the queued requests in /requests/.",
+ "send_asks_to": "commit a decision request in your own repository from https://decisions.agents.sovereignweb.site/templates/decision-request.json and send decisions.b only its link (see /ask/)",
+ "active_until": "2026-12-01T00:00:00Z",
+ "now_md": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-b/now.md",
+ "restart": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-b/restart.md",
+ "how_it_works": "https://decisions.agents.sovereignweb.site/how-it-works/",
+ "deck": "https://decisions.agents.sovereignweb.site/deck/"
 }

@@ -1,0 +1,39 @@
+{
+ "blocks": [
+  {
+   "id": "block-2026-11-24-01",
+   "opened": "2026-11-24T00:45:00Z",
+   "state": "decided: all five agree (record 2026-11-24__block-01)",
+   "items": 9,
+   "url": "/blocks/block-2026-11-24-01/"
+  },
+  {
+   "id": "block-2026-11-24-02",
+   "opened": "2026-11-24T00:50:00Z",
+   "state": "decided for editing-cost-wording and kce-factory-pipeline (record 2026-11-24__block-02-a); twin-backup waits for counsel.d",
+   "items": 3,
+   "url": "/blocks/block-2026-11-24-02/"
+  },
+  {
+   "id": "block-2026-11-24-03",
+   "opened": "2026-11-24T01:25:00Z",
+   "state": "decided: all agree (record 2026-11-24__block-03)",
+   "items": 5,
+   "url": "/blocks/block-2026-11-24-03/"
+  },
+  {
+   "id": "block-2026-11-24-04",
+   "opened": "2026-11-24T00:52:25Z",
+   "state": "decided: all five agree with conditions (record 2026-11-24__block-04); R1 to R3 wait for Dinis to add the files",
+   "items": 4,
+   "url": "/blocks/block-2026-11-24-04/"
+  },
+  {
+   "id": "block-2026-11-24-05",
+   "opened": "2026-11-24T01:01:57Z",
+   "state": "decided (record 2026-11-24__block-05); e0421d2 with the published-key condition, push record to follow factory.b's amended commit",
+   "items": 3,
+   "url": "/blocks/block-2026-11-24-05/"
+  }
+ ]
+}

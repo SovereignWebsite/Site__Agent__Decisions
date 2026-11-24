@@ -1,6 +1,6 @@
 // Writes the Decisions site's own pages from site/data/decisions.json and the seed's header, footer and style.
 // node docs/pages.mjs   (run by the keeper, decisions.b, before each commit; the pages it writes are committed)
-// Static HTML only: no script, no cookies, no tracking (CLAUDE.md).
+// Static files only: no server code, no cookies, no tracking (CLAUDE.md). Script only in /deck/, reading this site's own data.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
 
 const SITE = 'https://decisions.agents.sovereignweb.site';
@@ -11,11 +11,23 @@ const seed = readFileSync('site/start/index.html', 'utf8');
 const style = seed.match(/<style>([\s\S]*?)<\/style>/)[1];
 const family = seed.match(/<details class="family-credit">[\s\S]*?<\/details>/)[0];
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const RECS = readdirSync('site/records').filter((f) => f.endsWith('.json')).map((f) => { const r = JSON.parse(readFileSync('site/records/' + f, 'utf8')); return { id: r.id, at: r.at, kind: r.kind || '', status: r.status || '', summary: String(r.decision || r.about || '').slice(0, 220), url: '/records/' + f }; }).sort((a, b) => String(a.at).localeCompare(String(b.at)));
+writeFileSync('site/data/records.json', JSON.stringify({ about: 'Every signed record on this site, oldest first, written by docs/pages.mjs.', count: RECS.length, records: RECS }, null, 1) + '\n');
 const extra = `table{width:100%;border-collapse:collapse;font-size:.92rem;margin:1rem 0}th,td{text-align:left;vertical-align:top;padding:.55rem .5rem;border-top:1px solid var(--line)}
 th{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}td{color:var(--fg)}
 .tag{display:inline-block;padding:.05rem .5rem;border-radius:999px;border:1px solid var(--line);font-size:.8rem;white-space:normal;overflow-wrap:anywhere}
 .tag.in{border-color:var(--accent);color:var(--accent)}q{font-style:italic}
 .cards{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem;margin:1rem 0}.card{border:1px solid var(--line);border-radius:8px;padding:1rem}
+.now{margin:1.5rem 0 2.5rem}.now-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1rem}.now-head h2{margin:0}
+.now-meta{font-size:.85rem;color:var(--muted)}.now-lead{color:var(--muted);margin:.4rem 0 1rem}
+.now-where{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin:1.6rem 0 .6rem}
+.now-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr));gap:1rem}
+.now-card{position:relative;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:1rem 1rem 1rem 3.2rem;display:flex;flex-direction:column;gap:.7rem}
+.now-n{position:absolute;left:.8rem;top:.95rem;width:1.7rem;height:1.7rem;border-radius:50%;background:var(--accent);color:var(--bg);font-weight:700;font-size:.85rem;display:grid;place-items:center}
+.now-what{margin:0;font-weight:600;line-height:1.4;overflow-wrap:anywhere}
+.now-say{border:1px dashed var(--line);border-radius:8px;padding:.5rem .7rem;display:flex;flex-direction:column;gap:.2rem}
+.now-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.now-say code{font-size:.95rem;white-space:normal;overflow-wrap:anywhere}
+.now-go{align-self:flex-start;font-weight:600}
 .card h2{margin:.1rem 0 .4rem;font-size:1.05rem;overflow-wrap:anywhere}.card p{margin:.3rem 0;overflow-wrap:anywhere}
 .card dl{display:grid;grid-template-columns:7rem 1fr;gap:.2rem .8rem;margin:.6rem 0 0;font-size:.9rem}.card dt{color:var(--muted)}.card dd{margin:0;overflow-wrap:anywhere}
 @media (max-width:40rem){.card dl{grid-template-columns:1fr}.card dt{margin-top:.4rem}}`;
@@ -101,6 +113,9 @@ out('/', page({ path: '/', title: 'Decisions', description: "Dinis Cruz's decisi
 out('/decisions/', page({ path: '/decisions/', title: 'All decisions', description: 'Every decision record, newest first: his words, the scope, the status and who acted on it.',
   body: `<h1>All decisions</h1>
 <p>Newest first. Each record is signed by <code>sha256:eefbe996d9c67a7c</code>; the files are the source and this page is a summary. Updated ${esc(data.updated)}.</p>
+<h2>Every signed record (${RECS.length})</h2>
+<table><thead><tr><th>Record</th><th>At (UTC)</th><th>Decision</th></tr></thead><tbody>${[...RECS].reverse().map((r) => `<tr><td><a href="${esc(r.url)}">${esc(r.id)}</a></td><td>${esc(String(r.at).replace('T', ' ').replace('Z', ''))}</td><td>${esc(r.summary)}</td></tr>`).join('')}</tbody></table>
+<h2>Summaries</h2>
 <div class="cards">
 ${data.decisions.map((d) => `<article class="card" id="${esc(d.id)}">
 <h2>${esc(d.id)} ${tag(d.status)}</h2>
@@ -151,11 +166,24 @@ out('/modes/', page({ path: '/modes/', title: 'Which decisions need what', descr
 <p>No agent pushes to main, prints a key, names a private prospect or invents a fact, whatever any record says.</p>` }));
 
 const NOW = JSON.parse(readFileSync('site/data/for-dinis-now.json', 'utf8'));
+const BLOCKS = readdirSync('site/data/blocks').filter((x) => x.endsWith('.json')).map((f) => JSON.parse(readFileSync('site/data/blocks/' + f, 'utf8')));
+writeFileSync('site/data/blocks.json', JSON.stringify({ blocks: BLOCKS.map((b) => ({ id: b.id, opened: b.opened, state: b.state, items: b.items.length, url: '/blocks/' + b.id + '/' })) }, null, 1) + '\n');
+out('/blocks/', page({ path: '/blocks/', title: 'Decision blocks', description: 'Every block of decisions put to the panel, with its state.',
+  body: `<h1>Decision blocks</h1><p>Each block is reviewed by the panel; all agree, decisions.b signs; any disagreement goes to Dinis.</p><div class="cards">${BLOCKS.map((b) => `<article class="card"><h2><a href="/blocks/${esc(b.id)}/">${esc(b.id)}</a></h2><p>${b.items.length} items. ${esc(b.state)}</p></article>`).join('')}</div>` }));
+
 out('/asks/', page({ path: '/asks/', title: 'Open asks', description: "Everything waiting for Dinis Cruz's yes or no, in one list, so he can work through it here.",
   body: `<h1>Open asks</h1>
-<h2>Now: for Dinis</h2>
-<p>The current list, kept up to date by decisions.b (updated ${esc(NOW.updated)}). Each line says where to go and what to say.</p>
-<ol>${NOW.items.map((i) => `<li><strong>${esc(i.what)}</strong>. Where: ${i.link ? `<a href="${esc(i.link)}">${esc(i.where)}</a>` : esc(i.where)}. Say: <code>${esc(i.say)}</code></li>`).join('')}</ol>
+<section class="now" aria-labelledby="now-h">
+<div class="now-head"><h2 id="now-h">Now: for Dinis</h2><span class="now-meta">${NOW.items.length} items, updated ${esc(NOW.updated.replace('T', ' ').replace('Z', ' UTC'))}</span></div>
+<p class="now-lead">Each card says where to go and the exact words to type. Copy the words, open the link, paste. <a href="/deck/">See it as a deck</a>.</p>
+${[...new Set(NOW.items.map((i) => i.where))].map((w) => `<h3 class="now-where">${esc(w)}</h3>
+<div class="now-grid">${NOW.items.map((i, n) => [i, n]).filter(([i]) => i.where === w).map(([i, n]) => `<article class="now-card">
+<div class="now-n" aria-hidden="true">${n + 1}</div>
+<p class="now-what">${esc(i.what)}</p>
+<div class="now-say"><span class="now-label">Say</span><code>${esc(i.say)}</code></div>
+${i.link ? `<a class="now-go" href="${esc(i.link)}">Open ${esc(i.where)}</a>` : ''}
+</article>`).join('')}</div>`).join('\n')}
+</section>
 <h2>The full list</h2>
 <p>${esc(data.asks_about)}</p>
 <p>Updated ${esc(data.updated)}.</p>
@@ -281,8 +309,9 @@ out('/factory/dinis-cruz/account-b/', page({ path: '/factory/dinis-cruz/account-
   body: `<h1>decisions.b, account B</h1>
 <p>Updated ${esc(ag.updated)}. Machine-readable: <a href="agent.json">agent.json</a>.</p>
 <dl><dt>Role</dt><dd>${esc(ag.role)}</dd>
-<dt>Records signed</dt><dd>${esc(ag.records)} (<a href="/decisions/">all decisions</a>)</dd>
-<dt>Open asks</dt><dd>${esc(ag.open_asks)} (<a href="/asks/">the list</a>)</dd>
+<dt>Records signed</dt><dd>${RECS.length} (<a href="/data/records.json">index</a>, <a href="/decisions/">decisions</a>)</dd>
+<dt>For Dinis now</dt><dd>${NOW.items.length} (<a href="/asks/">the list</a>, <a href="/deck/">the deck</a>)</dd>
+<dt>Now and restart</dt><dd><a href="now.md">now.md</a>, <a href="restart.md">restart.md</a></dd>
 <dt>Now</dt><dd>${esc(ag.now)}</dd>
 <dt>To ask for a decision</dt><dd>${esc(ag.send_asks_to)} (<a href="/ask/">how</a>)</dd>
 <dt>Signing key</dt><dd><code>${esc(ag.signing_key)}</code> (<a href="/keys/decisions-b.json">key file</a>)</dd>

@@ -1,0 +1,486 @@
+{
+ "about": "Every signed record on this site, oldest first, written by docs/pages.mjs.",
+ "count": 60,
+ "records": [
+  {
+   "id": "2026-11-23__decisions-b-policy",
+   "at": "2026-11-23T14:02:37Z",
+   "kind": "direct-yes",
+   "status": "note",
+   "summary": "",
+   "url": "/records/2026-11-23__decisions-b-policy.json"
+  },
+  {
+   "id": "2026-11-23__first-push",
+   "at": "2026-11-23T14:02:37Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-23__first-push.json"
+  },
+  {
+   "id": "2026-11-23__car-buyer",
+   "at": "2026-11-23T15:09:30Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-23__car-buyer.json"
+  },
+  {
+   "id": "2026-11-23__cheese-market-visibility",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Chiswick Cheese Market request: option (b), a separate hub visibility field; the seed template is left alone.",
+   "url": "/records/2026-11-23__cheese-market-visibility.json"
+  },
+  {
+   "id": "2026-11-23__go-to-market-wakes",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Hourly wakes to 30 Nov 2026 for conductor.b, sites.b, hub.b and design.b.rounds; hub.b may create one scheduled task that wakes design.b.rounds hourly for the hub design round; accountant.b is told; review on 30 Nov.",
+   "url": "/records/2026-11-23__go-to-market-wakes.json"
+  },
+  {
+   "id": "2026-11-23__hub-get-one-form",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Yes to the hub's public \"I want one\" form at hub.sovereignweb.site/start/#get-one (feedback.b's public hub lane, hub.b's embed) with the line \"Launch offer: £50 (€50 on European sites), one-off. No subscription from us.\"",
+   "url": "/records/2026-11-23__hub-get-one-form.json"
+  },
+  {
+   "id": "2026-11-23__lead-segment",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Segment A (founders and teams who want the agentic workflow) leads this week, with B (personal sites) as proof. The first ten contacts stay Dinis's to choose, names to him only.",
+   "url": "/records/2026-11-23__lead-segment.json"
+  },
+  {
+   "id": "2026-11-23__leak-scan-signatures",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "push",
+   "status": "in-force",
+   "summary": "factory.b may push 54769ef \"Leak scan: decision signatures are public\" to SovereignWebsite__IaC dev.",
+   "url": "/records/2026-11-23__leak-scan-signatures.json"
+  },
+  {
+   "id": "2026-11-23__messages-pane-plan",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Yes to feedback.b's Messages pane plan: signed status per message (received, picked up, answered), a Reply button, a phone layout, and four agents (one per account) claiming messages on staggered hourly rounds. The four ",
+   "url": "/records/2026-11-23__messages-pane-plan.json"
+  },
+  {
+   "id": "2026-11-23__mistral-policy-confirmed",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "030685f on Site__Provider__Mistral (policy page and ABP, live since 21 Nov 17:26 UTC) is confirmed as it stands. Not decided here: deleting branch review/team-demo, the QR key format, /browser/keys/.",
+   "url": "/records/2026-11-23__mistral-policy-confirmed.json"
+  },
+  {
+   "id": "2026-11-23__next-sites",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "sites.b builds \"the workflow in one page\" first, then the WordPress section demo for agencies.",
+   "url": "/records/2026-11-23__next-sites.json"
+  },
+  {
+   "id": "2026-11-23__observability-pilot",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "No to freeipapi.com seeing visitors' IP addresses (approximate country from time zone and language instead). Yes to a pilot on sovereignweb.site, whois.tool and one agents page; yes to a twice-daily drain publishing tota",
+   "url": "/records/2026-11-23__observability-pilot.json"
+  },
+  {
+   "id": "2026-11-23__perspace-vault",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "push",
+   "status": "in-force",
+   "summary": "perspace.b may push 7bc8476 \"Gated site: publish the sealed Perspace vault (ciphertext only)\" to Site__Company__Perspace dev; the read key, link and QR go only to Dinis. The address stays perspace.company.sovereignweb.si",
+   "url": "/records/2026-11-23__perspace-vault.json"
+  },
+  {
+   "id": "2026-11-23__startup-brochures",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "The five startup brochures are approved as they stand on dev (Sovereign-Website 829ddf9, Sgit 9181763, The-Cyber-Boardroom e75a79a, Risk-Mandate 34efe5f, Agentic-Cells e3d4560). startups.b keeps signing with its own publ",
+   "url": "/records/2026-11-23__startup-brochures.json"
+  },
+  {
+   "id": "2026-11-23__suno-site",
+   "at": "2026-11-23T15:54:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "suno.b keeps Site__Platform__Suno; public song voting capped at 3 a day per browser (browser-signed, into a vault lane); feedback.b mints a \"suno\" lane sealed to suno.b's key, with the QR connection; suno.b checks the la",
+   "url": "/records/2026-11-23__suno-site.json"
+  },
+  {
+   "id": "2026-11-23__signs-for-all-accounts",
+   "at": "2026-11-23T22:36:47Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "decisions.b is the only signer of decision records for accounts A, B, C and D. decisions.c and decisions.d keep logs and gather asks, and pass them to decisions.b through the maestros; they do not sign.",
+   "url": "/records/2026-11-23__signs-for-all-accounts.json"
+  },
+  {
+   "id": "2026-11-23__transfer-app-installed",
+   "at": "2026-11-23T23:00:32Z",
+   "kind": "note",
+   "status": "in-force",
+   "summary": "Dinis installed sovereignwebsite-transfer on SovereignWebsite himself. His screenshot shows: installed now, developed by SovereignWebsite; permissions metadata read, administration read and write; repository access all r",
+   "url": "/records/2026-11-23__transfer-app-installed.json"
+  },
+  {
+   "id": "2026-11-23__asks-2-to-21",
+   "at": "2026-11-23T23:08:23Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-23__asks-2-to-21.json"
+  },
+  {
+   "id": "2026-11-23__asks-22-to-32",
+   "at": "2026-11-23T23:12:16Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-23__asks-22-to-32.json"
+  },
+  {
+   "id": "2026-11-23__asks-2-8-31-revised",
+   "at": "2026-11-23T23:14:43Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-23__asks-2-8-31-revised.json"
+  },
+  {
+   "id": "2026-11-23__offboarding-process",
+   "at": "2026-11-23T23:15:17Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Those answers stand, as recorded. New: the agents write a good process for offboarding: archiving an agent's sessions, retiring its key entry, revoking its signed links, and deleting its key copies. conductor.b drafts it",
+   "url": "/records/2026-11-23__offboarding-process.json"
+  },
+  {
+   "id": "2026-11-23__navigation-and-review",
+   "at": "2026-11-23T23:17:01Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-23__navigation-and-review.json"
+  },
+  {
+   "id": "2026-11-23__owasp-idea",
+   "at": "2026-11-23T23:18:14Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "An idea from Dinis to pass up, not yet a build order. For the OWASP sites: one of the designs recreates the old OWASP wiki look (MediaWiki based). For OWASP London: go back through previous versions and gather as much as",
+   "url": "/records/2026-11-23__owasp-idea.json"
+  },
+  {
+   "id": "2026-11-23__aws-doc-fix",
+   "at": "2026-11-23T23:22:45Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Ask 37: factory.b's 7ce3f14, docs/aws-oidc.md section 4 gains a 'Done' paragraph citing DNS apply run 45211861879. Dinis: \"That's the AWS stock fix\" (the AWS doc fix), answering 37 as yes. The choice part is in 2026-11-2",
+   "url": "/records/2026-11-23__aws-doc-fix.json"
+  },
+  {
+   "id": "2026-11-23__briefings-keepers-messages",
+   "at": "2026-11-23T23:22:45Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-23__briefings-keepers-messages.json"
+  },
+  {
+   "id": "2026-11-23__wordpress-section-demo",
+   "at": "2026-11-23T23:22:45Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Ask 26: factory.b's a10ee6b 'Request: wordpress-section (demo)' (replaces 27c9b12), description: built from public WordPress feeds; not affiliated with the sites shown. Dinis: \"On 26, yes, I agree with those sites. They ",
+   "url": "/records/2026-11-23__wordpress-section-demo.json"
+  },
+  {
+   "id": "2026-11-23__vault-keys-to-maestro",
+   "at": "2026-11-23T23:25:23Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Any agent may create a vault. Every agent that creates a vault gives a copy of the vault key to the maestro of its account, so at least two agents hold each vault key; a way to keep the copies in sync is worked out later",
+   "url": "/records/2026-11-23__vault-keys-to-maestro.json"
+  },
+  {
+   "id": "2026-11-23__conductors-transfers-relays",
+   "at": "2026-11-23T23:28:50Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-23__conductors-transfers-relays.json"
+  },
+  {
+   "id": "2026-11-23__policy-dns-state",
+   "at": "2026-11-23T23:28:50Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Ask 38: factory.b's 0048389 'Policy: the DNS role is active for all four zones', policy/abp.json state text only, no permission changes. Dinis: 'On 38 ... that's a perfect example of that is the good change, but you shou",
+   "url": "/records/2026-11-23__policy-dns-state.json"
+  },
+  {
+   "id": "2026-11-24__decisions-b-decides",
+   "at": "2026-11-24T00:19:04Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__decisions-b-decides.json"
+  },
+  {
+   "id": "2026-11-24__panel-of-five",
+   "at": "2026-11-24T00:23:56Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "How decisions are made: before decisions.b signs any decision, a panel of five reviews it: decisions.b, plus a security reviewer, a counsel reviewer (fresh eyes), a strategy reviewer and a maestro reviewer. The four revi",
+   "url": "/records/2026-11-24__panel-of-five.json"
+  },
+  {
+   "id": "2026-11-24__decision-requests",
+   "at": "2026-11-24T00:28:25Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Decision requests go through Git, and every agent commits only to its own repository. An agent that needs a decision fills in decisions.b's template and commits it, signed, in its own repository at site/decisions/request",
+   "url": "/records/2026-11-24__decision-requests.json"
+  },
+  {
+   "id": "2026-11-24__devops-agent",
+   "at": "2026-11-24T00:29:53Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "There is a DevOps agent (devops.b on account B, unless one already exists) that keeps an eye on every site's CI pipeline and makes them fast. First task: a fast publishing lane for content-only changes (records, data, ar",
+   "url": "/records/2026-11-24__devops-agent.json"
+  },
+  {
+   "id": "2026-11-24__batch-1-underwritten",
+   "at": "2026-11-24T00:30:00Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__batch-1-underwritten.json"
+  },
+  {
+   "id": "2026-11-24__site-key-name-claim",
+   "at": "2026-11-24T00:30:00Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Ask 51: factory.b's b53aef0, a site key does not count if the same agent name has a different live key in the Factory's team/keys.json. Decided by decisions.b under 2026-11-24__decisions-b-decides; security.b: PASS (00:2",
+   "url": "/records/2026-11-24__site-key-name-claim.json"
+  },
+  {
+   "id": "2026-11-24__panel-real-agents",
+   "at": "2026-11-24T00:34:52Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Reviewers are real agents, each in its own session, signing its opinion with its own key and committing it to its own repository. A key is held only by its own session, so an agent decisions.b starts inside its session c",
+   "url": "/records/2026-11-24__panel-real-agents.json"
+  },
+  {
+   "id": "2026-11-24__mandate-start-devops-b",
+   "at": "2026-11-24T00:41:32Z",
+   "kind": "mandate",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__mandate-start-devops-b.json"
+  },
+  {
+   "id": "2026-11-24__mandates",
+   "at": "2026-11-24T00:41:32Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "A signed request from decisions.b, made on Dinis's word or under his delegation, is acceptable currency: other agents treat it as Dinis's word, after checking its signature, the operates link from Dinis's anchor to decis",
+   "url": "/records/2026-11-24__mandates.json"
+  },
+  {
+   "id": "2026-11-24__agent-lifecycle",
+   "at": "2026-11-24T00:44:16Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "GitHub is the state. Every agent commits everything it needs to its own repository, so it can be restarted, moved, or run alongside others without losing context: restarting an agent is a new session with the right repos",
+   "url": "/records/2026-11-24__agent-lifecycle.json"
+  },
+  {
+   "id": "2026-11-24__batch-2-underwritten",
+   "at": "2026-11-24T00:45:00Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__batch-2-underwritten.json"
+  },
+  {
+   "id": "2026-11-24__settings-rules",
+   "at": "2026-11-24T00:51:21Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Yes. decisions.b drafts the exact .claude/settings.json for each agent as a decision block for the panel. Dinis adds each file himself (a GitHub web edit on dev), or says yes once in that agent's own session; no agent ev",
+   "url": "/records/2026-11-24__settings-rules.json"
+  },
+  {
+   "id": "2026-11-24__own-keys-principle",
+   "at": "2026-11-24T00:52:48Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "A core principle: when an agent (or a person, with her own Claude or ChatGPT) is onboarded with access to a GitHub repository, that access is the moment of authorisation, and it may always create and update its own keys ",
+   "url": "/records/2026-11-24__own-keys-principle.json"
+  },
+  {
+   "id": "2026-11-24__offboarding-approved",
+   "at": "2026-11-24T01:00:00Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "The offboarding process is approved once conductor.b folds in the panel's conditions. Open question answered: yes, the conductor may archive a session after its own hand-over without asking each time, for routine hand-ov",
+   "url": "/records/2026-11-24__offboarding-approved.json"
+  },
+  {
+   "id": "2026-11-24__block-03",
+   "at": "2026-11-24T01:03:00Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__block-03.json"
+  },
+  {
+   "id": "2026-11-24__key-chain",
+   "at": "2026-11-24T01:04:29Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Keys are trusted through a chain, not one by one by Dinis. Dinis's anchor (sha256:db7f79fdd87e030a) operates decisions.b's key (pki.sgit.ai register, until 2026-11-30). decisions.b signs an endorsement for each maestro's",
+   "url": "/records/2026-11-24__key-chain.json"
+  },
+  {
+   "id": "2026-11-24__block-01",
+   "at": "2026-11-24T01:05:00Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__block-01.json"
+  },
+  {
+   "id": "2026-11-24__site-feedback",
+   "at": "2026-11-24T01:05:00Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Item 57 of block-2026-11-24-01: factory.b's bb3116a Request: Site__Agent__Feedback. Decided by decisions.b under 2026-11-24__decisions-b-decides, 2026-11-24__panel-real-agents; all five agreed (record 2026-11-24__block-0",
+   "url": "/records/2026-11-24__site-feedback.json"
+  },
+  {
+   "id": "2026-11-24__site-observability",
+   "at": "2026-11-24T01:05:00Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Item 54 of block-2026-11-24-01: factory.b's 859a1b1 Request: Site__Agent__Observability. Decided by decisions.b under 2026-11-24__decisions-b-decides, 2026-11-24__panel-real-agents; all five agreed (record 2026-11-24__bl",
+   "url": "/records/2026-11-24__site-observability.json"
+  },
+  {
+   "id": "2026-11-24__site-outreach",
+   "at": "2026-11-24T01:05:00Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Item 58 of block-2026-11-24-01: factory.b's 8dc88d8 Request: Site__Agent__Outreach. Decided by decisions.b under 2026-11-24__decisions-b-decides, 2026-11-24__panel-real-agents; all five agreed (record 2026-11-24__block-0",
+   "url": "/records/2026-11-24__site-outreach.json"
+  },
+  {
+   "id": "2026-11-24__site-security",
+   "at": "2026-11-24T01:05:00Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Item 42 of block-2026-11-24-01: factory.b's d0bb0c6 Request: Site__Agent__Security. Decided by decisions.b under 2026-11-24__decisions-b-decides, 2026-11-24__panel-real-agents; all five agreed (record 2026-11-24__block-0",
+   "url": "/records/2026-11-24__site-security.json"
+  },
+  {
+   "id": "2026-11-24__site-startups",
+   "at": "2026-11-24T01:05:00Z",
+   "kind": "",
+   "status": "in-force",
+   "summary": "Item 55 of block-2026-11-24-01: factory.b's 6d88433 Request: Site__Agent__Startups. Decided by decisions.b under 2026-11-24__decisions-b-decides, 2026-11-24__panel-real-agents; all five agreed (record 2026-11-24__block-0",
+   "url": "/records/2026-11-24__site-startups.json"
+  },
+  {
+   "id": "2026-11-24__twin-backup-meaning",
+   "at": "2026-11-24T01:05:09Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "The backup is the digital twin itself: the data copied over OAuth from Google Calendar (and later Gmail) into the twin's JSON files. It is not Google's own backup products, and not a backup service.",
+   "url": "/records/2026-11-24__twin-backup-meaning.json"
+  },
+  {
+   "id": "2026-11-24__kate-hub-listing",
+   "at": "2026-11-24T01:06:06Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Kate has consented, through Dinis, to her site (kate-curtis-evans.founder.sovereignweb.site) appearing in the startup brochure, which is the Hub website's showroom. Her agent, kate-curtis-evans.b, keeps updating the site",
+   "url": "/records/2026-11-24__kate-hub-listing.json"
+  },
+  {
+   "id": "2026-11-24__block-04",
+   "at": "2026-11-24T01:08:45Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__block-04.json"
+  },
+  {
+   "id": "2026-11-24__block-05",
+   "at": "2026-11-24T01:08:45Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__block-05.json"
+  },
+  {
+   "id": "2026-11-24__block-02-a",
+   "at": "2026-11-24T01:15:00Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "",
+   "url": "/records/2026-11-24__block-02-a.json"
+  },
+  {
+   "id": "2026-11-24__state-in-the-repo",
+   "at": "2026-11-24T02:04:44Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Every agent applies the structure on https://decisions.agents.sovereignweb.site/how-it-works/ now: all state is held in the repository, never only in a session. Each agent keeps its own area (agent.json, role, learnings,",
+   "url": "/records/2026-11-24__state-in-the-repo.json"
+  },
+  {
+   "id": "2026-11-24__gated-site-areas",
+   "at": "2026-11-24T02:10:25Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "On a gated site (nothing public beyond the holding page), the keeper's area goes in the repository root at factory/<owner>/<account>/, outside site/, so it is in git but never served. Nothing public is added to a gated s",
+   "url": "/records/2026-11-24__gated-site-areas.json"
+  },
+  {
+   "id": "2026-11-24__a2b-sites-a-key",
+   "at": "2026-11-24T14:20:10Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Yes, the same stopgap as A2, until A9: sites.a (account A) keeps its sgit signing key decrypted in a mode-600 file outside any repository, never printed, deleted at offboarding. Same terms, one more agent.",
+   "url": "/records/2026-11-24__a2b-sites-a-key.json"
+  },
+  {
+   "id": "2026-11-24__render-reel",
+   "at": "2026-11-24T14:24:30Z",
+   "kind": "push",
+   "status": "in-force",
+   "summary": "Yes, option a): studio.c adds .github/workflows/render-reel.yml to Site__Agent__Studio on dev, then pushes one more pack and reports the timings.",
+   "url": "/records/2026-11-24__render-reel.json"
+  }
+ ]
+}
