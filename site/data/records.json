@@ -1,6 +1,6 @@
 {
  "about": "Every signed record on this site, oldest first, written by docs/pages.mjs.",
- "count": 61,
+ "count": 62,
  "records": [
   {
    "id": "2026-11-23__decisions-b-policy",
@@ -481,6 +481,14 @@
    "status": "in-force",
    "summary": "Yes, option a): studio.c adds .github/workflows/render-reel.yml to Site__Agent__Studio on dev, then pushes one more pack and reports the timings.",
    "url": "/records/2026-11-24__render-reel.json"
+  },
+  {
+   "id": "2026-11-24__decisions-feedback-lane",
+   "at": "2026-11-24T14:25:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "feedback.b adds a feedback lane for decisions.agents.sovereignweb.site (decisions-agents, in its vault), with a QR code on /asks/ and /deck/, and relays each message to decisions.b's session by message, as material. No k",
+   "url": "/records/2026-11-24__decisions-feedback-lane.json"
   },
   {
    "id": "2026-11-24__account-decision-agents",

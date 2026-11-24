@@ -1,0 +1,26 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-24__decisions-feedback-lane",
+  "words": "with also an feedback lane that will reach you",
+  "event_uuid": "8c8af391-821d-4a7f-81ea-d7ea04842388",
+  "at": "2026-11-24T14:25:40Z",
+  "expires": "2026-12-01T14:25:40Z",
+  "status": "in-force",
+  "kind": "choice",
+  "context": "Said with Dinis's ask for a better design of the Now list and a live HTML deck on decisions.agents.sovereignweb.site.",
+  "decision": "feedback.b adds a feedback lane for decisions.agents.sovereignweb.site (decisions-agents, in its vault), with a QR code on /asks/ and /deck/, and relays each message to decisions.b's session by message, as material. No key handover: decisions.b does not read the lane directly. security.b reviews the QR and the page change before it goes live.",
+  "scope": {
+    "accounts": [
+      "B"
+    ],
+    "applies_to": [
+      "feedback.b",
+      "decisions.b",
+      "security.b"
+    ]
+  }
+}
