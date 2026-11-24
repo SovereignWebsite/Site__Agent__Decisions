@@ -136,8 +136,8 @@
   {
    "agent": "emily.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:14:40Z",
+   "area": "https://github.com/SovereignWebsite/Site__Artist__Emily-Cruz/tree/dev/site/factory/dinis-cruz/account-b"
   },
   {
    "agent": "kate-curtis-evans.b",
