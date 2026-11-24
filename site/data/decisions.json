@@ -2,7 +2,7 @@
  "about": "Every decision record decisions.b has signed for Dinis Cruz, newest first. The signed record files are in /records/: <id>.json, <id>.json.sig (SSH signature, namespace sovereignwebsite-decision) and <id>.json.sgit.sig. This list is a summary; the signed files are the source.",
  "recorder": "decisions.b@SovereignWebsite.dinis",
  "recorder_key": "sha256:eefbe996d9c67a7c",
- "updated": "2026-11-24T00:15:00Z",
+ "updated": "2026-11-24T00:25:00Z",
  "decisions": [
   {
    "id": "2026-11-23__leak-scan-signatures",
@@ -322,6 +322,17 @@
    "status": "in-force",
    "pushed_by": "factory.b",
    "event_uuid": "36606995-bfa3-41a3-889c-ce4b356235f1"
+  },
+  {
+   "id": "2026-11-24__decisions-b-decides",
+   "at": "2026-11-24T00:19:04Z",
+   "words": "aren't you already able to decide that? Like, for example, the security fix ... every key should always be given to the maestro. Always ... on the 50, no, I should be approving less ... even if you make a little mistake, we'll catch it ... you should have the security agent underwrite your decisions ... the security agent, the counsel agent should always review this stuff.",
+   "about": "decisions.b now decides asks it can recommend, each underwritten by security.b (and counsel for legal questions); main, money, legal commitments, one-way doors and harness settings stay with Dinis. Every vault key goes to the account's maestro, no exceptions. 50: no. 52: not now.",
+   "scope": "All accounts; a standing choice",
+   "expires": "2026-11-30T23:59:59Z",
+   "status": "in-force",
+   "pushed_by": "none: a choice",
+   "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769"
   }
  ],
  "asks_about": "Open asks waiting for Dinis's yes or no. Each agent sends its ask to decisions.b with: agent, repository, commits or class of change, why, checks run, recommendation. Dinis answers in decisions.b's session; each answer becomes a signed record above. Dinis, about 14:30 UTC 23 Nov (relayed by b.maestro): \"you should be sending this request to the decisions.b agent\". Since 23 Nov ~22:00 UTC (Dinis, relayed by b.maestro and confirmed here at 22:36 UTC: \"yes, b.decisions signs for all accounts\"; record 2026-11-23__signs-for-all-accounts), decisions.b is the only signer for accounts A, B, C and D; asks from A, C and D arrive through the maestros. Each ask shows its account. Since 23:17 UTC 23 Nov (Dinis): asks marked review are sites or pages for him to look at; they never block an agent.",
@@ -892,7 +903,7 @@
    "from": "factory.b, security.b",
    "ask": "Push 88c6dd7 to SovereignWebsite__IaC: build/decisions.mjs adds the seeds' signer check, quality floor and site policy (seed/**/.github/ci/signers.mjs, quality.mjs, site/policy/abp.json) to the always-ask list, so no decisions.b record can change what every new site trusts at once. Patch-id e99bf54a. The checker is itself always-ask: Dinis's yes in factory.b's session. Trade-off: changes like today's aef6bcc would then go through Dinis directly, which runs against his wish (23:28 UTC) to be asked less in other agents' sessions.",
    "recommendation": "factory.b and security.b: yes. decisions.b: Dinis's call; it adds to what only he can approve",
-   "status": "open",
+   "status": "decided: no (2026-11-24__decisions-b-decides)",
    "kind": "your word, in its session",
    "source": "factory.b, 23:40 UTC 23 Nov"
   },
@@ -912,7 +923,7 @@
    "from": "factory.b, security.b",
    "ask": "Push 7f2a68f (stacked on b53aef0): an 'Owner override:' line counts only on a commit GitHub verified as a person's (a web edit or the person's own signed commit); an agent's override line is ignored and the commit refused. Today any agent with push can write the line itself. Cost: to override, Dinis or the site's owner makes that commit themselves; an agent can no longer do it on their say-so. Patch-id e5acb170.",
    "recommendation": "factory.b and security.b: yes. decisions.b: Dinis's call; it closes a real gap but adds a step only a person can take",
-   "status": "open",
+   "status": "decided: not now (2026-11-24__decisions-b-decides)",
    "kind": "record",
    "source": "factory.b, 23:37 UTC 23 Nov"
   },

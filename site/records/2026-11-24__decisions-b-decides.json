@@ -1,0 +1,38 @@
+{
+  "v": 2,
+  "id": "2026-11-24__decisions-b-decides",
+  "decided_by": "Dinis Cruz",
+  "words": "Okay, now for those decisions, aren't you already able to decide that? Like, for example, the security fix, right? That should not require me to come here. Like, in fact, safe patch, vault keys. Well, okay, that wasn't say my call. No, but always. So then we can decide. Okay, so on vault keys, every key should always be given to the maestro. Always. So for example, for that one, I think your answer is spot on, right? So, I think on the 50, no, I should be approving less, right? And I think a lot of this stuff, like, look, even if you make a little mistake, we'll catch it, right? And that's why, again, if anything, you should have the security agent underwrite your decisions, right? So I guess maybe that's the workflow. Actually, here's a question. Are you asking the security agent to review this? Because I think the security agent, the counsel agent should always review this stuff. And you can fire them up here, right? You can fire them as sub-agents, correct?",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769",
+  "at": "2026-11-24T00:19:04Z",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "status": "in-force",
+  "kind": "choice",
+  "decisions": {
+    "delegation": "decisions.b decides asks itself, without bringing them to Dinis, where it can make the recommendation, such as security fixes and routine pushes. Each such decision is underwritten by a review from security.b, and from counsel where terms, licences or legal questions arise, before decisions.b signs it. Mistakes are caught and corrected afterwards. Each record says it was decided under this delegation and names the reviews.",
+    "limits": "Kept for Dinis unless he widens them: pushes to main, money and spending, legal commitments, deleting or other one-way doors, organisation and harness settings, and anything that only he can do with his own keys or accounts.",
+    "vault keys": "Every vault key is always given to the maestro of its account, sealed to the maestro's key, with no exceptions: the Algarve Evolution vault, the Perspace vault and 5qzpmf4m included.",
+    "50": "No: the seeds' trust files are not added to the always-ask list. Dinis should be approving less.",
+    "52": "Decided by decisions.b under this delegation, in the same spirit: not now. Owner overrides keep working through Dinis's word relayed by decisions.b; revisit if an override is ever misused."
+  },
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "decisions.b",
+      "security.b",
+      "counsel",
+      "every maestro",
+      "every agent that holds a vault key"
+    ]
+  },
+  "expires": "2026-11-30T23:59:59Z",
+  "note": "A standing choice, not a push."
+}
