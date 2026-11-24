@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__account-ids-letter-number",
+ "agent": "router.a",
+ "request": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/router.a/decision-requests/2026-11-24__account-ids-letter-number.json",
+ "received_at": "2026-11-24T14:19:43Z",
+ "status": "decided",
+ "block": null,
+ "note": "Dinis, in router.a's session at about 13:25 UTC, gave the naming to the maestros (\"on the name can you work with the maestro on it\"). a.maestro and maestro.b agree, with conditions: the Claude accounts a to e are not renamed; outside platforms are named mi1, gp1 and ge1. Their agreement settles it; no further record from decisions.b is needed.",
+ "decision": "settled by the maestros under Dinis's word in router.a's session",
+ "questions": []
+}

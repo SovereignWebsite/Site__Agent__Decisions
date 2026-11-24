@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:30Z",
+ "updated": "2026-11-24T14:25Z",
  "items": [
   {
    "what": "The refresh gate, so seed changes reach one site at a time (holds back key rotation too)",
@@ -36,6 +36,12 @@
    "where": "the decisions session",
    "link": "",
    "say": "22a, 22b or no rewrite"
+  },
+  {
+   "what": "Homes for account D agents: d.conductor (PrompTugal) to use its own path in Site__Agent__Conductor (needs its policy changed), and five agents with no area plus d.observability with no home (create homes by merge and Org apply, or a temporary board path)",
+   "where": "d.conductor's session or a merge",
+   "link": "",
+   "say": "your choice"
   },
   {
    "what": "Start devops.b by hand (repository SovereignWebsite__IaC, Sonnet)",

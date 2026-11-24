@@ -1,0 +1,17 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "words": "Okay, now for those decisions, aren't you already able to decide that? Like, for example, the security fix, right? That should not require me to come here. Like, in fact, safe patch, vault keys. Well, okay, that wasn't say my call. No, but always. So then we can decide. Okay, so on vault keys, every key should always be given to the maestro. Always. So for example, for that one, I think your answer is spot on, right? So, I think on the 50, no, I should be approving less, right? And I think a lot of this stuff, like, look, even if you make a little mistake, we'll catch it, right? And that's why, again, if anything, you should have the security agent underwrite your decisions, right? So I guess maybe that's the workflow. Actually, here's a question. Are you asking the security agent to review this? Because I think the security agent, the counsel agent should always review this stuff. And you can fire them up here, right? You can fire them as sub-agents, correct?",
+  "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769",
+  "id": "2026-11-24__a2b-sites-a-key",
+  "at": "2026-11-24T14:20:10Z",
+  "expires": "2026-12-01T14:20:10Z",
+  "status": "in-force",
+  "kind": "choice",
+  "decided_under": "2026-11-24__batch-1-underwritten (item A2, security.b PASS on the method), 2026-11-24__decisions-b-decides",
+  "decision": "Yes, the same stopgap as A2, until A9: sites.a (account A) keeps its sgit signing key decrypted in a mode-600 file outside any repository, never printed, deleted at offboarding. Same terms, one more agent.",
+  "request": "relayed by a.maestro via maestro.b, 24 Nov 14:21 UTC (A2b)"
+}

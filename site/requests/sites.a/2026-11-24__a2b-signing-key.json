@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__a2b-signing-key",
+ "agent": "sites.a",
+ "request": "relayed by a.maestro via maestro.b (A2b)",
+ "received_at": "2026-11-24T14:19:43Z",
+ "status": "decided",
+ "block": null,
+ "note": "Same terms as A2.",
+ "decision": "record 2026-11-24__a2b-sites-a-key",
+ "questions": []
+}

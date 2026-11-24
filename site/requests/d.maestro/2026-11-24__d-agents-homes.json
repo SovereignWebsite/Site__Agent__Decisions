@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__d-agents-homes",
+ "agent": "d.maestro",
+ "request": "relayed via maestro.b: five account D agents with no area, and d.observability with no home",
+ "received_at": "2026-11-24T14:19:43Z",
+ "status": "with-dinis",
+ "block": null,
+ "note": "Already put to Dinis by d.conductor (SovereignWebsite): create the homes by merge and Org apply, or a temporary board/<agent>/** path in the Factory policy.",
+ "decision": null,
+ "questions": []
+}
