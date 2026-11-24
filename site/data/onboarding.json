@@ -91,8 +91,8 @@
   {
    "agent": "suno.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:10:54Z",
+   "area": "https://suno.platform.sovereignweb.site/factory/dinis-cruz/account-b/"
   },
   {
    "agent": "migration.b",
