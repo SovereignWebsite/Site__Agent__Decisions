@@ -38,7 +38,7 @@
   {
    "id": "block-2026-11-24-06",
    "opened": "2026-11-24T22:13:51Z",
-   "state": "opinions in: maestro.b, security.b; waiting: strategy.b, accountant.b",
+   "state": "opinions in: maestro.b, security.b, strategy.b; waiting: accountant.b",
    "items": 7,
    "url": "/blocks/block-2026-11-24-06/"
   }
