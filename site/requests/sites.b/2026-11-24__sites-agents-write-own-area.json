@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__sites-agents-write-own-area",
+ "agent": "sites.b",
+ "request": "relayed by maestro.b: change Site__Agent__Sites CLAUDE.md so each sites agent may commit only its own area, its own key and its entry in site/factory/index.json",
+ "received_at": "2026-11-24T14:20:41Z",
+ "status": "with-dinis",
+ "block": null,
+ "note": "It widens who may write a repository, which decisions.b never does: Dinis says yes in sites.b's session. security.b is asked to look first.",
+ "decision": null,
+ "questions": []
+}

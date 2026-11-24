@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:25Z",
+ "updated": "2026-11-24T14:30Z",
  "items": [
   {
    "what": "The refresh gate, so seed changes reach one site at a time (holds back key rotation too)",
@@ -12,6 +12,12 @@
    "where": "factory.b's session",
    "link": "https://claude.ai/code/session_01Kw9UwBqEqrxrSBwvLEVJY6",
    "say": "approve the repository attach when asked"
+  },
+  {
+   "what": "Let each sites agent (sites.a, d.sites) write only its own area, key and index entry in Site__Agent__Sites (CLAUDE.md change, per your 'every agent keeps its area' guidance); security.b looks first",
+   "where": "sites.b's session",
+   "link": "https://claude.ai/code/session_01Kw9UwBucXVUaNYRMcWwk67",
+   "say": "yes to the CLAUDE.md change for sites agents' own areas"
   },
   {
    "what": "studio.c's render-reel workflow: security.b checked the exact file (sha256 98894998...) and agrees",
