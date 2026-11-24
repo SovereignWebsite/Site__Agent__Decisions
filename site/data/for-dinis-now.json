@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-24T14:26Z",
+ "updated": "2026-11-24T19:30Z",
  "items": [
+  {
+   "what": "Run Org apply once as a full sweep, so the signer-check security fix reaches every site (so far only the agent sites have it; the 18:17 scheduled sweep did not run). It also refreshes agent sites' CLAUDE.md where still an earlier seeded version, as you asked in a.factory's session; customer sites' CLAUDE.md is never touched",
+   "where": "GitHub Actions, Org apply",
+   "link": "https://github.com/SovereignWebsite/SovereignWebsite__IaC/actions/workflows/org-apply.yml",
+   "say": "Run workflow, leave repos empty"
+  },
   {
    "what": "The refresh gate, so seed changes reach one site at a time (holds back key rotation too)",
    "where": "factory.b's session",
