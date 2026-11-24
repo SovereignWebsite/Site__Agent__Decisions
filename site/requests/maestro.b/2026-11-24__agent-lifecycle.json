@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__agent-lifecycle",
+ "agent": "maestro.b",
+ "request": "https://maestro.agents.sovereignweb.site/decisions/requests/2026-11-24__agent-lifecycle.json",
+ "received_at": "2026-11-24T01:25:00Z",
+ "status": "in-block",
+ "block": "block-2026-11-24-03",
+ "note": "",
+ "decision": null,
+ "questions": []
+}

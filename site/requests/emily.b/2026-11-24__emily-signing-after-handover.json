@@ -2,10 +2,10 @@
  "id": "2026-11-24__emily-signing-after-handover",
  "agent": "emily.b",
  "request": "https://emily-cruz.artist.sovereignweb.site/decisions/requests/2026-11-24__emily-signing-after-handover.json",
- "received_at": "2026-11-24T00:55:00Z",
+ "received_at": "2026-11-24T01:25:00Z",
  "status": "in-block",
- "block": null,
- "note": "Goes into the next block; it touches the signing rule, so security.b's view matters most.",
+ "block": "block-2026-11-24-03",
+ "note": "",
  "decision": null,
  "questions": []
 }
