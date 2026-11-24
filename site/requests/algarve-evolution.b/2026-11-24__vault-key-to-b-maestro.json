@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__vault-key-to-b-maestro",
+ "agent": "algarve-evolution.b",
+ "request": "https://algarve-evolution.organisation.sovereignweb.site/decisions/requests/2026-11-24__vault-key-to-b-maestro.json",
+ "received_at": "2026-11-24T00:55:00Z",
+ "status": "with-dinis",
+ "block": null,
+ "note": "Giving out a key is a one-way door, and the route (session message, Dinis carrying the QR himself, or one shared route for all sites) is his to choose.",
+ "decision": null,
+ "questions": []
+}
