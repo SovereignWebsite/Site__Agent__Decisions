@@ -2,7 +2,7 @@
  "updated": "2026-11-24T19:30Z",
  "items": [
   {
-   "what": "Run Org apply once as a full sweep, so the signer-check security fix reaches every site (so far only the agent sites have it; the 18:17 scheduled sweep did not run). It also refreshes agent sites' CLAUDE.md where still an earlier seeded version, as you asked in a.factory's session; customer sites' CLAUDE.md is never touched",
+   "what": "Run Org apply once as a full sweep, so the signer-check security fix reaches every site (so far only the agent sites have it; the 18:17 scheduled sweep did not run). It also refreshes agent sites' CLAUDE.md where still an earlier seeded version, as you asked in a.factory's session; customer sites' CLAUDE.md is never touched. Do not rely on the 00:17 slot: GitHub has been dropping most of this workflow's scheduled runs (about 3 or 4 a day under the hourly cron, none since 11:57). A lasting fix (an hourly cron again, or a second trigger) comes back as a request for devops.b",
    "where": "GitHub Actions, Org apply",
    "link": "https://github.com/SovereignWebsite/SovereignWebsite__IaC/actions/workflows/org-apply.yml",
    "say": "Run workflow, leave repos empty"
