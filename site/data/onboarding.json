@@ -122,8 +122,8 @@
   {
    "agent": "algarve-evolution.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:09:07Z",
+   "area": "https://algarve-evolution.organisation.sovereignweb.site/factory/dinis-cruz/account-b/agent.json"
   },
   {
    "agent": "grace.b",
