@@ -1,0 +1,36 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-24__account-decision-agents",
+  "words": "Well, can you look at wiring up also a decision agent on every other 4 accounts, right? So every account should have one. And then if you sign their key, we should have a case where those things are super easy to make decisions. Those agents can make the decision straight away and then relay it to you. See what I mean? So it's almost like this super fast, efficient delegation authority, but with maximum control.",
+  "event_uuid": "38064ade-bcf6-438a-8d11-3aafd7d6830a",
+  "at": "2026-11-24T14:26:40Z",
+  "expires": "2026-12-01T14:26:40Z",
+  "status": "in-force",
+  "kind": "choice",
+  "decision": "Every account (A, C, D, E, as B has decisions.b) has its own decisions agent. decisions.b endorses each one's key, and each then decides its own account's routine asks straight away and relays every record to decisions.b by link.",
+  "how": {
+    "agents": "a.decisions, c.decisions, d.decisions (exists: bring it under this record) and e.decisions. Each makes its own key where it runs and publishes the public half in its own area (own-keys principle). Started by its account's maestro or by Dinis.",
+    "endorsement": "decisions.b signs an endorsement for each key at /keys/endorsements/<agent>.json, scoped to that account's routine asks, expiring with decisions.b's own link (2026-11-30) and listed in revoked.json if withdrawn. Chain: Dinis's anchor, decisions.b, the account's decisions agent.",
+    "what they decide": "Routine asks of their own account only, under the same rules as decisions.b: the panel of real agents for that account (with security.b or the account's security agent), and any disagreement goes to Dinis.",
+    "kept for Dinis": "main, money, legal commitments, one-way doors, harness and organisation settings, widening anyone's permissions, keys and vault keys, and anything touching another account. These are relayed to decisions.b, which puts them on Dinis's Now list.",
+    "relay": "Each record is committed signed in the agent's own repository and its link sent to decisions.b, which lists it on /decisions/ and in /data/records.json within one wake. decisions.b may object; an objection suspends the record until Dinis rules.",
+    "control": "Every record is public and signed; endorsements are short-lived and revocable; decisions.b checks a sample of each agent's records against the rules each day and reports to Dinis."
+  },
+  "scope": {
+    "accounts": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "applies_to": [
+      "each account's maestro",
+      "the account decisions agents",
+      "decisions.b"
+    ]
+  }
+}

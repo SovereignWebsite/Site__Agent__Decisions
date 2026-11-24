@@ -1,6 +1,6 @@
 {
  "about": "Every signed record on this site, oldest first, written by docs/pages.mjs.",
- "count": 60,
+ "count": 61,
  "records": [
   {
    "id": "2026-11-23__decisions-b-policy",
@@ -481,6 +481,14 @@
    "status": "in-force",
    "summary": "Yes, option a): studio.c adds .github/workflows/render-reel.yml to Site__Agent__Studio on dev, then pushes one more pack and reports the timings.",
    "url": "/records/2026-11-24__render-reel.json"
+  },
+  {
+   "id": "2026-11-24__account-decision-agents",
+   "at": "2026-11-24T14:26:40Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Every account (A, C, D, E, as B has decisions.b) has its own decisions agent. decisions.b endorses each one's key, and each then decides its own account's routine asks straight away and relays every record to decisions.b",
+   "url": "/records/2026-11-24__account-decision-agents.json"
   }
  ]
 }
