@@ -24,8 +24,8 @@
   {
    "agent": "sites.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:10:05Z",
+   "area": "https://sites.agents.sovereignweb.site/factory/dinis-cruz/account-b/"
   },
   {
    "agent": "hub.b",
@@ -148,8 +148,8 @@
   {
    "agent": "sarah-cruz.b",
    "account": "B",
-   "confirmed": null,
-   "area": null
+   "confirmed": "2026-11-24T02:10:06Z",
+   "area": "https://sarah-cruz.designer.sovereignweb.site/factory/dinis-cruz/account-b/"
   },
   {
    "agent": "33n.b",
