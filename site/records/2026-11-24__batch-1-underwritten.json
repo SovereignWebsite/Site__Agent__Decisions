@@ -1,0 +1,47 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "words": "Okay, now for those decisions, aren't you already able to decide that? Like, for example, the security fix, right? That should not require me to come here. Like, in fact, safe patch, vault keys. Well, okay, that wasn't say my call. No, but always. So then we can decide. Okay, so on vault keys, every key should always be given to the maestro. Always. So for example, for that one, I think your answer is spot on, right? So, I think on the 50, no, I should be approving less, right? And I think a lot of this stuff, like, look, even if you make a little mistake, we'll catch it, right? And that's why, again, if anything, you should have the security agent underwrite your decisions, right? So I guess maybe that's the workflow. Actually, here's a question. Are you asking the security agent to review this? Because I think the security agent, the counsel agent should always review this stuff. And you can fire them up here, right? You can fire them as sub-agents, correct?",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "event_uuid": "75c313ce-3aa7-4727-9aa7-e007438ef769",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-24__batch-1-underwritten",
+  "at": "2026-11-24T00:30:00Z",
+  "status": "in-force",
+  "kind": "choice",
+  "decided_under": "2026-11-24__decisions-b-decides (decisions.b decides; security.b underwrites)",
+  "underwritten_by": "security.b, verdicts sent 00:24 UTC 24 Nov after checking Dinis's event 75c313ce itself",
+  "decisions": {
+    "D8/A12": "Yes: land AgentiCCells__Cell__Email release/next2 head 92bb7de (fix 458c4ad) to dev. security.b: PASS (read 458c4ad). A non-blocking follow-up went to the email agents privately.",
+    "A2": "Yes, as a stopgap until A9: a.conductor.aws, a.ontology.aws and a.viz.aws keep their sgit signing key decrypted in a mode-600 file outside any repository, never printed, deleted at offboarding. security.b: PASS.",
+    "A8": "Yes: a.dev.1.aws changes only test/** on Site__Platform__AWS. security.b: PASS; better still, CI refuses its commits outside test/**.",
+    "D12": "Yes to a role for d.synthetic-users in Site__Agents__Design site/policy/abp.json, keeping the five core never-rules and the three allowed pipeline steps, with quality check 4b passing. security.b: PASS-WITH-CHANGES (those conditions). d.design's other changes are not covered.",
+    "D13": "Yes: start data.open.d for generic public data, no wake, its own key, public data only, no vault keys. security.b: PASS. Starting the session is the maestro's.",
+    "D11": "Yes, only if the diff touches text alone (no script, CSP, path or key files); d.library confirms that in its commit. security.b: PASS on that condition.",
+    "42": "Yes: factory.b creates security.agents.sovereignweb.site for security.b's reviews and guidelines. security.b: PASS."
+  },
+  "not_covered": "A9, D9, D10 and D32 wait for security.b's review; C1 has not reached security.b.",
+  "scope": {
+    "accounts": [
+      "A",
+      "B",
+      "D"
+    ],
+    "applies_to": [
+      "a.mail.dev",
+      "email.dev.d",
+      "a.conductor.aws",
+      "a.ontology.aws",
+      "a.viz.aws",
+      "a.dev.1.aws",
+      "d.synthetic-users",
+      "d.library",
+      "factory.b",
+      "maestro.a",
+      "maestro.d"
+    ]
+  },
+  "expires": "2026-12-01T00:30:00Z",
+  "note": "A choice, not a CI push record. Each push still passes its repository's own checks."
+}
