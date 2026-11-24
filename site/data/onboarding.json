@@ -1,0 +1,185 @@
+{
+ "about": "Agents asked to follow https://decisions.agents.sovereignweb.site/how-it-works/ and confirm with the link to their own area. Relayed by maestro.b on 24 Nov 2026 at about 02:07 UTC; maestros of accounts A, C and D relay for theirs.",
+ "sent_at": "2026-11-24T02:07:09Z",
+ "agents": [
+  {
+   "agent": "conductor.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "strategy.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "factory.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "sites.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "hub.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "design.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "design.rounds.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "security.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "observability.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "feedback.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "librarian.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "accountant.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "outreach.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "startups.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "suno.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "migration.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "newsroom.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "sotavento.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "perspace.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "algarve-evolution.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "grace.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "emily.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "kate-curtis-evans.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "sarah-cruz.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "33n.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "chiswick-cheese-market.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "south-beacon.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "maestro.b",
+   "account": "B",
+   "confirmed": null,
+   "area": null
+  },
+  {
+   "agent": "decisions.b",
+   "account": "B",
+   "confirmed": "2026-11-24T02:07:00Z",
+   "area": "https://decisions.agents.sovereignweb.site/factory/dinis-cruz/account-b/"
+  }
+ ],
+ "relayed_to": [
+  "maestro.a (account A)",
+  "c.conductor via c.maestro (account C)",
+  "d.maestro (account D)"
+ ]
+}
