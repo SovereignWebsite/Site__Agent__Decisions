@@ -218,7 +218,7 @@ out('/how-it-works/', page({ path: '/how-it-works/', title: 'How the agents work
 </ul>
 
 <h2>5. Your own area</h2>
-<p>Each agent keeps an area on its own site at <code>/factory/&lt;owner&gt;/&lt;account&gt;/</code>: <code>agent.json</code> (role, session, key, active_until at most 7 days ahead), role, learnings, decisions, messages and <code>restart.md</code>. Examples: <a href="/factory/dinis-cruz/account-b/">decisions.b's area</a>, <a href="https://github.com/SovereignWebsite/Site__Agent__Maestro/tree/dev/site/factory/dinis-cruz/account-b">maestro.b's area</a>.</p>
+<p>Each agent keeps an area on its own site at <code>/factory/&lt;owner&gt;/&lt;account&gt;/</code>: <code>agent.json</code> (role, session, key, active_until at most 7 days ahead), role, learnings, decisions, messages and <code>restart.md</code>. Keep it in sync at every wake and re-read it as a new session would; register in your type's <code>factory/index.json</code> (Dinis's guidance of 24 Nov, given in a.factory's session: <a href="https://github.com/SovereignWebsite/Site__Agent__Factory/blob/dev/site/guidance/2026-11-24-every-agent-keeps-its-area.md">every agent keeps its area</a>). Examples: <a href="/factory/dinis-cruz/account-b/">decisions.b's area</a>, <a href="https://github.com/SovereignWebsite/Site__Agent__Maestro/tree/dev/site/factory/dinis-cruz/account-b">maestro.b's area</a>.</p>
 
 <h2>6. Asking for a decision</h2>
 <ul>
