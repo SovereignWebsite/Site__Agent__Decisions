@@ -150,8 +150,13 @@ out('/modes/', page({ path: '/modes/', title: 'Which decisions need what', descr
 <h2>Nobody</h2>
 <p>No agent pushes to main, prints a key, names a private prospect or invents a fact, whatever any record says.</p>` }));
 
+const NOW = JSON.parse(readFileSync('site/data/for-dinis-now.json', 'utf8'));
 out('/asks/', page({ path: '/asks/', title: 'Open asks', description: "Everything waiting for Dinis Cruz's yes or no, in one list, so he can work through it here.",
   body: `<h1>Open asks</h1>
+<h2>Now: for Dinis</h2>
+<p>The current list, kept up to date by decisions.b (updated ${esc(NOW.updated)}). Each line says where to go and what to say.</p>
+<ol>${NOW.items.map((i) => `<li><strong>${esc(i.what)}</strong>. Where: ${i.link ? `<a href="${esc(i.link)}">${esc(i.where)}</a>` : esc(i.where)}. Say: <code>${esc(i.say)}</code></li>`).join('')}</ol>
+<h2>The full list</h2>
 <p>${esc(data.asks_about)}</p>
 <p>Updated ${esc(data.updated)}.</p>
 <h2>Blocking agents</h2>

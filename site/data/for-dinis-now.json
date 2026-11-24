@@ -1,0 +1,65 @@
+{
+ "updated": "2026-11-24T13:30Z",
+ "items": [
+  {
+   "what": "The refresh gate, so seed changes reach one site at a time (holds back key rotation too)",
+   "where": "factory.b's session",
+   "link": "https://claude.ai/code/session_01Kw9UwBqEqrxrSBwvLEVJY6",
+   "say": "yes to 1af7538 (refresh gate)"
+  },
+  {
+   "what": "Attach Site__Agents__Factory with push to factory.b, so it can publish its own area",
+   "where": "factory.b's session",
+   "link": "https://claude.ai/code/session_01Kw9UwBqEqrxrSBwvLEVJY6",
+   "say": "approve the repository attach when asked"
+  },
+  {
+   "what": "studio.c's render-reel workflow: security.b checked the exact file (sha256 98894998...) and agrees",
+   "where": "the decisions session",
+   "link": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+   "say": "yes to render-reel (studio.c)"
+  },
+  {
+   "what": "The morning sync, points 1 to 6 (two repositories per agent; READMEs for people; CRM starts with the summit contacts, kept in the vault; agents prepare, people send; labelled synthetic users; Gmail and CRM access once the login is confirmed)",
+   "where": "the decisions session",
+   "link": "https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/factory/dinis-cruz/account-b/briefs/2026-11-24-morning-sync.md",
+   "say": "yes to 1 to 6 (or name the changes)"
+  },
+  {
+   "what": "The new manager site on account A (6bc2235): factory.c pushes only on your merge or your word in its own session",
+   "where": "factory.c's session, or merge it yourself",
+   "link": "",
+   "say": "push 6bc2235 to dev"
+  },
+  {
+   "what": "Sotavento history rewrite (ask 22a, 22b or none); base is now 501fbe4",
+   "where": "the decisions session",
+   "link": "",
+   "say": "22a, 22b or no rewrite"
+  },
+  {
+   "what": "Start devops.b by hand (repository SovereignWebsite__IaC, Sonnet)",
+   "where": "a new session",
+   "link": "https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/factory/dinis-cruz/account-b/start-prompts/b.devops.md",
+   "say": "paste the prompt"
+  },
+  {
+   "what": "Push access to Site__Agent__Outreach for outreach.b",
+   "where": "outreach.b's session",
+   "link": "",
+   "say": "approve when asked"
+  },
+  {
+   "what": "First real CRM import: security's condition 4, and who makes the team vault and holds its key",
+   "where": "the decisions session",
+   "link": "",
+   "say": "your choice"
+  },
+  {
+   "what": "Archive the old accountant.b and chiswick-cheese-market.b sessions (or leave for maestro.b after its restart)",
+   "where": "the session list",
+   "link": "",
+   "say": "archive"
+  }
+ ]
+}
