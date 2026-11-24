@@ -3,9 +3,9 @@
  "agent": "strategy.b",
  "request": "https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__twin-backup-google-app.json",
  "received_at": "2026-11-24T00:50:00Z",
- "status": "in-block",
+ "status": "withdrawn",
  "block": "block-2026-11-24-02",
  "note": "Panel plus counsel.d (Google verification terms). Legal commitment: if the panel picks our own Google app, the verification is Dinis's to sign up to.",
- "decision": null,
+ "decision": "Withdrawn as framed (record 2026-11-24__twin-backup-meaning); replaced by 2026-11-24__twin-copy-oauth-client.",
  "questions": []
 }

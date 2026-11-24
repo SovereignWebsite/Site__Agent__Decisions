@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__people-json-from-requests",
+ "agent": "factory.b",
+ "request": "sent by message (factory.b has no requests folder yet)",
+ "received_at": "2026-11-24T01:19:04Z",
+ "status": "queued",
+ "block": null,
+ "note": "Next block. Touches build/org-apply.mjs and maybe policy/abp.json (always-ask). Logins are written only with the owner's consent (people_public flag).",
+ "decision": null,
+ "questions": []
+}

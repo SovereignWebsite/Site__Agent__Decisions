@@ -3,9 +3,9 @@
  "agent": "conductor.b",
  "request": "https://github.com/SovereignWebsite/SovereignWebsite__IaC/blob/dev/board/conductor.b/decision-requests/2026-11-24__accountant-signing-key.json",
  "received_at": "2026-11-24T00:50:00Z",
- "status": "with-dinis",
- "block": null,
+ "status": "decided; waits for Dinis's settings file",
+ "block": "block-2026-11-24-04",
  "note": "A harness setting: Dinis allows sgit pki keygen in accountant.b's session. Urgent: accountant.b is on the core panel and cannot sign opinions without a key.",
- "decision": null,
+ "decision": "R3 (record 2026-11-24__block-04): Dinis adds the keygen and export rule to Site__Agents__Accountant.",
  "questions": []
 }

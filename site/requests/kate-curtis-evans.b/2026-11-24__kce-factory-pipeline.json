@@ -3,9 +3,9 @@
  "agent": "kate-curtis-evans.b",
  "request": "https://kate-curtis-evans.founder.sovereignweb.site/decisions/requests/2026-11-24__kce-factory-pipeline.json",
  "received_at": "2026-11-24T00:50:00Z",
- "status": "decided; waiting on a fix",
+ "status": "fix pushed; waits for people.json",
  "block": "block-2026-11-24-02",
- "note": "The decision's condition (the owner's verified edits still deploy) failed in kate-curtis-evans.b's test; the fix, factory.b's e0421d2, is in block-2026-11-24-05.",
+ "note": "e0421d2 landed as c2c9697 (record IaC decisions/2026-11-24__signer-person-fallback). The owner's verified commits pass once her login is in .github/ci/people.json (request 2026-11-24__people-json-from-requests, next block). Commits by her assistant pass with its own published key.",
  "decision": "2026-11-24__block-02-a",
  "questions": []
 }

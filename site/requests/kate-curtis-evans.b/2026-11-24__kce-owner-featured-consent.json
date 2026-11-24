@@ -3,9 +3,9 @@
  "agent": "kate-curtis-evans.b",
  "request": "https://kate-curtis-evans.founder.sovereignweb.site/decisions/requests/2026-11-24__kce-owner-featured-consent.json",
  "received_at": "2026-11-24T00:50:00Z",
- "status": "with-dinis",
+ "status": "decided",
  "block": null,
  "note": "Only the site owner can answer; Dinis is asked to put the question to her. Nothing is added until her words are recorded.",
- "decision": null,
+ "decision": "Kate consents, through Dinis, to her site in the Hub showroom (record 2026-11-24__kate-hub-listing).",
  "questions": []
 }

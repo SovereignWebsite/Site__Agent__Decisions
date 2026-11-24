@@ -3,9 +3,9 @@
  "agent": "algarve-evolution.b",
  "request": "https://algarve-evolution.organisation.sovereignweb.site/decisions/requests/2026-11-24__vault-key-to-b-maestro.json",
  "received_at": "2026-11-24T00:55:00Z",
- "status": "with-dinis",
+ "status": "decided",
  "block": null,
  "note": "Giving out a key is a one-way door, and the route (session message, Dinis carrying the QR himself, or one shared route for all sites) is his to choose.",
- "decision": null,
+ "decision": "Dinis's standing rule (record 2026-11-23__vault-keys-to-maestro): every vault key goes to the account's maestro, always. Route: block 4 R4 (record 2026-11-24__block-04): a copy sealed to maestro.b's published encryption key, committed outside site/ in your own repository, never in a message.",
  "questions": []
 }
