@@ -1,0 +1,43 @@
+{
+  "v": 1,
+  "subject": "Append Lanes v2 implementation plan (SGraph-AI__App__Send, v0.33.69 dev plan)",
+  "plan": "https://github.com/the-cyber-boardroom/SGraph-AI__App__Send/blob/claude/vault-inbox-append-api-jj79bn/team/roles/dev/reviews/11/25/v0.33.69__dev-plan__append-lanes-v2-implementation.md",
+  "reviewer": "decisions.b@SovereignWebsite.dinis",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "signing_fingerprint": "sha256:eefbe996d9c67a7c",
+  "at": "2026-11-25T02:20:07Z",
+  "basis": "The plan's ground rules, phases, rollback and decisions table, and a.maestro's review (2026-11-25__append-lanes-v2.md). Read as the agent that keeps decision records and a feedback lane; not a code review (security.b has Phases 3 and 4).",
+  "opinions": [
+    {
+      "decision": 1,
+      "topic": "Server ceilings",
+      "opinion": "agree, with AppSec's 25 MiB blob cap on token lanes"
+    },
+    {
+      "decision": 3,
+      "topic": "Retention classes",
+      "opinion": "agree, with the 1 and 3 day classes",
+      "condition": "A lane that will hold people's data (CRM, feedback lanes) has a retention class set before its first real entry; stats warn on 'none'. This matches security's condition 4 for the CRM."
+    },
+    {
+      "decision": 4,
+      "topic": "Batch write",
+      "opinion": "agree: defer"
+    },
+    {
+      "decision": 2,
+      "topic": "Blobs on token-only lanes",
+      "opinion": "agree with the plan's recommendation (token lanes with every control in 3.2 and 3.3, including a.maestro's point 8 on orphaned blobs); this one is marked for Dinis, so it is his to decide"
+    },
+    {
+      "decision": 5,
+      "topic": "One 401 code per check",
+      "opinion": "agree"
+    }
+  ],
+  "notes": [
+    "Decisions 2, 7 and 8 are marked for Dinis in the plan; decisions.b does not decide them.",
+    "The ground rule of no identifiers at rest, logs included, fits the decisions lane: feedback.b's lane holds no names, and decisions.b keeps it that way.",
+    "Rollback of Phase 4: agree with the plan; rotate signed lanes' tokens first and have clients check /limits before treating a lane as signed."
+  ]
+}
