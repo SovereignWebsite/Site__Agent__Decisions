@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-25__pages-deploy-branch",
+ "agent": "factory.b",
+ "request": "sent by message: deploy branch policy for Pages (Org status reports it; Org apply sets it). A follow-up raised by security.b to the deploy-gate fix. Not written yet: factory.b writes it after 1a72038 lands.",
+ "received_at": "2026-11-25T22:47:50Z",
+ "status": "queued",
+ "block": null,
+ "note": "Touches always-ask paths (policy/ and build/), so after the panel it goes to Dinis. Details kept private until the deploy-gate fix is on every site.",
+ "decision": null,
+ "questions": []
+}
