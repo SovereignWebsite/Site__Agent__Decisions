@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:11Z",
+ "updated": "2026-11-25T19:22Z",
  "items": [
   {
    "what": "Finish the moving-van rename: run Org apply once with repos = Site__Template__Business__Moving-Van,Redirect__Template__Business__Moving-Van. Run 45671186376 renamed the repository, then stopped on the redirect's custom domain (the renamed site still held it until a second run). Nothing is broken; the site serves at its old address until then.",
@@ -96,6 +96,12 @@
    "where": "the session list",
    "link": "",
    "say": "archive"
+  },
+  {
+   "what": "b.abp's capability census: may the account-wide results (families of capabilities and their counts only) be published? Until you say yes, each agent files its answer sealed, readable by abp and security only, with no ids, hosts, emails or allowlists. Step 6 of the census is a question for you live; if you are not there, agents record \"not asked\".",
+   "where": "the decisions session or b.abp's session",
+   "link": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+   "say": "yes, publish families and counts, or no"
   }
  ]
 }
