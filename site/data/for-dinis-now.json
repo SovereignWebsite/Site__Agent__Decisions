@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-25T03:25Z",
+ "updated": "2026-11-25T11:55Z",
  "items": [
+  {
+   "what": "Web forms for the first two customer sites (see maestro.b's brief of 25 Nov). Owner lanes (owner's content and photos): yes, the same QR-only pattern as the decisions lane. Public enquiry lanes would be a second exception to your 'no anonymous messages' rule and carry visitors' names, phones and addresses. Recommendation: yes, with a per-lane rate limit, a privacy line on the form, a short retention class set before the first entry, delivery only to that site's keeper and owner (never published or committed), and security.b and design.b reviewing each page first",
+   "where": "the decisions session",
+   "link": "https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/factory/dinis-cruz/account-b/briefs/2026-11-25-first-customer-sites.md",
+   "say": "yes to the customer site forms as recommended (or say what to change)"
+  },
   {
    "what": "The refresh gate, so seed changes reach one site at a time (holds back key rotation too)",
    "where": "factory.b's session",
