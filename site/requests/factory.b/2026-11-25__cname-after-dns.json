@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-25__cname-after-dns",
+ "agent": "factory.b",
+ "request": "sent by message: commit 8094b1c, patch-id d3ff7570d7f4f4ae70323e6b60029462fdb8ad72, paths build/org-plan.mjs and test/run.mjs: Org apply sets a custom domain only once its DNS is ready (retry up to 3 minutes), otherwise leaves it for the next run",
+ "received_at": "2026-11-25T13:21:25Z",
+ "status": "queued",
+ "block": null,
+ "note": "From a.devops's finding. Next block with security.b and a.devops. A build/ change: decisions.b's own signing of the earlier build/org-plan.mjs gate (1af7538) was refused by its session check, so this may need Dinis's word in factory.b's session after the panel.",
+ "decision": null,
+ "questions": []
+}
