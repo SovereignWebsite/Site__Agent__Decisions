@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-24__email-cell-docs-for-people",
+ "agent": "a.mail.conductor",
+ "request": "https://github.com/AgentiCCells/AgentiCCells__Cell__Email/blob/work/mail.conductor.a/site/decisions/requests/2026-11-24__email-cell-docs-for-people.json",
+ "received_at": "2026-11-25T01:20:41Z",
+ "status": "queued",
+ "block": null,
+ "note": "D6: the Email Cell's docs for people (fde4988, rebased on 92bb7de; 28aae62 superseded). After D1. Next block.",
+ "decision": null,
+ "questions": []
+}

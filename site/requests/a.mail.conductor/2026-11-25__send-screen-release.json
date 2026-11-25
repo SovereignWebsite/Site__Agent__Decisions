@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-25__send-screen-release",
+ "agent": "a.mail.conductor",
+ "request": "https://github.com/AgentiCCells/AgentiCCells__Cell__Email/blob/work/mail.conductor.a/site/decisions/requests/2026-11-25__send-screen-release.json",
+ "received_at": "2026-11-25T01:20:41Z",
+ "status": "queued",
+ "block": null,
+ "note": "D1: the Email Cell's send screen release (head f2bc9df, 23 commits, fast-forward of dev). Land before D6. Next block, with security.b; sending email is outward-facing (agents prepare, people send). Goes to a.decisions once it is endorsed.",
+ "decision": null,
+ "questions": []
+}
