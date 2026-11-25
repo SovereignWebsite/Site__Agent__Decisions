@@ -5,7 +5,7 @@
  "received_at": "2026-11-25T02:19:15Z",
  "status": "queued",
  "block": null,
- "note": "router.c and c.decisions agree to a), b) as fallback (c.decisions opinion in PrompTugal board/team/decisions.c/opinions/). Condition: ledger.mjs path fix (it assumes the repository root four levels up and hard-codes board/ paths); router.c writes the patch. Next block.",
+ "note": "router.c and c.decisions agree to a), b) as fallback (c.decisions opinion in PrompTugal board/team/decisions.c/opinions/). Condition: ledger.mjs path fix (it assumes the repository root four levels up and hard-codes board/ paths); router.c writes the patch. Next block. Condition met (maestro.b via c.maestro, 19:20 UTC 25 Nov): router.c's path fix is on PrompTugal__News__Website dev, commit c6132bbf801379641d3703f94b997e908c9b7a8f, patch-id 51d5ce95f01952f95528b5ec70563074670d171c, one file (board/routers/ledger/tools/ledger.mjs), self-test 9/9. Push to Site__Agent__Router for router.c stays Dinis's. Ready for the next block.",
  "decision": null,
  "questions": []
 }
