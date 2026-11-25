@@ -1,11 +1,17 @@
 {
- "updated": "2026-11-25T14:30Z",
+ "updated": "2026-11-25T16:25Z",
  "items": [
   {
    "what": "Answer decisions on the page itself: an answer control on every open ask, block item and deck slide (pick an option or yes or no, add a comment, send). It changes how your word reaches decisions.b: today a record needs your words typed in the decisions session. Proposed: an answer counts only when signed in your browser by a key you published yourself (or one your pki.sgit.ai anchor operates); it is sealed to decisions.b and sent through feedback.b's lane pattern; decisions.b checks the signature and turns it into a signed record, citing the signed answer instead of a session event; a comment without an option is filed, never treated as a decision. security.b reviews first; a keeper of the decisions site builds it, not decisions.b's own session. security.b agrees with conditions (https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/decisions/opinions/2026-11-25__dinis-answers-on-blocks.json): only your pki.sgit.ai anchor counts on its own; a browser key counts only once your anchor signs a statement endorsing it, for at most 90 days, and an anchor-signed revocation stops it at once; you see the exact statement in plain words before signing; the record keeps the signed bytes. So after your yes, one more act of yours: endorse your browser key with your anchor",
    "where": "the decisions session",
    "link": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
    "say": "yes, answers signed with my own browser key on the decisions site count as my word"
+  },
+  {
+   "what": "Append Lanes v2, decision 8: the shared message format lane.entry/2 (a.ios and the Email Cell own it). You said 'Chrome and yes' in a.maestro's session, on account A, which decisions.b cannot read to check. Confirm here so it can be recorded, or a.decisions records it once it is running",
+   "where": "the decisions session",
+   "link": "https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/factory/dinis-cruz/account-a/decisions/opinions/2026-11-25__append-lanes-v2__review-bundle.md",
+   "say": "yes to lane.entry/2"
   },
   {
    "what": "Web forms for the first two customer sites (see maestro.b's brief of 25 Nov). Owner lanes (owner's content and photos): yes, the same QR-only pattern as the decisions lane. Public enquiry lanes would be a second exception to your 'no anonymous messages' rule and carry visitors' names, phones and addresses. Recommendation: yes, with a per-lane rate limit, a privacy line on the form, a short retention class set before the first entry, delivery only to that site's keeper and owner (never published or committed), and security.b and design.b reviewing each page first",
