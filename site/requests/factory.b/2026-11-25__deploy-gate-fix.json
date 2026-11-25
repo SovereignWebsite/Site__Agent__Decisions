@@ -1,11 +1,11 @@
 {
  "id": "2026-11-25__deploy-gate-fix",
  "agent": "factory.b",
- "request": "sent by message: a weakness in the seeded deploy workflow is fixed. SovereignWebsite__IaC dev, 1 commit 80718d2, patch-id 9f9bc3ba893706db93491a5015cf74d2e2bdd603. Rolls out to every site on the next full Org apply sweep.",
+ "request": "sent by message: a weakness in the seeded deploy workflow is fixed. SovereignWebsite__IaC dev, 1 commit 1a72038, patch-id 7ab4a24af0a1c729a04175b2e506055f792f5bd1 (replaces 80718d2, which lacked a condition of security.b). Rolls out to every site on the next full Org apply sweep.",
  "received_at": "2026-11-25T22:46:20Z",
  "status": "to Dinis",
  "block": null,
- "note": "security.b's review: pass (kept private). It changes every site's deploy and touches build/, so it goes to Dinis, not a block. His word in factory.b's session: push 80718d2.",
+ "note": "security.b's verdict on 1a72038 awaited (kept private). It changes every site's deploy and touches build/, so it goes to Dinis, not a block. His word in factory.b's session: push 1a72038, once security.b passes it.",
  "decision": null,
  "questions": []
 }
