@@ -5,7 +5,7 @@
  "received_at": "2026-11-25T22:46:20Z",
  "status": "to Dinis",
  "block": null,
- "note": "security.b's verdict on 1a72038 awaited (kept private). It changes every site's deploy and touches build/, so it goes to Dinis, not a block. His word in factory.b's session: push 1a72038, once security.b passes it.",
+ "note": "security.b's verdict on 1a72038: pass (23:18 UTC; details kept private until the fix is on every site). It changes every site's deploy and touches build/, so it goes to Dinis, not a block. His word in factory.b's session: push 1a72038, then a full Org apply sweep, after which security.b re-counts all sites.",
  "decision": null,
  "questions": []
 }

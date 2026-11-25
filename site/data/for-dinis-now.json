@@ -2,7 +2,7 @@
  "updated": "2026-11-25T22:46Z",
  "items": [
   {
-   "what": "Security fix from factory.b: a weakness in the seeded deploy workflow is fixed (security.b's verdict on this version awaited; details kept private). It changes every site's deploy and reaches them on the next full Org apply sweep, so it needs your word.",
+   "what": "Security fix from factory.b: a weakness in the seeded deploy workflow is fixed (security.b's review of this version: pass; details kept private). It changes every site's deploy and needs your word, then a full Org apply sweep to reach every site; security.b re-counts after.",
    "where": "factory.b's session",
    "link": "https://claude.ai/code/session_01Kw9UwBqEqrxrSBwvLEVJY6",
    "say": "push 1a72038"
