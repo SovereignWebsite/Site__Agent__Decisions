@@ -169,7 +169,7 @@ const NOW = JSON.parse(readFileSync('site/data/for-dinis-now.json', 'utf8'));
 const BLOCKS = readdirSync('site/data/blocks').filter((x) => x.endsWith('.json')).map((f) => JSON.parse(readFileSync('site/data/blocks/' + f, 'utf8')));
 writeFileSync('site/data/blocks.json', JSON.stringify({ blocks: BLOCKS.map((b) => ({ id: b.id, opened: b.opened, state: b.state, items: b.items.length, url: '/blocks/' + b.id + '/' })) }, null, 1) + '\n');
 out('/blocks/', page({ path: '/blocks/', title: 'Decision blocks', description: 'Every block of decisions put to the panel, with its state.',
-  body: `<h1>Decision blocks</h1><p>Each block is reviewed by the panel; all agree, decisions.b signs; any disagreement goes to Dinis.</p><div class="cards">${BLOCKS.map((b) => `<article class="card"><h2><a href="/blocks/${esc(b.id)}/">${esc(b.id)}</a></h2><p>${b.items.length} items. ${esc(b.state)}</p></article>`).join('')}</div>` }));
+  body: `<h1>Decision blocks</h1><p>Each block is reviewed by the panel; all agree, decisions.b signs; any disagreement goes to Dinis.</p><div class="cards">${BLOCKS.map((b) => `<article class="card"><h2><a href="/blocks/${esc(b.id)}/">${esc(b.id)}</a></h2><p>${b.items.length} items. ${esc(b.state)}</p><p><a href="/blocks/${esc(b.id)}/deck/">As a presentation</a></p></article>`).join('')}</div>` }));
 
 out('/asks/', page({ path: '/asks/', title: 'Open asks', description: "Everything waiting for Dinis Cruz's yes or no, in one list, so he can work through it here.",
   body: `<h1>Open asks</h1>
@@ -320,8 +320,53 @@ for (const f of readdirSync('site/data/blocks').filter((x) => x.endsWith('.json'
   const b = JSON.parse(readFileSync('site/data/blocks/' + f, 'utf8'));
   out('/blocks/' + b.id + '/', page({ path: '/blocks/' + b.id + '/', title: 'Decision block ' + b.id, description: 'A block of decisions out for review by the panel.',
     body: `<h1>Decision block ${esc(b.id)}</h1>
-<p>Opened ${esc(b.opened)}. State: ${esc(b.state)}. Panel: ${esc(b.panel.join(', '))}. Machine-readable: <a href="/data/blocks/${esc(b.id)}.json">${esc(b.id)}.json</a>.</p>
+<p>Opened ${esc(b.opened)}. State: ${esc(b.state)}. Panel: ${esc(b.panel.join(', '))}. Machine-readable: <a href="/data/blocks/${esc(b.id)}.json">${esc(b.id)}.json</a>. <a href="/blocks/${esc(b.id)}/deck/">See it as a presentation</a>.</p>
 <p>${esc(b.how)}</p><p>${esc(b.note)}</p>
 <div class="cards">${b.items.map((i) => `<article class="card"><h2>${esc(i.item)}: ${esc(i.commit)} ${tag(i.always_ask ? 'always-ask' : 'record')}</h2><p>${esc(i.what)}</p><p>Repository ${esc(i.repository)}; paths ${esc(i.paths.join(', '))}; patch-id <code>${esc(i.patch_id)}</code>.</p><p>decisions.b's draft: ${esc(i.draft)}.${i.also_ask ? ' Also asked: ' + esc(i.also_ask.join('; ')) + '.' : ''}</p><p>Opinions: ${esc(Object.entries((b.opinions || {})[i.item] || {}).map(([k, v]) => k + ': ' + v).join('; ') || 'none yet')}.</p></article>`).join('\n')}</div>` }));
+}
+
+for (const b of BLOCKS) {
+  const u = `${SITE}/blocks/${b.id}/deck/`, t = `Block ${b.id}: Decisions`, d = `Decision block ${b.id} as a presentation: each item, the draft, the panel's opinions and what follows.`;
+  mkdirSync(`site/blocks/${b.id}/deck`, { recursive: true });
+  writeFileSync(`site/blocks/${b.id}/deck/index.html`, `<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(t)}</title>
+<meta name="description" content="${esc(d)}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Decisions">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="${u}">
+<meta property="og:title" content="${esc(t)}">
+<meta property="og:description" content="${esc(d)}">
+<meta property="og:image" content="${SITE}/assets/share/card-1200x630.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Decisions">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(t)}">
+<meta name="twitter:description" content="${esc(d)}">
+<meta name="twitter:image" content="${SITE}/assets/share/card-1200x630.jpg">
+<link rel="canonical" href="${u}">
+<link rel="stylesheet" href="/deck/deck.css">
+</head>
+<body data-block="${esc(b.id)}">
+<a class="skip" href="#deck">Skip to the slides</a>
+<header class="bar">
+  <a class="home" href="/blocks/">Decision blocks</a>
+  <span class="where" id="where" aria-live="polite">Loading</span>
+  <nav aria-label="Slides"><button type="button" id="prev" aria-label="Previous slide">&larr;</button><button type="button" id="next" aria-label="Next slide">&rarr;</button></nav>
+</header>
+<main id="deck" class="deck" tabindex="-1">
+  <noscript><p class="plain">This presentation reads the block's data with JavaScript. Without it, see <a href="/blocks/${esc(b.id)}/">the block page</a>.</p></noscript>
+</main>
+<nav class="dots" id="dots" aria-label="Go to slide"></nav>
+<script src="/deck/block.js"></script>
+</body>
+</html>
+`);
 }
 console.log('pages written');
