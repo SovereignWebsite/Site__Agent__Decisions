@@ -1,0 +1,39 @@
+{
+ "about": "Every account's decisions agent and where its decision blocks and presentations live. Each agent publishes /blocks/<id>/ and /blocks/<id>/deck/ on its own site, with /data/blocks.json listing them (record 2026-11-24__account-decision-agents).",
+ "agents": [
+  {
+   "agent": "decisions.b",
+   "account": "B",
+   "blocks": "https://decisions.agents.sovereignweb.site/data/blocks.json",
+   "presentations": "https://decisions.agents.sovereignweb.site/blocks/"
+  },
+  {
+   "agent": "a.decisions",
+   "account": "A",
+   "blocks": null,
+   "presentations": null,
+   "note": "to be started by a.maestro"
+  },
+  {
+   "agent": "c.decisions",
+   "account": "C",
+   "blocks": null,
+   "presentations": null,
+   "note": "key endorsed 25 Nov; no repository of its own yet (Dinis names one); waits for Dinis's word in its session"
+  },
+  {
+   "agent": "d.decisions",
+   "account": "D",
+   "blocks": null,
+   "presentations": null,
+   "note": "key endorsed 24 Nov; no block yet; waits for Dinis's word in its session"
+  },
+  {
+   "agent": "e.decisions",
+   "account": "E",
+   "blocks": null,
+   "presentations": null,
+   "note": "waits for maestro.e"
+  }
+ ]
+}

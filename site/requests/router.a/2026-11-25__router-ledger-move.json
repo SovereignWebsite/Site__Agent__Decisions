@@ -5,7 +5,7 @@
  "received_at": "2026-11-25T02:19:15Z",
  "status": "queued",
  "block": null,
- "note": "Filed from the template. Waits for router.c and decisions.c (asked through c.maestro at 01:51 UTC), then next block. Routine under 2026-11-24__state-in-the-repo.",
+ "note": "router.c and c.decisions agree to a), b) as fallback (c.decisions opinion in PrompTugal board/team/decisions.c/opinions/). Condition: ledger.mjs path fix (it assumes the repository root four levels up and hard-codes board/ paths); router.c writes the patch. Next block.",
  "decision": null,
  "questions": []
 }
