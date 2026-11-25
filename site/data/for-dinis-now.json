@@ -1,11 +1,17 @@
 {
- "updated": "2026-11-24T23:25Z",
+ "updated": "2026-11-25T00:25Z",
  "items": [
   {
    "what": "Run Org apply once as a full sweep, so the signer-check security fix reaches every site (so far only the agent sites have it; the 18:17 scheduled sweep did not run). It also refreshes agent sites' CLAUDE.md where still an earlier seeded version, as you asked in a.factory's session; customer sites' CLAUDE.md is never touched. Do not rely on the 00:17 slot: GitHub has been dropping most of this workflow's scheduled runs (about 3 or 4 a day under the hourly cron, none since 11:57). A lasting fix (an hourly cron again, or a second trigger) comes back as a request for devops.b",
    "where": "GitHub Actions, Org apply",
    "link": "https://github.com/SovereignWebsite/SovereignWebsite__IaC/actions/workflows/org-apply.yml",
    "say": "Run workflow, leave repos empty"
+  },
+  {
+   "what": "sovereignwebsite.ai still says 'Nothing is sold yet' (your 23 Nov decision). You told a.sites we now have customers, so it can go: confirm here so it is recorded, and say whether the site may say how many (no customer is named without their consent). Nobody on account B can edit that site yet: conductor.b lacks SovereignWebsite__Website (ask 35) and website.b is not started (asks 19, 48)",
+   "where": "the decisions session",
+   "link": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+   "say": "yes, remove 'Nothing is sold yet' from sovereignwebsite.ai (and who edits it)"
   },
   {
    "what": "The refresh gate, so seed changes reach one site at a time (holds back key rotation too)",
