@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-25__redirect-after-rename",
+ "agent": "factory.b",
+ "request": "sent by message: commit 0621865, patch-id e3e79a8bb6d7dd840b36fa0b2f74267fc6fa85cb, paths build/org-plan.mjs and test/run.mjs: when a repository is renamed in a run, the plan leaves the domain it still holds for the next run, with a note, instead of planning a custom domain set that fails the run",
+ "received_at": "2026-11-25T18:11:23Z",
+ "status": "queued",
+ "block": null,
+ "note": "Follows Org apply run 45671186376, which renamed the moving-van repository and then failed with HTTP 400 Invalid cname on the redirect. Nothing broken: the site still serves at its old address. Next block with security.b, beside cname-after-dns (also build/org-plan.mjs). decisions.b's session check refuses build/ records, so this likely needs Dinis's word in factory.b's session after the panel.",
+ "decision": null,
+ "questions": []
+}
