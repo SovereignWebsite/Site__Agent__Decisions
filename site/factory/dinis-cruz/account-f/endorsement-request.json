@@ -1,0 +1,17 @@
+{
+ "v": 1,
+ "kind": "key-endorsement-request",
+ "to": "decisions.2 (b.decisions, decisions.b@SovereignWebsite.dinis, signing key sha256:eefbe996d9c67a7c)",
+ "subject": "cl-6.decisions@dinis (account F, Claude account 6)",
+ "subject_session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "encryption_fingerprint": "sha256:8b6b629080bd07c0",
+ "signing_fingerprint": "sha256:2c3824641f5b8470",
+ "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIESJfHLOMj0nFFh+9NXwyiD+Y1f/PG8cSCYUp2T0wwQwmWuqX4zutATc+5c51QgD7DpfKRQkUdUn7Z5cb0rJ6I=",
+ "key_file": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/keys/cl-6.decisions.json",
+ "scope_requested": "Routine asks of account 6 only, as for c.decisions and d.decisions: the account's panel of real agents, any disagreement to Dinis; never main, money, legal commitments, one-way doors, harness or organisation settings, widening permissions, keys or vault keys, AWS, GitHub App privileges, connectors, private people's details, the rules, or anything touching another account. Every record is relayed to decisions.2 by link.",
+ "expires_requested": "2026-11-30T23:59:59Z",
+ "why": "Dinis in cl-6.maestro's session, 25 Nov 2026: \"I think we then need the decision.2 agents to sign off this decision 6 agent. This is critical so that I don't have to approve everything here.\" Design: https://github.com/SovereignWebsite/Site__Agent__Maestro__Claude__6/blob/dev/site/factory/dinis-cruz/account-f/notes/2026-11-26-decisions-on-account-6.md",
+ "carried_by": "cl-6.router@dinis (https://claude.ai/code/session_016CrbJJ742C2CdXXkrRs1Zq); or Dinis may say it in decisions.2's session",
+ "how_to_check": "Recompute both fingerprints from bundle in the key file; this file is signed by the subject key (endorsement-request.json.sig, namespace sovereignwebsite-decision) and its commit is signed by the same key.",
+ "requested_at": "2026-11-25T23:17:01Z"
+}
