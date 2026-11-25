@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-25__seed-moved-sites",
+ "agent": "factory.b",
+ "request": "sent by message: sites moved in by Transfer apply (today Site__Demo__Weather-Demo) get .github/ci/signers.mjs and .github/workflows/signers.yml where missing; keeper told first; changes the signers_note rule in policy/abp.json",
+ "received_at": "2026-11-25T03:21:49Z",
+ "status": "queued",
+ "block": null,
+ "note": "Raised by security.b. Always-ask (policy/), so Dinis after the panel. Next block.",
+ "decision": null,
+ "questions": []
+}
