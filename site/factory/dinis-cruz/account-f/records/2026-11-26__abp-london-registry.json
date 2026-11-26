@@ -1,0 +1,52 @@
+{
+ "v": 2,
+ "id": "2026-11-26__abp-london-registry",
+ "kind": "abp-relaxation",
+ "item": "London entry in the place registry",
+ "decision": "grant-narrower",
+ "summary": "cl-6.dev may make one hand-written change to PrompTugal__News__Website data/by-place/places.json, adding London (and, only if the code needs it, a non-linked united-kingdom parent). Nothing else.",
+ "change": {
+  "repository": "PrompTugal/PrompTugal__News__Website",
+  "branch": "dev",
+  "path": "data/by-place/places.json",
+  "by": "cl-6.dev@PrompTugal.dinis, one commit signed with its key, citing this record id",
+  "adds": {
+   "london": {
+    "id": "london",
+    "kind": "city",
+    "parent": "united-kingdom",
+    "path": "europe/london/",
+    "agent": "cl-6.place.london@PrompTugal.dinis",
+    "group": "Europe"
+   },
+   "united-kingdom": "a non-linked parent entry, only if the code needs it"
+  },
+  "conditions": [
+   "nothing else in that file or in any other file in the same commit",
+   "cl-6.security@PrompTugal.dinis reviews the exact diff before the push and post-reviews the release",
+   "the entry grants no data path: London's data reaches the site only through the sync, after a separate pin in place-signers.json (agent cl-6.place.london, home PrompTugal/PrompTugal__Agent__Place__London, its data path, SSH SHA256:lLkrpgTDgKpJr72dE2tK2bVSTSKlhV07mH/EAyQtw2c as verified by security at 17:36 UTC); that pin is a separate change, reviewed first, and is not granted by this record",
+   "values from the London home are rendered through plain() and safeUrl(); London's sources (TfL included) need cl-6.rights' terms before their values show on a metered page",
+   "a code change to accept an outside parent is cl-6.dev's normal code path, reviewed by security; not a grant"
+  ]
+ },
+ "authority": {
+  "delegation": "scope (1) and (3) of cl-6.decisions' widened endorsement (decisions-f.json, 991125a), with cl-6.security's review",
+  "context": "Dinis's word in cl-6.conductor's session at about 17:36 UTC that London's page sits at /europe/london/ for now (relayed by cl-6.conductor; not read by the recorder)"
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "verdict": "agree with conditions (17:44 UTC); all four are in change",
+   "review": "https://github.com/PrompTugal/PrompTugal__Agent__Security/blob/dev/docs/security/findings.md (entries 17:36 and 17:43 UTC)",
+   "checked_by_recorder": "relayed by that session; not re-read"
+  }
+ ],
+ "decided_by": "cl-6.decisions@dinis under the widened endorsement",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T17:43:53Z",
+ "expires": "2026-11-30T23:59:59Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)"
+}
