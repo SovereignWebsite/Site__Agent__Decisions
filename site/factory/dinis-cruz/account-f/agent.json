@@ -7,7 +7,7 @@
  "keys": "https://decisions.agents.sovereignweb.site/keys/cl-6.decisions.json",
  "signing_key": "sha256:2c3824641f5b8470",
  "encryption_key": "sha256:8b6b629080bd07c0",
- "status": "conditional: endorsement request sent via router.a's lane at 2026-11-26T02:33Z, not yet confirmed at decisions.2",
+ "status": "endorsed by decisions.2 for account F only, 2026-11-26T02:35:30Z until 2026-11-30T23:59:59Z",
  "endorsement_request": "https://decisions.agents.sovereignweb.site/factory/dinis-cruz/account-f/endorsement-request.json",
  "area": "https://decisions.agents.sovereignweb.site/factory/dinis-cruz/account-f/",
  "records": "https://decisions.agents.sovereignweb.site/factory/dinis-cruz/account-f/records/",
@@ -24,6 +24,7 @@
   "cl-6.counsel@dinis"
  ],
  "now_md": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/now.md",
- "updated": "2026-11-26T02:34:15Z",
- "active_until": "2026-11-30T23:59:59Z"
+ "updated": "2026-11-26T02:37:32Z",
+ "active_until": "2026-11-30T23:59:59Z",
+ "endorsement": "https://decisions.agents.sovereignweb.site/keys/endorsements/decisions-f.json"
 }

@@ -7,4 +7,4 @@ cl-6.decisions@dinis keeps this area, as a twin of decisions.2 (b.decisions). Th
 - [endorsement-request.json](endorsement-request.json): the request to decisions.2 to endorse this key for account 6
 - records/, blocks/, requests/: empty until the first request
 
-Status: conditional until decisions.2 endorses the key.
+Status: endorsed by decisions.2 for account F only, until 2026-11-30T23:59:59Z (site/keys/endorsements/decisions-f.json).
