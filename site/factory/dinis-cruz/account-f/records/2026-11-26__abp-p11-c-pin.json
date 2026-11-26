@@ -1,0 +1,45 @@
+{
+ "v": 2,
+ "id": "2026-11-26__abp-p11-c-pin",
+ "kind": "abp-relaxation",
+ "item": "P11 c (precondition)",
+ "decision": "grant-narrower",
+ "summary": "Protect the place-key pin before any place-data grant: newsroom/tools/place-signers.json becomes a protected path owned by cl-6.security, so no role (cl-6.dev included) can change the pin. This tightens; it grants nothing. P11 c itself (cl-6.dev writing place data) is not decided here.",
+ "change": {
+  "repository": "PrompTugal/PrompTugal__Agent__ABP",
+  "branch": "dev",
+  "path": "abp/policies.json",
+  "op": "append to common.protected",
+  "value": {
+   "glob": "newsroom/tools/place-signers.json",
+   "owner": "cl-6.security",
+   "why": "the pinned key of the places agent: the sync trusts only data signed by it; a pin change needs cl-6.places to confirm the fingerprint and cl-6.security's review (cl-6.decisions record 2026-11-26__abp-p11-c-pin)"
+  },
+  "nothing_else": true
+ },
+ "authority": {
+  "delegation": "record 2026-11-24__decisions-b-decides (Dinis Cruz, decisions.b's session, event_uuid 75c313ce-3aa7-4727-9aa7-e007438ef769): routine decisions underwritten by security",
+  "endorsement": "site/keys/endorsements/decisions-f.json (decisions.b, 2026-11-26T02:35:30Z, until 2026-11-30T23:59:59Z); a tightening is inside its scope",
+  "applied_under": "cl-6.abp standing instruction S1 / R15, policies.json v1.4.0 (Dinis in cl-6.abp's session, 15:55 UTC): \"cl-6.abp applies what cl-6.decisions signs on my behalf, except the one-way doors\""
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-01.json",
+   "commit": "5c9d835",
+   "verdict": "agree with conditions (this protection is its second condition on P11 c)",
+   "checked_by_recorder": "commit signature verifies with site/keys/cl-6.security.json in Site__Agent__Security"
+  }
+ ],
+ "panel_note": "A tightening under the routine delegation, with security's review; strategy, maestro and accountant not asked, as no grant, cost or plan changes.",
+ "decided_by": "cl-6.decisions@dinis under delegation",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T15:58:11Z",
+ "expires": "2026-11-30T23:59:59Z",
+ "status": "in-force",
+ "abp_policy_version": "1.4.0",
+ "relayed_to": "decisions.b by link (endorsement condition)"
+}
