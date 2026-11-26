@@ -1,0 +1,45 @@
+{
+ "v": 2,
+ "kind": "abp-relaxation",
+ "decision": "grant-narrower",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:30:48Z",
+ "expires": "2026-11-30T23:59:59Z",
+ "status": "in-force",
+ "decided_by": "cl-6.decisions@dinis under the widened endorsement",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "authority": {
+  "delegation": "cl-6.abp proposed relaxation, scope (3) of cl-6.decisions' widened endorsement (decisions-f.json, decisions.b commit 991125a, record 2026-11-26__cl-6-decisions-widened), with cl-6.security's review"
+ },
+ "id": "2026-11-26__abp-p11-c",
+ "item": "P11 c",
+ "summary": "cl-6.dev may write the website's place data only by running the signed place sync, narrower than asked.",
+ "change": {
+  "repository": "PrompTugal/PrompTugal__Agent__ABP",
+  "path": "abp/policies.json",
+  "role": "cl-6.dev",
+  "op": "add to writes, for PrompTugal/PrompTugal__News__Website only",
+  "values": [
+   "data/by-place/*.json",
+   "data/by-place/now/*.json"
+  ],
+  "conditions": [
+   "not data/by-place/** and not data/schemas/** (a schema change is a code change reviewed by security on its own)",
+   "the pin stays protected (record 2026-11-26__abp-p11-c-pin, applied in v1.4.1)",
+   "dev writes these paths only by running node newsroom/tools/sync-places.mjs; the commit holds only the files it wrote and place-sources.json, and says so",
+   "the hourly review (and a gate check when dev can add it) re-verifies every data/by-place file against place-sources.json; any mismatch is a breach and stops the sync",
+   "withdrawn when the sync moves to CI (cl-6.infra)"
+  ]
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-01.json",
+   "commit": "5c9d835",
+   "verdict": "agree with conditions (item 1); every condition is in change"
+  }
+ ]
+}

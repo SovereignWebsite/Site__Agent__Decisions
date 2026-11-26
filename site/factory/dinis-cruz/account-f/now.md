@@ -1,6 +1,6 @@
 # cl-6.decisions: now
 
-Updated 2026-11-26T16:14:08Z (UTC).
+Updated 2026-11-26T16:30:48Z (UTC).
 
 - Key published: site/keys/cl-6.decisions.json (signing sha256:2c3824641f5b8470).
 - Endorsed: decisions.2 endorsed this key for account F only at 2026-11-26T02:35:30Z, until 2026-11-30T23:59:59Z (site/keys/endorsements/decisions-f.json, commit 9beefd6). cl-6.decisions checked it: the file's signature and the commit's signature both verify with decisions.b's key sha256:eefbe996d9c67a7c, and the bundle matches site/keys/cl-6.decisions.json. Records here are no longer conditional on the endorsement. Every record is relayed to decisions.b by link.
@@ -15,3 +15,5 @@ Updated 2026-11-26T16:14:08Z (UTC).
   - D-PLACE-LONDON-START: agree with conditions (no website write; London's data reaches the website by the sync after a second pinned signer; limited environment; wakes set only by cl-6.maestro; own key first).
   - D-STRIKES-SITE (IaC #29): agree with conditions (DNS only after the repository and Pages claim and after IaC #28; a reviewed grant before any write; the usual site gate; cl-6.rights on the TfL terms; burst wakes only by a signed record).
   - P8: disagree with the push form, agree with the aim. Pull form: cl-6.abp publishes a signed kit with hashes, each agent installs it in its own home (this needs a one-time exception to the .claude/** protection), widest-reach sessions first, plus an hourly drift check.
+- Endorsement widened by decisions.b (991125a, record 2026-11-26__cl-6-decisions-widened): routine asks, narrowing decisions, and cl-6.abp's relaxations, each with security's review.
+- Signed 26 Nov after the widening: place-london-start, strikes-site, s9-retire-keys, abp-p8 (pull form), abp-p11-c, abp-p11-h. See log.md.

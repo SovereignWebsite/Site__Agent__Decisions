@@ -11,3 +11,5 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-26T16:29:59Z  [2026-11-26__strikes-site](records/2026-11-26__strikes-site.json)  D-STRIKES-SITE  grant with security's five conditions (DNS after #28 and the Pages claim)  authority: Dinis's words (events 42ba693a, 19821c6f)
 - 2026-11-26T16:29:59Z  [2026-11-26__s9-retire-keys](records/2026-11-26__s9-retire-keys.json)  D-S9  grant: dev retires 87 ended-session keys, security pre-reviews  authority: Dinis's words (event 19821c6f)
 - 2026-11-26T16:29:59Z  [2026-11-26__abp-p8](records/2026-11-26__abp-p8.json)  P8  grant-narrower: hook kit v2 in the pull form, no push attach  authority: widened endorsement, both securities' reviews
+- 2026-11-26T16:30:48Z  [2026-11-26__abp-p11-c](records/2026-11-26__abp-p11-c.json)  P11 c  grant-narrower: cl-6.dev writes data/by-place/*.json and now/*.json by the sync only  review: cl-6.security@dinis (5c9d835)
+- 2026-11-26T16:30:48Z  [2026-11-26__abp-p11-h](records/2026-11-26__abp-p11-h.json)  P11 h  grant-narrower: cl-6.journalist writes content/about/** only, two text fixes first  review: cl-6.security@dinis (5c9d835)
