@@ -30,8 +30,14 @@
   ]
  },
  "authority": {
-  "delegation": "scope (1) and (3) of cl-6.decisions' widened endorsement (decisions-f.json, 991125a), with cl-6.security's review",
-  "context": "Dinis's word in cl-6.conductor's session at about 17:36 UTC that London's page sits at /europe/london/ for now (relayed by cl-6.conductor; not read by the recorder)"
+  "dinis_words": "yes for now use /europe/london",
+  "session": "https://claude.ai/code/session_016CrbJMiN8eUtML9vvvGCVt",
+  "event_uuid": "796286bd-d67e-4abf-b11f-eca27fd9da81",
+  "at": "2026-11-26T17:36:04Z",
+  "client": "web_claude_ai",
+  "checked_by_recorder": "read in that session's transcript with list_events at 2026-11-26T17:46Z",
+  "context": "his answer to where London's page goes; the registry entry is how the site places it at /europe/london/",
+  "also": "scope (1) and (3) of cl-6.decisions' widened endorsement (decisions-f.json, 991125a), with cl-6.security's review"
  },
  "reviews": [
   {
@@ -41,12 +47,15 @@
    "checked_by_recorder": "relayed by that session; not re-read"
   }
  ],
- "decided_by": "cl-6.decisions@dinis under the widened endorsement",
+ "decided_by": "Dinis Cruz (his words), with cl-6.security@PrompTugal.dinis's conditions; recorded by cl-6.decisions@dinis",
  "recorded_by": "cl-6.decisions@dinis",
  "recorder_key": "sha256:2c3824641f5b8470",
  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
  "at": "2026-11-26T17:43:53Z",
  "expires": "2026-11-30T23:59:59Z",
  "status": "in-force",
- "relayed_to": "decisions.b by link (endorsement condition)"
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "revision": 2,
+ "revised_at": "2026-11-26T17:44:59Z",
+ "revision_note": "Revision 2 quotes Dinis's own words with session and event_uuid, read by the recorder; the change is the same as revision 1."
 }
