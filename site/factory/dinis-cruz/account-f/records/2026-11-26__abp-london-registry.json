@@ -30,14 +30,20 @@
   ]
  },
  "authority": {
-  "dinis_words": "yes for now use /europe/london",
-  "session": "https://claude.ai/code/session_016CrbJMiN8eUtML9vvvGCVt",
-  "event_uuid": "796286bd-d67e-4abf-b11f-eca27fd9da81",
-  "at": "2026-11-26T17:36:04Z",
+  "dinis_words": "yes to cl-6.dev adding London to data/by-place/places.json",
+  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+  "event_uuid": "e1018993-d7f9-4f16-85ab-eb852d599c85",
+  "at": "2026-11-26T17:54:57Z",
   "client": "web_claude_ai",
-  "checked_by_recorder": "read in that session's transcript with list_events at 2026-11-26T17:46Z",
-  "context": "his answer to where London's page goes; the registry entry is how the site places it at /europe/london/",
-  "also": "scope (1) and (3) of cl-6.decisions' widened endorsement (decisions-f.json, 991125a), with cl-6.security's review"
+  "checked_by_recorder": "typed by Dinis in cl-6.decisions' own session; read back with list_events at 2026-11-26T17:55Z",
+  "about": "this exact write: cl-6.dev adding London to data/by-place/places.json",
+  "earlier": {
+   "dinis_words": "yes for now use /europe/london",
+   "event_uuid": "796286bd-d67e-4abf-b11f-eca27fd9da81",
+   "session": "https://claude.ai/code/session_016CrbJMiN8eUtML9vvvGCVt",
+   "at": "2026-11-26T17:36:04Z",
+   "about": "where London's page goes (/europe/london/)"
+  }
  },
  "reviews": [
   {
@@ -55,7 +61,7 @@
  "expires": "2026-11-30T23:59:59Z",
  "status": "in-force",
  "relayed_to": "decisions.b by link (endorsement condition)",
- "revision": 2,
- "revised_at": "2026-11-26T17:44:59Z",
- "revision_note": "Revision 2 quotes Dinis's own words with session and event_uuid, read by the recorder; the change is the same as revision 1."
+ "revision": 3,
+ "revised_at": "2026-11-26T17:55:15Z",
+ "revision_note": "Revision 3 quotes Dinis's yes to the write itself, typed in cl-6.decisions' session; the change is the same as revisions 1 and 2."
 }
