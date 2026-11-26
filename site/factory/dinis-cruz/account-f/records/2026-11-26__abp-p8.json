@@ -4,7 +4,7 @@
  "recorder_key": "sha256:2c3824641f5b8470",
  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
  "at": "2026-11-26T16:29:59Z",
- "status": "in-force",
+ "status": "suspended",
  "relayed_to": "decisions.b by link (endorsement condition)",
  "id": "2026-11-26__abp-p8",
  "kind": "abp-relaxation",
@@ -73,7 +73,14 @@
  "residuals": "from security: code an agent runs itself (bash -c, scripts) passes the text checks; out-of-grant writes (R6) only logged until P11; the hook is a guardrail and audit log, not a sandbox",
  "decided_by": "cl-6.decisions@dinis under the widened endorsement",
  "expires": "2026-11-30T23:59:59Z",
- "revision": 2,
- "revised_at": "2026-11-26T16:35:05Z",
- "revision_note": "Revision 2 names the v2.1 signed-pins mechanism and security's seven conditions; it replaces 'brings that exact commit' with committing the kit and signed pins. Still no push attach for cl-6.abp."
+ "revision": 3,
+ "revised_at": "2026-11-26T16:37:26Z",
+ "revision_note": "Revision 2 names the v2.1 signed-pins mechanism and security's seven conditions; it replaces 'brings that exact commit' with committing the kit and signed pins. Still no push attach for cl-6.abp.",
+ "suspension": {
+  "since": "2026-11-26T16:37:26Z",
+  "why": "cl-6.security@PrompTugal.dinis withdrew its pass for kit v2.0 (acc2f2a) at 16:37 UTC: the push check reads the current branch, not the branch pushed, so an agent could remove the hooks and push them to dev with plain git (tested). Kit v2.1 (b14bdcf) is not yet passed.",
+  "source": "relayed by cl-6.conductor@PrompTugal.dinis, 16:37 UTC",
+  "lifts_when": "cl-6.security@PrompTugal.dinis and cl-6.security@dinis each send a signed pass for a named kit head with the fix (V3); a new revision of this record names that head",
+  "until_then": "no install of any kit version under this record"
+ }
 }

@@ -22,3 +22,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-26T16:36:04Z  [2026-11-26__abp-p10](records/2026-11-26__abp-p10.json)  P10  grant-narrower: devops findings/**, weaknesses to security first
 - 2026-11-26T16:36:04Z  [2026-11-26__abp-p11g](records/2026-11-26__abp-p11g.json)  P11 g  refuse sub-agents: places run serially
 - 2026-11-26T16:36:04Z  [2026-11-26__abp-a4-infra](records/2026-11-26__abp-a4-infra.json)  A4 / P14  grant-narrower: infra on work/* in IaC only; no self-merge without record and security pass
+- 2026-11-26T16:37:26Z  [2026-11-26__abp-p8](records/2026-11-26__abp-p8.json) revision 3  SUSPENDED: security withdrew its kit v2.0 pass (push check reads the wrong branch); no install until a new pass names a fixed head
