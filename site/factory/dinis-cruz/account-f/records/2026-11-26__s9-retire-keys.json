@@ -1,0 +1,46 @@
+{
+ "v": 2,
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:29:59Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "id": "2026-11-26__s9-retire-keys",
+ "kind": "key-retirement",
+ "item": "D-S9",
+ "decision": "grant",
+ "summary": "cl-6.dev pushes its prepared commit that marks 87 ended-session keys as retired in PrompTugal__News__Website board/keys.json (security's S9). A tightening: no key is added or trusted.",
+ "change": {
+  "repository": "PrompTugal/PrompTugal__News__Website",
+  "branch": "dev",
+  "path": "board/keys.json",
+  "by": "cl-6.dev@PrompTugal.dinis, signed with its own key, citing this record",
+  "limits": [
+   "only the 87 keys listed in dev's home review/2026-11-26-s9-keys-superseded.md change, and only to retired/superseded; no key added, no live key changed",
+   "cl-6.security@PrompTugal.dinis reviews the commit before it is pushed",
+   "the commit touches board/keys.json only"
+  ]
+ },
+ "authority": {
+  "dinis": [
+   {
+    "dinis_words": "Okay, publish S9 then. Let's go for it.",
+    "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+    "event_uuid": "19821c6f-3d14-4ce1-ad4a-a13a4191ef3c",
+    "at": "2026-11-26T16:28:15Z",
+    "client": "web_claude_ai",
+    "checked_by_recorder": "read in that session's transcript with list_events at 2026-11-26T16:31Z"
+   }
+  ],
+  "note": "keys are outside cl-6.decisions' own endorsement; this record rests on Dinis's own words"
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "status": "S9 is its own finding; it pre-reviews the commit (a condition)"
+  }
+ ],
+ "decided_by": "Dinis Cruz (his words), recorded by cl-6.decisions@dinis",
+ "expires": "2026-11-28T23:59:59Z"
+}

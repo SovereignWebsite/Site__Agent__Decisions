@@ -1,0 +1,57 @@
+{
+ "v": 2,
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:29:59Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "id": "2026-11-26__strikes-site",
+ "kind": "new-site",
+ "item": "D-STRIKES-SITE",
+ "decision": "grant",
+ "summary": "A temporal site for London's strikes at strikes.london.place.agent.promptugal.news, in PrompTugal__Agent__Place__London__Strikes, owned by cl-6.place.london alone (IaC #29).",
+ "change": {
+  "by": "cl-6.infra (repository and DNS through IaC #29), cl-6.abp (grant), cl-6.maestro (wakes)",
+  "order": [
+   "IaC #28 merged first",
+   "Org apply creates the repository (agents team at push, no wider) and claims the custom domain in Pages",
+   "only then the CNAME to promptugal.github.io, so there is no unclaimed record"
+  ],
+  "grant": "cl-6.place.london gains PrompTugal__Agent__Place__London__Strikes and its site paths only through a cl-6.abp change that cl-6.security reviews; until then it writes nothing there",
+  "site": "the same gate as the other agent sites (leak scan, link previews, HTML validity, accessibility); no third-party script",
+  "sources": "TfL and union pages are public; cl-6.rights confirms the TfL data terms before any figure or feed is shown; no private person named (union officials only in their public role)",
+  "wakes": "burst wakes on strike days only by a further signed record naming the dates and cadence, set and ended by cl-6.maestro; cost reported to the accountant"
+ },
+ "authority": {
+  "dinis": [
+   {
+    "dinis_words": "Should we have a dedicated website for tube strikes? I think we should. ... it could be a temporal project. So that should be inside the London place ... I should not have to say a word before starting the end agent",
+    "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+    "event_uuid": "42ba693a-87ef-4e0c-8446-a345a8c07ad2",
+    "at": "2026-11-26T16:10:23Z"
+   },
+   {
+    "dinis_words": "Let's go with London and just publish it, you know, like the repository on London strikes. Yeah, just publish it. That's fine.",
+    "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+    "event_uuid": "19821c6f-3d14-4ce1-ad4a-a13a4191ef3c",
+    "at": "2026-11-26T16:28:15Z",
+    "client": "web_claude_ai",
+    "checked_by_recorder": "read in that session's transcript with list_events at 2026-11-26T16:31Z"
+   }
+  ],
+  "endorsement": "site/keys/endorsements/decisions-f.json, reissued by decisions.b in commit 991125a under record 2026-11-26__cl-6-decisions-widened (Dinis, decisions.b's session, event 54e44cd4), verified by the recorder"
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-02.json",
+   "commit": "4bbe95e",
+   "verdict": "agree with conditions (item 3); all five conditions are in change"
+  }
+ ],
+ "decided_by": "Dinis Cruz (his words), with cl-6.security@dinis's conditions; recorded by cl-6.decisions@dinis",
+ "expires": "2026-12-10T23:59:59Z",
+ "note": "Merging IaC #28 and #29 stays with whoever the IaC policy names (Dinis); this record does not merge anything."
+}

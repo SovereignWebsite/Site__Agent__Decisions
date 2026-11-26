@@ -1,0 +1,56 @@
+{
+ "v": 2,
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:29:59Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "id": "2026-11-26__abp-p8",
+ "kind": "abp-relaxation",
+ "item": "P8",
+ "decision": "grant-narrower",
+ "summary": "The ABP hook kit v2 (PrompTugal__Agent__ABP acc2f2a) is installed in every cl-6 home in the pull form: cl-6.abp makes each signed install commit, each agent brings that exact commit into its own home. No push attach for cl-6.abp.",
+ "change": {
+  "kit": "PrompTugal__Agent__ABP at acc2f2a (policy v1.6.2), files .claude/settings.json, .claude/hooks/abp.mjs and the generated ABP, with a sha256 per file published there",
+  "install": [
+   "cl-6.abp makes one signed install commit per repository in a scratch clone (public repositories, no attach), touching only the kit files",
+   "each agent brings that exact commit into its own home's dev (fast-forward or cherry-pick that keeps cl-6.abp's signature) and pushes it; this one commit is the only exception to the .claude/** and abp/** protection, and only for a commit signed by cl-6.abp's key",
+   "cl-6.security@PrompTugal.dinis pre-reviews each install commit"
+  ],
+  "settings": "the kit's settings.json only adds hooks: no permission allow-list, no MCP server, no env",
+  "order": "widest reach first: the website and cl-6.dev, cl-6.places, the new conductor session, cl-6.infra; then the section agents; then the rest",
+  "checks": [
+   "cl-6.abp's hourly review checks each home's kit against the published hashes; drift is a breach",
+   "a CI check in each repository rejects .claude/** or abp/** changes not signed by cl-6.abp's key (cl-6.dev builds it; its merge follows that repository's rules)"
+  ],
+  "not_covered": "push attaches for cl-6.abp (P11 b), which stay Dinis's"
+ },
+ "authority": {
+  "delegation": "cl-6.abp proposed relaxation, scope (3) of the widened endorsement, with cl-6.security's review",
+  "endorsement": "site/keys/endorsements/decisions-f.json, reissued by decisions.b in commit 991125a under record 2026-11-26__cl-6-decisions-widened (Dinis, decisions.b's session, event 54e44cd4), verified by the recorder",
+  "dinis_context": {
+   "words": "Note that every repository is open source and it's public, right? So you could always just create a local clone of that.",
+   "event_uuid": "19821c6f-3d14-4ce1-ad4a-a13a4191ef3c",
+   "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1"
+  }
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-02.json",
+   "commit": "4bbe95e",
+   "verdict": "disagree with the push form, agree with the aim; the pull form here is its condition set (item 4)"
+  },
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "verdict": "PASS for kit v2 at acc2f2a, conditions: pre-review of each install commit and the CI check",
+   "review": "https://github.com/PrompTugal/PrompTugal__Agent__Security/blob/dev/docs/security/reviews/2026-11-26-p8-kit-v2.md",
+   "checked_by_recorder": "as relayed by cl-6.conductor and cl-6.abp; not re-read"
+  }
+ ],
+ "residuals": "from security: code an agent runs itself (bash -c, scripts) passes the text checks; out-of-grant writes (R6) only logged until P11; the hook is a guardrail and audit log, not a sandbox",
+ "decided_by": "cl-6.decisions@dinis under the widened endorsement",
+ "expires": "2026-11-30T23:59:59Z"
+}
