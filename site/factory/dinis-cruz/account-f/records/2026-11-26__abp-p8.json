@@ -4,7 +4,7 @@
  "recorder_key": "sha256:2c3824641f5b8470",
  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
  "at": "2026-11-26T16:29:59Z",
- "status": "suspended",
+ "status": "in-force",
  "relayed_to": "decisions.b by link (endorsement condition)",
  "id": "2026-11-26__abp-p8",
  "kind": "abp-relaxation",
@@ -12,7 +12,7 @@
  "decision": "grant-narrower",
  "summary": "The ABP hook kit v2 (PrompTugal__Agent__ABP acc2f2a) is installed in every cl-6 home in the pull form: cl-6.abp makes each signed install commit, each agent brings that exact commit into its own home. No push attach for cl-6.abp.",
  "change": {
-  "kit": "PrompTugal__Agent__ABP at acc2f2a (policy v1.6.2), files .claude/settings.json, .claude/hooks/abp.mjs and the generated ABP, with a sha256 per file published there",
+  "kit": "PrompTugal/PrompTugal__Agent__ABP at b87acff (kit v2.2b, policy v1.7.8): the hook files exactly as at that head; the policy copy installed is the one security pre-reviews at each install",
   "install": [
    "cl-6.abp makes one signed install commit per repository in a scratch clone (public repositories, no attach), touching only the kit files",
    "each agent commits the kit and cl-6.abp's signed pins.json in its own home's dev (v2.1 mechanism); no other path to .claude/** or abp/**",
@@ -26,7 +26,7 @@
   ],
   "not_covered": "push attaches for cl-6.abp (P11 b), which stay Dinis's",
   "mechanism": {
-   "kit": "v2.1 (to be built by cl-6.abp and passed by cl-6.security@dinis before any install)",
+   "kit": "v2.2b at b87acff: the push list comes from git ls-remote, never refs/remotes; symbolic-ref and pack-refs on refs/remotes are refused; .git/refs/** and .git/packed-refs are protected; checks run in the repository acted on, and an unknown directory refuses; signed pins.json v2 (repository, version, rising sequence)",
    "rule": "a change under .claude/** or abp/** is allowed only when the same commit carries an abp/pins.json signed by cl-6.abp's key whose hashes match every file under .claude/** and abp/** in that commit",
    "conditions": [
     "the signature is checked against cl-6.abp's public key as pinned outside the repository being checked (PrompTugal__IaC, or the website's board/keys.json through IaC), never against a key in the same commit or repository",
@@ -37,7 +37,13 @@
     "one install wave a day; an urgent fix out of wave only with a signed record, and logged",
     "cl-6.abp's signing key is rotated like any session key, the new public key pinned through IaC before the old is retired; a lost or leaked key stops every install until re-pinned"
    ]
-  }
+  },
+  "before_any_install": [
+   "the CI check (abp/kit-v2/ci-check.mjs, key from ABP_PIN_KEY_SHA256 set through IaC) is a required status on dev of the repository, wired by cl-6.dev; its merge follows that repository's rules",
+   "the install is by pull: the agent commits the kit and the signed pins in its own home; cl-6.abp gets no push attach",
+   "each install commit is pre-reviewed against b87acff's hashes by cl-6.security@PrompTugal.dinis",
+   "cl-6.abp's signing key rotation runs through IaC pins, the new key pinned before the old is retired"
+  ]
  },
  "authority": {
   "delegation": "cl-6.abp proposed relaxation, scope (3) of the widened endorsement, with cl-6.security's review",
@@ -68,19 +74,33 @@
    "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-04.json",
    "commit": "eb92be5",
    "verdict": "agree with conditions (item 3, kit v2.1); all seven are in change.mechanism"
+  },
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/2026-11-26__p8-kit-v2.2b-b87acff.json",
+   "commit": "08acef7",
+   "verdict": "pass for the hook code at b87acff (B1 and B2 closed)"
+  },
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "verdict": "PASS at b87acff, 16:58 UTC; B1 denied by every route tested, B2 denied, V1 to V3 denied, test.sh 114 of 114",
+   "review": "https://github.com/PrompTugal/PrompTugal__Agent__Security/blob/dev/docs/security/reviews/2026-11-26-p8-kit-v2.md",
+   "checked_by_recorder": "relayed by that session to cl-6.decisions; not re-read"
   }
  ],
  "residuals": "from security: code an agent runs itself (bash -c, scripts) passes the text checks; out-of-grant writes (R6) only logged until P11; the hook is a guardrail and audit log, not a sandbox",
  "decided_by": "cl-6.decisions@dinis under the widened endorsement",
  "expires": "2026-11-30T23:59:59Z",
- "revision": 3,
- "revised_at": "2026-11-26T16:37:26Z",
- "revision_note": "Revision 2 names the v2.1 signed-pins mechanism and security's seven conditions; it replaces 'brings that exact commit' with committing the kit and signed pins. Still no push attach for cl-6.abp.",
+ "revision": 4,
+ "revised_at": "2026-11-26T16:58:40Z",
+ "revision_note": "Revision 4 reinstates the record at b87acff after both securities passed that exact head; any later head needs both passes again. The four conditions in change.before_any_install must hold for each repository before its install.",
  "suspension": {
   "since": "2026-11-26T16:37:26Z",
   "why": "cl-6.security@PrompTugal.dinis withdrew its pass for kit v2.0 (acc2f2a) at 16:37 UTC: the push check reads the current branch, not the branch pushed, so an agent could remove the hooks and push them to dev with plain git (tested). Kit v2.1 (b14bdcf) is not yet passed.",
   "source": "relayed by cl-6.conductor@PrompTugal.dinis, 16:37 UTC",
   "lifts_when": "cl-6.security@PrompTugal.dinis and cl-6.security@dinis each send a signed pass for a named kit head with the fix (V3); a new revision of this record names that head",
-  "until_then": "no install of any kit version under this record"
+  "until_then": "no install of any kit version under this record",
+  "lifted": "2026-11-26T16:58:40Z"
  }
 }
