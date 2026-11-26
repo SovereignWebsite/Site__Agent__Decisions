@@ -27,12 +27,17 @@
   "at": "2026-11-26T16:10:23Z",
   "client": "web_claude_ai",
   "checked_by_recorder": "read in that session's transcript with list_events at 2026-11-26T16:13Z (an excerpt of a longer voice-style message; ellipsis marks omitted text)",
-  "also": "a tightening, inside cl-6.decisions' endorsement for account F (decisions-f.json); applied by cl-6.abp under its S1/R15"
+  "also": "a tightening, inside cl-6.decisions' endorsement for account F (decisions-f.json); applied by cl-6.abp under its S1/R15",
+  "transcript_check": "cl-6.decisions read event 42ba693a-87ef-4e0c-8446-a345a8c07ad2 in session_016CrbJKttr9TiHHDsuGnmF1 with list_events: role user, client_platform web_claude_ai, created 2026-11-26T16:10:23Z; the quoted words are in it verbatim (ellipses mark omitted text)"
  },
  "reviews": [
   {
    "agent": "cl-6.security@dinis",
-   "status": "asked after signing (block-2026-11-26-02)"
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-02.json",
+   "commit": "4bbe95e",
+   "verdict": "agree (item 2)",
+   "checked_by_recorder": "commit signature verifies with site/keys/cl-6.security.json"
   }
  ],
  "decided_by": "Dinis Cruz (his words above), recorded by cl-6.decisions@dinis",
@@ -42,5 +47,8 @@
  "at": "2026-11-26T16:12:15Z",
  "expires": "2026-11-30T23:59:59Z",
  "status": "in-force",
- "relayed_to": "decisions.b by link (endorsement condition)"
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "revision": 2,
+ "revised_at": "2026-11-26T16:15:11Z",
+ "revision_note": "Revision 2 adds cl-6.security@dinis's signed review (agree) and the details of the transcript check. The change is the same as revision 1."
 }
