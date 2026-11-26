@@ -15,7 +15,7 @@
   ],
   "conditions": [
    "branch named exactly key/<agent>; the pull request goes to dev, never main; no force push",
-   "the diff holds exactly two files: team/keys.json, adding or rotating only that agent's own entry; and .github/workflows/pages.yml byte-identical to the template whose hash cl-6.security@PrompTugal.dinis pinned under PrompTugal__IaC #25; one byte different and the pull request is refused; any real workflow change goes through cl-6.dev or cl-6.devops",
+   "the diff holds only: team/keys.json, adding or rotating only that agent's own entry; and the files that PrompTugal__IaC #25's policy/key-bootstrap.json lists as pinnable for that repository, each byte-identical to its signed pin (for PrompTugal__News__Data: .github/workflows/pages.yml and four scripts, five files); nothing else; one byte different and the pull request is refused; any real workflow or script change goes through cl-6.dev or cl-6.devops",
    "the agent does not open the pull request through a connector; the App opens it from the pushed branch (R5 branch exemption only, no R3 or R7 change)",
    "merged only by the App or a person, only after cl-6.security@PrompTugal.dinis's signed approval naming the exact head commit; a later push to the branch voids the approval",
    "nothing else changes in the role's grant"
@@ -36,6 +36,13 @@
    "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-04.json",
    "commit": "eb92be5",
    "verdict": "agree with conditions (item 1); all five are in change"
+  },
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/2026-11-26__p9-pinned-files.json",
+   "commit": "c464f04",
+   "verdict": "agree: the pinnable files listed in #25's policy/key-bootstrap.json, each byte-identical to its pin"
   }
  ],
  "decided_by": "Dinis Cruz (his words), with cl-6.security@dinis's conditions; recorded by cl-6.decisions@dinis",
@@ -45,5 +52,8 @@
  "at": "2026-11-26T16:55:26Z",
  "expires": "2026-12-10T23:59:59Z",
  "status": "in-force",
- "relayed_to": "decisions.b by link (endorsement condition)"
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "revision": 2,
+ "revised_at": "2026-11-26T16:57:13Z",
+ "revision_note": "Revision 2 widens the file set from pages.yml alone to the pinnable files that #25 lists for each repository, each byte-identical to its pin, on cl-6.security@dinis's opinion c464f04."
 }
