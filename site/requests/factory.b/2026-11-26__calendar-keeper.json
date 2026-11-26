@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-26__calendar-keeper",
+ "agent": "factory.b",
+ "request": "sent by message: commit b1cee50, patch-id 8132718133e534c910c4321300a8ae24380f657f, path requests/2026-11-25__calendar/site.json: keeper of the calendar site changes from mail.dev.a@AgentiCCells.dinis (account A) to b.calendar@SovereignWebsite.dinis",
+ "received_at": "2026-11-26T13:27:46Z",
+ "status": "to Dinis",
+ "block": null,
+ "note": "Not signed by decisions.b. Dinis's words (maestro.b's session, 26 Nov 13:21 UTC) start a calendar agent's session; they do not move this site's keeper. A keeper change moves who may write to the site away from an account A agent, and decisions.b cannot read account A to confirm mail.dev.a has moved. Needs Dinis's word, for example in factory.b's session.",
+ "decision": null,
+ "questions": []
+}

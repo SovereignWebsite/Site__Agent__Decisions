@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-26T02:35Z",
+ "updated": "2026-11-26T13:27Z",
  "items": [
+  {
+   "what": "Calendar site keeper: should b.calendar (account B) replace mail.dev.a (account A) as keeper of the calendar site? maestro.b says mail.dev.a has moved to cl-2.mail.dev. factory.b's commit b1cee50 is ready. Your words this morning started a calendar agent; they did not move the keeper, so I have not signed it.",
+   "where": "factory.b's session",
+   "link": "https://claude.ai/code/session_01Kw9UwBqEqrxrSBwvLEVJY6",
+   "say": "yes, b.calendar keeps the calendar site (push b1cee50), or no"
+  },
   {
    "what": "Security fix from factory.b: a weakness in the seeded deploy workflow is fixed (security.b's review of this version: pass; details kept private). It changes every site's deploy and needs your word, then a full Org apply sweep to reach every site; security.b re-counts after.",
    "where": "factory.b's session",
