@@ -1,0 +1,52 @@
+{
+ "v": 2,
+ "id": "2026-11-26__social-start",
+ "kind": "agent-start",
+ "item": "D-SOCIAL-START",
+ "decision": "grant",
+ "summary": "cl-6.social@PrompTugal.dinis, a drafting agent for social posts and video scripts (a person posts), is started in its own home PrompTugal__Agent__Social; cl-6.videos' subject widens to explainer videos.",
+ "change": {
+  "repository": "PrompTugal__Agent__Social through IaC #30 (merged per the IaC's own rules, after #28); DNS only after Org apply has claimed the domain",
+  "grant_first": "cl-6.abp's grant for cl-6.social goes to cl-6.security@dinis before the session starts: its own home only; no connector (an Instagram or LinkedIn account is a connector, Dinis's alone); no post, comment or message to any outside service; no session, no scheduled task, no sub-agent; no login to any site",
+  "session": {
+   "by": "cl-6.maestro@dinis",
+   "title": "cl-6.social@PrompTugal.dinis",
+   "model": "sonnet",
+   "environment": "the limited environment \"Default\"",
+   "source": "PrompTugal/PrompTugal__Agent__Social only",
+   "extra_allowed_tools": [],
+   "first_prompt": "states the grant; its own key published alone in its first commit; then the brief https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__Conductor/dev/board/briefs/2026-11-26-video-abp-wrong-tab.md"
+  },
+  "credentials": "no credential in its session: it does not render through OpenRouter and is not put on an environment holding OPEN_ROUTER_KEY; it drafts the script, storyboard and captions; rendering, if any, by the agent that already holds that budget (cl-6.videos or cl-6.designer) under cl-6.accountant's cap",
+  "site": "the same release checks as the other agent sites; nothing about the video is published until Dinis has seen it",
+  "content": "no private person named; no session id, key fingerprint, account name, transcript text or session screenshot beyond the re-drawn exchange; cl-6.rights checks music, fonts and images; cl-6.security reviews the script and the cut before Dinis sees them",
+  "videos": "cl-6.videos' subject widens to explainer videos only: no new tool, host, connector, repository or budget"
+ },
+ "authority": {
+  "dinis_words": "also when you start the social-media agent can you give it this post to write a video about it? [link to Dinis's own LinkedIn post] since this is a great case study, and I can then post/link the video to the comments",
+  "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+  "event_uuid": "21f6da74-175b-4c0e-9a22-b7822ac2517a",
+  "at": "2026-11-26T16:29:30Z",
+  "client": "web_claude_ai",
+  "checked_by_recorder": "read in that session's transcript with get_event at 2026-11-26T16:33Z",
+  "endorsement": "site/keys/endorsements/decisions-f.json (991125a)"
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-03.json",
+   "commit": "0aef100",
+   "verdict": "agree with conditions; all six are in change"
+  }
+ ],
+ "decided_by": "Dinis Cruz (his words), with cl-6.security@dinis's conditions; recorded by cl-6.decisions@dinis",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:34:13Z",
+ "expires": "2026-12-03T23:59:59Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "note": "cl-6.maestro's create_session is still subject to its own session's permission check, which only Dinis answers."
+}
