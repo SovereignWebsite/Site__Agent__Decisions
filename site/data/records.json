@@ -1,6 +1,6 @@
 {
  "about": "Every signed record on this site, oldest first, written by docs/pages.mjs.",
- "count": 63,
+ "count": 64,
  "records": [
   {
    "id": "2026-11-23__decisions-b-policy",
@@ -505,6 +505,14 @@
    "status": "in-force",
    "summary": "cl-6.decisions (account F) may also decide, for account F only: (1) routine decisions that narrow or keep access, such as session resets, repository detaches and tightenings; (2) relaxations proposed by cl-6.abp. Each ne",
    "url": "/records/2026-11-26__cl-6-decisions-widened.json"
+  },
+  {
+   "id": "2026-11-26__website-and-github-tool-to-b",
+   "at": "2026-11-26T18:20:32Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "Keepers on account B take over SovereignWebsite__Website (from website.a) and Site__Tool__GitHub (from github-tool.a), instead of account D as in cl-1.maestro's moves plan. maestro.b starts the two keepers.",
+   "url": "/records/2026-11-26__website-and-github-tool-to-b.json"
   }
  ]
 }

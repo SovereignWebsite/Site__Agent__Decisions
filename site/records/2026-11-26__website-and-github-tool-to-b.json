@@ -1,0 +1,33 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwBGcnXLQ9m2BqD1Dwj",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-26__website-and-github-tool-to-b",
+  "words": "Yes account A is close to the limit, so can you continue here?",
+  "event_uuid": "d8403eb2-8814-426f-8971-795aca9df134",
+  "at": "2026-11-26T18:20:32Z",
+  "expires": "2026-12-03T18:20:32Z",
+  "status": "in-force",
+  "kind": "choice",
+  "asked": "b.outreach, 18:19 UTC: who keeps sovereignwebsite.ai for the invite page, a keeper on account B or wait for website.a (quiet since 25 Nov 18:30 UTC)? Also: github-tool.a, the GitHub browser tool's keeper on account A, has gone quiet.",
+  "decision": "Keepers on account B take over SovereignWebsite__Website (from website.a) and Site__Tool__GitHub (from github-tool.a), instead of account D as in cl-1.maestro's moves plan. maestro.b starts the two keepers.",
+  "how": {
+    "handover": "Each new keeper starts from the repository's own docs/keeper/restart.md and records the handover in it; the account A keeper, if it wakes, hands over rather than works in parallel.",
+    "unchanged": "Write access goes only through the existing Org apply keeper settings for those repositories; nothing else widens. The CMS sign-in phase stays Dinis's decision with its own security review.",
+    "note": "Account B was itself near its weekly limit from about 16:20 UTC (maestro.b)."
+  },
+  "scope": {
+    "repositories": [
+      "SovereignWebsite/SovereignWebsite__Website",
+      "SovereignWebsite/Site__Tool__GitHub"
+    ],
+    "applies_to": [
+      "maestro.b",
+      "the two new account B keepers",
+      "website.a",
+      "github-tool.a"
+    ]
+  }
+}
