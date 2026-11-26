@@ -1,6 +1,6 @@
 {
  "about": "Every signed record on this site, oldest first, written by docs/pages.mjs.",
- "count": 62,
+ "count": 63,
  "records": [
   {
    "id": "2026-11-23__decisions-b-policy",
@@ -497,6 +497,14 @@
    "status": "in-force",
    "summary": "Every account (A, C, D, E, as B has decisions.b) has its own decisions agent. decisions.b endorses each one's key, and each then decides its own account's routine asks straight away and relays every record to decisions.b",
    "url": "/records/2026-11-24__account-decision-agents.json"
+  },
+  {
+   "id": "2026-11-26__cl-6-decisions-widened",
+   "at": "2026-11-26T16:12:16Z",
+   "kind": "choice",
+   "status": "in-force",
+   "summary": "cl-6.decisions (account F) may also decide, for account F only: (1) routine decisions that narrow or keep access, such as session resets, repository detaches and tightenings; (2) relaxations proposed by cl-6.abp. Each ne",
+   "url": "/records/2026-11-26__cl-6-decisions-widened.json"
   }
  ]
 }

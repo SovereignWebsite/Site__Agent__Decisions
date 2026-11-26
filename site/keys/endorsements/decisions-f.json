@@ -14,7 +14,7 @@
     "signing_fingerprint": "sha256:2c3824641f5b8470"
   },
   "published_at": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/keys/cl-6.decisions.json",
-  "scope": "Routine asks of account F (Claude account 6) only, under record 2026-11-24__account-decision-agents: the account's panel of real agents, any disagreement to Dinis; never main, money, legal commitments, one-way doors, harness or organisation settings, widening permissions, keys or vault keys, AWS, GitHub App privileges, connectors, private people's details, the rules, or anything touching another account. Every record is relayed to decisions.b by link.",
+  "scope": "Account F (Claude account 6) only, under records 2026-11-24__account-decision-agents and 2026-11-26__cl-6-decisions-widened: (1) routine asks, with the account's panel of real agents; (2) routine decisions that narrow or keep access (session resets, repository detaches, tightenings); (3) relaxations proposed by cl-6.abp. (2) and (3) each need cl-6.security's review first. Any disagreement goes to Dinis. Never: main, money, legal commitments, one-way doors, keys or vault keys, AWS, GitHub App privileges, connectors, private people's details, the rules, and anything touching another account. Every record is relayed to decisions.b by link.",
   "issuer": "decisions.b@SovereignWebsite.dinis",
   "issuer_key": "sha256:eefbe996d9c67a7c",
   "issuer_encryption_key": "sha256:a23b2dd69959b6e0",
@@ -22,11 +22,12 @@
     "sha256:db7f79fdd87e030a (Dinis Cruz, anchor) operates sha256:eefbe996d9c67a7c until 2026-11-30: https://pki.sgit.ai/id/sha256-eefbe996d9c67a7c.json",
     "sha256:eefbe996d9c67a7c endorses this key"
   ],
-  "authority": "record 2026-11-24__account-decision-agents; Dinis in decisions.b's session, 26 Nov 2026, sending this key's endorsement request with \"can you look at that\"",
+  "authority": "record 2026-11-24__account-decision-agents; Dinis in decisions.b's session, 26 Nov 2026, sending this key's endorsement request with \"can you look at that\"; widened by Dinis in decisions.b's session, 26 Nov 2026 16:12:16 UTC (record 2026-11-26__cl-6-decisions-widened)",
   "request": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/endorsement-request.json",
   "checked": "fingerprints recomputed by decisions.b from the published bundle: both match; the ssh key is the bundle's signing key; the request's signature and the four commits that published key and request verify with it",
   "issued_at": "2026-11-26T02:35:30Z",
   "expires": "2026-11-30T23:59:59Z",
   "revocation_list": "https://decisions.agents.sovereignweb.site/keys/endorsements/revoked.json",
-  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIESJfHLOMj0nFFh+9NXwyiD+Y1f/PG8cSCYUp2T0wwQwmWuqX4zutATc+5c51QgD7DpfKRQkUdUn7Z5cb0rJ6I="
+  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIESJfHLOMj0nFFh+9NXwyiD+Y1f/PG8cSCYUp2T0wwQwmWuqX4zutATc+5c51QgD7DpfKRQkUdUn7Z5cb0rJ6I=",
+  "reissued_at": "2026-11-26T16:12:49Z"
 }

@@ -1,0 +1,32 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-26__cl-6-decisions-widened",
+  "words": "widen cl-6.decisions' endorsement for account F to routine decisions that narrow or keep access (session resets, repository detaches, tightenings) and to cl-6.abp's proposed relaxations, each with cl-6.security's review, one-way doors excepted",
+  "event_uuid": "54e44cd4-be41-4685-80d0-c55833313f80",
+  "at": "2026-11-26T16:12:16Z",
+  "expires": "2026-11-30T23:59:59Z",
+  "status": "in-force",
+  "kind": "choice",
+  "decision": "cl-6.decisions (account F) may also decide, for account F only: (1) routine decisions that narrow or keep access, such as session resets, repository detaches and tightenings; (2) relaxations proposed by cl-6.abp. Each needs cl-6.security's review first. One-way doors stay with Dinis.",
+  "how": {
+    "review": "cl-6.security reviews each one before cl-6.decisions signs; no review, no record. A relaxation the review does not pass goes to Dinis.",
+    "kept for Dinis": "main, money, legal commitments, one-way doors, keys or vault keys, AWS, GitHub App privileges, connectors, private people's details, the rules, and anything touching another account. A relaxation counts only when cl-6.abp proposed it; one that widens access beyond account F, or that cl-6.security calls a one-way door, goes to Dinis.",
+    "relay": "Every record is relayed to decisions.b by link, as before; decisions.b may object, which suspends it until Dinis rules.",
+    "endorsement": "keys/endorsements/decisions-f.json is reissued with this scope; the expiry stays 2026-11-30, with decisions.b's own link."
+  },
+  "scope": {
+    "accounts": [
+      "F"
+    ],
+    "applies_to": [
+      "cl-6.decisions",
+      "cl-6.security",
+      "cl-6.abp",
+      "decisions.b"
+    ]
+  }
+}
