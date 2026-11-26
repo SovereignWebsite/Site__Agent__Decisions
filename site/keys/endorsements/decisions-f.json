@@ -1,0 +1,32 @@
+{
+  "v": 1,
+  "kind": "key-endorsement",
+  "subject": "cl-6.decisions@dinis (account F, Claude account 6)",
+  "subject_session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+  "encryption_fingerprint": "sha256:8b6b629080bd07c0",
+  "signing_fingerprint": "sha256:2c3824641f5b8470",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsH0Rxb+jkbCr2WKtMabR\nuEDb5IK2cnSWMwjclbKinnVbDsZ7S/oy9bfQJ5c1z+qLxSMp6KN+C9I4JDB3bo/9\nyIWPDWMNvhCSqZYZIF34ugvQfYt+6eG+jFIC+OGnMbqkKJ/g5Gr9rzhQbBRxewYF\n4zV7g2lvlK+kfpy3sqhMk/gA1VRp08ipOdu72lbLZu88+b5uUGVhsWCeyW5fjIl7\nNBPRQA3tsr/t+Hm5AQOSOAtUwUL2AiUchI0EtEhV4FcMUAGezZCqGUlVMHklQLk4\ncA+pgb1IMLUFMK1nmA7yJrahXzlR7Zr0oz/hqGIi4Xb6nPCWueVMVtQrYaL4pnkv\n+e0BUZ9a2aLMnsR3M6RGAGILIgc+WLly5FTqz6E834Tbvn2642bSlxM51tI6rHzZ\nmkDqMn2WfEo4LKkdcCZyY05EIBzpod12OXgY61Cimq0O5+yWhfl3R3beiXSZnfkB\nEBU/+e0V9qv8dQTBmdtxooGpIXXvB3+zqdE3+LaLq823eB+Gxxd8bdvFqUD6Zy78\n5kQ/opyxdc8uvBp7ab6UP7sDS9f4mRbvvGR6Q0suCKCSUTH3qhFwxJ5mO0CMYJ8H\nFDMkmOHpKDwpWUIOfG0afFcMCEw5d1k3Pt39EAKylDmfwaQPeybXMOmL/G+tHGq1\nksOQYDqHHxvPVNbuO07orLECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgRIl8cs4yPScUWH701fDKIP5jV/8\n8bxxIJhSnZPTDBDCZa6pfjO60BNz7lznVCAPsOl8pFCRR1SftnlxvSsnog==\n-----END PUBLIC KEY-----\n",
+    "label": "cl-6-decisions-sovereignwebsite",
+    "fingerprint": "sha256:8b6b629080bd07c0",
+    "signing_fingerprint": "sha256:2c3824641f5b8470"
+  },
+  "published_at": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/keys/cl-6.decisions.json",
+  "scope": "Routine asks of account F (Claude account 6) only, under record 2026-11-24__account-decision-agents: the account's panel of real agents, any disagreement to Dinis; never main, money, legal commitments, one-way doors, harness or organisation settings, widening permissions, keys or vault keys, AWS, GitHub App privileges, connectors, private people's details, the rules, or anything touching another account. Every record is relayed to decisions.b by link.",
+  "issuer": "decisions.b@SovereignWebsite.dinis",
+  "issuer_key": "sha256:eefbe996d9c67a7c",
+  "issuer_encryption_key": "sha256:a23b2dd69959b6e0",
+  "chain": [
+    "sha256:db7f79fdd87e030a (Dinis Cruz, anchor) operates sha256:eefbe996d9c67a7c until 2026-11-30: https://pki.sgit.ai/id/sha256-eefbe996d9c67a7c.json",
+    "sha256:eefbe996d9c67a7c endorses this key"
+  ],
+  "authority": "record 2026-11-24__account-decision-agents; Dinis in decisions.b's session, 26 Nov 2026, sending this key's endorsement request with \"can you look at that\"",
+  "request": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/endorsement-request.json",
+  "checked": "fingerprints recomputed by decisions.b from the published bundle: both match; the ssh key is the bundle's signing key; the request's signature and the four commits that published key and request verify with it",
+  "issued_at": "2026-11-26T02:35:30Z",
+  "expires": "2026-11-30T23:59:59Z",
+  "revocation_list": "https://decisions.agents.sovereignweb.site/keys/endorsements/revoked.json",
+  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIESJfHLOMj0nFFh+9NXwyiD+Y1f/PG8cSCYUp2T0wwQwmWuqX4zutATc+5c51QgD7DpfKRQkUdUn7Z5cb0rJ6I="
+}

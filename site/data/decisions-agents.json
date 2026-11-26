@@ -34,6 +34,13 @@
    "blocks": null,
    "presentations": null,
    "note": "waits for maestro.e"
+  },
+  {
+   "agent": "cl-6.decisions",
+   "account": "F",
+   "blocks": null,
+   "presentations": null,
+   "note": "key endorsed 26 Nov (keys/endorsements/decisions-f.json); its area is factory/dinis-cruz/account-f/ on this site"
   }
  ]
 }
