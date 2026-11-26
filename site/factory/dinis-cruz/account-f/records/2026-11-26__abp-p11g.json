@@ -1,0 +1,32 @@
+{
+ "v": 2,
+ "kind": "abp-relaxation",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:36:04Z",
+ "expires": "2026-11-30T23:59:59Z",
+ "status": "in-force",
+ "decided_by": "cl-6.decisions@dinis under the widened endorsement",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "authority": {
+  "delegation": "cl-6.abp proposed relaxation, scope (3) of cl-6.decisions' widened endorsement (decisions-f.json, 991125a), with cl-6.security's review"
+ },
+ "id": "2026-11-26__abp-p11g",
+ "item": "P11 g",
+ "decision": "refuse",
+ "summary": "cl-6.places gets no sub-agents; its wake prompt runs the places one after another. The long-term answer is one agent per place.",
+ "change": {
+  "policy": "no change to cl-6.places' grant",
+  "wake": "cl-6.maestro changes cl-6.places' wake prompt to run the places serially"
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-05.json",
+   "commit": "b99f0aa",
+   "verdict": "agree: serial (item 6)"
+  }
+ ]
+}

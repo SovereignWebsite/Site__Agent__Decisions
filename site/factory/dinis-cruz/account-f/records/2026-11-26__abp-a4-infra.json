@@ -1,0 +1,52 @@
+{
+ "v": 2,
+ "kind": "abp-relaxation",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:36:04Z",
+ "expires": "2026-11-30T23:59:59Z",
+ "status": "in-force",
+ "decided_by": "cl-6.decisions@dinis under the widened endorsement",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "authority": {
+  "delegation": "cl-6.abp proposed relaxation, scope (3) of cl-6.decisions' widened endorsement (decisions-f.json, 991125a), with cl-6.security's review"
+ },
+ "id": "2026-11-26__abp-a4-infra",
+ "item": "A4 / P14",
+ "decision": "grant-narrower",
+ "summary": "A written grant for cl-6.infra: work/* branches and pull requests in PrompTugal__IaC only.",
+ "change": {
+  "repository": "PrompTugal/PrompTugal__Agent__ABP",
+  "path": "abp/policies.json",
+  "role": "cl-6.infra",
+  "op": "set its grant",
+  "values": {
+   "push": "work/* branches in PrompTugal/PrompTugal__IaC only (plus its own home as now)",
+   "paths_on_work": [
+    "build/*",
+    "org/*",
+    ".github/workflows/*",
+    "test/*",
+    "docs/*",
+    "policy/abp.json"
+   ],
+   "pull_requests": "in PrompTugal__IaC only; no comment, issue or other post elsewhere"
+  },
+  "conditions": [
+   "it never dispatches, approves or runs an apply workflow",
+   "it never merges its own pull request except under a signed record and another agent's security pass on the exact head; anything touching AWS, the App's permissions or policy/ is merged by Dinis",
+   "protecting IaC's dev and main so only a merged pull request changes them is a GitHub setting: Dinis's"
+  ]
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-05.json",
+   "commit": "b99f0aa",
+   "verdict": "agree with conditions (item 8); all four are in change"
+  }
+ ],
+ "note": "cl-6.infra's standing word from Dinis to merge its own create-or-configure pull requests is narrowed by this record to: only with a signed record and another agent's security pass on the exact head."
+}

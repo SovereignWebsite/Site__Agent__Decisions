@@ -1,0 +1,43 @@
+{
+ "v": 2,
+ "kind": "abp-relaxation",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:36:04Z",
+ "expires": "2026-11-30T23:59:59Z",
+ "status": "in-force",
+ "decided_by": "cl-6.decisions@dinis under the widened endorsement",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "authority": {
+  "delegation": "cl-6.abp proposed relaxation, scope (3) of cl-6.decisions' widened endorsement (decisions-f.json, 991125a), with cl-6.security's review"
+ },
+ "id": "2026-11-26__abp-p5-p11a",
+ "item": "P5 and P11 a",
+ "decision": "grant-narrower",
+ "summary": "history/** and the named working paths, per role, in that agent's own home repository only.",
+ "change": {
+  "repository": "PrompTugal/PrompTugal__Agent__ABP",
+  "path": "abp/policies.json",
+  "op": "per role, add to writes, scoped to that role's own home repository",
+  "values": [
+   "history/**",
+   "and where the role's run report shows the need: prepared/**, review/**, site/specs/**, site/ready-to-ship/**, site/key-pr/**; cl-6.journalist: site/passes/**"
+  ],
+  "conditions": [
+   "each path keyed to the agent's home repository only (repository-scoped writes in the policy and the hook); until the hook can tell repositories apart, a write to these paths outside the agent's home is a breach in the hourly review; the website gets none of them",
+   "per role, from its run report, not for all 42 at once",
+   "history/** holds only what is already public in git and the boards: no transcript text, no key or token, no private person's name or contact, no variable value",
+   "site/key-pr/** holds public keys and pull-request text only, never a private half"
+  ]
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-05.json",
+   "commit": "b99f0aa",
+   "verdict": "agree with conditions (item 4); all four are in change"
+  }
+ ]
+}

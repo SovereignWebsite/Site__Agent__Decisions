@@ -1,0 +1,37 @@
+{
+ "v": 2,
+ "kind": "abp-relaxation",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:36:04Z",
+ "expires": "2026-11-30T23:59:59Z",
+ "status": "in-force",
+ "decided_by": "cl-6.decisions@dinis under the widened endorsement",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "authority": {
+  "delegation": "cl-6.abp proposed relaxation, scope (3) of cl-6.decisions' widened endorsement (decisions-f.json, 991125a), with cl-6.security's review"
+ },
+ "id": "2026-11-26__abp-p4",
+ "item": "P4",
+ "decision": "refuse",
+ "summary": "cl-6.conductor does not start sessions or wakes. Starts stay with cl-6.maestro, on a signed record or Dinis's word.",
+ "change": {
+  "policy": "no change; R4 and cl-6.conductor's grant stand"
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/block-2026-11-26-05.json",
+   "commit": "b99f0aa",
+   "verdict": "disagree (item 3)"
+  }
+ ],
+ "dinis_context": {
+  "words": "it's the maestro who starts conductor agents",
+  "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+  "event_uuid": "42ba693a-87ef-4e0c-8446-a345a8c07ad2",
+  "at": "2026-11-26T16:10:23Z"
+ }
+}

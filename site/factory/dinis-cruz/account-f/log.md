@@ -15,3 +15,10 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-26T16:30:48Z  [2026-11-26__abp-p11-h](records/2026-11-26__abp-p11-h.json)  P11 h  grant-narrower: cl-6.journalist writes content/about/** only, two text fixes first  review: cl-6.security@dinis (5c9d835)
 - 2026-11-26T16:34:13Z  [2026-11-26__social-start](records/2026-11-26__social-start.json)  D-SOCIAL-START  grant with security's six conditions (drafts only, no connector, no credential)  authority: Dinis's words (event 21f6da74)
 - 2026-11-26T16:35:05Z  [2026-11-26__abp-p8](records/2026-11-26__abp-p8.json) revision 2  kit v2.1 signed-pins mechanism with security's seven conditions (eb92be5)
+- 2026-11-26T16:36:04Z  [2026-11-26__abp-p2](records/2026-11-26__abp-p2.json)  P2  refuse for all; per role later  review: cl-6.security@dinis (b99f0aa)
+- 2026-11-26T16:36:04Z  [2026-11-26__abp-p3](records/2026-11-26__abp-p3.json)  P3  grant-narrower: README.md at the root of cl-6.abp's home only
+- 2026-11-26T16:36:04Z  [2026-11-26__abp-p4](records/2026-11-26__abp-p4.json)  P4  refuse: starts stay with cl-6.maestro (Dinis, event 42ba693a)
+- 2026-11-26T16:36:04Z  [2026-11-26__abp-p5-p11a](records/2026-11-26__abp-p5-p11a.json)  P5 and P11 a  grant-narrower: history/** and named paths, own home only, per role
+- 2026-11-26T16:36:04Z  [2026-11-26__abp-p10](records/2026-11-26__abp-p10.json)  P10  grant-narrower: devops findings/**, weaknesses to security first
+- 2026-11-26T16:36:04Z  [2026-11-26__abp-p11g](records/2026-11-26__abp-p11g.json)  P11 g  refuse sub-agents: places run serially
+- 2026-11-26T16:36:04Z  [2026-11-26__abp-a4-infra](records/2026-11-26__abp-a4-infra.json)  A4 / P14  grant-narrower: infra on work/* in IaC only; no self-merge without record and security pass
