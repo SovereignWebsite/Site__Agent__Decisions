@@ -1,0 +1,46 @@
+{
+ "v": 2,
+ "id": "2026-11-26__abp-cover-all",
+ "kind": "abp-coverage",
+ "item": "D-ABP-COVER-ALL",
+ "decision": "grant-narrower",
+ "summary": "cl-6.abp's policy covers every agent session and every website managed on account 6 (Claude account 6, account F), and keeps a map of each conductor and the agents it runs. A tightening: it brings sessions that have no policy under one; it grants no new write, tool or repository.",
+ "change": {
+  "repository": "PrompTugal/PrompTugal__Agent__ABP",
+  "branch": "dev",
+  "path": "abp/policies.json (and its generated ABPs)",
+  "what": [
+   "add a role entry, with no grant wider than that agent already has by its own brief, for every account-6 agent session not yet listed, the SovereignWebsite and @dinis sessions on account 6 included (cl-6.security access review A8)",
+   "add a list of every website managed on account 6 and the agent that keeps each",
+   "add a conductors map: each conductor and the agents it runs"
+  ],
+  "limits": [
+   "account 6 only: no session or repository of another account",
+   "a shared repository keeps its own keeper's policy (for example Site__Agent__Decisions' site/policy/abp.json, kept by decisions.2); cl-6.abp's entry for an account-6 agent there may only be the same or narrower, never wider",
+   "no new grant, tool, repository, scheduled task or breaker exemption for anyone under this record; installing the hook kit in other repositories is P8, decided separately"
+  ]
+ },
+ "authority": {
+  "dinis_words": "So the policy, yes, should cover all the non solid website space, should cover every single website that we have here, right? So every website that you manage here, every agent that you manage here needs to be covered by the policy. ... In fact, we need to be mapping each conductor, which agent he actually has.",
+  "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+  "event_uuid": "42ba693a-87ef-4e0c-8446-a345a8c07ad2",
+  "at": "2026-11-26T16:10:23Z",
+  "client": "web_claude_ai",
+  "checked_by_recorder": "read in that session's transcript with list_events at 2026-11-26T16:13Z (an excerpt of a longer voice-style message; ellipsis marks omitted text)",
+  "also": "a tightening, inside cl-6.decisions' endorsement for account F (decisions-f.json); applied by cl-6.abp under its S1/R15"
+ },
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "status": "asked after signing (block-2026-11-26-02)"
+  }
+ ],
+ "decided_by": "Dinis Cruz (his words above), recorded by cl-6.decisions@dinis",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:12:15Z",
+ "expires": "2026-11-30T23:59:59Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)"
+}
