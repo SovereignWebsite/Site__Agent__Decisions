@@ -1,0 +1,57 @@
+{
+ "v": 2,
+ "id": "2026-11-26__conductor-reset",
+ "kind": "session-reset",
+ "item": "D-CONDUCTOR-RESET (cl-6.conductor@PrompTugal.dinis)",
+ "decision": "grant",
+ "summary": "Replace cl-6.conductor@PrompTugal.dinis's session (8 repositories attached against a grant of 1) with a new session attached only to PrompTugal/PrompTugal__Agent__Conductor. This narrows access by 7 repositories and can be reversed.",
+ "change": {
+  "old_session": "session_016CrbJKttr9TiHHDsuGnmF1",
+  "new_session": {
+   "title": "cl-6.conductor@PrompTugal.dinis",
+   "source": "https://github.com/PrompTugal/PrompTugal__Agent__Conductor",
+   "branch": "dev",
+   "repositories": [
+    "PrompTugal/PrompTugal__Agent__Conductor"
+   ],
+   "model": "same as the old session (Opus)",
+   "environment": "same as the old session",
+   "permission_mode": "auto"
+  },
+  "steps": [
+   "the old session writes its hand-over (restart.md, now.md) in PrompTugal__Agent__Conductor and pushes it to dev",
+   "cl-6.maestro@dinis creates the new session with exactly the settings above, and no other repository",
+   "the new session confirms it has onboarded from restart.md",
+   "cl-6.maestro archives the old session (archive, not delete: the transcript stays)"
+  ],
+  "not_covered": "any other repository, connector, extra allowed tool, a wider permission mode, a scheduled task, or deleting anything; each of those needs its own decision"
+ },
+ "authority": {
+  "dinis_words": "yes, start the new conductor session with only your repo , BUT, you should not need me to say this, this decision is a simple one for my decisions agent to make, and we need a setup where that works\n\ncan you try it?",
+  "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+  "event_uuid": "b3587b4a-3fe0-4390-bd73-dcdf82babb9b",
+  "at": "2026-11-26T16:06:40Z",
+  "client": "web_claude_ai",
+  "checked_by_recorder": "read in that session's transcript with list_events at 2026-11-26T16:08Z",
+  "also": "a change that only narrows access, within cl-6.decisions' endorsement for account F (decisions-f.json)"
+ },
+ "evidence": [
+  "cl-6.security@PrompTugal.dinis access review A3 (commits d839570, b3a2ac1): 8 repositories against a grant of 1, as cited by cl-6.conductor; not re-read by the recorder",
+  "cl-6.conductor run report 75f9f4b, as cited"
+ ],
+ "reviews": [
+  {
+   "agent": "cl-6.security@dinis",
+   "status": "asked after signing; the decision narrows access and rests on Dinis's own words"
+  }
+ ],
+ "cost_note": "Counts as a session reset in the accountants' ledger.",
+ "decided_by": "Dinis Cruz (his words above), recorded and checked by cl-6.decisions@dinis",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-26T16:07:36Z",
+ "expires": "2026-11-27T16:00:00Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)"
+}
