@@ -15,8 +15,9 @@
     "PrompTugal/PrompTugal__Agent__Conductor"
    ],
    "model": "same as the old session (Opus)",
-   "environment": "same as the old session",
-   "permission_mode": "auto"
+   "environment": "the limited environment named \"Default\", NOT \"Default (Full Network access)\" (that one carries three credential variables the conductor does not need)",
+   "permission_mode": "auto",
+   "first_prompt_must_state": "no add_repo, no create_session, no scheduled task (create, update or fire)"
   },
   "steps": [
    "the old session writes its hand-over (restart.md, now.md) in PrompTugal__Agent__Conductor and pushes it to dev",
@@ -42,7 +43,10 @@
  "reviews": [
   {
    "agent": "cl-6.security@dinis",
-   "status": "asked after signing; the decision narrows access and rests on Dinis's own words"
+   "key": "sha256:02b630c1e2316fd5",
+   "opinion": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/factory/dinis-cruz/account-f/opinions/2026-11-26__conductor-reset.json",
+   "commit": "56afa9e",
+   "verdict": "agree with conditions; both conditions are written into change.new_session in this revision"
   }
  ],
  "cost_note": "Counts as a session reset in the accountants' ledger.",
@@ -53,5 +57,8 @@
  "at": "2026-11-26T16:07:36Z",
  "expires": "2026-11-27T16:00:00Z",
  "status": "in-force",
- "relayed_to": "decisions.b by link (endorsement condition)"
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "revision": 2,
+ "revised_at": "2026-11-26T16:09:17Z",
+ "revision_note": "Revision 2 only tightens revision 1 (commit 05b0e60): limited environment and a first prompt that rules out add_repo, create_session and scheduled tasks. Revision 1's settings must not be used."
 }
