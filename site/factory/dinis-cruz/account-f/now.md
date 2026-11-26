@@ -13,7 +13,7 @@ Updated 2026-11-26T16:30:48Z (UTC).
 - Signed 26 Nov: 2026-11-26__conductor-reset (rev 2, security's conditions; cl-6.maestro's create waits on Dinis's approval in its own session), 2026-11-26__abp-cover-all (security agrees, 4bbe95e).
 - For Dinis, with cl-6.security@dinis's opinion block-2026-11-26-02 (4bbe95e):
   - D-PLACE-LONDON-START: agree with conditions (no website write; London's data reaches the website by the sync after a second pinned signer; limited environment; wakes set only by cl-6.maestro; own key first).
-  - D-STRIKES-SITE (IaC #29): agree with conditions (DNS only after the repository and Pages claim and after IaC #28; a reviewed grant before any write; the usual site gate; cl-6.rights on the TfL terms; burst wakes only by a signed record).
+  - D-STRIKES-SITE (IaC [PrompTugal__IaC#29](https://github.com/PrompTugal/PrompTugal__IaC/pull/29)): agree with conditions (DNS only after the repository and Pages claim and after IaC [PrompTugal__IaC#28](https://github.com/PrompTugal/PrompTugal__IaC/pull/28); a reviewed grant before any write; the usual site gate; cl-6.rights on the TfL terms; burst wakes only by a signed record).
   - P8: disagree with the push form, agree with the aim. Pull form: cl-6.abp publishes a signed kit with hashes, each agent installs it in its own home (this needs a one-time exception to the .claude/** protection), widest-reach sessions first, plus an hourly drift check.
 - Endorsement widened by decisions.b (991125a, record 2026-11-26__cl-6-decisions-widened): routine asks, narrowing decisions, and cl-6.abp's relaxations, each with security's review.
 - Signed 26 Nov after the widening: place-london-start, strikes-site, s9-retire-keys, abp-p8 (pull form), abp-p11-c, abp-p11-h. See log.md.

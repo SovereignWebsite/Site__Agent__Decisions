@@ -5,7 +5,7 @@ By cl-6.decisions@dinis, 2026-11-26T16:33:18Z (UTC). Source: PrompTugal__Agent__
 ## Stale (done or superseded)
 
 - 13 P8: signed in pull form (record 2026-11-26__abp-p8). What is left is Dinis's anchor line in cl-6.abp's session (see below).
-- 14, 17, 18, 21: superseded. #25 is merged by Dinis; the key PRs are one item, P9 (below).
+- 14, 17, 18, 21: superseded. [PrompTugal__IaC#25](https://github.com/PrompTugal/PrompTugal__IaC/pull/25) is merged by Dinis; the key PRs are one item, P9 (below).
 - 25: done. Delegation widened by decisions.2 (991125a).
 - 28: decision signed (2026-11-26__conductor-reset rev 2). What is left is the permission check (below).
 - 29: now D-SOCIAL-START, with cl-6.security@dinis (block-2026-11-26-03).
@@ -23,9 +23,9 @@ By cl-6.decisions@dinis, 2026-11-26T16:33:18Z (UTC). Source: PrompTugal__Agent__
 
 | # | What | Where | Line |
 |---|---|---|---|
-| 26 | IaC #28, then #29 and #30 (merges to the IaC default branch, App) | cl-6.decisions | "cl-6.infra merges IaC #28, then #29 and #30" |
+| 26 | IaC [PrompTugal__IaC#28](https://github.com/PrompTugal/PrompTugal__IaC/pull/28), then [PrompTugal__IaC#29](https://github.com/PrompTugal/PrompTugal__IaC/pull/29) and [PrompTugal__IaC#30](https://github.com/PrompTugal/PrompTugal__IaC/pull/30) (merges to the IaC default branch, App) | cl-6.decisions | "cl-6.infra merges IaC [PrompTugal__IaC#28](https://github.com/PrompTugal/PrompTugal__IaC/pull/28), then [PrompTugal__IaC#29](https://github.com/PrompTugal/PrompTugal__IaC/pull/29) and [PrompTugal__IaC#30](https://github.com/PrompTugal/PrompTugal__IaC/pull/30)" |
 | 17/P9 | Section agents' key branch and PR (team/keys.json, pages.yml): data first | cl-6.decisions | "yes to P9 with security's conditions" |
-| 5 | GitHub App permissions on the PrompTugal installation (Commit statuses write, Variables write, Pull requests write, Workflows write, Actions read) and turning on #25's two schedules | GitHub settings; cl-6.infra | done by Dinis in GitHub; "cl-6.infra turns on #25's schedules" |
+| 5 | GitHub App permissions on the PrompTugal installation (Commit statuses write, Variables write, Pull requests write, Workflows write, Actions read) and turning on [PrompTugal__IaC#25](https://github.com/PrompTugal/PrompTugal__IaC/pull/25)'s two schedules | GitHub settings; cl-6.infra | done by Dinis in GitHub; "cl-6.infra turns on [PrompTugal__IaC#25](https://github.com/PrompTugal/PrompTugal__IaC/pull/25)'s schedules" |
 | 27 | S2: verify promptugal.news for the PrompTugal organisation (Pages) | GitHub settings | done by Dinis in GitHub |
 | 28, 6, 3 | Session permission checks: cl-6.maestro create_session and create_trigger; website attach for accountant, outreach and abp; own-key commits for designer and customers; pages.yml edits for the section agents and deploy-pages.yml for cl-6.dev | each session's permission prompt | approve in that session |
 | 13 | Anchor pin, and promoting the pending roles | cl-6.abp | "pin my anchor key sha256:db7f79fdd87e030a" (after checking it) and "promote the pending roles" |
@@ -44,5 +44,5 @@ By cl-6.decisions@dinis, 2026-11-26T16:33:18Z (UTC). Source: PrompTugal__Agent__
 ## Update after cl-6.security@dinis's block-2026-11-26-04 (eb92be5)
 
 - P9: agree with conditions: branch key/<agent>, PR to dev; the diff is exactly team/keys.json (its own entry) and pages.yml byte-identical to the pinned template; opened by the App, not a connector; merged by the App or a person after cl-6.security@PrompTugal.dinis's signed approval of the exact head; cl-6.data first as a single trial. Still Dinis's (keys).
-- D-IAC-28: agree with conditions: #28 first (head 755a000), then #29 (2deb8f9) and #30 (dc48554) after Org apply has run with #28; exact reviewed heads; for these three only. #28 is Dinis's to merge under the IaC's rules; cl-6.infra merges #29 and #30 under its standing word.
+- D-IAC-28: agree with conditions: [PrompTugal__IaC#28](https://github.com/PrompTugal/PrompTugal__IaC/pull/28) first (head 755a000), then [PrompTugal__IaC#29](https://github.com/PrompTugal/PrompTugal__IaC/pull/29) (2deb8f9) and [PrompTugal__IaC#30](https://github.com/PrompTugal/PrompTugal__IaC/pull/30) (dc48554) after Org apply has run with [PrompTugal__IaC#28](https://github.com/PrompTugal/PrompTugal__IaC/pull/28); exact reviewed heads; for these three only. [PrompTugal__IaC#28](https://github.com/PrompTugal/PrompTugal__IaC/pull/28) is Dinis's to merge under the IaC's rules; cl-6.infra merges [PrompTugal__IaC#29](https://github.com/PrompTugal/PrompTugal__IaC/pull/29) and [PrompTugal__IaC#30](https://github.com/PrompTugal/PrompTugal__IaC/pull/30) under its standing word.
 - P8 kit v2.1: agreed; record 2026-11-26__abp-p8 revision 2.
