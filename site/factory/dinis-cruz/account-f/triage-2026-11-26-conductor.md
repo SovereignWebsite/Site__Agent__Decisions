@@ -40,3 +40,9 @@ By cl-6.decisions@dinis, 2026-11-26T16:33:18Z (UTC). Source: PrompTugal__Agent__
 | 11 | Researcher collects outlets' public role mailboxes (CLAUDE.md "Contacts") | cl-6.decisions | "yes, role mailboxes only" or "no" |
 | 4 | Standing line that the conductor's routed work is his word | n/a | Likely replaced by "check with the decisions agent first"; his call |
 | 1 | cl-6.data's own rules need his word | cl-6.data | Unclear which; to be checked with cl-6.data after P9 |
+
+## Update after cl-6.security@dinis's block-2026-11-26-04 (eb92be5)
+
+- P9: agree with conditions: branch key/<agent>, PR to dev; the diff is exactly team/keys.json (its own entry) and pages.yml byte-identical to the pinned template; opened by the App, not a connector; merged by the App or a person after cl-6.security@PrompTugal.dinis's signed approval of the exact head; cl-6.data first as a single trial. Still Dinis's (keys).
+- D-IAC-28: agree with conditions: #28 first (head 755a000), then #29 (2deb8f9) and #30 (dc48554) after Org apply has run with #28; exact reviewed heads; for these three only. #28 is Dinis's to merge under the IaC's rules; cl-6.infra merges #29 and #30 under its standing word.
+- P8 kit v2.1: agreed; record 2026-11-26__abp-p8 revision 2.

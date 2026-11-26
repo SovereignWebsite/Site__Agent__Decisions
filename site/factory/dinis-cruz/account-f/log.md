@@ -14,3 +14,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-26T16:30:48Z  [2026-11-26__abp-p11-c](records/2026-11-26__abp-p11-c.json)  P11 c  grant-narrower: cl-6.dev writes data/by-place/*.json and now/*.json by the sync only  review: cl-6.security@dinis (5c9d835)
 - 2026-11-26T16:30:48Z  [2026-11-26__abp-p11-h](records/2026-11-26__abp-p11-h.json)  P11 h  grant-narrower: cl-6.journalist writes content/about/** only, two text fixes first  review: cl-6.security@dinis (5c9d835)
 - 2026-11-26T16:34:13Z  [2026-11-26__social-start](records/2026-11-26__social-start.json)  D-SOCIAL-START  grant with security's six conditions (drafts only, no connector, no credential)  authority: Dinis's words (event 21f6da74)
+- 2026-11-26T16:35:05Z  [2026-11-26__abp-p8](records/2026-11-26__abp-p8.json) revision 2  kit v2.1 signed-pins mechanism with security's seven conditions (eb92be5)
