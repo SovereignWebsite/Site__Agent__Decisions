@@ -209,6 +209,17 @@
    "urgency": "normal: blocks the explainer page and the chip text",
    "status": "open",
    "answer_url": null
+  },
+  {
+   "id": "s9-tagline-write",
+   "question": "S9 tagline: your 16 Nov decision fixed the wording, but no grant covers content/index.md in PrompTugal__News__Website, the only place 'Portugal town by town' is left. One-off write: cl-6.dev, one hand-signed commit, lines 2 and 3 only, security reviews the exact diff first, the one-off is marked used afterwards. Owning the front page is not part of this.",
+   "asked_by": "cl-6.abp (via cl-6.conductor)",
+   "since": "2026-11-27",
+   "context_url": null,
+   "line_to_paste": "yes to cl-6.dev changing the tagline in content/index.md",
+   "urgency": "low: short, one-off",
+   "status": "open",
+   "answer_url": null
   }
  ]
 }
