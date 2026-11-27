@@ -24,14 +24,24 @@
   "at": "2026-11-27T00:56:35Z",
   "client": "web_claude_ai"
  },
- "reviews": [],
+ "reviews": [
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "review": "https://github.com/PrompTugal/PrompTugal__Agent__Security/blob/dev/docs/security/reviews/2026-11-27-human-provenance-design-r3.md",
+   "commit": "1c65fd1",
+   "verdict": "sound to build in its stated order, with four required changes: replace agent-issued person keys (S17); seal only to person-made enrolled keys; Dinis states the anchor fingerprint himself (S13); judge revocation by receipt or commit, not the signer's own time; plus three recommended"
+  }
+ ],
  "decided_by": "Dinis Cruz (his words)",
  "recorded_by": "cl-6.decisions@dinis",
  "recorder_key": "sha256:2c3824641f5b8470",
  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
  "at": "2026-11-27T00:57:40Z",
  "expires": "2026-12-27T23:59:59Z",
- "status": "in-force: design and build routed; the four items above wait on Dinis",
+ "status": "in-force: design reviewed; build may start in order with security's four required changes; Dinis's items (design section 9, S17 fix, anchor key) wait on him",
  "relayed_to": "decisions.b by link (endorsement condition)",
- "revision": 1
+ "revision": 2,
+ "design": "https://github.com/PrompTugal/PrompTugal__Agent__Designer/blob/dev/site/factory/dinis-cruz/account-f/designs/2026-11-27-human-provenance-admin-crm.md (revision 3, a3b7df2)",
+ "revised_at": "2026-11-27T01:13:35Z",
+ "revision_note": "Revision 2 adds the design link and cl-6.security@PrompTugal.dinis's review of revision 3."
 }
