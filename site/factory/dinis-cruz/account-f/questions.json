@@ -220,6 +220,17 @@
    "urgency": "low: short, one-off",
    "status": "open",
    "answer_url": null
+  },
+  {
+   "id": "algarve-camera-links",
+   "question": "Algarve camera links. cl-6.rights cleared APL Tejo Live and AEMTG for bare credited links. It holds MEO BeachCam (its terms cannot be read by a machine) and SkylineWebcams (its terms bar journalistic use without written authorisation, so a yes accepts that legal risk). You may say yes to MEO only. Until you answer, Algarve towns show no camera links.",
+   "asked_by": "cl-6.rights (via cl-6.conductor)",
+   "since": "2026-11-27",
+   "context_url": "register/camera-links.md",
+   "line_to_paste": "\"A bare credited link to MEO BeachCam and SkylineWebcams pages is fine on promptugal.news.\" or, MEO only: \"A bare credited link to MEO BeachCam pages is fine on promptugal.news.\"",
+   "urgency": "normal: Algarve towns show no camera links meanwhile",
+   "status": "open",
+   "answer_url": null
   }
  ]
 }
