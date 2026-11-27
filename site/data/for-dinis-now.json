@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-27T16:25Z",
+ "updated": "2026-11-27T17:37Z",
  "items": [
+  {
+   "what": "IaC write controls (b.abp): only agents listed in policy/abp.json should be able to commit to SovereignWebsite__IaC. Options: a) remove the reach now, so new agent sessions no longer get IaC attached and an ABP hook replaces the pre-approved push; b) a) plus a required check on dev, so IaC changes go through pull requests; c) keep detection only. b.abp recommends a) now and b) when you are ready for pull requests. It changes harness and organisation settings, so it is yours.",
+   "where": "b.abp's session",
+   "link": "https://claude.ai/code/session_01Kw9UwBGqBsVqJmrrTHTGMY",
+   "say": "a), b) or c)"
+  },
   {
    "what": "Calendar site keeper: should b.calendar (account B) replace mail.dev.a (account A) as keeper of the calendar site? maestro.b says mail.dev.a has moved to cl-2.mail.dev. factory.b's commit b1cee50 is ready. Your words this morning started a calendar agent; they did not move the keeper, so I have not signed it.",
    "where": "factory.b's session",
