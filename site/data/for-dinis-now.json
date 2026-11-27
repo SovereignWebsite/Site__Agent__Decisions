@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:21Z",
+ "updated": "2026-11-27T16:25Z",
  "items": [
   {
    "what": "Calendar site keeper: should b.calendar (account B) replace mail.dev.a (account A) as keeper of the calendar site? maestro.b says mail.dev.a has moved to cl-2.mail.dev. factory.b's commit b1cee50 is ready. Your words this morning started a calendar agent; they did not move the keeper, so I have not signed it.",
@@ -8,7 +8,7 @@
    "say": "yes, b.calendar keeps the calendar site (push b1cee50), or no"
   },
   {
-   "what": "Security fix from factory.b: a weakness in the seeded deploy workflow is fixed (security.b's review of this version: pass; details kept private). It changes every site's deploy and needs your word, then a full Org apply sweep to reach every site; security.b re-counts after.",
+   "what": "Security fix from factory.b: a weakness in the seeded deploy workflow is fixed (security.b's review of this version: pass; details kept private). It changes every site's deploy and needs your word, then a full Org apply sweep to reach every site; security.b re-counts after. Since the refresh gate went live (27 Nov 16:36 UTC), existing sites get it only if org/repos.json lists them in refresh_managed: factory.b will propose that list with the push (org/ needs your merge), and the sweep then refreshes exactly those sites.",
    "where": "factory.b's session",
    "link": "https://claude.ai/code/session_01Kw9UwBqEqrxrSBwvLEVJY6",
    "say": "push 1a72038"
