@@ -10,7 +10,14 @@
   "pull_request": "https://github.com/PrompTugal/PrompTugal__News__Data/pull/1",
   "base": "dev",
   "head": "09e28004efdc6cfb373e71e8457ef424b0fa350b",
-  "files_seen_by_recorder": [".github/workflows/pages.yml", "scripts/check-commits.mjs", "scripts/check-signatures.mjs", "scripts/leak-scan.mjs", "scripts/test-leak-scan.mjs", "team/keys.json"],
+  "files_seen_by_recorder": [
+   ".github/workflows/pages.yml",
+   "scripts/check-commits.mjs",
+   "scripts/check-signatures.mjs",
+   "scripts/leak-scan.mjs",
+   "scripts/test-leak-scan.mjs",
+   "team/keys.json"
+  ],
   "conditions": [
    "P9's conditions hold (record 2026-11-26__abp-p9 revision 2): team/keys.json adds only cl-6.data's own entry, and the five other files are byte-identical to their signed pins",
    "merged on the pull request page by Dinis or by the GitHub App, only after cl-6.security@PrompTugal.dinis's signed approval of head 09e28004efdc",
@@ -26,14 +33,35 @@
   "checked_by_recorder": "read in cl-6.conductor's transcript; the conductor's preceding answer (00:50:37Z) named PrompTugal__News__Data #1 as the single merge that unblocks data.promptugal.news, and no other merge was put to him; head confirmed by git ls-remote at recording time",
   "context": "trust in a key is Dinis's alone; this record rests on his words"
  },
- "reviews": [],
+ "reviews": [
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "key": "SHA256:id7YhKBJ1bXEmyS71mRnIJu4sNT/JyTt40KIVAjEsaM (as stated by security; namespace promptugal-key-approval)",
+   "approval": "https://github.com/PrompTugal/PrompTugal__Agent__Security/blob/dev/approvals/key-bootstrap/PrompTugal__News__Data/1.json",
+   "commit": "da0298a",
+   "at": "2026-11-26T17:55Z",
+   "verdict": "approve head 09e28004efdc; post-merge review at 00:54Z: merged tree equals approved head, pass"
+  }
+ ],
  "decided_by": "Dinis Cruz (his words)",
  "recorded_by": "cl-6.decisions@dinis",
  "recorder_key": "sha256:2c3824641f5b8470",
  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
  "at": "2026-11-27T00:52:51Z",
  "expires": "2026-12-10T23:59:59Z",
- "status": "in-force, waiting on cl-6.security@PrompTugal.dinis's approval of the exact head",
+ "status": "done: merged after security's approval of the exact head; P9's conditions met",
  "relayed_to": "decisions.b by link (endorsement condition)",
- "revision": 1
+ "revision": 2,
+ "outcome": {
+  "merged_at": "2026-11-27T00:52:57Z",
+  "merge_commit": "8c861c657517cb53b79d1323a1160fe89495484d",
+  "parents": [
+   "3e1f62a5c73933984069e0ebe81d704ceb5c38d5",
+   "09e28004efdc6cfb373e71e8457ef424b0fa350b"
+  ],
+  "merged_by": "Dinis, on the pull request page (his words in cl-6.conductor's session: \"Okay, I merged that pull request.\")",
+  "checked_by_recorder": "fetched dev: merge commit 8c861c6 has those parents and its tree equals the approved head (empty diff); security's approval file at da0298a names head 09e28004efdc and is dated before the merge"
+ },
+ "revised_at": "2026-11-27T00:54:30Z",
+ "revision_note": "Revision 2 records the merge (8c861c6, 00:52:57Z, by Dinis) and cl-6.security@PrompTugal.dinis's approval da0298a, which predates the merge, so the merge did not come before security's approval."
 }
