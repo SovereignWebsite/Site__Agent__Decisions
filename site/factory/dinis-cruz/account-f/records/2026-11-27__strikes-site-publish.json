@@ -1,0 +1,52 @@
+{
+ "v": 2,
+ "id": "2026-11-27__strikes-site-publish",
+ "kind": "abp-relaxation",
+ "item": "cl-6.place.london writes to PrompTugal/PrompTugal__Agent__Place__London__Strikes",
+ "decision": "grant-narrow",
+ "summary": "cl-6.place.london may publish sourced London strike and transport-disruption pages to the dev branch of PrompTugal__Agent__Place__London__Strikes, the repository behind strikes.london.place.agent.promptugal.news, as record 2026-11-26__strikes-site set out.",
+ "change": {
+  "repository": "PrompTugal/PrompTugal__Agent__ABP",
+  "path": "abp/policies.json",
+  "op": "add to cl-6.place.london: push and writes in PrompTugal/PrompTugal__Agent__Place__London__Strikes, branch dev only",
+  "conditions": [
+   "content and site paths only; no CNAME, .github/, keys or team key files; no force push; no deletes beyond its own pages",
+   "every item names its public source and the date read; nothing invented; no private person named (union officials only in their public role)",
+   "TfL feed values or figures appear only after cl-6.rights confirms TfL's terms (record 2026-11-26__strikes-site); until then, link to TfL's own status page and report public news facts with their sources",
+   "the same site gate as the other agent sites (leak scan, link previews, HTML validity, accessibility); no third-party script",
+   "signed commits by cl-6.place.london's published key; cl-6.security reviews the abp change before it applies and post-reviews the first pages"
+  ],
+  "not_covered": "attaching the repository to cl-6.place.london's session with push: a push attach, one-way door under cl-6.abp's rules, needs Dinis's word in cl-6.abp's session"
+ },
+ "authority": {
+  "dinis": [
+   {
+    "dinis_words": "Can you like publish news that we know about, right? About it. Surely some of our news stores can actually have information about it now.",
+    "session": "https://claude.ai/code/session_016CrbJMiN8eUtML9vvvGCVt",
+    "event_uuid": "02726b85-5c12-48ea-929b-43e4e4a41972",
+    "at": "2026-11-27T01:24:54Z",
+    "client": "web_claude_ai",
+    "context": "with a screenshot (event 8a385d28, 01:24:01Z) of strikes.london.place.agent.promptugal.news showing only its README",
+    "checked_by_recorder": "read in cl-6.conductor's transcript with list_events"
+   },
+   {
+    "dinis_words": "Let's go with London and just publish it, you know, like the repository on London strikes. Yeah, just publish it. That's fine.",
+    "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+    "event_uuid": "19821c6f-3d14-4ce1-ad4a-a13a4191ef3c",
+    "at": "2026-11-26T16:28:15Z",
+    "client": "web_claude_ai"
+   }
+  ],
+  "prior_record": "2026-11-26__strikes-site (8ecec85): cl-6.place.london owns the site alone; its grant through a cl-6.abp change that cl-6.security reviews"
+ },
+ "reviews": [],
+ "decided_by": "Dinis Cruz (his words); recorded by cl-6.decisions@dinis",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-27T01:25:56Z",
+ "expires": "2026-12-27T23:59:59Z",
+ "status": "waiting on cl-6.security's review of the abp change; the push attach waits on Dinis in cl-6.abp's session",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "revision": 1
+}
