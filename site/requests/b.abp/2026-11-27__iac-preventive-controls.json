@@ -5,7 +5,9 @@
  "received_at": "2026-11-27T17:37:47Z",
  "status": "to Dinis",
  "block": null,
- "note": "Preventive controls on SovereignWebsite__IaC so that only agents in policy/abp.json can commit there. Touches harness settings (.claude/) and organisation settings (build/org-apply.mjs), so it is Dinis's. b.abp recommends a) now and b) later. security.b's review to be asked before any change.",
+ "note": "Preventive controls on SovereignWebsite__IaC so that only agents in policy/abp.json can commit there. Touches harness settings (.claude/) and organisation settings (build/org-apply.mjs), so it is Dinis's. b.abp recommends a) now and b) later. security.b (f1cda93): agree with a) now with conditions, b) soon as the only hard control.",
  "decision": null,
- "questions": ["a) remove the reach now (no IaC attached to new agent sessions; an ABP hook in IaC instead of the pre-approved push), b) a) plus a required check on dev, or c) detection only"]
+ "questions": [
+  "a) remove the reach now (no IaC attached to new agent sessions; an ABP hook in IaC instead of the pre-approved push), b) a) plus a required check on dev, or c) detection only"
+ ]
 }
