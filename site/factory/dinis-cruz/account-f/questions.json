@@ -3,6 +3,17 @@
  "updated": "2026-11-27T10:36Z",
  "questions": [
   {
+   "id": "website-attach-editor",
+   "question": "This one step restarts the news: attach PrompTugal__News__Website (push) to cl-6.journalist. No new article since 26 Nov; four dated local leads (incl. the Guimaraes drill) wait in drafts since 27 Nov 01:15 (5925199); the Tube chart fix is held; journalist gets 403 on push and no other agent may write content/** or sign articles.",
+   "asked_by": "cl-6.conductor",
+   "since": "2026-11-27",
+   "context_url": "session_016CrbJNYGCQ9RLyq8e7aVU7",
+   "line_to_paste": "in cl-6.abp's session (session_016CrbJLnbr219cU3eVRGxBW): \"yes, attach PrompTugal/PrompTugal__News__Website with push access to cl-6.journalist\" (abp confirms the exact wording)",
+   "urgency": "first: the publication is stalled on it",
+   "status": "open",
+   "answer_url": null
+  },
+  {
    "id": "strikes-attach",
    "question": "London strikes page: maestro has the session prepared (Strikes repository attached, dev only, under abp's 10:39 conditions). Only your yes starts it. Replaces abp's dropped add_repo step (1b338c0).",
    "asked_by": "cl-6.decisions@dinis",
@@ -21,17 +32,6 @@
    "context_url": "session_016CrbJLnbr219cU3eVRGxBW",
    "line_to_paste": "\"yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh\" (meanwhile data releases data/ with vaults/ set aside, so the site is not stalled)",
    "urgency": "not blocking: interim release works (v0.1.159); vault files stay unpublished until granted",
-   "status": "open",
-   "answer_url": null
-  },
-  {
-   "id": "website-attach-editor",
-   "question": "Attach PrompTugal__News__Website to the journalist (and later the editor): blocks all publishing",
-   "asked_by": "cl-6.conductor",
-   "since": "2026-11-27",
-   "context_url": "session_016CrbJNYGCQ9RLyq8e7aVU7",
-   "line_to_paste": "\"attach PrompTugal/PrompTugal__News__Website with push access\" in cl-6.journalist's session",
-   "urgency": "now",
    "status": "open",
    "answer_url": null
   },
