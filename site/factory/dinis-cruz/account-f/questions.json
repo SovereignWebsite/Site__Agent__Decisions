@@ -3,6 +3,17 @@
  "updated": "2026-11-27T10:36Z",
  "questions": [
   {
+   "id": "strikes-attach",
+   "question": "London strikes page: maestro has the session prepared (Strikes repository attached, dev only, under abp's 10:39 conditions). Only your yes starts it. Replaces abp's dropped add_repo step (1b338c0).",
+   "asked_by": "cl-6.decisions@dinis",
+   "since": "2026-11-27",
+   "context_url": "session_016CrbJLv54Kh4CSTzagW2G3",
+   "line_to_paste": "say 'yes, start the strikes session' in cl-6.maestro's session (session_016CrbJLv54Kh4CSTzagW2G3)",
+   "urgency": "first: the strikes page is the only thing waiting on it",
+   "status": "open",
+   "answer_url": null
+  },
+  {
    "id": "data-vaults",
    "question": "cl-6.data: grant vaults/*/latest/** so the vault files publish too (18:03 release stopped on them)",
    "asked_by": "cl-6.decisions@dinis",
@@ -10,17 +21,6 @@
    "context_url": "session_016CrbJLnbr219cU3eVRGxBW",
    "line_to_paste": "\"yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh\" (meanwhile data releases data/ with vaults/ set aside, so the site is not stalled)",
    "urgency": "not blocking: interim release works (v0.1.159); vault files stay unpublished until granted",
-   "status": "open",
-   "answer_url": null
-  },
-  {
-   "id": "strikes-attach",
-   "question": "London strikes page: start the strikes session (window ends 11:59 UTC)",
-   "asked_by": "cl-6.decisions@dinis",
-   "since": "2026-11-27",
-   "context_url": "session_016CrbJLv54Kh4CSTzagW2G3",
-   "line_to_paste": "say 'yes, start the strikes session' in cl-6.maestro's session (session_016CrbJLv54Kh4CSTzagW2G3)",
-   "urgency": "now: strike window ends 11:59 UTC",
    "status": "open",
    "answer_url": null
   },
