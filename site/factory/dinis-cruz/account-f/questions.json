@@ -158,11 +158,11 @@
   },
   {
    "id": "product",
-   "question": "Meter, home page title, explainer page",
+   "question": "Home page title and explainer page wording (the meter itself is now its own question, meter-charging)",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": null,
-   "line_to_paste": "\"meter: (a)\" or \"meter: (b)\"; home page title line; explainer page line",
+   "line_to_paste": "home page title line; explainer page line",
    "urgency": "low",
    "status": "open",
    "answer_url": null
@@ -187,6 +187,28 @@
    "line_to_paste": null,
    "status": "answered",
    "answer_url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-27__dinis-four-actions.json"
+  },
+  {
+   "id": "s3-app",
+   "question": "S3: what is /app/ now? cl-6.designer needs your words before reworking it.",
+   "asked_by": "cl-6.designer (via cl-6.conductor)",
+   "since": "2026-11-27",
+   "context_url": null,
+   "line_to_paste": "\"/app/ is now: ...\" (one sentence, your words)",
+   "urgency": "normal: designer's next pass waits on it",
+   "status": "open",
+   "answer_url": null
+  },
+  {
+   "id": "meter-charging",
+   "question": "How does the pay-for-what-you-read meter charge? The explainer page and the meter chip's zero-moment text both wait on this.",
+   "asked_by": "cl-6.designer (via cl-6.conductor)",
+   "since": "2026-11-27",
+   "context_url": null,
+   "line_to_paste": "\"the meter charges: ...\" (unit, price and when it reaches zero, your words; no price is set until you say it)",
+   "urgency": "normal: blocks the explainer page and the chip text",
+   "status": "open",
+   "answer_url": null
   }
  ]
 }
