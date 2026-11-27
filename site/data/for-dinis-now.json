@@ -1,11 +1,17 @@
 {
- "updated": "2026-11-27T13:20Z",
+ "updated": "2026-11-27T14:19Z",
  "items": [
   {
    "what": "Two decisions c.maestro relayed from your session on account C (signed by c.maestro, but decisions.b cannot read account C sessions to check your words): (1) \"Yes, one shape\": every account's asks in one shape (cl-6.maestro's briefing.json and questions.json with c.decision-science's card rules); (2) \"Yes one channel in Site__Agent__Maestro but take into account that not all maestros will have push access...\": push, pull and diff modes, with b.maestro building the collector Action and registry fields. b.maestro waits for a record before building.",
    "where": "maestro.b's session or this one",
    "link": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
    "say": "yes to one shape and one channel (as c.maestro relayed)"
+  },
+  {
+   "what": "Also relayed by c.maestro from account C, not checkable from account B: \"each agent that is working here, including you, needs to have an AgentiCCells__Agent__Name repo\" (for account B's agents, a repository each in the AgentiCCells organisation; b.factory prepares but holds creation). Also noted, no action: the new agilecells and riskmandate domains, riskmandate.org later to be the open home of the ABP content.",
+   "where": "maestro.b's session or this one",
+   "link": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
+   "say": "yes, an AgentiCCells__Agent__<Name> repository for each account B agent"
   },
   {
    "what": "Calendar site keeper: should b.calendar (account B) replace mail.dev.a (account A) as keeper of the calendar site? maestro.b says mail.dev.a has moved to cl-2.mail.dev. factory.b's commit b1cee50 is ready. Your words this morning started a calendar agent; they did not move the keeper, so I have not signed it.",
