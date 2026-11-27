@@ -37,11 +37,11 @@
   },
   {
    "id": "iac-34-37",
-   "question": "Merge IaC #34, #35, #36, #37",
+   "question": "Merge IaC #34, #35, #36, #37 (approved; only Dinis may merge)",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
-   "context_url": "github.com/PrompTugal/PrompTugal__IaC/pulls",
-   "line_to_paste": "Approved by Dinis (record 2026-11-27__dinis-four-actions); waiting on cl-6.infra to say whether it may merge, else Dinis clicks merge in order",
+   "context_url": "https://github.com/PrompTugal/PrompTugal__IaC/pulls",
+   "line_to_paste": "Merge #34 at 289b934; merge #35 at aaf2e71; on #36 Edit, base to dev, merge at 1809f2b; merge #37 at 7c7cdf9. Then #38 (editor home, 326fabc) after its security pass.",
    "urgency": "high",
    "status": "open",
    "answer_url": null
