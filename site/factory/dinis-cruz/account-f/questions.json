@@ -231,6 +231,28 @@
    "urgency": "normal: Algarve towns show no camera links meanwhile",
    "status": "open",
    "answer_url": null
+  },
+  {
+   "id": "s8-story-findings",
+   "question": "Findings for the S8 lane (another account; maestro has no route there, cross-account routing is stalled at router.a). Story 'Two studies of agent-written code...': N2, its 'In short' says the second paper was read from its abstract only, but its own 27 Nov update says the full text was read; N3, its provenance block claims 6 outside sources on 3 sites, but the markup shows only arXiv and the licence. Source: PrompTugal__Agent__Synthetic findings-2026-11-27-wake4.md, 6d37860.",
+   "asked_by": "cl-6.synthetic (via cl-6.conductor)",
+   "since": "2026-11-27",
+   "context_url": null,
+   "line_to_paste": "Pass N2 and N3 to that lane's owner yourself, or say how findings should reach it",
+   "urgency": "low",
+   "status": "open",
+   "answer_url": null
+  },
+  {
+   "id": "newsletter-about-write",
+   "question": "Who may write /newsletter/ (F58) and About (F06) in PrompTugal__News__Website? /newsletter/ still lists 13 Nov editions and says subscribers are 'handled by the Web Summit team'; About needs fixing (held under P11 h). No agent may write either file. Same shape as the tagline: a one-off for named files, or a standing owner.",
+   "asked_by": "cl-6.synthetic (via cl-6.conductor)",
+   "since": "2026-11-27",
+   "context_url": null,
+   "line_to_paste": "\"yes to <agent> fixing the /newsletter/ and About pages\" (name the agent; one-off, security reviews the diff)",
+   "urgency": "normal: the newsletter page states something no longer true",
+   "status": "open",
+   "answer_url": null
   }
  ]
 }
