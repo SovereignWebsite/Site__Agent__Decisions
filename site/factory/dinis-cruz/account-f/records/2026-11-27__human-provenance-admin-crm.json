@@ -1,0 +1,37 @@
+{
+ "v": 2,
+ "id": "2026-11-27__human-provenance-admin-crm",
+ "kind": "owner-direction",
+ "item": "F50 (editor) and new work: human review provenance, person sign-in, feedback lane, admin section, CRM with Gmail",
+ "decision": "direct",
+ "summary": "Dinis directs: stories should have an editor; the site records which humans reviewed each story, each person signing in with their own PKI key; an append lane takes feedback from the site, and a signed-in person agreeing with an article counts as a signed review; human journalists and researchers are added so they can sign articles, building provenance, including when authors or sources are contacted to validate; a CRM connected to Gmail for contacting people about the site; all of it in a rich admin section through which Dinis works with the site.",
+ "found_by_recorder": [
+  "promptugal.news has no /admin/ (404) and no /crm/ (404)",
+  "it already has PKI sign-in at /login/ (P-256 keys issued by the conductor as a QR link, public halves in board/person-keys.json, 2 keys) and a signed-in area at /newsroom/ (200)",
+  "it already has an append lane pattern: board/lanes/signups.json, sealed write-only appends to an SG/Send vault, drained by conductor@web-summit.dinis into the Web Summit team's private CRM"
+ ],
+ "routed_to": "cl-6.conductor, to brief cl-6.dev, cl-6.designer and cl-6.security (design first, nothing live before security's review)",
+ "stays_with_dinis": [
+  "issuing each person key (trust in keys), one line per person, after that person agrees",
+  "naming any human editor or reviewer on the site, only with that person's consent",
+  "the Gmail connector: which agent, which mailbox, read or send; nothing is sent in his name without his line",
+  "the CRM holding private people's details: where it lives and who reads it, with cl-6.counsel's view on data protection"
+ ],
+ "authority": {
+  "dinis_words": "Yeah, so should have an editor. So the other thing that we need to add to here, we need to add a way and need to capture which humans have reviewed the story, and we need to allow each of us to log in with our own PKI key to the website. [...] We need a CRM for this [...] connection between the CRM and a Gmail. [...] So this should be on the admin section [...] And I should now start to interact with this website through the admin section.",
+  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+  "event_uuid": "7ad587d3-ca01-4db6-b2d1-20c10027531d",
+  "at": "2026-11-27T00:56:35Z",
+  "client": "web_claude_ai"
+ },
+ "reviews": [],
+ "decided_by": "Dinis Cruz (his words)",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-27T00:57:40Z",
+ "expires": "2026-12-27T23:59:59Z",
+ "status": "in-force: design and build routed; the four items above wait on Dinis",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "revision": 1
+}
