@@ -1,0 +1,31 @@
+{
+ "v": 2,
+ "id": "2026-11-27__place-london-strikes-session",
+ "kind": "session-start",
+ "item": "a session for role cl-6.place.london with PrompTugal/PrompTugal__Agent__Place__London__Strikes as its source",
+ "decision": "start",
+ "summary": "cl-6.maestro starts a session for cl-6.place.london with the Strikes repository as its source, so it can publish the ready strikes page under record 2026-11-27__strikes-site-publish and cl-6.abp's grant (policy v1.7.11). This replaces the attach route.",
+ "conditions": [
+  "same role and grant as cl-6.place.london (repo_writes on the Strikes repository: dev only, site/** except site/keys/**, data/**, README.md, root index.html and .nojekyll); no new access",
+  "limited environment as for place.london; no connectors; no add_repo",
+  "it makes its own key and publishes it alone in its first commit, as every new session; cl-6.abp's rule applies on whether the first place.london session stops before the new one publishes, and cl-6.maestro settles that with cl-6.abp",
+  "cl-6.abp removes the pending add_repo draft once this session runs"
+ ],
+ "authority": {
+  "dinis": [
+   {"dinis_words": "attach strikes repo", "session": "https://claude.ai/code/session_016CrbJMiN8eUtML9vvvGCVt", "event_uuid": "0b4e152c-3281-4fd5-8e45-729114262293", "at": "2026-11-27T10:33:58Z", "client": "web_claude_ai"},
+   {"dinis_words": "this is not correct, since we do that all the time here (start new sessions attached to a particular repo)", "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk", "at": "about 2026-11-27T10:38Z", "client": "web_claude_ai", "context": "his correction of my note that the attach could only be approved in place.london's session"}
+  ],
+  "note": "cl-6.maestro's own permission check also wants his yes in its session; this record does not replace that"
+ },
+ "reviews": [{"agent": "cl-6.abp", "verdict": "grant belongs to the role, so a new place.london session has it and needs no add_repo (10:38Z)"}],
+ "decided_by": "Dinis Cruz (his words)",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-27T10:39:03Z",
+ "expires": "2026-12-27T23:59:59Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "revision": 1
+}
