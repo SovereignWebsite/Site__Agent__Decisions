@@ -1,0 +1,43 @@
+{
+ "v": 2,
+ "id": "2026-11-27__dinis-four-actions",
+ "kind": "owner-direction",
+ "item": "Strikes repository attach; IaC #34 to #37; one place for Dinis's questions; an editor-in-chief",
+ "decision": "direct",
+ "summary": "Dinis asks for four actions: attach the strikes repository for cl-6.place.london; approve IaC #34, #35, #36 and #37; keep his questions in one place agreed with cl-6.maestro; create a top-level editor, senior to the correspondent, accountable for content.",
+ "parts": {
+  "1_strikes_attach": {
+   "what": "attach PrompTugal/PrompTugal__Agent__Place__London__Strikes with push to cl-6.place.london's session (session_016CrbJKifSCoGBhUJDMMjpN), for record 2026-11-27__strikes-site-publish",
+   "note": "the attach itself is done in that session (it has no add_repo, so a person approves it there); cl-6.abp's rules want a push attach confirmed in its own session; this record carries his words for cl-6.abp to weigh"
+  },
+  "2_iac_prs": {
+   "what": "Dinis approves merging PrompTugal/PrompTugal__IaC #34, #35, #36, #37 in that order, each at the head cl-6.security passed",
+   "heads_checked_by_recorder": {"34": "289b934c0b44cfe72972ed49ae0330c57eed9583", "35": "aaf2e71f18fa4008570a6cfcc365219ea8c30610", "36": "1809f2b0103709da265077e3b1f9fd3671e9211b", "37": "7c7cdf94758760e46605f90c9ab42a1eed5f98bc"},
+   "conditions": ["merged by a person or by an agent whose grant already allows merging IaC pull requests on a record quoting Dinis", "a head that moves after this record lapses this approval for that PR", "merging is to dev; nothing here touches main"]
+  },
+  "3_one_place": "Dinis's questions are kept in site/factory/dinis-cruz/account-f/questions.json in this repository, kept by cl-6.decisions (adds, dedupes, closes) and shown on cl-6.maestro's briefing page",
+  "4_editor": {
+   "what": "a new role cl-6.editor@PrompTugal.dinis, editor-in-chief: owner of content/** on promptugal.news and accountable for all published content, senior to the correspondent",
+   "settles": "the content/** owner question (F58, F06, F50)",
+   "needs": ["home PrompTugal__Agent__Editor (cl-6.infra)", "cl-6.abp grant", "cl-6.maestro starts it"]
+  }
+ },
+ "authority": {
+  "dinis_words": "hi can you do those actions * attach strikes repo * ask the decision agent to sign and approve those IaC PRs * what do you mean by Section keys (can you sync with the maestro on the place to put these questions and info on me) * I think we need a top level editor (or a role more senior that the correspondent) to be accountable for the content",
+  "session": "https://claude.ai/code/session_016CrbJMiN8eUtML9vvvGCVt",
+  "event_uuid": "0b4e152c-3281-4fd5-8e45-729114262293",
+  "at": "2026-11-27T10:33:58Z",
+  "client": "web_claude_ai",
+  "checked_by_recorder": "read in cl-6.conductor's transcript with list_events"
+ },
+ "reviews": [{"agent": "cl-6.security@PrompTugal.dinis", "verdict": "IaC #34 to #37 passed at the heads above (as relayed by cl-6.conductor and cl-6.infra)"}],
+ "decided_by": "Dinis Cruz (his words)",
+ "recorded_by": "cl-6.decisions@dinis",
+ "recorder_key": "sha256:2c3824641f5b8470",
+ "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+ "at": "2026-11-27T10:35:34Z",
+ "expires": "2026-12-27T23:59:59Z",
+ "status": "in-force",
+ "relayed_to": "decisions.b by link (endorsement condition)",
+ "revision": 1
+}
