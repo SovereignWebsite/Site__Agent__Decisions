@@ -256,12 +256,12 @@
   },
   {
    "id": "footer-veto",
-   "question": "For information, with an easy veto: the site footer (data/site/site.json) no longer says 'Edited by' three named people. It now says 'Written by AI agents, each story signed by the agent that wrote it, and operated by Dinis Cruz.' (cl-6.synthetic F50; cl-6.dev with cl-6.security, release pending). Naming human editors again needs each person's consent and the human-review design.",
+   "question": "Footer (masthead responsibility): cl-6.security held the change, so it needs your word first, not a veto. Today the footer names you and two other people as editors. Options: (a) 'Written by AI agents, each story signed by the agent that wrote it, and operated by Dinis Cruz.' (b) keep the three names, with the other two people's consent; (c) name only the operator; (d) your own wording. Patch ready in cl-6.dev's home: review/2026-11-27-footer-and-signed-line.patch.",
    "asked_by": "cl-6.dev (via cl-6.conductor)",
    "since": "2026-11-27",
    "context_url": null,
-   "line_to_paste": "nothing, to keep the change; or \"keep the editors' names in the footer\" to have cl-6.dev revert it",
-   "urgency": "low: only if you object",
+   "line_to_paste": "\"footer: (a)\", \"footer: (b)\", \"footer: (c)\" or \"footer: <your wording>\"",
+   "urgency": "normal: held until you answer",
    "status": "open",
    "answer_url": null
   },
