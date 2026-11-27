@@ -169,11 +169,11 @@
   },
   {
    "id": "s8-key",
-   "question": "Unknown signing key on S87 lane commits",
+   "question": "One unpublished SSH key (SHA256:32dP45eSMmVSt/G/CGvcxl/P+MO3Nwj9xeTh/GSA2wc) signs commits for two other-account lanes: four more S8-lane commits (checker and curator, 10:10 to 15:38Z) and conductor@PrompTugal.jose's 89a121f71 (18:18Z). That lane's three board entries have no ssh field, so the two lanes' commits cannot be told apart. Security review 80cffb1, low. No agent can reach those lanes (cross-account routing stalled).",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": null,
-   "line_to_paste": "Pass to that lane's owner: publish the key in its site/keys/ and confirm the fingerprint to cl-6.security, or sign with a key in board/keys.json",
+   "line_to_paste": "Pass to both lane owners: each publishes the SSH key it signs with in its board/keys.json entry, through cl-6.dev's key-change path; if it is one person's machine key shared by both lanes, say so and publish it once, under that person.",
    "urgency": "low",
    "status": "open",
    "answer_url": null
@@ -262,6 +262,17 @@
    "context_url": null,
    "line_to_paste": "nothing, to keep the change; or \"keep the editors' names in the footer\" to have cl-6.dev revert it",
    "urgency": "low: only if you object",
+   "status": "open",
+   "answer_url": null
+  },
+  {
+   "id": "crm-vault-seal",
+   "question": "The conductor@PrompTugal.jose lane asks you to seal the outreach CRM vault. cl-6.security reviewed the request: sound, no secret in it, and it recommends sealing to that lane owner's personal key rather than an agent key. Security will check the committed blob afterwards.",
+   "asked_by": "conductor@PrompTugal.jose (via cl-6.conductor)",
+   "since": "2026-11-27",
+   "context_url": null,
+   "line_to_paste": "Seal it yourself (to the personal key security recommends), or say no; no agent can do this for you",
+   "urgency": "normal",
    "status": "open",
    "answer_url": null
   }
