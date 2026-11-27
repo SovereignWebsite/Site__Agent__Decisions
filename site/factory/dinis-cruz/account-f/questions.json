@@ -4,11 +4,11 @@
  "questions": [
   {
    "id": "strikes-attach",
-   "question": "London strikes page: attach the repository",
+   "question": "London strikes page: start the strikes session (window ends 11:59 UTC)",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
-   "context_url": "session_016CrbJKifSCoGBhUJDMMjpN",
-   "line_to_paste": "Two steps: in cl-6.abp's session (session_016CrbJLnbr219cU3eVRGxBW) answer its one-line question yes; then in place.london's session (session_016CrbJKifSCoGBhUJDMMjpN) approve the attach of PrompTugal/PrompTugal__Agent__Place__London__Strikes",
+   "context_url": "session_016CrbJLv54Kh4CSTzagW2G3",
+   "line_to_paste": "say 'yes, start the strikes session' in cl-6.maestro's session (session_016CrbJLv54Kh4CSTzagW2G3)",
    "urgency": "now: strike window ends 11:59 UTC",
    "status": "open",
    "answer_url": null
