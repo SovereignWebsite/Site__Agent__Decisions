@@ -1,0 +1,29 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-27__yes-to-all-of-them",
+  "words": "yes to all of them",
+  "event_uuid": "a73ad9b9-517c-4333-9edc-9097ed1ca924",
+  "at": "2026-11-27T16:20:36Z",
+  "expires": "2026-12-04T16:20:36Z",
+  "status": "in-force",
+  "kind": "choice",
+  "asked": "maestro.b, 16:18:51 UTC, 'Waiting on you': (1) \"Yes to one shape and one channel\", so I can build the collector; (2) \"Yes to AgentiCCells homes for B's agents\", and whether cl-2.crm.dev counts; (3) a yes to start the five pieces on account C; (4) \"push 1af7538\", which releases the held seed fixes; (5) elevenlabs.b: the brief file, the brand voice, and whether its credits are shared.",
+  "decision": "Yes to (1) to (4): (1) every account's asks in one shape (cl-6.maestro's briefing.json and questions.json with c.decision-science's card rules), and one channel in Site__Agent__Maestro with push, pull and diff modes; b.maestro builds the collector and the registry fields; (2) an AgentiCCells__Agent__<Name> repository for each account B agent working in the AgentiCCells organisation, cl-2.crm.dev included; (3) account C starts its five pieces; (4) b.factory may push 1af7538.",
+  "how": {
+    "not decided": "(5) is not a yes or no question: the ElevenLabs brief file, brand voice and credit sharing stay open for Dinis.",
+    "1af7538": "An IaC push of build/ needs its own push record with the patch-id; decisions.b signs it on this record when factory.b sends the patch-id, or factory.b cites this record.",
+    "relays": "Rows 98, 100 and 102 of c.maestro's from-c.md (signed by c.maestro) are now backed by Dinis's word in an account B session."
+  },
+  "scope": {
+    "applies_to": [
+      "maestro.b",
+      "factory.b",
+      "c.maestro",
+      "all maestros"
+    ]
+  }
+}
