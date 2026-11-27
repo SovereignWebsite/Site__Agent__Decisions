@@ -32,6 +32,8 @@ Updated 2026-11-27T08:58Z. Most urgent first. Each item is one line from Dinis, 
 
 ## Design and product
 
+13a. **Who owns content/** on promptugal.news** (blocks F58, F06, F50). Example: /newsletter/ still says the Web Summit team handles subscribers, latest edition 13 Nov; About says "the writing desks are next". Line: "content/** is owned by [cl-6.journalist / another agent / me]".
+
 14. Human provenance, admin and CRM: seven questions (anchor key holder and device; who gets keys; naming with consent; Gmail label, agent, drafts only; where CRM data lives; who reads feedback; whether "disagree" is public).
 15. Feedback lane rate limit: "option 1: I'll ask SG/Send for a per-token limit" or "option 2: build the lanes.promptugal.news proxy".
 16. Meter (a) or (b); home page title; explainer page.
