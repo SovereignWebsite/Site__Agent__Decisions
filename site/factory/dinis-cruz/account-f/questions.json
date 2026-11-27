@@ -1,0 +1,158 @@
+{
+ "kept_by": "cl-6.decisions@dinis",
+ "updated": "2026-11-27T10:36Z",
+ "questions": [
+  {
+   "id": "strikes-attach",
+   "title": "London strikes page: attach the repository",
+   "line_for_dinis": "Approve the attach prompt in place.london's session: \"attach PrompTugal/PrompTugal__Agent__Place__London__Strikes with push access\"",
+   "where": "session_016CrbJKifSCoGBhUJDMMjpN",
+   "urgency": "now: strike window ends 11:59 UTC",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "journalist-attach",
+   "title": "Journalist publishing: attach the website",
+   "line_for_dinis": "\"attach PrompTugal/PrompTugal__News__Website with push access\"",
+   "where": "session_016CrbJNYGCQ9RLyq8e7aVU7",
+   "urgency": "now: due 12:00 UTC",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "data-vaults",
+   "title": "cl-6.data writes vaults/*/latest/**",
+   "line_for_dinis": "\"yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh; it may keep committing them until applied\"",
+   "where": "session_016CrbJLnbr219cU3eVRGxBW",
+   "urgency": "today: before 18:03 Lisbon",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "iac-34-37",
+   "title": "Merge IaC #34, #35, #36, #37",
+   "line_for_dinis": "Approved by Dinis (record 2026-11-27__dinis-four-actions); waiting on cl-6.infra to say whether it may merge, else Dinis clicks merge in order",
+   "where": "github.com/PrompTugal/PrompTugal__IaC/pulls",
+   "urgency": "high",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "section-key-prs",
+   "title": "Eight sections open their key PRs; dev-gate P19",
+   "line_for_dinis": "\"yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)\"",
+   "where": "session_016CrbJLnbr219cU3eVRGxBW",
+   "urgency": "high",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "signals-pins",
+   "title": "Signals copies security's pinned files",
+   "line_for_dinis": "\"you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins\"",
+   "where": "session_016CrbJLzfdz51sDBekg8v8X",
+   "urgency": "medium",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "s17",
+   "title": "Sign-in fix S17",
+   "line_for_dinis": "\"yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)\"",
+   "where": null,
+   "urgency": "medium",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "anchor-clear",
+   "title": "Delete SIG_BOOTSTRAP_ANCHOR on News__Data",
+   "line_for_dinis": "Delete the repository variable once its run is green; tell cl-6.decisions which run passed",
+   "where": "github.com/PrompTugal/PrompTugal__News__Data settings",
+   "urgency": "medium",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "civic-history",
+   "title": "cl-6.civic history/** and board/team/civic/**",
+   "line_for_dinis": "\"yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions\"",
+   "where": null,
+   "urgency": "low",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "rights-history",
+   "title": "cl-6.rights history/** (P5)",
+   "line_for_dinis": "\"yes to cl-6.rights writing history/** in PrompTugal__Agent__Rights, on security's conditions\"",
+   "where": null,
+   "urgency": "low",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "places-wake",
+   "title": "cl-6.places wake prompt",
+   "line_for_dinis": "\"update your wake trig_0132oarAUsN5cwmgTAbj3GGk to run the places serially, no sub-agents, never London\"",
+   "where": "session_016CrbJJcoCJnQM6GGY1xC5K",
+   "urgency": "low",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "rights-terms",
+   "title": "Rights items D6, R19, D3, D5, R18; P18 stage 2 (13 sources need Dinis)",
+   "line_for_dinis": "See cl-6.rights findings.md (c8493f1)",
+   "where": null,
+   "urgency": "medium",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "provenance-design",
+   "title": "Human provenance, admin, CRM: seven questions",
+   "line_for_dinis": "Anchor key holder and device; who gets keys; naming with consent; Gmail label, agent, drafts only; where CRM data lives; who reads feedback; is 'disagree' public",
+   "where": null,
+   "urgency": "medium",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "feedback-rate",
+   "title": "Feedback lane rate limit",
+   "line_for_dinis": "\"option 1: I'll ask SG/Send for a per-token limit\" or \"option 2: build the lanes.promptugal.news proxy\"",
+   "where": null,
+   "urgency": "low",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "product",
+   "title": "Meter, home page title, explainer page",
+   "line_for_dinis": "\"meter: (a)\" or \"meter: (b)\"; home page title line; explainer page line",
+   "where": null,
+   "urgency": "low",
+   "status": "open",
+   "opened": "2026-11-27"
+  },
+  {
+   "id": "s8-key",
+   "title": "Unknown signing key on S87 lane commits",
+   "line_for_dinis": "Pass to that lane's owner: publish the key in its site/keys/ and confirm the fingerprint to cl-6.security, or sign with a key in board/keys.json",
+   "where": null,
+   "urgency": "low",
+   "status": "open",
+   "opened": "2026-11-27"
+  }
+ ],
+ "closed": [
+  {
+   "id": "content-owner",
+   "title": "Who owns content/**",
+   "status": "closed",
+   "closed_by": "Dinis: an editor-in-chief (record 2026-11-27__dinis-four-actions)"
+  }
+ ]
+}
