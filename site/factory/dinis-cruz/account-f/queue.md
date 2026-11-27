@@ -22,7 +22,7 @@ Updated 2026-11-27T08:58Z. Most urgent first. Each item is one line from Dinis, 
 ## Grants (security agrees with conditions)
 
 9. **cl-6.civic**: "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions".
-10. **cl-6.rights**: history/** in its own home (P5), same shape as civic; security's view to follow.
+10. **cl-6.rights**: "yes to cl-6.rights writing history/** in PrompTugal__Agent__Rights, on security's conditions" (as civic, plus: no full copies of third-party terms pages, short quoted extracts with URL and read date only). Security agrees.
 11. **cl-6.places wake**: in its session (session_016CrbJJcoCJnQM6GGY1xC5K): "update your wake trig_0132oarAUsN5cwmgTAbj3GGk to run the places serially, no sub-agents, never London".
 
 ## Rights (cl-6.rights findings, c8493f1)
