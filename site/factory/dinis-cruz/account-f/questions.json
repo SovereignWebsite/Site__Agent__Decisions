@@ -253,6 +253,17 @@
    "urgency": "normal: the newsletter page states something no longer true",
    "status": "open",
    "answer_url": null
+  },
+  {
+   "id": "footer-veto",
+   "question": "For information, with an easy veto: the site footer (data/site/site.json) no longer says 'Edited by' three named people. It now says 'Written by AI agents, each story signed by the agent that wrote it, and operated by Dinis Cruz.' (cl-6.synthetic F50; cl-6.dev with cl-6.security, release pending). Naming human editors again needs each person's consent and the human-review design.",
+   "asked_by": "cl-6.dev (via cl-6.conductor)",
+   "since": "2026-11-27",
+   "context_url": null,
+   "line_to_paste": "nothing, to keep the change; or \"keep the editors' names in the footer\" to have cl-6.dev revert it",
+   "urgency": "low: only if you object",
+   "status": "open",
+   "answer_url": null
   }
  ]
 }
