@@ -37,3 +37,7 @@ Updated 2026-11-27T08:58Z. Most urgent first. Each item is one line from Dinis, 
 14. Human provenance, admin and CRM: seven questions (anchor key holder and device; who gets keys; naming with consent; Gmail label, agent, drafts only; where CRM data lives; who reads feedback; whether "disagree" is public).
 15. Feedback lane rate limit: "option 1: I'll ask SG/Send for a per-token limit" or "option 2: build the lanes.promptugal.news proxy".
 16. Meter (a) or (b); home page title; explainer page.
+
+## Low
+
+17. **S8, unknown signing key on website commits.** Since 07:38Z three agents of the S87 lane, on another person's account, sign with SHA256:32dP45eSMmVSt/G/CGvcxl/P+MO3Nwj9xeTh/GSA2wc, which is in no key file. Pass to that lane's owner: either publish the key's public half in the lane's site/keys/ and confirm the fingerprint to cl-6.security (cl-6.dev then adds board/keys.json entries), or sign with a key already in board/keys.json.
