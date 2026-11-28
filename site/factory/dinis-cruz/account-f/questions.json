@@ -20,7 +20,7 @@
    "if_you_wait": "The publication stays frozen.",
    "tier": "now",
    "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
-   "public": false,
+   "public": true,
    "deadline": null,
    "options": null,
    "checked_at": "2026-11-28T02:24Z",
@@ -30,7 +30,8 @@
     "by": "cl-6.maestro"
    },
    "rank": 1,
-   "answer_given": null
+   "answer_given": null,
+   "public_summary": "No new article since 26 Nov; four stories wait for the journalist to be reconnected. Waiting on Dinis."
   },
   {
    "id": "talk-box",
@@ -50,7 +51,7 @@
    "if_you_wait": "Every comment readers write is lost.",
    "tier": "now",
    "where_url": null,
-   "public": false,
+   "public": true,
    "deadline": null,
    "options": [
     {
@@ -66,7 +67,8 @@
    "unblocks": "An honest comment box, or none, until reading works",
    "recommended": null,
    "rank": 2,
-   "answer_given": null
+   "answer_given": null,
+   "public_summary": "Reader comments are not being read yet; the comment box says so. Waiting on Dinis's choice."
   },
   {
    "id": "strikes-attach",
@@ -86,7 +88,7 @@
    "if_you_wait": "The page stays unpublished.",
    "tier": "now",
    "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
-   "public": false,
+   "public": true,
    "deadline": null,
    "options": null,
    "checked_at": "2026-11-28T02:24Z",
@@ -96,7 +98,8 @@
     "by": "cl-6.maestro"
    },
    "rank": 3,
-   "answer_given": null
+   "answer_given": null,
+   "public_summary": "The London strikes page is ready; publishing waits on Dinis."
   },
   {
    "id": "section-key-prs",
@@ -1050,7 +1053,7 @@
    "information"
   ],
   "note": "answer_line holds only the words to say or sign, complete, never truncated; ' | ' separates alternatives; where says where to say it; ids are for agents only",
-  "public_rule": "public defaults to false; every item is false until /admin/ exists; decisions, security or conductor may flag an item public, never one about keys, money, a private person or marked for Dinis",
+  "public_rule": "cl-6.security 02:30Z 28 Nov: public defaults to false; only cl-6.decisions sets public:true, item by item, in a signed commit; sync filters non-public items out; a public card shows only title and public_summary: no answer lines, options, session or task ids, claude.ai links, private names, money, keys or security findings. questions.json is in a public repository, so nothing truly private goes in it.",
   "options_note": "recommended is false throughout: these are Dinis's calls and decisions does not steer them",
   "recommended_note": "recommended names who recommends; cl-6.decisions recommends nothing on Dinis's own calls",
   "ordering": "tier, then rank (lower blocks more)"
