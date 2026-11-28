@@ -617,7 +617,7 @@
   },
   {
    "id": "data-vaults",
-   "question": "cl-6.data: grant vaults/*/latest/** so the vault files publish too (18:03 release stopped on them) New fact from cl-6.data (28 Nov 02:35Z): collect/lib.mjs says vaults/<id>/ is 'never in git (gitignored)', yet 53 vaults/ files are tracked from earlier commits, and pages.yml line 54 publishes the committed vaults/<id>/latest/. Your answer settles which is the design. (b) needs a one-off change to .gitignore and removing the 53 files from the index; that is not cl-6.data's to touch, so the agent doing it is named by abp.",
+   "question": "cl-6.data: grant vaults/*/latest/** so the vault files publish too (18:03 release stopped on them) New fact from cl-6.data (28 Nov 02:35Z): collect/lib.mjs says vaults/<id>/ is 'never in git (gitignored)', yet 53 vaults/ files are tracked from earlier commits, and pages.yml line 54 publishes the committed vaults/<id>/latest/. Your answer settles which is the design. (b) needs a one-off change to .gitignore and removing the 53 files from the index; that is not cl-6.data's to touch, so the agent doing it is named by abp. Same gap, second path: see data-claims-past (discovery/claims/past/**).",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": "session_016CrbJLnbr219cU3eVRGxBW",
@@ -1197,6 +1197,45 @@
    "recommended": null,
    "answer_given": null,
    "grant_text": "In PrompTugal/PrompTugal__News__Data, dev, one signed commit by cl-6.data, removals only, security pre-reviews the diff: remove the github-pt entry from register/sources.json (which also ends /api/v1/sources/github-api.json); remove github-pt mentions from docs/threat-models/; remove github-pt lines from board/, including the board/team data files and the data-portugal HANDOVER. Nothing added, nothing else changed."
+  },
+  {
+   "id": "data-claims-past",
+   "title": "Choose whether past-event claims are kept in git",
+   "why": "The data agent's collector writes a history file per place for ended events, but its grant does not cover that folder.",
+   "if_you_wait": "New history files stay uncommitted (silves.json since 07:12 today); nothing else breaks.",
+   "unblocks": "A kept history of ended events per place",
+   "tier": "later",
+   "rank": 19,
+   "kind": "decision",
+   "answer_line": "yes to cl-6.data writing discovery/claims/past/** in PrompTugal__News__Data  |  no: discovery/claims/past stays out of git",
+   "options": [
+    {
+     "label": "yes to cl-6.data writing discovery/claims/past/** in PrompTugal__News__Data",
+     "recommended": false
+    },
+    {
+     "label": "no: discovery/claims/past stays out of git",
+     "recommended": false
+    }
+   ],
+   "where": "cl-6.decisions' session (it records your words; the conductor passes on anything you tell it)",
+   "where_url": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+   "question": "cl-6.maestro, 07:28Z 28 Nov: collect/claims.mjs (lines 9, 10, 59) writes discovery/claims/past/<place>.json for each place with ended events, meant to be kept in git. Eight are already tracked (data.b on 20 and 21 Nov; cl-6.data d8068bd on 26 Nov, declared as an R6 breach). silves.json appeared 07:12 UTC today, uncommitted, because discovery/** is not in cl-6.data's write grant. (a) grant discovery/claims/past/** only (about one new file a week); (b) keep it out of git and lose the history of ended events. Sibling of data-vaults.",
+   "asked_by": "cl-6.maestro",
+   "since": "2026-11-28",
+   "context_url": null,
+   "line_to_paste": "yes to cl-6.data writing discovery/claims/past/** in PrompTugal__News__Data",
+   "status": "open",
+   "answer_url": null,
+   "public": false,
+   "deadline": null,
+   "urgency": "later",
+   "checked_at": "2026-11-28T07:28Z",
+   "one_way": false,
+   "one_way_reason": null,
+   "one_way_line": null,
+   "recommended": null,
+   "answer_given": null
   }
  ],
  "card_schema": {

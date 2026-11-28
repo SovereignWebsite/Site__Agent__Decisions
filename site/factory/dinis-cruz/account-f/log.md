@@ -89,3 +89,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-28T02:36Z  data-vaults is now a design choice (cl-6.data 02:35Z via maestro): lib.mjs says vaults never in git; 53 files tracked; pages.yml publishes committed latest/. Option (b) added; grant_text at 7b30ab8 unchanged.
 - 2026-11-28T02:49Z  added s19-maestro-c-key (information: pass to account C's maestro), from security's 03:00Z finding via conductor.
 - 2026-11-28T02:54Z  added github-pt-removal (one-off removals for cl-6.data; abp applies on Dinis's recorded words).
+- 2026-11-28T07:28Z  added data-claims-past (sibling of data-vaults: discovery/claims/past/** grant or keep out of git), from maestro 07:28Z.
