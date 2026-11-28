@@ -1139,7 +1139,7 @@
   "recommended_note": "recommended names who recommends; cl-6.decisions recommends nothing on Dinis's own calls",
   "ordering": "tier, then rank (lower blocks more)",
   "grant_rule": "cl-6.abp 02:27Z 28 Nov: a short answer_line binds by reference to grant_text at grant_commit (full hash). The page must show grant_text beside the short line. Any change to grant_text needs a new yes at a new commit. One-way doors still need his words in cl-6.abp's session.",
-  "one_way_rule": "one_way items carry a visible mark and the line: only your own words in cl-6.abp's session count (or, once adopted, a signed admin answer). by-reference lines do not change that.",
+  "one_way_rule": "one_way items carry a visible mark and the line: only your own words, typed in the session named in 'where', count (cl-6.abp's for keys, rules and merges; cl-6.maestro's for session starts and resets); a by-reference or relayed line does not, until signed admin answers are adopted.",
   "checked_at_note": "checked_at is when that item's facts were last confirmed (date only where no time is known), not when the file was written"
  }
 }
