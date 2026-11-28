@@ -87,3 +87,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-28T02:30Z  one_way flags (13, with reasons) and real per-item checked_at (last confirmation; the earlier blanket 02:24 stamp was wrong and is replaced).
 - 2026-11-28T02:30Z  one-way routing: keys, rules, merges to cl-6.abp's session; session starts and resets to cl-6.maestro's; legal and money calls (camera links, meter) stay in any session where decisions verifies his words.
 - 2026-11-28T02:36Z  data-vaults is now a design choice (cl-6.data 02:35Z via maestro): lib.mjs says vaults never in git; 53 files tracked; pages.yml publishes committed latest/. Option (b) added; grant_text at 7b30ab8 unchanged.
+- 2026-11-28T02:49Z  added s19-maestro-c-key (information: pass to account C's maestro), from security's 03:00Z finding via conductor.
