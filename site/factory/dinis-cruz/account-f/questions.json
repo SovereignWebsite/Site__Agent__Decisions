@@ -3,6 +3,17 @@
  "updated": "2026-11-27T10:36Z",
  "questions": [
   {
+   "id": "admin-signed-answers",
+   "question": "You asked for a full admin section (conductor session, event 989f8f75, 00:58Z 28 Nov). Proposed rule change, yours alone: an answer you sign in /admin/ with your published personal key counts as your own words for cl-6.abp grants, in place of typing lines in named sessions. Conditions: the signature checks against your key in board/keys.json; it names the question id and repeats its exact line; one-way doors (attaches, connectors, money, main) still need security's review of the admin signing design first. Naming (admin vs newsroom) and maestro's plan follow as a separate question.",
+   "asked_by": "cl-6.decisions@dinis",
+   "since": "2026-11-28",
+   "context_url": "session_016CrbJMiN8eUtML9vvvGCVt",
+   "line_to_paste": "\"yes: my signed answers in admin count as my words for grants, once security passes the signing design\" (or no)",
+   "urgency": "normal: removes the type-this-in-session-X steps",
+   "status": "open",
+   "answer_url": null
+  },
+  {
    "id": "website-attach-editor",
    "question": "This one step restarts the news: attach PrompTugal__News__Website (push) to cl-6.journalist. No new article since 26 Nov; four dated local leads (incl. the Guimaraes drill) wait in drafts since 27 Nov 01:15 (5925199); the Tube chart fix is held; journalist gets 403 on push and no other agent may write content/** or sign articles.",
    "asked_by": "cl-6.conductor",
