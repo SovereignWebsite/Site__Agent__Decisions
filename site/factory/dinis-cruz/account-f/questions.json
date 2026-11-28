@@ -1,6 +1,6 @@
 {
  "kept_by": "cl-6.decisions@dinis",
- "updated": "2026-11-28T02:19Z",
+ "updated": "2026-11-28T02:21Z",
  "questions": [
   {
    "id": "talk-box",
@@ -14,9 +14,11 @@
    "answer_url": null,
    "title": "Reader comments box: off, or honest wording?",
    "why": "Comments go to a mailbox nobody reads; the box claims they are read.",
-   "cost_of_waiting": "Every comment readers write is lost.",
-   "level": "now",
-   "answer_line": "\"talk box: off until the drain works\" or \"talk box: keep, with honest wording\""
+   "answer_line": "talk box: off until the drain works  |  talk box: keep, with honest wording",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "Every comment readers write is lost.",
+   "tier": "now"
   },
   {
    "id": "website-attach-editor",
@@ -30,9 +32,11 @@
    "answer_url": null,
    "title": "Restart the news: start a journalist session on the website",
    "why": "No new article since 26 Nov; four stories wait in drafts.",
-   "cost_of_waiting": "The publication stays frozen.",
-   "level": "now",
-   "answer_line": "in cl-6.maestro's session (session_016CrbJLv54Kh4CSTzagW2G3): \"yes, start a journalist session with PrompTugal__News__Website as its source\". Attaches the repository only; widens nothing (content/about/** stays held under P11 h; no content/index.md). Fallback: the same yes in abp's session as an add_repo."
+   "answer_line": "yes, start a journalist session with PrompTugal__News__Website as its source",
+   "where": "cl-6.maestro's session",
+   "kind": "approval",
+   "if_you_wait": "The publication stays frozen.",
+   "tier": "now"
   },
   {
    "id": "strikes-attach",
@@ -46,9 +50,11 @@
    "answer_url": null,
    "title": "Start the London strikes session",
    "why": "The strikes page is ready and waits only on this.",
-   "cost_of_waiting": "The page stays unpublished.",
-   "level": "now",
-   "answer_line": "say 'yes, start the strikes session' in cl-6.maestro's session (session_016CrbJLv54Kh4CSTzagW2G3)"
+   "answer_line": "yes, start the strikes session",
+   "where": "cl-6.maestro's session",
+   "kind": "approval",
+   "if_you_wait": "The page stays unpublished.",
+   "tier": "now"
   },
   {
    "id": "talk-drain",
@@ -62,9 +68,11 @@
    "answer_url": null,
    "title": "Let the conductor read reader comments",
    "why": "Needs new access (send.sgraph.ai and two files), so your words.",
-   "cost_of_waiting": "Comments stay unread.",
-   "level": "soon",
-   "answer_line": "\"Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.\""
+   "answer_line": "Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "approval",
+   "if_you_wait": "Comments stay unread.",
+   "tier": "week"
   },
   {
    "id": "admin-build",
@@ -78,9 +86,11 @@
    "answer_url": null,
    "title": "Build a private admin area",
    "why": "Your one place to give feedback, answer questions and see status.",
-   "cost_of_waiting": "You keep answering in many sessions.",
-   "level": "soon",
-   "answer_line": "\"yes, build /admin/ as planned\" (or name it differently)"
+   "answer_line": "yes, build /admin/ as planned",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "You keep answering in many sessions.",
+   "tier": "week"
   },
   {
    "id": "admin-signed-answers",
@@ -108,9 +118,11 @@
    },
    "title": "Let your signed answers count as your words",
    "why": "Ends the 'type this line in session X' steps.",
-   "cost_of_waiting": "Every approval needs you inside a named session.",
-   "level": "soon",
-   "answer_line": "in cl-6.abp's session (session_016CrbJLnbr219cU3eVRGxBW), typed: \"yes: my signed answers in admin count as my words for grants, once security passes the signing design; my key fingerprint is SHA256:<yours>\""
+   "answer_line": "yes: my signed answers in admin count as my words for grants, once security passes the signing design; my key fingerprint is SHA256:<yours>",
+   "where": "cl-6.abp's session (typed, not pasted from elsewhere)",
+   "kind": "approval",
+   "if_you_wait": "Every approval needs you inside a named session.",
+   "tier": "week"
   },
   {
    "id": "iac-34-37",
@@ -124,9 +136,11 @@
    "answer_url": null,
    "title": "Merge four approved infrastructure changes",
    "why": "All approved; only you may merge.",
-   "cost_of_waiting": "Merges keep breaking signatures; the editor's home waits.",
-   "level": "soon",
-   "answer_line": "Merge #34 at 289b934; merge #35 at aaf2e71; on #36 Edit, base to dev, merge at 1809f2b; merge #37 at 7c7cdf9. Then #38 (editor home, 326fabc) after its security pass."
+   "answer_line": "Merge #34 at 289b934; merge #35 at aaf2e71; on #36 change base to dev, then merge at 1809f2b; merge #37 at 7c7cdf9. Then #38 (326fabc) after its security pass.",
+   "where": "GitHub, SovereignWebsite IaC pull requests (your clicks)",
+   "kind": "approval",
+   "if_you_wait": "Merges keep breaking signatures; the editor's home waits.",
+   "tier": "week"
   },
   {
    "id": "section-key-prs",
@@ -140,9 +154,11 @@
    "answer_url": null,
    "title": "Let eight sections publish their keys",
    "why": "Their sites stay stale until each key lands.",
-   "cost_of_waiting": "Signals, cyber, bulletins and five more stay stale.",
-   "level": "soon",
-   "answer_line": "\"yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)\""
+   "answer_line": "yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "approval",
+   "if_you_wait": "Signals, cyber, bulletins and five more stay stale.",
+   "tier": "week"
   },
   {
    "id": "s17",
@@ -156,9 +172,11 @@
    "answer_url": null,
    "title": "Fix the sign-in key storage (S17)",
    "why": "The login key is kept in browser storage; security has a fix.",
-   "cost_of_waiting": "Admin signing cannot start until it is closed.",
-   "level": "soon",
-   "answer_line": "\"yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)\""
+   "answer_line": "yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "approval",
+   "if_you_wait": "Admin signing cannot start until it is closed.",
+   "tier": "week"
   },
   {
    "id": "s3-app",
@@ -172,9 +190,11 @@
    "answer_url": null,
    "title": "What is /app/ now?",
    "why": "Designer needs your one sentence before reworking it.",
-   "cost_of_waiting": "Designer's next pass waits.",
-   "level": "soon",
-   "answer_line": "\"/app/ is now: ...\" (one sentence, your words)"
+   "answer_line": "/app/ is now: <one sentence, your words>",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "Designer's next pass waits.",
+   "tier": "week"
   },
   {
    "id": "meter-charging",
@@ -188,9 +208,11 @@
    "answer_url": null,
    "title": "How does the reading meter charge?",
    "why": "The explainer and the meter's zero message need it.",
-   "cost_of_waiting": "Both stay unwritten; no price is shown.",
-   "level": "soon",
-   "answer_line": "\"the meter charges: ...\" (unit, price and when it reaches zero, your words; no price is set until you say it)"
+   "answer_line": "the meter charges: <unit, price, and what happens at zero, your words>",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "Both stay unwritten; no price is shown.",
+   "tier": "week"
   },
   {
    "id": "algarve-camera-links",
@@ -204,9 +226,11 @@
    "answer_url": null,
    "title": "Allow links to two webcam sites?",
    "why": "One site's terms forbid journalistic use without permission.",
-   "cost_of_waiting": "Algarve towns show no cameras.",
-   "level": "soon",
-   "answer_line": "\"A bare credited link to MEO BeachCam and SkylineWebcams pages is fine on promptugal.news.\" or, MEO only: \"A bare credited link to MEO BeachCam pages is fine on promptugal.news.\""
+   "answer_line": "A bare credited link to MEO BeachCam and SkylineWebcams pages is fine on promptugal.news.  |  MEO only: A bare credited link to MEO BeachCam pages is fine on promptugal.news.",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "Algarve towns show no cameras.",
+   "tier": "week"
   },
   {
    "id": "newsletter-about-write",
@@ -220,9 +244,11 @@
    "answer_url": null,
    "title": "Who may fix the newsletter and About pages?",
    "why": "The newsletter page says something no longer true.",
-   "cost_of_waiting": "Untrue page stays up.",
-   "level": "soon",
-   "answer_line": "\"yes to <agent> fixing the /newsletter/ and About pages\" (name the agent; one-off, security reviews the diff)"
+   "answer_line": "yes to <agent> fixing the /newsletter/ and About pages",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "approval",
+   "if_you_wait": "Untrue page stays up.",
+   "tier": "week"
   },
   {
    "id": "footer-veto",
@@ -236,9 +262,11 @@
    "answer_url": null,
    "title": "Who does the footer name as responsible?",
    "why": "Security held the change; it's your call.",
-   "cost_of_waiting": "Footer stays as it is.",
-   "level": "soon",
-   "answer_line": "\"footer: (a)\", \"footer: (b)\", \"footer: (c)\" or \"footer: <your wording>\""
+   "answer_line": "footer: (a)  |  footer: (b)  |  footer: (c)  |  footer: <your wording>",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "Footer stays as it is.",
+   "tier": "week"
   },
   {
    "id": "data-vaults",
@@ -252,9 +280,11 @@
    "answer_url": null,
    "title": "Let the data agent publish vault files",
    "why": "Data now releases without them; this adds them back.",
-   "cost_of_waiting": "Vault files stay unpublished; nothing else is blocked.",
-   "level": "when-you-can",
-   "answer_line": "\"yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh\" (meanwhile data releases data/ with vaults/ set aside, so the site is not stalled)"
+   "answer_line": "yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "approval",
+   "if_you_wait": "Vault files stay unpublished; nothing else is blocked.",
+   "tier": "later"
   },
   {
    "id": "signals-pins",
@@ -268,9 +298,11 @@
    "answer_url": null,
    "title": "Signals copies security's pinned files",
    "why": "One line in the signals session.",
-   "cost_of_waiting": "Signals stays behind security's latest checks.",
-   "level": "when-you-can",
-   "answer_line": "\"you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins\""
+   "answer_line": "you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins",
+   "where": "cl-6.signals' session",
+   "kind": "approval",
+   "if_you_wait": "Signals stays behind security's latest checks.",
+   "tier": "later"
   },
   {
    "id": "anchor-clear",
@@ -284,9 +316,11 @@
    "answer_url": null,
    "title": "Delete an old setup variable on News__Data",
    "why": "A one-time bootstrap value should not linger.",
-   "cost_of_waiting": "Small standing risk.",
-   "level": "when-you-can",
-   "answer_line": "Delete the repository variable once its run is green; tell cl-6.decisions which run passed"
+   "answer_line": "(no words: delete the SIG_BOOTSTRAP_ANCHOR repository variable once its run is green)",
+   "where": "GitHub settings, News__Data, Variables",
+   "kind": "approval",
+   "if_you_wait": "Small standing risk.",
+   "tier": "later"
   },
   {
    "id": "civic-history",
@@ -300,9 +334,11 @@
    "answer_url": null,
    "title": "Let civic write its history folders",
    "why": "Security agrees, with conditions.",
-   "cost_of_waiting": "Civic cannot keep its own history.",
-   "level": "when-you-can",
-   "answer_line": "\"yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions\""
+   "answer_line": "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "approval",
+   "if_you_wait": "Civic cannot keep its own history.",
+   "tier": "later"
   },
   {
    "id": "rights-history",
@@ -316,9 +352,11 @@
    "answer_url": null,
    "title": "Let rights write its history folder",
    "why": "Security agrees.",
-   "cost_of_waiting": "Rights cannot keep its own history.",
-   "level": "when-you-can",
-   "answer_line": "\"yes to cl-6.rights writing history/** in PrompTugal__Agent__Rights, on security's conditions\""
+   "answer_line": "yes to cl-6.rights writing history/** in PrompTugal__Agent__Rights, on security's conditions",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "approval",
+   "if_you_wait": "Rights cannot keep its own history.",
+   "tier": "later"
   },
   {
    "id": "places-wake",
@@ -332,9 +370,11 @@
    "answer_url": null,
    "title": "Approve the places wake prompt",
    "why": "Places agents wake with a reviewed prompt.",
-   "cost_of_waiting": "Places keep the old prompt.",
-   "level": "when-you-can",
-   "answer_line": "\"update your wake trig_0132oarAUsN5cwmgTAbj3GGk to run the places serially, no sub-agents, never London\""
+   "answer_line": "update your wake trig_0132oarAUsN5cwmgTAbj3GGk to run the places serially, no sub-agents, never London",
+   "where": "cl-6.places' session",
+   "kind": "approval",
+   "if_you_wait": "Places keep the old prompt.",
+   "tier": "later"
   },
   {
    "id": "rights-terms",
@@ -348,9 +388,11 @@
    "answer_url": null,
    "title": "Rights calls on 13 sources",
    "why": "Only you can accept these terms.",
-   "cost_of_waiting": "Those sources stay unused.",
-   "level": "when-you-can",
-   "answer_line": "See cl-6.rights findings.md (c8493f1)"
+   "answer_line": "(read cl-6.rights findings.md at c8493f1, then answer each source by name)",
+   "where": "cl-6.rights' findings, then any session",
+   "kind": "decision",
+   "if_you_wait": "Those sources stay unused.",
+   "tier": "later"
   },
   {
    "id": "provenance-design",
@@ -364,9 +406,11 @@
    "answer_url": null,
    "title": "Seven choices on human reviewers and sign-off",
    "why": "Shapes how people sign stories and the CRM.",
-   "cost_of_waiting": "Human review stays unbuilt.",
-   "level": "when-you-can",
-   "answer_line": "Anchor key holder and device; who gets keys; naming with consent; Gmail label, agent, drafts only; where CRM data lives; who reads feedback; is 'disagree' public"
+   "answer_line": "(seven short answers: anchor key holder and device; who gets keys; naming with consent; Gmail label, agent, drafts only; where CRM data lives; who reads feedback; is disagree public)",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "Human review stays unbuilt.",
+   "tier": "later"
   },
   {
    "id": "feedback-rate",
@@ -380,9 +424,11 @@
    "answer_url": null,
    "title": "Pick a rate limit for the feedback lane",
    "why": "Stops floods once feedback opens.",
-   "cost_of_waiting": "Feedback lane cannot open safely.",
-   "level": "when-you-can",
-   "answer_line": "\"option 1: I'll ask SG/Send for a per-token limit\" or \"option 2: build the lanes.promptugal.news proxy\""
+   "answer_line": "option 1: I'll ask SG/Send for a per-token limit  |  option 2: build the lanes.promptugal.news proxy",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "Feedback lane cannot open safely.",
+   "tier": "later"
   },
   {
    "id": "product",
@@ -396,9 +442,11 @@
    "answer_url": null,
    "title": "Home page title and explainer wording",
    "why": "Your words for two pieces of copy.",
-   "cost_of_waiting": "Placeholder copy stays.",
-   "level": "when-you-can",
-   "answer_line": "home page title line; explainer page line"
+   "answer_line": "home page title: <words>  |  explainer page: <words>",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "decision",
+   "if_you_wait": "Placeholder copy stays.",
+   "tier": "later"
   },
   {
    "id": "s8-key",
@@ -412,9 +460,11 @@
    "answer_url": null,
    "title": "Ask two other-account lanes to publish their signing key",
    "why": "One unknown key signs for both; can't tell them apart.",
-   "cost_of_waiting": "Their commits can't be trusted by key.",
-   "level": "when-you-can",
-   "answer_line": "Pass to both lane owners: each publishes the SSH key it signs with in its board/keys.json entry, through cl-6.dev's key-change path; if it is one person's machine key shared by both lanes, say so and publish it once, under that person."
+   "answer_line": "(no line here: pass the ask to both lane owners yourself)",
+   "where": "outside the agents: to the two lane owners",
+   "kind": "information",
+   "if_you_wait": "Their commits can't be trusted by key.",
+   "tier": "later"
   },
   {
    "id": "s9-tagline-write",
@@ -428,9 +478,11 @@
    "answer_url": null,
    "title": "Let dev fix the old tagline on the front page",
    "why": "Your 16 Nov wording, but nobody may write that file.",
-   "cost_of_waiting": "Old tagline stays.",
-   "level": "when-you-can",
-   "answer_line": "yes to cl-6.dev changing the tagline in content/index.md"
+   "answer_line": "yes to cl-6.dev changing the tagline in content/index.md",
+   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "kind": "approval",
+   "if_you_wait": "Old tagline stays.",
+   "tier": "later"
   },
   {
    "id": "s8-story-findings",
@@ -444,9 +496,11 @@
    "answer_url": null,
    "title": "Pass two story errors to another account's lane",
    "why": "No agent can reach that lane.",
-   "cost_of_waiting": "A published story keeps two errors.",
-   "level": "when-you-can",
-   "answer_line": "Pass N2 and N3 to that lane's owner yourself, or say how findings should reach it"
+   "answer_line": "(no line here: pass N2 and N3 to that lane's owner, or tell us how findings should reach it)",
+   "where": "outside the agents: to that lane's owner",
+   "kind": "information",
+   "if_you_wait": "A published story keeps two errors.",
+   "tier": "later"
   },
   {
    "id": "crm-vault-seal",
@@ -460,9 +514,11 @@
    "answer_url": null,
    "title": "Seal the outreach CRM vault",
    "why": "Only you can seal it; security says the request is sound.",
-   "cost_of_waiting": "Outreach CRM stays unsealed.",
-   "level": "when-you-can",
-   "answer_line": "Seal it yourself (to the personal key security recommends), or say no; no agent can do this for you"
+   "answer_line": "(no words: seal it yourself to the personal key security recommends, or say no)",
+   "where": "your own machine",
+   "kind": "approval",
+   "if_you_wait": "Outreach CRM stays unsealed.",
+   "tier": "later"
   },
   {
    "id": "content-owner",
@@ -475,18 +531,22 @@
    "answer_url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-27__dinis-four-actions.json",
    "title": "Who owns content",
    "why": "Answered by the editor-in-chief decision.",
-   "cost_of_waiting": "",
-   "level": "answered",
-   "answer_line": null
+   "answer_line": "",
+   "where": "",
+   "kind": "information",
+   "if_you_wait": "",
+   "tier": "answered"
   }
  ],
  "card_schema": {
   "on_card": [
    "title",
    "why",
-   "cost_of_waiting",
-   "level",
-   "answer_line"
+   "if_you_wait",
+   "tier",
+   "kind",
+   "answer_line",
+   "where"
   ],
   "behind_details": [
    "question",
@@ -494,14 +554,20 @@
    "asked_by",
    "since",
    "security_requirements",
-   "id"
+   "id",
+   "line_to_paste"
   ],
-  "levels": [
+  "tiers": [
    "now",
-   "soon",
-   "when-you-can",
+   "week",
+   "later",
    "answered"
   ],
-  "note": "answer_line is complete and must never be truncated; ids are for agents, not shown on the card"
+  "kinds": [
+   "decision",
+   "approval",
+   "information"
+  ],
+  "note": "answer_line holds only the words to say or sign, complete, never truncated; ' | ' separates alternatives; where says where to say it; ids are for agents only"
  }
 }
