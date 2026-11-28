@@ -1,6 +1,6 @@
 {
  "kept_by": "cl-6.decisions@dinis",
- "updated": "2026-11-28T02:25Z",
+ "updated": "2026-11-28T02:26Z",
  "questions": [
   {
    "id": "website-attach-editor",
@@ -1053,7 +1053,7 @@
    "information"
   ],
   "note": "answer_line holds only the words to say or sign, complete, never truncated; ' | ' separates alternatives; where says where to say it; ids are for agents only",
-  "public_rule": "cl-6.security 02:30Z 28 Nov: public defaults to false; only cl-6.decisions sets public:true, item by item, in a signed commit; sync filters non-public items out; a public card shows only title and public_summary: no answer lines, options, session or task ids, claude.ai links, private names, money, keys or security findings. questions.json is in a public repository, so nothing truly private goes in it.",
+  "public_rule": "cl-6.security 02:30Z and 02:34Z 28 Nov: public defaults to false; only cl-6.decisions sets public:true, item by item, in a signed commit; cl-6.dev's sync drops non-public items before the snapshot (with a test) before the page honours the flag. A public card may show title, public_summary, why, if_you_wait, unblocks and where (agent name only). Never on a public card: answer_line, options, where_url, session or task ids, claude.ai links, private names, money, keys, security findings. questions.json is in a public repository, so nothing truly private goes in it.",
   "options_note": "recommended is false throughout: these are Dinis's calls and decisions does not steer them",
   "recommended_note": "recommended names who recommends; cl-6.decisions recommends nothing on Dinis's own calls",
   "ordering": "tier, then rank (lower blocks more)"

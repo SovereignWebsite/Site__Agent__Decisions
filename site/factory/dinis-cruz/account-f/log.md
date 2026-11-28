@@ -81,3 +81,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-28T02:24Z  questions.json: unblocks and recommended (with who; only where an asker recommended) per designer loop 3.
 - 2026-11-28T02:25Z  questions.json: titles as asks; rank within tier by what blocks most; answer_given for answered items (content-owner: Dinis's words, event 0b4e152c). public left false pending cl-6.security on the three Now items.
 - 2026-11-28T02:25Z  decided with cl-6.security (its four conditions, 02:30Z): public:true on talk-box, website-attach-editor, strikes-attach only, each with a short public_summary; public cards carry no answer line, options or links. All else stays public:false.
+- 2026-11-28T02:26Z  public rule aligned with security's 02:34Z yes: public cards may show title, summary, why, if_you_wait, unblocks, where (agent name); never the answer line or links. Sync filter by cl-6.dev must land first.
