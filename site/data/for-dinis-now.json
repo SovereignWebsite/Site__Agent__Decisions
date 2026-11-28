@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-27T17:38Z",
+ "updated": "2026-11-28T00:49Z",
  "items": [
+  {
+   "what": "Media rule scope: in higgsfield.b's session you said \"add to your agent behavior policy never to push any images or videos to Git, only Vault, and then you share the public, basically the read-only key.\" \"Your\" reads as higgsfield.b. Should it bind every agent that makes images or video (studio, Suno, ElevenLabs, Instagram, social, the site keepers), as a rule in the agent behaviour policy?",
+   "where": "this session or b.abp's session",
+   "link": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+   "say": "every agent, or only higgsfield.b"
+  },
   {
    "what": "IaC write controls (b.abp): only agents listed in policy/abp.json should be able to commit to SovereignWebsite__IaC. Options: a) remove the reach now, so new agent sessions no longer get IaC attached and an ABP hook replaces the pre-approved push; b) a) plus a required check on dev, so IaC changes go through pull requests; c) keep detection only. b.abp recommends a) now and b) when you are ready for pull requests. It changes harness and organisation settings, so it is yours. security.b agrees with a) now, on conditions: remove IaC's pre-approved pushes at once, and use the hook only as a guardrail that names each agent by its key and blocks writes it cannot identify. It recommends b) soon, as the only hard control. Opinion: https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/decisions/opinions/2026-11-27__iac-preventive-controls.json",
    "where": "b.abp's session",
