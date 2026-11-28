@@ -1179,7 +1179,7 @@
    "answer_line": "yes to cl-6.data removing the github-pt source from register/sources.json, docs/threat-models/ and the board/ lines in PrompTugal__News__Data, one commit",
    "where": "cl-6.decisions' session (it records your words; the conductor passes on anything you tell it)",
    "where_url": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
-   "question": "Dinis asked in cl-6.data's session to remove github-pt ('no value'). Code side done; patch with security (cl-6.data 6567a30). Remaining: register/sources.json, docs/threat-models/ and board/ lines in News__Data, in no one's grant. cl-6.abp applies a one-off: one signed commit, removals only, security pre-reviews the diff.",
+   "question": "Dinis asked in cl-6.data's session to remove github-pt ('no value'). Code side done; patch with security (cl-6.data 6567a30). Remaining: register/sources.json, docs/threat-models/ and board/ lines in News__Data, in no one's grant. cl-6.abp applies a one-off: one signed commit, removals only, security pre-reviews the diff. Update (maestro, via conductor 02:59Z): github-pt is retired on data.promptugal.news (v0.1.168, 873aac1, 29 sources), but /api/v1/sources/github-api.json is still served from register/sources.json, and the board/ lines include the board/team data files and the data-portugal HANDOVER.",
    "asked_by": "cl-6.data (via cl-6.conductor)",
    "since": "2026-11-28",
    "context_url": null,
@@ -1190,12 +1190,13 @@
    "deadline": null,
    "options": null,
    "urgency": "later",
-   "checked_at": "2026-11-28T02:53Z",
+   "checked_at": "2026-11-28T02:59Z",
    "one_way": false,
    "one_way_reason": null,
    "one_way_line": null,
    "recommended": null,
-   "answer_given": null
+   "answer_given": null,
+   "grant_text": "In PrompTugal/PrompTugal__News__Data, dev, one signed commit by cl-6.data, removals only, security pre-reviews the diff: remove the github-pt entry from register/sources.json (which also ends /api/v1/sources/github-api.json); remove github-pt mentions from docs/threat-models/; remove github-pt lines from board/, including the board/team data files and the data-portugal HANDOVER. Nothing added, nothing else changed."
   }
  ],
  "card_schema": {
