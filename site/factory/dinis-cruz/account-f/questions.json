@@ -4,11 +4,11 @@
  "questions": [
   {
    "id": "admin-signed-answers",
-   "question": "You asked for a full admin section (conductor session, event 989f8f75, 00:58Z 28 Nov). Proposed rule change, yours alone: an answer you sign in /admin/ with your published personal key counts as your own words for cl-6.abp grants, in place of typing lines in named sessions. Conditions: the signature checks against your key in board/keys.json; it names the question id and repeats its exact line; one-way doors (attaches, connectors, money, main) still need security's review of the admin signing design first. Naming (admin vs newsroom) and maestro's plan follow as a separate question.",
+   "question": "You asked for a full admin section (conductor session, event 989f8f75, 00:58Z 28 Nov). Proposed rule change, yours alone: an answer you sign in /admin/ with your published personal key counts as your own words for cl-6.abp grants, in place of typing lines in named sessions. Conditions: the signature checks against your key in board/keys.json; it names the question id and repeats its exact line; one-way doors (attaches, connectors, money, main) still need security's review of the admin signing design first. Naming (admin vs newsroom) and maestro's plan follow as a separate question. cl-6.abp agrees in principle but treats adopting it as a one-way door: your typed words once in its session, plus your key's fingerprint given by you there (the trust root, not read from board/keys.json). Each signed answer covers question id, exact line, UTC time, expiry and audience cl-6.abp; single use; verified by abp itself; signing happens off the agent-written page (device or key store), and the /admin/ signing code is pinned and passed by security; a new key needs your typed word, a revoked key stops at once.",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-28",
-   "context_url": "session_016CrbJMiN8eUtML9vvvGCVt",
-   "line_to_paste": "\"yes: my signed answers in admin count as my words for grants, once security passes the signing design\" (or no)",
+   "context_url": "session_016CrbJLnbr219cU3eVRGxBW",
+   "line_to_paste": "in cl-6.abp's session (session_016CrbJLnbr219cU3eVRGxBW), typed: \"yes: my signed answers in admin count as my words for grants, once security passes the signing design; my key fingerprint is SHA256:<yours>\"",
    "urgency": "normal: removes the type-this-in-session-X steps",
    "status": "open",
    "answer_url": null
