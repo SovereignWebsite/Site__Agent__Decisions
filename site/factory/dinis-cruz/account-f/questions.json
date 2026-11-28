@@ -33,7 +33,8 @@
    "answer_given": null,
    "public_summary": "New articles are paused until the writing agent can publish to the site.",
    "one_way": true,
-   "one_way_reason": "starts a session with push to the website"
+   "one_way_reason": "starts a session with push to the website",
+   "one_way_line": null
   },
   {
    "id": "talk-box",
@@ -72,7 +73,8 @@
    "answer_given": null,
    "public_summary": "Comments left on the site are not being read yet; the comment box says so.",
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "strikes-attach",
@@ -105,7 +107,8 @@
    "answer_given": null,
    "public_summary": "The London strikes page (strikes.london.place.agent.promptugal.news) is ready but not published yet.",
    "one_way": true,
-   "one_way_reason": "starts a session with push to the strikes repository"
+   "one_way_reason": "starts a session with push to the strikes repository",
+   "one_way_line": null
   },
   {
    "id": "section-key-prs",
@@ -136,7 +139,8 @@
    "grant_text": "yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)",
    "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "one_way": true,
-   "one_way_reason": "trust in eight new keys"
+   "one_way_reason": "trust in eight new keys",
+   "one_way_line": null
   },
   {
    "id": "iac-34-37",
@@ -165,7 +169,8 @@
    "rank": 2,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "protected merges to infrastructure"
+   "one_way_reason": "protected merges to infrastructure",
+   "one_way_line": "One-way door: protected merges to infrastructure. Only your own clicks on GitHub count; no agent can merge these for you."
   },
   {
    "id": "s17",
@@ -196,7 +201,8 @@
    "grant_text": "yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)",
    "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "one_way": true,
-   "one_way_reason": "revokes a key"
+   "one_way_reason": "revokes a key",
+   "one_way_line": null
   },
   {
    "id": "talk-drain",
@@ -227,7 +233,8 @@
    "grant_text": "Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.",
    "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "admin-signed-answers",
@@ -270,7 +277,8 @@
    "rank": 5,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "changes the rules and sets trust in your key"
+   "one_way_reason": "changes the rules and sets trust in your key",
+   "one_way_line": null
   },
   {
    "id": "admin-build",
@@ -302,7 +310,8 @@
    "rank": 6,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "ideas-site",
@@ -334,7 +343,8 @@
    "rank": 7,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "infrastructure commit on your behalf"
+   "one_way_reason": "infrastructure commit on your behalf",
+   "one_way_line": "One-way door: an infrastructure commit on your behalf. Only your own words, pasted by you in factory.b's session (account B), count, and then your merge on GitHub."
   },
   {
    "id": "resets",
@@ -366,7 +376,8 @@
    "rank": 8,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "ends five sessions"
+   "one_way_reason": "ends five sessions",
+   "one_way_line": null
   },
   {
    "id": "algarve-camera-links",
@@ -404,7 +415,8 @@
    "rank": 9,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "accepts a legal risk"
+   "one_way_reason": "accepts a legal risk",
+   "one_way_line": null
   },
   {
    "id": "newsletter-about-write",
@@ -433,7 +445,8 @@
    "rank": 10,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "footer-veto",
@@ -479,7 +492,8 @@
    "rank": 11,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "meter-charging",
@@ -508,7 +522,8 @@
    "rank": 12,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "sets how money is charged"
+   "one_way_reason": "sets how money is charged",
+   "one_way_line": null
   },
   {
    "id": "s3-app",
@@ -537,7 +552,8 @@
    "rank": 13,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "poet-research",
@@ -566,7 +582,8 @@
    "rank": 14,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "provenance-design",
@@ -595,7 +612,8 @@
    "rank": 1,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "data-vaults",
@@ -626,7 +644,8 @@
    "grant_text": "yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh",
    "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "feedback-rate",
@@ -664,7 +683,8 @@
    "rank": 3,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "rights-terms",
@@ -693,7 +713,8 @@
    "rank": 4,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "crm-vault-seal",
@@ -722,7 +743,8 @@
    "rank": 5,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "trust in a key"
+   "one_way_reason": "trust in a key",
+   "one_way_line": "One-way door: trust in a key. Only you can seal it, on your own machine; no agent holds the key."
   },
   {
    "id": "signals-pins",
@@ -753,7 +775,8 @@
    "grant_text": "you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins",
    "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "s8-story-findings",
@@ -782,7 +805,8 @@
    "rank": 7,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "s8-key",
@@ -811,7 +835,8 @@
    "rank": 8,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "civic-history",
@@ -842,7 +867,8 @@
    "grant_text": "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions",
    "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "rights-history",
@@ -871,7 +897,8 @@
    "rank": 10,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "places-wake",
@@ -900,7 +927,8 @@
    "rank": 11,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "s9-tagline-write",
@@ -929,7 +957,8 @@
    "rank": 12,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "anchor-clear",
@@ -958,7 +987,8 @@
    "rank": 13,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "deletes a secret"
+   "one_way_reason": "deletes a secret",
+   "one_way_line": "One-way door: deletes a secret. Only you can delete it, in GitHub settings for News__Data."
   },
   {
    "id": "product",
@@ -996,7 +1026,8 @@
    "rank": 14,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "maestro-lane-card",
@@ -1034,7 +1065,8 @@
    "rank": 15,
    "answer_given": null,
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   },
   {
    "id": "maestro-reset",
@@ -1063,7 +1095,8 @@
    "rank": 16,
    "answer_given": null,
    "one_way": true,
-   "one_way_reason": "ends the maestro session"
+   "one_way_reason": "ends the maestro session",
+   "one_way_line": null
   },
   {
    "id": "content-owner",
@@ -1092,7 +1125,8 @@
    "answer_given": "I think we need a top level editor (or a role more senior that the correspondent) to be accountable for the content",
    "answered_at": "2026-11-27T10:33:58Z",
    "one_way": false,
-   "one_way_reason": null
+   "one_way_reason": null,
+   "one_way_line": null
   }
  ],
  "card_schema": {
