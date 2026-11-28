@@ -1323,6 +1323,83 @@
    "one_way": false,
    "one_way_reason": null,
    "one_way_line": null
+  },
+  {
+   "id": "held-grants",
+   "title": "Re-approve four permissions I granted without your words",
+   "why": "I approved them on 26 Nov under my delegation; cl-6.abp needs your own words for each, so none is applied.",
+   "if_you_wait": "Those agents keep working without these paths (history folders, devops findings, abp README, About rewrite).",
+   "unblocks": "Agents keep their own history and findings; the About rewrite can start",
+   "tier": "later",
+   "rank": 20,
+   "kind": "approval",
+   "answer_line": "yes to record 2026-11-26__abp-p10: cl-6.devops writes findings/** in PrompTugal__Agent__DevOps only, security weaknesses to security first  |  yes to record 2026-11-26__abp-p3: cl-6.abp writes README.md at the root of PrompTugal__Agent__ABP only  |  yes to record 2026-11-26__abp-p5-p11a: each role writes history/** and its named working paths in its own home repository only  |  yes to record 2026-11-26__abp-p11-h: cl-6.journalist writes content/about/** in the website only, for the About rewrite, after its two text fixes",
+   "options": [
+    {
+     "label": "yes to record 2026-11-26__abp-p10: cl-6.devops writes findings/** in PrompTugal__Agent__DevOps only, security weaknesses to security first",
+     "recommended": false
+    },
+    {
+     "label": "yes to record 2026-11-26__abp-p3: cl-6.abp writes README.md at the root of PrompTugal__Agent__ABP only",
+     "recommended": false
+    },
+    {
+     "label": "yes to record 2026-11-26__abp-p5-p11a: each role writes history/** and its named working paths in its own home repository only",
+     "recommended": false
+    },
+    {
+     "label": "yes to record 2026-11-26__abp-p11-h: cl-6.journalist writes content/about/** in the website only, for the About rewrite, after its two text fixes",
+     "recommended": false
+    }
+   ],
+   "where": "cl-6.decisions' session (it records your words; the conductor passes on anything you tell it)",
+   "where_url": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
+   "question": "Each line names its record (in site/factory/dinis-cruz/account-f/records/, now status held), which holds the exact paths and conditions. Say any or all.",
+   "asked_by": "cl-6.abp",
+   "since": "2026-11-28",
+   "context_url": null,
+   "line_to_paste": "yes to record 2026-11-26__abp-p10: cl-6.devops writes findings/** in PrompTugal__Agent__DevOps only, security weaknesses to security first",
+   "status": "open",
+   "answer_url": null,
+   "public": false,
+   "deadline": null,
+   "urgency": "later",
+   "checked_at": "2026-11-28T09:42Z",
+   "one_way": false,
+   "one_way_reason": null,
+   "one_way_line": null,
+   "recommended": null,
+   "answer_given": null
+  },
+  {
+   "id": "held-infra",
+   "title": "Re-approve cl-6.infra's branches and pull requests in IaC",
+   "why": "A push grant is a one-way door; I approved it without your words, so it is not applied.",
+   "if_you_wait": "cl-6.infra cannot push its infrastructure changes for review.",
+   "unblocks": "Infrastructure fixes reach review",
+   "tier": "week",
+   "rank": 16,
+   "kind": "approval",
+   "answer_line": "yes to record 2026-11-26__abp-a4-infra: cl-6.infra pushes work/* branches and opens pull requests in PrompTugal__IaC only, never applies or merges",
+   "options": null,
+   "where": "cl-6.abp's session",
+   "where_url": "https://claude.ai/code/session_016CrbJLnbr219cU3eVRGxBW",
+   "question": "Record 2026-11-26__abp-a4-infra (now held) holds the exact paths and conditions: work/* only; paths build/*, org/*, .github/workflows/*, test/*, docs/*, policy/abp.json; never dispatches, approves or runs an apply.",
+   "asked_by": "cl-6.abp",
+   "since": "2026-11-28",
+   "context_url": null,
+   "line_to_paste": "yes to record 2026-11-26__abp-a4-infra: cl-6.infra pushes work/* branches and opens pull requests in PrompTugal__IaC only, never applies or merges",
+   "status": "open",
+   "answer_url": null,
+   "public": false,
+   "deadline": null,
+   "urgency": "week",
+   "checked_at": "2026-11-28T09:42Z",
+   "one_way": true,
+   "one_way_reason": "a push grant",
+   "one_way_line": null,
+   "recommended": null,
+   "answer_given": null
   }
  ],
  "card_schema": {

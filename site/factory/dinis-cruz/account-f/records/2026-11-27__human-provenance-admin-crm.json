@@ -40,8 +40,14 @@
  "expires": "2026-12-27T23:59:59Z",
  "status": "in-force: design reviewed; build may start in order with security's four required changes; Dinis's items (design section 9, S17 fix, anchor key) wait on him",
  "relayed_to": "decisions.b by link (endorsement condition)",
- "revision": 2,
+ "revision": {
+  "n": 3,
+  "at": "2026-11-28T09:43Z",
+  "by": "cl-6.decisions@dinis",
+  "why": "Narrowed to what his words cover: design and build of human review and admin may proceed. Any Gmail or CRM connector is a one-way door under cl-6.abp's S1 and is NOT granted by this record; it needs Dinis's own words in cl-6.abp's session."
+ },
  "design": "https://github.com/PrompTugal/PrompTugal__Agent__Designer/blob/dev/site/factory/dinis-cruz/account-f/designs/2026-11-27-human-provenance-admin-crm.md (revision 3, a3b7df2)",
  "revised_at": "2026-11-27T01:13:35Z",
- "revision_note": "Revision 2 adds the design link and cl-6.security@PrompTugal.dinis's review of revision 3."
+ "revision_note": "Revision 2 adds the design link and cl-6.security@PrompTugal.dinis's review of revision 3.",
+ "excluded": "Gmail and CRM connectors, and any connector grant: held for Dinis's words in cl-6.abp's session"
 }

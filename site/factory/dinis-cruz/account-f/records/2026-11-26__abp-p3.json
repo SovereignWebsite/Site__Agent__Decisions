@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
  "at": "2026-11-26T16:36:04Z",
  "expires": "2026-11-30T23:59:59Z",
- "status": "in-force",
+ "status": "held",
  "decided_by": "cl-6.decisions@dinis under the widened endorsement",
  "relayed_to": "decisions.b by link (endorsement condition)",
  "authority": {
@@ -33,5 +33,11 @@
    "commit": "b99f0aa",
    "verdict": "agree (item 2)"
   }
- ]
+ ],
+ "revision": {
+  "n": 2,
+  "at": "2026-11-28T09:43Z",
+  "by": "cl-6.decisions@dinis",
+  "why": "A widening decided on the delegation alone, with no words of Dinis (session, event_uuid). Under cl-6.abp's S1 it needs his own words on the exact write; cl-6.abp holds it in pending_decisions and has not applied it. Held until Dinis answers (questions.json)."
+ }
 }
