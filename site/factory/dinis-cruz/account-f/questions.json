@@ -1,6 +1,6 @@
 {
  "kept_by": "cl-6.decisions@dinis",
- "updated": "2026-11-28T02:22Z",
+ "updated": "2026-11-28T02:23Z",
  "questions": [
   {
    "id": "talk-box",
@@ -13,7 +13,7 @@
    "status": "open",
    "answer_url": null,
    "title": "Reader comments box: off, or honest wording?",
-   "why": "Comments go to a mailbox nobody reads; the box claims they are read.",
+   "why": "Comments are still not read; the box now says so (honest wording live since v0.1.2410).",
    "answer_line": "talk box: off until the drain works  |  talk box: keep, with honest wording",
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
@@ -31,7 +31,8 @@
      "label": "talk box: keep, with honest wording",
      "recommended": false
     }
-   ]
+   ],
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "website-attach-editor",
@@ -53,7 +54,8 @@
    "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "strikes-attach",
@@ -75,7 +77,8 @@
    "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "talk-drain",
@@ -97,7 +100,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "admin-build",
@@ -119,7 +123,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "admin-signed-answers",
@@ -155,7 +160,8 @@
    "where_url": "https://claude.ai/code/session_016CrbJLnbr219cU3eVRGxBW",
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "iac-34-37",
@@ -177,7 +183,8 @@
    "where_url": "https://github.com/SovereignWebsite",
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "section-key-prs",
@@ -199,7 +206,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "s17",
@@ -221,7 +229,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "s3-app",
@@ -243,7 +252,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "meter-charging",
@@ -265,7 +275,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "algarve-camera-links",
@@ -296,7 +307,8 @@
      "label": "MEO only: A bare credited link to MEO BeachCam pages is fine on promptugal.news.",
      "recommended": false
     }
-   ]
+   ],
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "newsletter-about-write",
@@ -318,7 +330,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "footer-veto",
@@ -357,7 +370,77 @@
      "label": "footer: <your wording>",
      "recommended": false
     }
-   ]
+   ],
+   "checked_at": "2026-11-28T02:23Z"
+  },
+  {
+   "id": "poet-research",
+   "title": "Start research for the poet's site",
+   "why": "The cell needs to know where the Google Search access lives.",
+   "if_you_wait": "Poet site research does not start.",
+   "tier": "week",
+   "kind": "decision",
+   "answer_line": "Google Search is in <environment or key>; yes, start the poet research cell",
+   "where": "cl-6.maestro's session",
+   "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "question": "Where does the Google Search API access live (environment or key), and may the maestro start short-lived research cell sessions? cl-6.abp then writes the cell role grant.",
+   "asked_by": "cl-6.maestro",
+   "since": "2026-11-27",
+   "context_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "line_to_paste": "Google Search is in <environment or key>; yes, start the poet research cell",
+   "status": "open",
+   "answer_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null,
+   "urgency": "week",
+   "checked_at": "2026-11-28T02:23Z"
+  },
+  {
+   "id": "ideas-site",
+   "title": "Create the three ideas sites",
+   "why": "Your yes is recorded, but account B has not picked it up (routing stalled at router.a).",
+   "if_you_wait": "The ideas and author sites are not created.",
+   "tier": "week",
+   "kind": "approval",
+   "answer_line": "commit to SovereignWebsite__IaC exactly as drafted, on my behalf, requests 2026-11-27__ideas, 2026-11-27__dinis-cruz (group ideas, with the NO_GROUP patch) and 2026-11-27__a-oliveira-cruz, from SovereignWebsite/Site__Agent__Conductor dev 390b93e, proposals 2026-11-27-ideas-site and 2026-11-27-poet-site",
+   "where": "factory.b's session (account B), then merge its IaC pull request",
+   "where_url": null,
+   "question": "Three site requests (ideas home, dinis-cruz.ideas, and the author site you cleared at 15:21) are drafted and validated.",
+   "asked_by": "cl-6.maestro",
+   "since": "2026-11-27",
+   "context_url": null,
+   "line_to_paste": "commit to SovereignWebsite__IaC exactly as drafted, on my behalf, requests 2026-11-27__ideas, 2026-11-27__dinis-cruz (group ideas, with the NO_GROUP patch) and 2026-11-27__a-oliveira-cruz, from SovereignWebsite/Site__Agent__Conductor dev 390b93e, proposals 2026-11-27-ideas-site and 2026-11-27-poet-site",
+   "status": "open",
+   "answer_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null,
+   "urgency": "week",
+   "checked_at": "2026-11-28T02:23Z"
+  },
+  {
+   "id": "resets",
+   "title": "Refresh five tired agent sessions",
+   "why": "They are past half their memory; quality drops as they fill.",
+   "if_you_wait": "Their work gets slower and less reliable.",
+   "tier": "week",
+   "kind": "approval",
+   "answer_line": "yes, reset translator, reviewer, ontologist, library and abp",
+   "where": "cl-6.maestro's session",
+   "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "question": "Sessions past 50% (observability, about 22:30 UTC 27 Nov): translator 69.1%, reviewer 65.1%, ontologist 64.8%, library 63.2%, abp 52.6%. cl-6.security@dinis (64.9%) is yours to reset yourself.",
+   "asked_by": "cl-6.maestro",
+   "since": "2026-11-27",
+   "context_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "line_to_paste": "yes, reset translator, reviewer, ontologist, library and abp",
+   "status": "open",
+   "answer_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null,
+   "urgency": "week",
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "data-vaults",
@@ -379,7 +462,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "signals-pins",
@@ -401,7 +485,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "anchor-clear",
@@ -423,7 +508,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "civic-history",
@@ -445,7 +531,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "rights-history",
@@ -467,7 +554,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "places-wake",
@@ -489,7 +577,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "rights-terms",
@@ -511,7 +600,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "provenance-design",
@@ -533,7 +623,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "feedback-rate",
@@ -564,7 +655,8 @@
      "label": "option 2: build the lanes.promptugal.news proxy",
      "recommended": false
     }
-   ]
+   ],
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "product",
@@ -595,7 +687,8 @@
      "label": "explainer page: <words>",
      "recommended": false
     }
-   ]
+   ],
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "s8-key",
@@ -617,7 +710,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "s9-tagline-write",
@@ -639,7 +733,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "s8-story-findings",
@@ -661,7 +756,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "crm-vault-seal",
@@ -683,7 +779,63 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
+  },
+  {
+   "id": "maestro-reset",
+   "title": "Refresh the maestro's session",
+   "why": "The maestro has a handover ready before it passes half its memory.",
+   "if_you_wait": "The maestro slows as it fills.",
+   "tier": "later",
+   "kind": "approval",
+   "answer_line": "yes, reset the maestro",
+   "where": "cl-6.maestro's session",
+   "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "question": "The maestro's own session reset, with its handover.",
+   "asked_by": "cl-6.maestro",
+   "since": "2026-11-28",
+   "context_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "line_to_paste": "yes, reset the maestro",
+   "status": "open",
+   "answer_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null,
+   "urgency": "later",
+   "checked_at": "2026-11-28T02:23Z"
+  },
+  {
+   "id": "maestro-lane-card",
+   "title": "Publish lane append tokens, or share the card privately?",
+   "why": "Decides how outside senders reach the maestro's new inbound lane.",
+   "if_you_wait": "The lane card stays unshared.",
+   "tier": "later",
+   "kind": "decision",
+   "answer_line": "yes, publish lane append tokens  |  no, share the card privately",
+   "where": "cl-6.maestro's session",
+   "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "question": "How the maestro's inbound lane card is shared.",
+   "asked_by": "cl-6.maestro",
+   "since": "2026-11-28",
+   "context_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "line_to_paste": "yes, publish lane append tokens  |  no, share the card privately",
+   "status": "open",
+   "answer_url": null,
+   "public": false,
+   "deadline": null,
+   "options": [
+    {
+     "label": "yes, publish lane append tokens",
+     "recommended": false
+    },
+    {
+     "label": "no, share the card privately",
+     "recommended": false
+    }
+   ],
+   "urgency": "later",
+   "checked_at": "2026-11-28T02:23Z"
   },
   {
    "id": "content-owner",
@@ -704,7 +856,8 @@
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null
+   "options": null,
+   "checked_at": "2026-11-28T02:23Z"
   }
  ],
  "card_schema": {
@@ -718,7 +871,8 @@
    "where",
    "where_url",
    "options",
-   "deadline"
+   "deadline",
+   "checked_at"
   ],
   "behind_details": [
    "question",
