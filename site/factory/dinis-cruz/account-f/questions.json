@@ -617,7 +617,7 @@
   },
   {
    "id": "data-vaults",
-   "question": "cl-6.data: grant vaults/*/latest/** so the vault files publish too (18:03 release stopped on them)",
+   "question": "cl-6.data: grant vaults/*/latest/** so the vault files publish too (18:03 release stopped on them) New fact from cl-6.data (28 Nov 02:35Z): collect/lib.mjs says vaults/<id>/ is 'never in git (gitignored)', yet 53 vaults/ files are tracked from earlier commits, and pages.yml line 54 publishes the committed vaults/<id>/latest/. Your answer settles which is the design. (b) needs a one-off change to .gitignore and removing the 53 files from the index; that is not cl-6.data's to touch, so the agent doing it is named by abp.",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": "session_016CrbJLnbr219cU3eVRGxBW",
@@ -625,18 +625,27 @@
    "urgency": "not blocking: interim release works (v0.1.159); vault files stay unpublished until granted",
    "status": "open",
    "answer_url": null,
-   "title": "Allow the data agent to publish vault files",
-   "why": "Data now releases without them; this adds them back.",
-   "answer_line": "yes to data-vaults as written in decisions questions.json at 7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
+   "title": "Choose whether vault files live in git",
+   "why": "The code disagrees with itself: one file says vaults are never in git, another publishes the committed copies.",
+   "answer_line": "yes to data-vaults as written in decisions questions.json at 7b30ab80b0d88f0937fd9115fbddbd6d8acf6594  |  no: vaults stay out of git; gitignore them and untrack the 53 files",
    "where": "cl-6.decisions' session (it records your words; the conductor passes on anything you tell it)",
-   "kind": "approval",
+   "kind": "decision",
    "if_you_wait": "Vault files stay unpublished; nothing else is blocked.",
    "tier": "later",
    "where_url": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
    "public": false,
    "deadline": null,
-   "options": null,
-   "checked_at": "2026-11-27T18:17Z",
+   "options": [
+    {
+     "label": "yes to data-vaults as written (vaults tracked and published)",
+     "recommended": false
+    },
+    {
+     "label": "no: vaults stay out of git; gitignore them and untrack the 53 files",
+     "recommended": false
+    }
+   ],
+   "checked_at": "2026-11-28T02:36Z",
    "unblocks": "Vault files publish with the data",
    "recommended": null,
    "rank": 2,
