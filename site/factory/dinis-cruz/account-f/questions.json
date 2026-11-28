@@ -126,7 +126,8 @@
    "unblocks": "Eight stale section sites update again",
    "recommended": null,
    "rank": 1,
-   "answer_given": null
+   "answer_given": null,
+   "grant_text": "yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)"
   },
   {
    "id": "iac-34-37",
@@ -180,7 +181,8 @@
    "unblocks": "Safe sign-in, needed before admin signing",
    "recommended": null,
    "rank": 3,
-   "answer_given": null
+   "answer_given": null,
+   "grant_text": "yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)"
   },
   {
    "id": "talk-drain",
@@ -207,7 +209,8 @@
    "unblocks": "Reader comments are read and answered",
    "recommended": null,
    "rank": 4,
-   "answer_given": null
+   "answer_given": null,
+   "grant_text": "Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer."
   },
   {
    "id": "admin-signed-answers",
@@ -580,7 +583,8 @@
    "unblocks": "Vault files publish with the data",
    "recommended": null,
    "rank": 2,
-   "answer_given": null
+   "answer_given": null,
+   "grant_text": "yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh"
   },
   {
    "id": "feedback-rate",
@@ -697,7 +701,8 @@
    "unblocks": "Signals runs security's current checks",
    "recommended": null,
    "rank": 6,
-   "answer_given": null
+   "answer_given": null,
+   "grant_text": "you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins"
   },
   {
    "id": "s8-story-findings",
@@ -778,7 +783,8 @@
    "unblocks": "Civic keeps its own history",
    "recommended": null,
    "rank": 9,
-   "answer_given": null
+   "answer_given": null,
+   "grant_text": "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions"
   },
   {
    "id": "rights-history",
