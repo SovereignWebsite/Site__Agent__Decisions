@@ -91,3 +91,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-28T02:54Z  added github-pt-removal (one-off removals for cl-6.data; abp applies on Dinis's recorded words).
 - 2026-11-28T07:28Z  added data-claims-past (sibling of data-vaults: discovery/claims/past/** grant or keep out of git), from maestro 07:28Z.
 - 2026-11-28T09:15Z  s8-story-findings widened (N5, N2, N3, N6; synthetic wake 5 d8322ee) and moved to this week, per conductor 09:20Z.
+- 2026-11-28T09:42Z  P11 c HELD (record revised and re-signed): cl-6.abp rules it needs Dinis's words under S1; my 07:40Z 'in force' answer was wrong in effect. Place sync ran at v0.1.2423 and v0.1.2426 on it; pauses now. Added p11c-place-sync (now) and faro-count (later; key pin is one-way).

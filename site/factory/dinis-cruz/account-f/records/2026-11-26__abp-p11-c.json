@@ -7,7 +7,7 @@
  "session": "https://claude.ai/code/session_016CrbJMwTgwKXwaYUTEopQk",
  "at": "2026-11-26T16:30:48Z",
  "expires": "2026-11-30T23:59:59Z",
- "status": "in-force",
+ "status": "held",
  "decided_by": "cl-6.decisions@dinis under the widened endorsement",
  "relayed_to": "decisions.b by link (endorsement condition)",
  "authority": {
@@ -41,5 +41,11 @@
    "commit": "5c9d835",
    "verdict": "agree with conditions (item 1); every condition is in change"
   }
- ]
+ ],
+ "revision": {
+  "n": 2,
+  "at": "2026-11-28T09:42Z",
+  "by": "cl-6.decisions@dinis",
+  "why": "cl-6.abp rules (28 Nov) that P11 c is a widening under its S1 and needs Dinis's own words on the exact write; this record holds none (it was decided under the widened endorsement only). cl-6.decisions' 07:40Z answer that it was in force was wrong in effect. Held until Dinis answers (questions.json p11c-place-sync). The place sync ran at v0.1.2423 and v0.1.2426 on the strength of that answer; it pauses now."
+ }
 }
