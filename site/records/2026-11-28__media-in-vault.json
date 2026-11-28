@@ -1,0 +1,31 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-28__media-in-vault",
+  "words": "Yes, I think we can have small pictures in Git as sort of, you know, exceptions in GitHub, but everything else should start to move into Vault, right? Because from a performance point of view and a storage point of view, of course, that we now need a website as a place where we can manage all the Vault. Maybe that's actually the Vault's agent. I think we talked about it, right? So we need to make sure we have a good grip of every single public link that we have. But apart from that, yeah, makes sense.",
+  "event_uuid": "289b0858-a527-4fb5-ba69-e928d3a5a675",
+  "at": "2026-11-28T01:35:12Z",
+  "expires": "2026-12-05T01:35:12Z",
+  "status": "in-force",
+  "kind": "choice",
+  "asked": "b.abp's two choices on the media rule: (1) the media agents first or every agent; (2) the small link-preview images every site keeps in Git: an exemption, or move them to the vault.",
+  "decision": "(1) Every agent: images, video and other media start moving into vaults, not Git. (2) Small pictures, such as each site's link-preview images, stay in Git as listed exceptions. (3) The vaults get a home where every vault and every public read link is listed and managed, most likely the vault keeper's site (Site__Agent__Vault-Keeper).",
+  "how": {
+    "rule": "b.abp turns its draft (e721c47) into the agent behaviour policy rule; changes under policy/ still need Dinis's merge.",
+    "exceptions": "b.abp proposes the size limit and the list of allowed small pictures; security.b reviews.",
+    "register": "b.vault.keeper keeps the list of vaults and public read links on its site; no vault keys are published there, only read links that are meant to be public.",
+    "move": "Existing media in Git moves to vaults as each keeper next touches its site; nothing is deleted from history by this record."
+  },
+  "scope": {
+    "applies_to": [
+      "every agent",
+      "b.abp",
+      "b.vault.keeper",
+      "security.b",
+      "sites.b"
+    ]
+  }
+}
