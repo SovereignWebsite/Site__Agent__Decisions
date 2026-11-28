@@ -79,3 +79,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-28T02:22Z  questions.json: where_url, public (all false), deadline (none set), options (alternatives split, none recommended) for designer loop 2.
 - 2026-11-28T02:23Z  questions.json: added maestro's decide items (poet-research, ideas-site, resets, maestro-reset, maestro-lane-card) from briefing.json at Maestro 1b4beec and maestro's message; talk-box why updated (honest wording live v0.1.2410); checked_at on every item. answer_line already words-only since e008059.
 - 2026-11-28T02:24Z  questions.json: unblocks and recommended (with who; only where an asker recommended) per designer loop 3.
+- 2026-11-28T02:25Z  questions.json: titles as asks; rank within tier by what blocks most; answer_given for answered items (content-owner: Dinis's words, event 0b4e152c). public left false pending cl-6.security on the three Now items.
