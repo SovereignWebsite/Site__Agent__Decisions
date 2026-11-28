@@ -1,0 +1,32 @@
+{
+  "v": 2,
+  "decided_by": "Dinis Cruz",
+  "session": "https://claude.ai/code/session_01Kw9UwCKRVYaDn9k6aQ29zF",
+  "recorded_by": "decisions.b@SovereignWebsite.dinis",
+  "recorder_key": "sha256:eefbe996d9c67a7c",
+  "id": "2026-11-28__higgsfield-media-and-credits",
+  "words": "… So you never push. So can you add to your agent behavior policy never to push any images or videos to Git, only Vault, and then you share the public, basically the read-only key. …",
+  "event_uuid": "8750dd45-9e30-4bf7-a5f3-8a2171ef587a",
+  "at": "2026-11-28T00:32:13Z",
+  "expires": "2026-12-05T00:32:13Z",
+  "status": "in-force",
+  "kind": "choice",
+  "also": {
+    "words": "Yes you can spend as many credits as needed, i want to really eval this service at see what it can do. Note that this was bought with an blackfriday discount so we need to evaluate this month on the best (and most cost effective) way to use this service (or cancel it)",
+    "event_uuid": "5febcbc7-8de4-4ceb-8d0c-3131b9383ae9",
+    "at": "2026-11-28T00:24:09Z"
+  },
+  "decision": "(1) higgsfield.b never pushes images or videos to Git; they go to a vault, and the site shares its read-only key. (2) higgsfield.b may spend the Higgsfield plan's credits as needed this month to evaluate the service, recording the credits each experiment uses, so Dinis can choose the most cost-effective use or cancel.",
+  "how": {
+    "scope": "higgsfield.b only. Whether the media rule binds every agent that makes images or video is open on Dinis's Now list; a rule for all agents goes into policy/, which needs his merge.",
+    "not decided": "Whether vault 556k0zqh's write key is sealed to the new higgsfield.b stays with Dinis (keys and vault keys).",
+    "checked": "Both events read by decisions.b with get_event (ios)."
+  },
+  "scope": {
+    "applies_to": [
+      "higgsfield.b",
+      "sites.b",
+      "b.abp"
+    ]
+  }
+}
