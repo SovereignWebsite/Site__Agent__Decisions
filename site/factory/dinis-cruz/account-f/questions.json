@@ -3,6 +3,39 @@
  "updated": "2026-11-27T10:36Z",
  "questions": [
   {
+   "id": "talk-box",
+   "question": "Comments typed in /talk/ and the box on every page are sealed to the conductor's old key (sha256:0d045a0b55734ac7, superseded 25 Nov) and go to a lane nothing has ever drained: they are lost, and the box's line 'the conductor reads every one' is untrue. Interim, decided under delegation: cl-6.dev changes that line to say comments are not being read yet. Your choice: turn the box off, or keep it with honest wording, until a round trip works.",
+   "asked_by": "cl-6.maestro (via cl-6.conductor)",
+   "since": "2026-11-28",
+   "context_url": null,
+   "line_to_paste": "\"talk box: off until the drain works\" or \"talk box: keep, with honest wording\"",
+   "urgency": "first: the site states something untrue",
+   "status": "open",
+   "answer_url": null
+  },
+  {
+   "id": "talk-drain",
+   "question": "Talk drain grant for cl-6.conductor (widening: a new host and new writes). Then one signed test comment.",
+   "asked_by": "cl-6.maestro (via cl-6.conductor)",
+   "since": "2026-11-28",
+   "context_url": "session_016CrbJMiN8eUtML9vvvGCVt",
+   "line_to_paste": "\"Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.\"",
+   "urgency": "normal: reader comments are lost until this works",
+   "status": "open",
+   "answer_url": null
+  },
+  {
+   "id": "admin-build",
+   "question": "/admin/: a private area behind sign-in (/newsroom/ stays public) for your feedback, your questions list with signed answers, and status (reusing dev's /newsroom/status/). Builders: designer, dev, security, abp, decisions. Signed answers counting as your words is the separate question admin-signed-answers.",
+   "asked_by": "cl-6.maestro (via cl-6.conductor)",
+   "since": "2026-11-28",
+   "context_url": null,
+   "line_to_paste": "\"yes, build /admin/ as planned\" (or name it differently)",
+   "urgency": "normal",
+   "status": "open",
+   "answer_url": null
+  },
+  {
    "id": "admin-signed-answers",
    "question": "You asked for a full admin section (conductor session, event 989f8f75, 00:58Z 28 Nov). Proposed rule change, yours alone: an answer you sign in /admin/ with your published personal key counts as your own words for cl-6.abp grants, in place of typing lines in named sessions. Conditions: the signature checks against your key in board/keys.json; it names the question id and repeats its exact line; one-way doors (attaches, connectors, money, main) still need security's review of the admin signing design first. Naming (admin vs newsroom) and maestro's plan follow as a separate question. cl-6.abp agrees in principle but treats adopting it as a one-way door: your typed words once in its session, plus your key's fingerprint given by you there (the trust root, not read from board/keys.json). Each signed answer covers question id, exact line, UTC time, expiry and audience cl-6.abp; single use; verified by abp itself; signing happens off the agent-written page (device or key store), and the /admin/ signing code is pinned and passed by security; a new key needs your typed word, a revoked key stops at once.",
    "asked_by": "cl-6.decisions@dinis",
