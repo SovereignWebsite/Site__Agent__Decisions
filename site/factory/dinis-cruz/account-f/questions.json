@@ -911,7 +911,7 @@
   },
   {
    "id": "places-wake",
-   "question": "cl-6.places wake prompt",
+   "question": "cl-6.places wake prompt Update (maestro 07:38Z 28 Nov): only the session a wake posts into can change it; maestro's replacement was refused on 27 Nov 07:41 without your word. Either route works.",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": "session_016CrbJJcoCJnQM6GGY1xC5K",
@@ -919,18 +919,27 @@
    "urgency": "low",
    "status": "open",
    "answer_url": null,
-   "title": "Allow the reviewed places wake prompt",
-   "why": "Places agents wake with a reviewed prompt.",
-   "answer_line": "update your wake trig_0132oarAUsN5cwmgTAbj3GGk to run the places serially, no sub-agents, never London",
-   "where": "cl-6.places' session",
+   "title": "Allow the places agent's wake prompt to be made serial",
+   "why": "Its stored wake prompt still says to use sub-agents, against P11 g (in force); its runs already work serially.",
+   "answer_line": "change your wake prompt to serial, no sub-agents  |  yes, replace cl-6.places' wake with a serial one",
+   "where": "cl-6.places' session, or cl-6.maestro's session",
    "kind": "approval",
    "if_you_wait": "Places keep the old prompt.",
    "tier": "later",
    "where_url": null,
    "public": false,
    "deadline": null,
-   "options": null,
-   "checked_at": "2026-11-27",
+   "options": [
+    {
+     "label": "change your wake prompt to serial, no sub-agents (in cl-6.places' session)",
+     "recommended": false
+    },
+    {
+     "label": "yes, replace cl-6.places' wake with a serial one (in cl-6.maestro's session)",
+     "recommended": false
+    }
+   ],
+   "checked_at": "2026-11-28T07:38Z",
    "unblocks": "Places wake one at a time, as reviewed",
    "recommended": null,
    "rank": 11,
