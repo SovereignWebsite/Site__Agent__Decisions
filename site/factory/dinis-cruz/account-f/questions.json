@@ -31,7 +31,7 @@
    },
    "rank": 1,
    "answer_given": null,
-   "public_summary": "No new article since 26 Nov; four stories wait for the journalist to be reconnected.",
+   "public_summary": "New articles are paused until the writing agent can publish to the site.",
    "one_way": true,
    "one_way_reason": "starts a session with push to the website"
   },
@@ -70,7 +70,7 @@
    "recommended": null,
    "rank": 2,
    "answer_given": null,
-   "public_summary": "Reader comments are not being read yet; the comment box says so.",
+   "public_summary": "Comments left on the site are not being read yet; the comment box says so.",
    "one_way": false,
    "one_way_reason": null
   },
@@ -103,7 +103,7 @@
    },
    "rank": 3,
    "answer_given": null,
-   "public_summary": "The London strikes page is ready.",
+   "public_summary": "The London strikes page (strikes.london.place.agent.promptugal.news) is ready but not published yet.",
    "one_way": true,
    "one_way_reason": "starts a session with push to the strikes repository"
   },
