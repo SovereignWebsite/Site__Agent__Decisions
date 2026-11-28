@@ -1,6 +1,6 @@
 {
  "kept_by": "cl-6.decisions@dinis",
- "updated": "2026-11-28T02:26Z",
+ "updated": "2026-11-28T02:27Z",
  "questions": [
   {
    "id": "website-attach-editor",
@@ -31,7 +31,7 @@
    },
    "rank": 1,
    "answer_given": null,
-   "public_summary": "No new article since 26 Nov; four stories wait for the journalist to be reconnected. Waiting on Dinis."
+   "public_summary": "No new article since 26 Nov; four stories wait for the journalist to be reconnected."
   },
   {
    "id": "talk-box",
@@ -68,7 +68,7 @@
    "recommended": null,
    "rank": 2,
    "answer_given": null,
-   "public_summary": "Reader comments are not being read yet; the comment box says so. Waiting on Dinis's choice."
+   "public_summary": "Reader comments are not being read yet; the comment box says so."
   },
   {
    "id": "strikes-attach",
@@ -99,7 +99,7 @@
    },
    "rank": 3,
    "answer_given": null,
-   "public_summary": "The London strikes page is ready; publishing waits on Dinis."
+   "public_summary": "The London strikes page is ready."
   },
   {
    "id": "section-key-prs",
