@@ -858,7 +858,7 @@
   },
   {
    "id": "s8-key",
-   "question": "One unpublished SSH key (SHA256:32dP45eSMmVSt/G/CGvcxl/P+MO3Nwj9xeTh/GSA2wc) signs commits for two other-account lanes: four more S8-lane commits (checker and curator, 10:10 to 15:38Z) and conductor@PrompTugal.jose's 89a121f71 (18:18Z). That lane's three board entries have no ssh field, so the two lanes' commits cannot be told apart. Security review 80cffb1, low. No agent can reach those lanes (cross-account routing stalled).",
+   "question": "One unpublished SSH key (SHA256:32dP45eSMmVSt/G/CGvcxl/P+MO3Nwj9xeTh/GSA2wc) signs commits for two other-account lanes: four more S8-lane commits (checker and curator, 10:10 to 15:38Z) and conductor@PrompTugal.jose's 89a121f71 (18:18Z). That lane's three board entries have no ssh field, so the two lanes' commits cannot be told apart. Security review 80cffb1, low. No agent can reach those lanes (cross-account routing stalled). Update (security 09:58Z 28 Nov, review d55b306): the same key signed three more website commits overnight (9754e1c6a curator, 53a5c5703 journalist, 4be47df09 reviewer); content clean; still in no board/keys.json entry and no home site/keys file.",
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": null,
@@ -877,7 +877,7 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-27T20:49Z",
+   "checked_at": "2026-11-28T09:58Z",
    "unblocks": "Two lanes' commits can be trusted by key",
    "recommended": null,
    "rank": 8,
