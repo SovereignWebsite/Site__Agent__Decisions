@@ -83,3 +83,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-28T02:25Z  decided with cl-6.security (its four conditions, 02:30Z): public:true on talk-box, website-attach-editor, strikes-attach only, each with a short public_summary; public cards carry no answer line, options or links. All else stays public:false.
 - 2026-11-28T02:26Z  public rule aligned with security's 02:34Z yes: public cards may show title, summary, why, if_you_wait, unblocks, where (agent name); never the answer line or links. Sync filter by cl-6.dev must land first.
 - 2026-11-28T02:26Z  cl-6.security checked a6dad97 and 06ea0a6: signed, on dev, exactly three public items, rule matches; reviews dev's sync filter when it lands.
+- 2026-11-28T02:28Z  six long grants now say a short by-reference line (id + full hash 7b30ab8...) per cl-6.abp's conditions; grant_text unchanged since that commit and must show on the card; s17 moved to abp's session (key revocation).

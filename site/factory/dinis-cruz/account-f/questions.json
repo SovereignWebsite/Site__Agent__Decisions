@@ -1,6 +1,6 @@
 {
  "kept_by": "cl-6.decisions@dinis",
- "updated": "2026-11-28T02:27Z",
+ "updated": "2026-11-28T02:28Z",
  "questions": [
   {
    "id": "website-attach-editor",
@@ -107,13 +107,13 @@
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": "session_016CrbJLnbr219cU3eVRGxBW",
-   "line_to_paste": "\"yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)\"",
+   "line_to_paste": "yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)",
    "urgency": "high",
    "status": "open",
    "answer_url": null,
    "title": "Allow eight sections to publish their signing keys",
    "why": "Their sites stay stale until each key lands.",
-   "answer_line": "yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)",
+   "answer_line": "yes to section-key-prs as written in decisions questions.json at 7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Signals, cyber, bulletins and five more stay stale.",
@@ -127,7 +127,8 @@
    "recommended": null,
    "rank": 1,
    "answer_given": null,
-   "grant_text": "yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)"
+   "grant_text": "yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)",
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
   },
   {
    "id": "iac-34-37",
@@ -162,18 +163,18 @@
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": null,
-   "line_to_paste": "\"yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)\"",
+   "line_to_paste": "yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)",
    "urgency": "medium",
    "status": "open",
    "answer_url": null,
    "title": "Allow security's sign-in key fix (S17)",
    "why": "The login key is kept in browser storage; security has a fix.",
-   "answer_line": "yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)",
-   "where": "any session (conductor's or cl-6.decisions'); decisions records it",
+   "answer_line": "yes to s17 as written in decisions questions.json at 7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
+   "where": "cl-6.abp's session (revoking a key is a one-way door)",
    "kind": "approval",
    "if_you_wait": "Admin signing cannot start until it is closed.",
    "tier": "week",
-   "where_url": null,
+   "where_url": "https://claude.ai/code/session_016CrbJLnbr219cU3eVRGxBW",
    "public": false,
    "deadline": null,
    "options": null,
@@ -182,7 +183,8 @@
    "recommended": null,
    "rank": 3,
    "answer_given": null,
-   "grant_text": "yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)"
+   "grant_text": "yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)",
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
   },
   {
    "id": "talk-drain",
@@ -190,13 +192,13 @@
    "asked_by": "cl-6.maestro (via cl-6.conductor)",
    "since": "2026-11-28",
    "context_url": "session_016CrbJMiN8eUtML9vvvGCVt",
-   "line_to_paste": "\"Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.\"",
+   "line_to_paste": "Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.",
    "urgency": "normal: reader comments are lost until this works",
    "status": "open",
    "answer_url": null,
    "title": "Allow the conductor to read reader comments",
    "why": "Needs new access (send.sgraph.ai and two files), so your words.",
-   "answer_line": "Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.",
+   "answer_line": "yes to talk-drain as written in decisions questions.json at 7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Comments stay unread.",
@@ -210,7 +212,8 @@
    "recommended": null,
    "rank": 4,
    "answer_given": null,
-   "grant_text": "Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer."
+   "grant_text": "Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.",
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
   },
   {
    "id": "admin-signed-answers",
@@ -564,13 +567,13 @@
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": "session_016CrbJLnbr219cU3eVRGxBW",
-   "line_to_paste": "\"yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh\" (meanwhile data releases data/ with vaults/ set aside, so the site is not stalled)",
+   "line_to_paste": "yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh",
    "urgency": "not blocking: interim release works (v0.1.159); vault files stay unpublished until granted",
    "status": "open",
    "answer_url": null,
    "title": "Allow the data agent to publish vault files",
    "why": "Data now releases without them; this adds them back.",
-   "answer_line": "yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh",
+   "answer_line": "yes to data-vaults as written in decisions questions.json at 7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Vault files stay unpublished; nothing else is blocked.",
@@ -584,7 +587,8 @@
    "recommended": null,
    "rank": 2,
    "answer_given": null,
-   "grant_text": "yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh"
+   "grant_text": "yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh",
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
   },
   {
    "id": "feedback-rate",
@@ -682,13 +686,13 @@
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": "session_016CrbJLzfdz51sDBekg8v8X",
-   "line_to_paste": "\"you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins\"",
+   "line_to_paste": "you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins",
    "urgency": "medium",
    "status": "open",
    "answer_url": null,
    "title": "Allow signals to copy security's pinned files",
    "why": "One line in the signals session.",
-   "answer_line": "you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins",
+   "answer_line": "yes to signals-pins as written in decisions questions.json at 7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "where": "cl-6.signals' session",
    "kind": "approval",
    "if_you_wait": "Signals stays behind security's latest checks.",
@@ -702,7 +706,8 @@
    "recommended": null,
    "rank": 6,
    "answer_given": null,
-   "grant_text": "you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins"
+   "grant_text": "you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins",
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
   },
   {
    "id": "s8-story-findings",
@@ -764,13 +769,13 @@
    "asked_by": "cl-6.decisions@dinis",
    "since": "2026-11-27",
    "context_url": null,
-   "line_to_paste": "\"yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions\"",
+   "line_to_paste": "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions",
    "urgency": "low",
    "status": "open",
    "answer_url": null,
    "title": "Allow civic to keep its history folders",
    "why": "Security agrees, with conditions.",
-   "answer_line": "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions",
+   "answer_line": "yes to civic-history as written in decisions questions.json at 7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Civic cannot keep its own history.",
@@ -784,7 +789,8 @@
    "recommended": null,
    "rank": 9,
    "answer_given": null,
-   "grant_text": "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions"
+   "grant_text": "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions",
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
   },
   {
    "id": "rights-history",
@@ -1036,7 +1042,8 @@
    "checked_at",
    "unblocks",
    "recommended",
-   "answer_given"
+   "answer_given",
+   "grant_text"
   ],
   "behind_details": [
    "question",
@@ -1062,6 +1069,7 @@
   "public_rule": "cl-6.security 02:30Z and 02:34Z 28 Nov: public defaults to false; only cl-6.decisions sets public:true, item by item, in a signed commit; cl-6.dev's sync drops non-public items before the snapshot (with a test) before the page honours the flag. A public card may show title, public_summary, why, if_you_wait, unblocks and where (agent name only). Never on a public card: answer_line, options, where_url, session or task ids, claude.ai links, private names, money, keys, security findings. questions.json is in a public repository, so nothing truly private goes in it.",
   "options_note": "recommended is false throughout: these are Dinis's calls and decisions does not steer them",
   "recommended_note": "recommended names who recommends; cl-6.decisions recommends nothing on Dinis's own calls",
-  "ordering": "tier, then rank (lower blocks more)"
+  "ordering": "tier, then rank (lower blocks more)",
+  "grant_rule": "cl-6.abp 02:27Z 28 Nov: a short answer_line binds by reference to grant_text at grant_commit (full hash). The page must show grant_text beside the short line. Any change to grant_text needs a new yes at a new commit. One-way doors still need his words in cl-6.abp's session."
  }
 }
