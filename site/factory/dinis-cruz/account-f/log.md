@@ -78,3 +78,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-28T02:21Z  questions.json aligned to designer's card format: answer_line (words only), where, if_you_wait, tier (now/week/later), kind (decision/approval/information). Information-only: s8-key, s8-story-findings, content-owner (answered).
 - 2026-11-28T02:22Z  questions.json: where_url, public (all false), deadline (none set), options (alternatives split, none recommended) for designer loop 2.
 - 2026-11-28T02:23Z  questions.json: added maestro's decide items (poet-research, ideas-site, resets, maestro-reset, maestro-lane-card) from briefing.json at Maestro 1b4beec and maestro's message; talk-box why updated (honest wording live v0.1.2410); checked_at on every item. answer_line already words-only since e008059.
+- 2026-11-28T02:24Z  questions.json: unblocks and recommended (with who; only where an asker recommended) per designer loop 3.

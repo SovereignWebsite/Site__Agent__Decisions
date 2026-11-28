@@ -1,6 +1,6 @@
 {
  "kept_by": "cl-6.decisions@dinis",
- "updated": "2026-11-28T02:23Z",
+ "updated": "2026-11-28T02:24Z",
  "questions": [
   {
    "id": "talk-box",
@@ -32,7 +32,9 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "An honest comment box, or none, until reading works",
+   "recommended": null
   },
   {
    "id": "website-attach-editor",
@@ -55,7 +57,12 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Four waiting stories and the Tube chart fix publish",
+   "recommended": {
+    "answer": "yes, start a journalist session with PrompTugal__News__Website as its source",
+    "by": "cl-6.maestro"
+   }
   },
   {
    "id": "strikes-attach",
@@ -78,7 +85,12 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The London strikes page goes live",
+   "recommended": {
+    "answer": "yes, start the strikes session",
+    "by": "cl-6.maestro"
+   }
   },
   {
    "id": "talk-drain",
@@ -101,7 +113,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Reader comments are read and answered",
+   "recommended": null
   },
   {
    "id": "admin-build",
@@ -124,7 +138,12 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Your one place for feedback, answers and status",
+   "recommended": {
+    "answer": "yes, build /admin/ as planned",
+    "by": "cl-6.maestro"
+   }
   },
   {
    "id": "admin-signed-answers",
@@ -161,7 +180,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Approvals by a signed click instead of typing in sessions",
+   "recommended": null
   },
   {
    "id": "iac-34-37",
@@ -184,7 +205,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Signature-safe merges and the editor-in-chief home",
+   "recommended": null
   },
   {
    "id": "section-key-prs",
@@ -207,7 +230,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Eight stale section sites update again",
+   "recommended": null
   },
   {
    "id": "s17",
@@ -230,7 +255,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Safe sign-in, needed before admin signing",
+   "recommended": null
   },
   {
    "id": "s3-app",
@@ -253,7 +280,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The designer reworks /app/",
+   "recommended": null
   },
   {
    "id": "meter-charging",
@@ -276,7 +305,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The reading meter explainer and its zero message",
+   "recommended": null
   },
   {
    "id": "algarve-camera-links",
@@ -308,7 +339,9 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Camera links on Algarve town pages",
+   "recommended": null
   },
   {
    "id": "newsletter-about-write",
@@ -331,7 +364,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "True newsletter and About pages",
+   "recommended": null
   },
   {
    "id": "footer-veto",
@@ -371,7 +406,9 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The footer release",
+   "recommended": null
   },
   {
    "id": "poet-research",
@@ -394,7 +431,9 @@
    "deadline": null,
    "options": null,
    "urgency": "week",
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Research for the poet site starts",
+   "recommended": null
   },
   {
    "id": "ideas-site",
@@ -417,7 +456,12 @@
    "deadline": null,
    "options": null,
    "urgency": "week",
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The ideas home, dinis-cruz.ideas and the author site exist",
+   "recommended": {
+    "answer": "paste the line into factory.b's session",
+    "by": "cl-6.maestro"
+   }
   },
   {
    "id": "resets",
@@ -440,7 +484,12 @@
    "deadline": null,
    "options": null,
    "urgency": "week",
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Five agents work at full quality again",
+   "recommended": {
+    "answer": "yes, reset translator, reviewer, ontologist, library and abp",
+    "by": "cl-6.observability via cl-6.maestro"
+   }
   },
   {
    "id": "data-vaults",
@@ -463,7 +512,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Vault files publish with the data",
+   "recommended": null
   },
   {
    "id": "signals-pins",
@@ -486,7 +537,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Signals runs security's current checks",
+   "recommended": null
   },
   {
    "id": "anchor-clear",
@@ -509,7 +562,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "One less standing secret on News__Data",
+   "recommended": null
   },
   {
    "id": "civic-history",
@@ -532,7 +587,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Civic keeps its own history",
+   "recommended": null
   },
   {
    "id": "rights-history",
@@ -555,7 +612,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Rights keeps its own history",
+   "recommended": null
   },
   {
    "id": "places-wake",
@@ -578,7 +637,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Places wake one at a time, as reviewed",
+   "recommended": null
   },
   {
    "id": "rights-terms",
@@ -601,7 +662,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "13 sources can be used, or are ruled out",
+   "recommended": null
   },
   {
    "id": "provenance-design",
@@ -624,7 +687,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Human reviewers can sign stories; the CRM can start",
+   "recommended": null
   },
   {
    "id": "feedback-rate",
@@ -656,7 +721,9 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The feedback lane can open safely",
+   "recommended": null
   },
   {
    "id": "product",
@@ -688,7 +755,9 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Final home title and explainer copy",
+   "recommended": null
   },
   {
    "id": "s8-key",
@@ -711,7 +780,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Two lanes' commits can be trusted by key",
+   "recommended": null
   },
   {
    "id": "s9-tagline-write",
@@ -734,7 +805,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The front page carries your 16 Nov tagline",
+   "recommended": null
   },
   {
    "id": "s8-story-findings",
@@ -757,7 +830,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "A published story is corrected",
+   "recommended": null
   },
   {
    "id": "crm-vault-seal",
@@ -780,7 +855,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The outreach CRM can be used",
+   "recommended": null
   },
   {
    "id": "maestro-reset",
@@ -803,7 +880,9 @@
    "deadline": null,
    "options": null,
    "urgency": "later",
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "The maestro runs fresh",
+   "recommended": null
   },
   {
    "id": "maestro-lane-card",
@@ -835,7 +914,9 @@
     }
    ],
    "urgency": "later",
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "Outside senders can reach the maestro",
+   "recommended": null
   },
   {
    "id": "content-owner",
@@ -857,7 +938,9 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:23Z"
+   "checked_at": "2026-11-28T02:24Z",
+   "unblocks": "",
+   "recommended": null
   }
  ],
  "card_schema": {
@@ -872,7 +955,9 @@
    "where_url",
    "options",
    "deadline",
-   "checked_at"
+   "checked_at",
+   "unblocks",
+   "recommended"
   ],
   "behind_details": [
    "question",
@@ -896,6 +981,7 @@
   ],
   "note": "answer_line holds only the words to say or sign, complete, never truncated; ' | ' separates alternatives; where says where to say it; ids are for agents only",
   "public_rule": "public defaults to false; every item is false until /admin/ exists; decisions, security or conductor may flag an item public, never one about keys, money, a private person or marked for Dinis",
-  "options_note": "recommended is false throughout: these are Dinis's calls and decisions does not steer them"
+  "options_note": "recommended is false throughout: these are Dinis's calls and decisions does not steer them",
+  "recommended_note": "recommended names who recommends; cl-6.decisions recommends nothing on Dinis's own calls"
  }
 }
