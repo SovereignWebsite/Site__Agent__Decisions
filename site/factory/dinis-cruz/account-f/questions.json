@@ -11,7 +11,21 @@
    "line_to_paste": "in cl-6.abp's session (session_016CrbJLnbr219cU3eVRGxBW), typed: \"yes: my signed answers in admin count as my words for grants, once security passes the signing design; my key fingerprint is SHA256:<yours>\"",
    "urgency": "normal: removes the type-this-in-session-X steps",
    "status": "open",
-   "answer_url": null
+   "answer_url": null,
+   "security_requirements": {
+    "source": "cl-6.security home, docs/security/design/2026-11-28-admin-signed-answers-requirements.md (39dd80a); not a pass",
+    "items": [
+     "R1 key: your S17 browser key, non-extractable; S17 released and closed first, two agent-issued keys revoked; plus an offline recovery key",
+     "R2 signed bytes: namespace promptugal-dinis-answer; question id and hash at a named commit; exact line; issued, expiry, nonce, key id; shown to you first, signed only on a real click",
+     "R3 replay: bound to one question hash; single-use nonce kept by abp; expiry at most 7 days; one action per answer",
+     "R4 abp verifies itself, line byte for byte; relayed 'he signed' counts for nothing",
+     "R5 revocation by your session word, recovery key or the key; security can HOLD",
+     "R6 /admin/ under /login/ CSP, no third-party code, no token in page; code gate-protected",
+     "R7 one-way doors: announce, wait 30 min for your session veto, then apply; rule changes and your own keys stay session-only",
+     "R8 tests, plus one real end-to-end answer on a harmless question"
+    ],
+    "open_difference": "abp pins your key from a fingerprint you type in its session; security verifies against board/keys.json at a named commit, enrolled by your own act. abp's pin is the stricter; both can hold."
+   }
   },
   {
    "id": "website-attach-editor",
