@@ -1,6 +1,6 @@
 {
  "kept_by": "cl-6.decisions@dinis",
- "updated": "2026-11-28T02:28Z",
+ "updated": "2026-11-28T02:30Z",
  "questions": [
   {
    "id": "website-attach-editor",
@@ -23,7 +23,7 @@
    "public": true,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T20:16Z",
    "unblocks": "Four waiting stories and the Tube chart fix publish",
    "recommended": {
     "answer": "yes, start a journalist session with PrompTugal__News__Website as its source",
@@ -31,7 +31,9 @@
    },
    "rank": 1,
    "answer_given": null,
-   "public_summary": "No new article since 26 Nov; four stories wait for the journalist to be reconnected."
+   "public_summary": "No new article since 26 Nov; four stories wait for the journalist to be reconnected.",
+   "one_way": true,
+   "one_way_reason": "starts a session with push to the website"
   },
   {
    "id": "talk-box",
@@ -63,12 +65,14 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-28T02:22Z",
    "unblocks": "An honest comment box, or none, until reading works",
    "recommended": null,
    "rank": 2,
    "answer_given": null,
-   "public_summary": "Reader comments are not being read yet; the comment box says so."
+   "public_summary": "Reader comments are not being read yet; the comment box says so.",
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "strikes-attach",
@@ -91,7 +95,7 @@
    "public": true,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T18:27Z",
    "unblocks": "The London strikes page goes live",
    "recommended": {
     "answer": "yes, start the strikes session",
@@ -99,7 +103,9 @@
    },
    "rank": 3,
    "answer_given": null,
-   "public_summary": "The London strikes page is ready."
+   "public_summary": "The London strikes page is ready.",
+   "one_way": true,
+   "one_way_reason": "starts a session with push to the strikes repository"
   },
   {
    "id": "section-key-prs",
@@ -122,13 +128,15 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Eight stale section sites update again",
    "recommended": null,
    "rank": 1,
    "answer_given": null,
    "grant_text": "yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)",
-   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
+   "one_way": true,
+   "one_way_reason": "trust in eight new keys"
   },
   {
    "id": "iac-34-37",
@@ -151,11 +159,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Signature-safe merges and the editor-in-chief home",
    "recommended": null,
    "rank": 2,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "protected merges to infrastructure"
   },
   {
    "id": "s17",
@@ -178,13 +188,15 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Safe sign-in, needed before admin signing",
    "recommended": null,
    "rank": 3,
    "answer_given": null,
    "grant_text": "yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)",
-   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
+   "one_way": true,
+   "one_way_reason": "revokes a key"
   },
   {
    "id": "talk-drain",
@@ -207,13 +219,15 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-28T01:01Z",
    "unblocks": "Reader comments are read and answered",
    "recommended": null,
    "rank": 4,
    "answer_given": null,
    "grant_text": "Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create one talk lane sealed to its own key, credential as a session secret. cl-6.dev makes the drain verify promptugal/comment/v1. cl-6.security reviews the first drain and answer.",
-   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "admin-signed-answers",
@@ -250,11 +264,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-28T01:00Z",
    "unblocks": "Approvals by a signed click instead of typing in sessions",
    "recommended": null,
    "rank": 5,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "changes the rules and sets trust in your key"
   },
   {
    "id": "admin-build",
@@ -277,14 +293,16 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-28T01:01Z",
    "unblocks": "Your one place for feedback, answers and status",
    "recommended": {
     "answer": "yes, build /admin/ as planned",
     "by": "cl-6.maestro"
    },
    "rank": 6,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "ideas-site",
@@ -307,14 +325,16 @@
    "deadline": null,
    "options": null,
    "urgency": "week",
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-28T02:22Z",
    "unblocks": "The ideas home, dinis-cruz.ideas and the author site exist",
    "recommended": {
     "answer": "paste the line into factory.b's session",
     "by": "cl-6.maestro"
    },
    "rank": 7,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "infrastructure commit on your behalf"
   },
   {
    "id": "resets",
@@ -337,14 +357,16 @@
    "deadline": null,
    "options": null,
    "urgency": "week",
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T22:30Z",
    "unblocks": "Five agents work at full quality again",
    "recommended": {
     "answer": "yes, reset translator, reviewer, ontologist, library and abp",
     "by": "cl-6.observability via cl-6.maestro"
    },
    "rank": 8,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "ends five sessions"
   },
   {
    "id": "algarve-camera-links",
@@ -376,11 +398,13 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T20:11Z",
    "unblocks": "Camera links on Algarve town pages",
    "recommended": null,
    "rank": 9,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "accepts a legal risk"
   },
   {
    "id": "newsletter-about-write",
@@ -403,11 +427,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T20:16Z",
    "unblocks": "True newsletter and About pages",
    "recommended": null,
    "rank": 10,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "footer-veto",
@@ -447,11 +473,13 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T20:49Z",
    "unblocks": "The footer release",
    "recommended": null,
    "rank": 11,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "meter-charging",
@@ -474,11 +502,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T19:26Z",
    "unblocks": "The reading meter explainer and its zero message",
    "recommended": null,
    "rank": 12,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "sets how money is charged"
   },
   {
    "id": "s3-app",
@@ -501,11 +531,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T19:26Z",
    "unblocks": "The designer reworks /app/",
    "recommended": null,
    "rank": 13,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "poet-research",
@@ -528,11 +560,13 @@
    "deadline": null,
    "options": null,
    "urgency": "week",
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-28T02:22Z",
    "unblocks": "Research for the poet site starts",
    "recommended": null,
    "rank": 14,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "provenance-design",
@@ -555,11 +589,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Human reviewers can sign stories; the CRM can start",
    "recommended": null,
    "rank": 1,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "data-vaults",
@@ -582,13 +618,15 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T18:17Z",
    "unblocks": "Vault files publish with the data",
    "recommended": null,
    "rank": 2,
    "answer_given": null,
    "grant_text": "yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh",
-   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "feedback-rate",
@@ -620,11 +658,13 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "The feedback lane can open safely",
    "recommended": null,
    "rank": 3,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "rights-terms",
@@ -647,11 +687,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "13 sources can be used, or are ruled out",
    "recommended": null,
    "rank": 4,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "crm-vault-seal",
@@ -674,11 +716,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T20:49Z",
    "unblocks": "The outreach CRM can be used",
    "recommended": null,
    "rank": 5,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "trust in a key"
   },
   {
    "id": "signals-pins",
@@ -701,13 +745,15 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Signals runs security's current checks",
    "recommended": null,
    "rank": 6,
    "answer_given": null,
    "grant_text": "you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins",
-   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "s8-story-findings",
@@ -730,11 +776,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T20:16Z",
    "unblocks": "A published story is corrected",
    "recommended": null,
    "rank": 7,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "s8-key",
@@ -757,11 +805,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T20:49Z",
    "unblocks": "Two lanes' commits can be trusted by key",
    "recommended": null,
    "rank": 8,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "civic-history",
@@ -784,13 +834,15 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Civic keeps its own history",
    "recommended": null,
    "rank": 9,
    "answer_given": null,
    "grant_text": "yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions",
-   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594"
+   "grant_commit": "7b30ab80b0d88f0937fd9115fbddbd6d8acf6594",
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "rights-history",
@@ -813,11 +865,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Rights keeps its own history",
    "recommended": null,
    "rank": 10,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "places-wake",
@@ -840,11 +894,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Places wake one at a time, as reviewed",
    "recommended": null,
    "rank": 11,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "s9-tagline-write",
@@ -867,11 +923,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T19:28Z",
    "unblocks": "The front page carries your 16 Nov tagline",
    "recommended": null,
    "rank": 12,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "anchor-clear",
@@ -894,11 +952,13 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "One less standing secret on News__Data",
    "recommended": null,
    "rank": 13,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "deletes a secret"
   },
   {
    "id": "product",
@@ -930,11 +990,13 @@
      "recommended": false
     }
    ],
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27",
    "unblocks": "Final home title and explainer copy",
    "recommended": null,
    "rank": 14,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "maestro-lane-card",
@@ -966,11 +1028,13 @@
     }
    ],
    "urgency": "later",
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-28T02:22Z",
    "unblocks": "Outside senders can reach the maestro",
    "recommended": null,
    "rank": 15,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": false,
+   "one_way_reason": null
   },
   {
    "id": "maestro-reset",
@@ -993,11 +1057,13 @@
    "deadline": null,
    "options": null,
    "urgency": "later",
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-28T02:22Z",
    "unblocks": "The maestro runs fresh",
    "recommended": null,
    "rank": 16,
-   "answer_given": null
+   "answer_given": null,
+   "one_way": true,
+   "one_way_reason": "ends the maestro session"
   },
   {
    "id": "content-owner",
@@ -1019,12 +1085,14 @@
    "public": false,
    "deadline": null,
    "options": null,
-   "checked_at": "2026-11-28T02:24Z",
+   "checked_at": "2026-11-27T10:33Z",
    "unblocks": "",
    "recommended": null,
    "rank": 1,
    "answer_given": "I think we need a top level editor (or a role more senior that the correspondent) to be accountable for the content",
-   "answered_at": "2026-11-27T10:33:58Z"
+   "answered_at": "2026-11-27T10:33:58Z",
+   "one_way": false,
+   "one_way_reason": null
   }
  ],
  "card_schema": {
@@ -1070,6 +1138,8 @@
   "options_note": "recommended is false throughout: these are Dinis's calls and decisions does not steer them",
   "recommended_note": "recommended names who recommends; cl-6.decisions recommends nothing on Dinis's own calls",
   "ordering": "tier, then rank (lower blocks more)",
-  "grant_rule": "cl-6.abp 02:27Z 28 Nov: a short answer_line binds by reference to grant_text at grant_commit (full hash). The page must show grant_text beside the short line. Any change to grant_text needs a new yes at a new commit. One-way doors still need his words in cl-6.abp's session."
+  "grant_rule": "cl-6.abp 02:27Z 28 Nov: a short answer_line binds by reference to grant_text at grant_commit (full hash). The page must show grant_text beside the short line. Any change to grant_text needs a new yes at a new commit. One-way doors still need his words in cl-6.abp's session.",
+  "one_way_rule": "one_way items carry a visible mark and the line: only your own words in cl-6.abp's session count (or, once adopted, a signed admin answer). by-reference lines do not change that.",
+  "checked_at_note": "checked_at is when that item's facts were last confirmed (date only where no time is known), not when the file was written"
  }
 }
