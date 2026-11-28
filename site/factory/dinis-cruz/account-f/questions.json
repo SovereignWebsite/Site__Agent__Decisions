@@ -1,6 +1,6 @@
 {
  "kept_by": "cl-6.decisions@dinis",
- "updated": "2026-11-28T02:21Z",
+ "updated": "2026-11-28T02:22Z",
  "questions": [
   {
    "id": "talk-box",
@@ -18,7 +18,20 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "Every comment readers write is lost.",
-   "tier": "now"
+   "tier": "now",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": [
+    {
+     "label": "talk box: off until the drain works",
+     "recommended": false
+    },
+    {
+     "label": "talk box: keep, with honest wording",
+     "recommended": false
+    }
+   ]
   },
   {
    "id": "website-attach-editor",
@@ -36,7 +49,11 @@
    "where": "cl-6.maestro's session",
    "kind": "approval",
    "if_you_wait": "The publication stays frozen.",
-   "tier": "now"
+   "tier": "now",
+   "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "strikes-attach",
@@ -54,7 +71,11 @@
    "where": "cl-6.maestro's session",
    "kind": "approval",
    "if_you_wait": "The page stays unpublished.",
-   "tier": "now"
+   "tier": "now",
+   "where_url": "https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3",
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "talk-drain",
@@ -72,7 +93,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Comments stay unread.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "admin-build",
@@ -90,7 +115,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "You keep answering in many sessions.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "admin-signed-answers",
@@ -122,7 +151,11 @@
    "where": "cl-6.abp's session (typed, not pasted from elsewhere)",
    "kind": "approval",
    "if_you_wait": "Every approval needs you inside a named session.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": "https://claude.ai/code/session_016CrbJLnbr219cU3eVRGxBW",
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "iac-34-37",
@@ -140,7 +173,11 @@
    "where": "GitHub, SovereignWebsite IaC pull requests (your clicks)",
    "kind": "approval",
    "if_you_wait": "Merges keep breaking signatures; the editor's home waits.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": "https://github.com/SovereignWebsite",
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "section-key-prs",
@@ -158,7 +195,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Signals, cyber, bulletins and five more stay stale.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "s17",
@@ -176,7 +217,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Admin signing cannot start until it is closed.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "s3-app",
@@ -194,7 +239,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "Designer's next pass waits.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "meter-charging",
@@ -212,7 +261,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "Both stay unwritten; no price is shown.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "algarve-camera-links",
@@ -230,7 +283,20 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "Algarve towns show no cameras.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": [
+    {
+     "label": "A bare credited link to MEO BeachCam and SkylineWebcams pages is fine on promptugal.news.",
+     "recommended": false
+    },
+    {
+     "label": "MEO only: A bare credited link to MEO BeachCam pages is fine on promptugal.news.",
+     "recommended": false
+    }
+   ]
   },
   {
    "id": "newsletter-about-write",
@@ -248,7 +314,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Untrue page stays up.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "footer-veto",
@@ -266,7 +336,28 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "Footer stays as it is.",
-   "tier": "week"
+   "tier": "week",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": [
+    {
+     "label": "footer: (a)",
+     "recommended": false
+    },
+    {
+     "label": "footer: (b)",
+     "recommended": false
+    },
+    {
+     "label": "footer: (c)",
+     "recommended": false
+    },
+    {
+     "label": "footer: <your wording>",
+     "recommended": false
+    }
+   ]
   },
   {
    "id": "data-vaults",
@@ -284,7 +375,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Vault files stay unpublished; nothing else is blocked.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "signals-pins",
@@ -302,7 +397,11 @@
    "where": "cl-6.signals' session",
    "kind": "approval",
    "if_you_wait": "Signals stays behind security's latest checks.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "anchor-clear",
@@ -320,7 +419,11 @@
    "where": "GitHub settings, News__Data, Variables",
    "kind": "approval",
    "if_you_wait": "Small standing risk.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "civic-history",
@@ -338,7 +441,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Civic cannot keep its own history.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "rights-history",
@@ -356,7 +463,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Rights cannot keep its own history.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "places-wake",
@@ -374,7 +485,11 @@
    "where": "cl-6.places' session",
    "kind": "approval",
    "if_you_wait": "Places keep the old prompt.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "rights-terms",
@@ -392,7 +507,11 @@
    "where": "cl-6.rights' findings, then any session",
    "kind": "decision",
    "if_you_wait": "Those sources stay unused.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "provenance-design",
@@ -410,7 +529,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "Human review stays unbuilt.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "feedback-rate",
@@ -428,7 +551,20 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "Feedback lane cannot open safely.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": [
+    {
+     "label": "option 1: I'll ask SG/Send for a per-token limit",
+     "recommended": false
+    },
+    {
+     "label": "option 2: build the lanes.promptugal.news proxy",
+     "recommended": false
+    }
+   ]
   },
   {
    "id": "product",
@@ -446,7 +582,20 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "decision",
    "if_you_wait": "Placeholder copy stays.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": [
+    {
+     "label": "home page title: <words>",
+     "recommended": false
+    },
+    {
+     "label": "explainer page: <words>",
+     "recommended": false
+    }
+   ]
   },
   {
    "id": "s8-key",
@@ -464,7 +613,11 @@
    "where": "outside the agents: to the two lane owners",
    "kind": "information",
    "if_you_wait": "Their commits can't be trusted by key.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "s9-tagline-write",
@@ -482,7 +635,11 @@
    "where": "any session (conductor's or cl-6.decisions'); decisions records it",
    "kind": "approval",
    "if_you_wait": "Old tagline stays.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "s8-story-findings",
@@ -500,7 +657,11 @@
    "where": "outside the agents: to that lane's owner",
    "kind": "information",
    "if_you_wait": "A published story keeps two errors.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "crm-vault-seal",
@@ -518,7 +679,11 @@
    "where": "your own machine",
    "kind": "approval",
    "if_you_wait": "Outreach CRM stays unsealed.",
-   "tier": "later"
+   "tier": "later",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   },
   {
    "id": "content-owner",
@@ -535,7 +700,11 @@
    "where": "",
    "kind": "information",
    "if_you_wait": "",
-   "tier": "answered"
+   "tier": "answered",
+   "where_url": null,
+   "public": false,
+   "deadline": null,
+   "options": null
   }
  ],
  "card_schema": {
@@ -546,7 +715,10 @@
    "tier",
    "kind",
    "answer_line",
-   "where"
+   "where",
+   "where_url",
+   "options",
+   "deadline"
   ],
   "behind_details": [
    "question",
@@ -568,6 +740,8 @@
    "approval",
    "information"
   ],
-  "note": "answer_line holds only the words to say or sign, complete, never truncated; ' | ' separates alternatives; where says where to say it; ids are for agents only"
+  "note": "answer_line holds only the words to say or sign, complete, never truncated; ' | ' separates alternatives; where says where to say it; ids are for agents only",
+  "public_rule": "public defaults to false; every item is false until /admin/ exists; decisions, security or conductor may flag an item public, never one about keys, money, a private person or marked for Dinis",
+  "options_note": "recommended is false throughout: these are Dinis's calls and decisions does not steer them"
  }
 }

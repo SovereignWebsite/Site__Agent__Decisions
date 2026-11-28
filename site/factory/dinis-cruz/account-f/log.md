@@ -76,3 +76,4 @@ One line per signed record: time (UTC), record, item, decision, reviewers. Newes
 - 2026-11-28T02:18Z  questions.json gains card fields for the status redesign: title, why, cost_of_waiting, level (now/soon/when-you-can), answer_line (complete); sorted by level; card_schema says what sits on the card and what goes behind details.
 - 2026-11-28T02:19Z  cl-6.designer's session is session_016CrbJKnk1brEbFLeWGxmxT (from conductor); card view passed to designer.
 - 2026-11-28T02:21Z  questions.json aligned to designer's card format: answer_line (words only), where, if_you_wait, tier (now/week/later), kind (decision/approval/information). Information-only: s8-key, s8-story-findings, content-owner (answered).
+- 2026-11-28T02:22Z  questions.json: where_url, public (all false), deadline (none set), options (alternatives split, none recommended) for designer loop 2.
